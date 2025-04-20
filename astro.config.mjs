@@ -11,6 +11,14 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/songtianlun/selfhost-hub' }],
 			sidebar: [
 				{
+					label: 'Tools',
+					autogenerate: { directory: 'tools' },
+				},
+				{
+					label: 'Services',
+					autogenerate: { directory: 'services' },
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
@@ -24,15 +32,21 @@ export default defineConfig({
 			],
 			defaultLocale: 'root',
 			locales: {
+				// 简体中文文档在 `src/content/docs/` 中。
 				root: {
-					label: 'English',
-					lang: 'en', // lang 是 root 语言必须的
-				  },
-				// 简体中文文档在 `src/content/docs/zh-cn/` 中。
-				'zh-cn': {
-				  label: '简体中文',
-				  lang: 'zh-CN',
+					label: '简体中文',
+					lang: 'zh-CN',
 				},
+				// en in `src/content/docs/en/`
+				'en': {
+					label: 'English',
+					lang: 'en',
+				},
+				// 简体中文文档在 `src/content/docs/zh-cn/` 中。
+				// 'zh-cn': {
+				//   label: '简体中文',
+				//   lang: 'zh-CN',
+				// },
 			  },
 		}),
 	],
