@@ -4,6 +4,8 @@ site_url: https://selfhost-hub.com
 theme:
   name: material
   language: zh
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   palette: 
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
