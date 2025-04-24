@@ -1,4 +1,6 @@
 mkdocs
+mkdocs-material
+mkdocs-rss-plugin
 #Add pip package if needed
 #mkdocs-bootswatch
 #mkdocs-minify-plugin
