@@ -1,4 +1,64 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: SelfHost-Hub
 site_url: https://selfhost-hub.com
 theme:
   name: material
+  language: zh
+  palette: 
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - scheme: default # 浅色模式配置
+      media: "(prefers-color-scheme: light)"
+      primary: brown
+      accent: deep orange
+      toggle: # 切换按钮配置
+        icon: material/weather-night 
+        name: 切换到深色模式
+    - scheme: slate # 深色模式配置
+      media: "(prefers-color-scheme: dark)"
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    # 启用 Section Index Pages 功能 。这允许将一个 index.md 文件直接关联到一个导航分区
+    - navigation.indexes
+plugins:
+  - tags
+  - blog
+  - rss:
+      match_path: tutorials/posts/.* # 仅包含教程/博客文章
+      date_from_meta:
+        as_creation: date # 使用文章的 date front matter 作为发布日期
+      categories: # 在 feed 中包含分类和标签
+        - categories
+        - tags
+extra:
+  alternate:
+    - name: 简体中文
+      link: /
+      lang: zh
+    - name: English
+      link: /en/ 
+      lang: en
+nav:
+  - 首页: index.md
+  - 服务:
+    - services/index.md # 服务板块索引页
+    - 分析工具:
+      - services/analytics/index.md # 分类索引页 (可选)
+      - Plausible: services/analytics/plausible.md
+      - Umami: services/analytics/umami.md
+    - 网络工具:
+      - services/networking/index.md # 分类索引页 (可选)
+      - ZeroTier: services/networking/zerotier.md
+      - Tailscale: services/networking/tailscale.md
+  - 教程与博客:
+    - tutorials/index.md # 博客索引页 (通常由 blog 插件自动处理)
+    - 搭建家庭影院: tutorials/posts/build-home-theater.md
+  - 标签索引: tags.md
+  - 致谢: acknowledgements.md
