@@ -1,0 +1,46 @@
+<div class="service-list">
+    <div class="filters">
+        <div class="search-box">
+            <input type="text" id="search" placeholder="{% if lang == 'zh' %}搜索服务...{% else %}Search services...{% endif %}">
+        </div>
+        <div class="tag-filters">
+            {% for service in services %}
+                {% for tagGroup in service.tags %}
+                    <div class="tag-group">
+                        <h3>{{ tagGroup.group }}</h3>
+                        <div class="tags">
+                            {% for tag in tagGroup.items %}
+                                <button class="tag" data-group="{{ tagGroup.group }}" data-tag="{{ tag }}">
+                                    {{ tag }}
+                                </button>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="services-grid">
+        {% for service in services %}
+            <article class="service-card" 
+                     data-tags="{{ service.tags | map('items') | flatten | join(',') }}"
+                     data-name="{{ service.name | lower }}">
+                <h2><a href="{{ service.url }}" target="_blank" rel="noopener">{{ service.name }}</a></h2>
+                <p class="description">{{ service.description }}</p>
+                <div class="tags">
+                    {% for tagGroup in service.tags %}
+                        {% for tag in tagGroup.items %}
+                            <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    {% endfor %}
+                </div>
+                <div class="meta">
+                    <a href="{{ service.github }}" target="_blank" rel="noopener" class="github-link">GitHub</a>
+                    <span class="license">{{ service.license }}</span>
+                    <span class="language">{{ service.language }}</span>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+</div> 

@@ -1,0 +1,35 @@
+services:
+  - name: "Nextcloud"
+    description: "一个开源的云存储和协作平台，可以替代 Google Drive、Dropbox 等商业服务。"
+    url: "https://nextcloud.com"
+    github: "https://github.com/nextcloud/server"
+    tags:
+      - group: "存储"
+        items: ["云存储", "文件同步"]
+      - group: "协作"
+        items: ["文档协作", "日历", "联系人"]
+    features:
+      - "文件存储和同步"
+      - "文档协作"
+      - "日历和联系人管理"
+      - "视频会议"
+      - "任务管理"
+    license: "AGPL-3.0"
+    language: "PHP"
+
+  - name: "Jellyfin"
+    description: "一个免费的开源媒体系统，可以替代 Plex 和 Emby。"
+    url: "https://jellyfin.org"
+    github: "https://github.com/jellyfin/jellyfin"
+    tags:
+      - group: "媒体"
+        items: ["视频流", "音乐流"]
+      - group: "娱乐"
+        items: ["家庭影院"]
+    features:
+      - "视频流媒体"
+      - "音乐流媒体"
+      - "直播电视"
+      - "多设备支持"
+    license: "GPL-2.0"
+    language: "C#" 

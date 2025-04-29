@@ -1,0 +1,35 @@
+services:
+  - name: "Nextcloud"
+    description: "An open source cloud storage and collaboration platform that can replace commercial services like Google Drive and Dropbox."
+    url: "https://nextcloud.com"
+    github: "https://github.com/nextcloud/server"
+    tags:
+      - group: "Storage"
+        items: ["Cloud Storage", "File Sync"]
+      - group: "Collaboration"
+        items: ["Document Collaboration", "Calendar", "Contacts"]
+    features:
+      - "File storage and sync"
+      - "Document collaboration"
+      - "Calendar and contacts management"
+      - "Video conferencing"
+      - "Task management"
+    license: "AGPL-3.0"
+    language: "PHP"
+
+  - name: "Jellyfin"
+    description: "A free and open source media system that can replace Plex and Emby."
+    url: "https://jellyfin.org"
+    github: "https://github.com/jellyfin/jellyfin"
+    tags:
+      - group: "Media"
+        items: ["Video Streaming", "Music Streaming"]
+      - group: "Entertainment"
+        items: ["Home Theater"]
+    features:
+      - "Video streaming"
+      - "Music streaming"
+      - "Live TV"
+      - "Multi-device support"
+    license: "GPL-2.0"
+    language: "C#" 

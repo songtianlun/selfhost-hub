@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - SelfHost Hub</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/{{ lang }}/" class="logo">SelfHost Hub</a>
+            <nav class="main-nav">
+                <a href="/{{ lang }}/services">{% if lang == 'zh' %}服务{% else %}Services{% endif %}</a>
+                <a href="/{{ lang }}/tags">{% if lang == 'zh' %}标签{% else %}Tags{% endif %}</a>
+                <div class="language-switcher">
+                    {% if lang == 'zh' %}
+                        <a href="/en/{{ page.fileSlug }}" class="language-link">English</a>
+                    {% else %}
+                        <a href="/zh/{{ page.fileSlug }}" class="language-link">中文</a>
+                    {% endif %}
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 SelfHost Hub. {% if lang == 'zh' %}所有权利保留{% else %}All rights reserved{% endif %}.</p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html> 

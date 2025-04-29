@@ -1,0 +1,26 @@
+{
+  "name": "self-host-hub",
+  "version": "1.0.0",
+  "description": "A directory of self-hostable open source services",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "self-host",
+    "open-source",
+    "directory"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.7"
+  }
+}
