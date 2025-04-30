@@ -1,0 +1,98 @@
+# 服务组定义
+groups:
+  monitoring:
+    name: "监控"
+    description: "系统和应用监控工具"
+  media:
+    name: "媒体"
+    description: "媒体服务器和管理工具"
+  storage:
+    name: "存储"
+    description: "文件存储和同步解决方案"
+
+# 标签定义
+tags:
+  monitoring:
+    name: "监控"
+    group: "monitoring"
+  dashboard:
+    name: "仪表盘"
+    group: "monitoring"
+  media-server:
+    name: "媒体服务器"
+    group: "media"
+  video:
+    name: "视频"
+    group: "media"
+  music:
+    name: "音乐"
+    group: "media"
+  storage:
+    name: "存储"
+    group: "storage"
+  sync:
+    name: "同步"
+    group: "storage"
+
+# 服务列表
+services:
+  - id: "grafana"
+    name: "Grafana"
+    description: "功能强大的可视化和监控解决方案"
+    website: "https://grafana.com"
+    github: "grafana/grafana"
+    tags: ["monitoring", "dashboard"]
+    features:
+      - "丰富的数据可视化"
+      - "支持多种数据源"
+      - "告警功能"
+    requirements:
+      cpu: "1 核"
+      memory: "1 GB"
+      disk: "1 GB"
+    ports:
+      - "3000"
+    docker_compose: |
+      version: '3'
+      services:
+        grafana:
+          image: grafana/grafana:latest
+          ports:
+            - "3000:3000"
+          volumes:
+            - grafana-data:/var/lib/grafana
+          environment:
+            - GF_SECURITY_ADMIN_PASSWORD=admin
+      volumes:
+        grafana-data:
+
+  - id: "jellyfin"
+    name: "Jellyfin"
+    description: "开源的媒体服务器解决方案"
+    website: "https://jellyfin.org"
+    github: "jellyfin/jellyfin"
+    tags: ["media-server", "video", "music"]
+    features:
+      - "支持多种媒体格式"
+      - "跨平台客户端"
+      - "用户管理"
+    requirements:
+      cpu: "2 核"
+      memory: "2 GB"
+      disk: "视媒体库大小而定"
+    ports:
+      - "8096"
+    docker_compose: |
+      version: '3'
+      services:
+        jellyfin:
+          image: jellyfin/jellyfin:latest
+          ports:
+            - "8096:8096"
+          volumes:
+            - jellyfin-config:/config
+            - jellyfin-cache:/cache
+            - /path/to/media:/media
+      volumes:
+        jellyfin-config:
+        jellyfin-cache: 

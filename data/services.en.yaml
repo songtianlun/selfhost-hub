@@ -1,0 +1,98 @@
+# Group definitions
+groups:
+  monitoring:
+    name: "Monitoring"
+    description: "System and application monitoring tools"
+  media:
+    name: "Media"
+    description: "Media servers and management tools"
+  storage:
+    name: "Storage"
+    description: "File storage and synchronization solutions"
+
+# Tag definitions
+tags:
+  monitoring:
+    name: "Monitoring"
+    group: "monitoring"
+  dashboard:
+    name: "Dashboard"
+    group: "monitoring"
+  media-server:
+    name: "Media Server"
+    group: "media"
+  video:
+    name: "Video"
+    group: "media"
+  music:
+    name: "Music"
+    group: "media"
+  storage:
+    name: "Storage"
+    group: "storage"
+  sync:
+    name: "Sync"
+    group: "storage"
+
+# Services list
+services:
+  - id: "grafana"
+    name: "Grafana"
+    description: "Powerful visualization and monitoring solution"
+    website: "https://grafana.com"
+    github: "grafana/grafana"
+    tags: ["monitoring", "dashboard"]
+    features:
+      - "Rich data visualization"
+      - "Multiple data source support"
+      - "Alerting functionality"
+    requirements:
+      cpu: "1 core"
+      memory: "1 GB"
+      disk: "1 GB"
+    ports:
+      - "3000"
+    docker_compose: |
+      version: '3'
+      services:
+        grafana:
+          image: grafana/grafana:latest
+          ports:
+            - "3000:3000"
+          volumes:
+            - grafana-data:/var/lib/grafana
+          environment:
+            - GF_SECURITY_ADMIN_PASSWORD=admin
+      volumes:
+        grafana-data:
+
+  - id: "jellyfin"
+    name: "Jellyfin"
+    description: "Open source media server solution"
+    website: "https://jellyfin.org"
+    github: "jellyfin/jellyfin"
+    tags: ["media-server", "video", "music"]
+    features:
+      - "Support for multiple media formats"
+      - "Cross-platform clients"
+      - "User management"
+    requirements:
+      cpu: "2 cores"
+      memory: "2 GB"
+      disk: "Depends on media library size"
+    ports:
+      - "8096"
+    docker_compose: |
+      version: '3'
+      services:
+        jellyfin:
+          image: jellyfin/jellyfin:latest
+          ports:
+            - "8096:8096"
+          volumes:
+            - jellyfin-config:/config
+            - jellyfin-cache:/cache
+            - /path/to/media:/media
+      volumes:
+        jellyfin-config:
+        jellyfin-cache: 

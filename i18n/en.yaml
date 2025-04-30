@@ -1,0 +1,53 @@
+- id: groups
+  translation: "Groups"
+  
+- id: tags
+  translation: "Tags"
+  
+- id: features
+  translation: "Features"
+  
+- id: requirements
+  translation: "Requirements"
+  
+- id: deployment
+  translation: "Deployment"
+  
+- id: ports
+  translation: "Ports"
+  
+- id: memory
+  translation: "Memory"
+  
+- id: disk
+  translation: "Disk Space"
+  
+- id: search
+  translation: "Search"
+  
+- id: filter
+  translation: "Filter"
+  
+- id: clear_filters
+  translation: "Clear Filters"
+  
+- id: no_results
+  translation: "No matching results found"
+  
+- id: show_more
+  translation: "Show More"
+  
+- id: show_less
+  translation: "Show Less"
+
+- id: browse_services
+  translation: "Browse All Services"
+  
+- id: featured_groups
+  translation: "Service Groups"
+  
+- id: featured_services
+  translation: "Featured Services"
+  
+- id: view_all_services
+  translation: "View All Services" 

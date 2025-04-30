@@ -1,0 +1,227 @@
+{{ define "main" }}
+<div class="home-container">
+    <section class="hero">
+        <div class="hero-content">
+            <h1>{{ .Site.Params.homeInfoParams.Title }}</h1>
+            <p>{{ .Site.Params.homeInfoParams.Content }}</p>
+            <div class="hero-buttons">
+                <a href="{{ "services" | relLangURL }}" class="button primary">
+                    {{ i18n "browse_services" }}
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-groups">
+        <h2>{{ i18n "featured_groups" }}</h2>
+        <div class="groups-grid">
+            {{ range $key, $group := .Site.Data.services.groups }}
+            <a href="{{ printf "services?group=%s" $key | relLangURL }}" class="group-card">
+                <h3>{{ $group.name }}</h3>
+                <p>{{ $group.description }}</p>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+
+    <section class="featured-services">
+        <h2>{{ i18n "featured_services" }}</h2>
+        <div class="services-grid">
+            {{ $services := .Site.Data.services.services }}
+            {{ range $index, $service := $services }}
+            {{ if lt $index 6 }}
+            <div class="service-card">
+                <div class="service-header">
+                    <h3>{{ .name }}</h3>
+                    <div class="service-links">
+                        {{ with .website }}
+                        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        {{ end }}
+                        {{ with .github }}
+                        <a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+                <p>{{ .description }}</p>
+                <div class="service-tags">
+                    {{ range .tags }}
+                    {{ with $tag := index $.Site.Data.services.tags . }}
+                    <span class="tag">{{ $tag.name }}</span>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+        <div class="view-all">
+            <a href="{{ "services" | relLangURL }}" class="button secondary">
+                {{ i18n "view_all_services" }}
+            </a>
+        </div>
+    </section>
+</div>
+
+<style>
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background: var(--entry);
+    border-radius: 16px;
+    margin-bottom: 4rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.button.primary {
+    background: var(--primary);
+    color: var(--theme);
+}
+
+.button.secondary {
+    background: var(--tertiary);
+    color: var(--primary);
+}
+
+.featured-groups, .featured-services {
+    margin-bottom: 4rem;
+}
+
+.groups-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.group-card {
+    background: var(--entry);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--primary);
+    transition: transform 0.2s;
+}
+
+.group-card:hover {
+    transform: translateY(-2px);
+}
+
+.group-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.group-card p {
+    color: var(--secondary);
+    font-size: 0.9rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-card {
+    background: var(--entry);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.service-card:hover {
+    transform: translateY(-2px);
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.service-links a {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--secondary);
+}
+
+.service-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tag {
+    background: var(--tertiary);
+    color: var(--primary);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.view-all {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .groups-grid, .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+{{ end }} 

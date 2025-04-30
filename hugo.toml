@@ -1,0 +1,79 @@
+baseURL = 'https://selfhost-hub.com/'
+title = 'SelfHost Hub'
+theme = 'PaperMod'
+
+# Enable multilingual support
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
+    title = "SelfHost Hub - 自托管服务导航"
+    [languages.zh.params]
+      description = "发现和探索可自托管的服务与工具 - 您的自托管解决方案指南"
+      keywords = ["自托管", "自建服务", "开源工具", "私有部署"]
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "SelfHost Hub - Self-hosted Services Directory"
+    [languages.en.params]
+      description = "Discover and explore self-hosted services and tools - Your guide to self-hosting solutions"
+      keywords = ["self-hosted", "self-hosting", "open source", "private deployment"]
+
+[params]
+  # Theme parameters
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  
+  # SEO
+  env = "production"
+  enableRobotsTXT = true
+  canonifyURLs = true
+  
+  # Custom parameters
+  mainSections = ["services"]
+  
+  [params.homeInfoParams]
+    Title = "欢迎来到 SelfHost Hub"
+    Content = """
+    在这里，您可以发现各种可以自托管的服务和工具。
+    我们提供详细的分类和标签系统，帮助您找到最适合的解决方案。
+    """
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  group = "groups"
+
+[markup.highlight]
+  noClasses = false
+  lineNos = true
+  
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "services"
+    name = "服务"
+    url = "/services/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "groups"
+    name = "分组"
+    url = "/groups/"
+    weight = 30

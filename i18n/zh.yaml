@@ -1,0 +1,53 @@
+- id: groups
+  translation: "分组"
+  
+- id: tags
+  translation: "标签"
+  
+- id: features
+  translation: "功能特点"
+  
+- id: requirements
+  translation: "系统要求"
+  
+- id: deployment
+  translation: "部署信息"
+  
+- id: ports
+  translation: "端口"
+  
+- id: memory
+  translation: "内存"
+  
+- id: disk
+  translation: "磁盘空间"
+  
+- id: search
+  translation: "搜索"
+  
+- id: filter
+  translation: "筛选"
+  
+- id: clear_filters
+  translation: "清除筛选"
+  
+- id: no_results
+  translation: "没有找到匹配的结果"
+  
+- id: show_more
+  translation: "显示更多"
+  
+- id: show_less
+  translation: "显示更少"
+
+- id: browse_services
+  translation: "浏览所有服务"
+  
+- id: featured_groups
+  translation: "服务分组"
+  
+- id: featured_services
+  translation: "推荐服务"
+  
+- id: view_all_services
+  translation: "查看全部服务" 

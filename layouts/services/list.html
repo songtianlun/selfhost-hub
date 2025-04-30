@@ -1,0 +1,260 @@
+{{- define "main" }}
+
+<div class="services-container">
+    <div class="filters">
+        <div class="filter-section">
+            <h3>{{ i18n "groups" }}</h3>
+            <div class="group-filters">
+                {{ range $key, $group := $.Site.Data.services.groups }}
+                <label class="filter-item">
+                    <input type="checkbox" name="group" value="{{ $key }}">
+                    {{ $group.name }}
+                </label>
+                {{ end }}
+            </div>
+        </div>
+        
+        <div class="filter-section">
+            <h3>{{ i18n "tags" }}</h3>
+            <div class="tag-filters">
+                {{ range $key, $tag := $.Site.Data.services.tags }}
+                <label class="filter-item">
+                    <input type="checkbox" name="tag" value="{{ $key }}">
+                    {{ $tag.name }}
+                </label>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="services-list">
+        {{ range $service := $.Site.Data.services.services }}
+        <div class="service-card" 
+             data-tags='{{ $service.tags | jsonify }}'
+             data-groups='{{ range $tag := $service.tags }}{{ with $group := (index $.Site.Data.services.tags $tag).group }}{{ . }} {{ end }}{{ end }}'>
+            <div class="service-header">
+                <h2>{{ $service.name }}</h2>
+                <div class="service-links">
+                    {{ with $service.website }}
+                    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="website-link">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                    {{ end }}
+                    {{ with $service.github }}
+                    <a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer" class="github-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            
+            <p class="service-description">{{ $service.description }}</p>
+            
+            <div class="service-tags">
+                {{ range $tag := $service.tags }}
+                {{ with $tagInfo := index $.Site.Data.services.tags $tag }}
+                <span class="tag" data-group="{{ $tagInfo.group }}">{{ $tagInfo.name }}</span>
+                {{ end }}
+                {{ end }}
+            </div>
+
+            <div class="service-details">
+                <div class="features">
+                    <h4>{{ i18n "features" }}</h4>
+                    <ul>
+                        {{ range $feature := $service.features }}
+                        <li>{{ $feature }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+
+                <div class="requirements">
+                    <h4>{{ i18n "requirements" }}</h4>
+                    <ul>
+                        <li>CPU: {{ $service.requirements.cpu }}</li>
+                        <li>{{ i18n "memory" }}: {{ $service.requirements.memory }}</li>
+                        <li>{{ i18n "disk" }}: {{ $service.requirements.disk }}</li>
+                    </ul>
+                </div>
+
+                <div class="deployment">
+                    <h4>{{ i18n "deployment" }}</h4>
+                    <div class="ports">
+                        <strong>{{ i18n "ports" }}:</strong>
+                        {{ range $port := $service.ports }}
+                        <span class="port">{{ $port }}</span>
+                        {{ end }}
+                    </div>
+                    <div class="docker-compose">
+                        <strong>docker-compose.yml</strong>
+                        <pre><code>{{ $service.docker_compose }}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterInputs = document.querySelectorAll('.filter-item input');
+    const serviceCards = document.querySelectorAll('.service-card');
+
+    function updateFilters() {
+        const selectedGroups = Array.from(document.querySelectorAll('input[name="group"]:checked'))
+            .map(input => input.value);
+        const selectedTags = Array.from(document.querySelectorAll('input[name="tag"]:checked'))
+            .map(input => input.value);
+
+        serviceCards.forEach(card => {
+            const cardTags = JSON.parse(card.dataset.tags);
+            const cardGroups = card.dataset.groups.trim().split(' ');
+            
+            const showCard = (selectedGroups.length === 0 || cardGroups.some(g => selectedGroups.includes(g))) &&
+                           (selectedTags.length === 0 || cardTags.some(t => selectedTags.includes(t)));
+            
+            card.style.display = showCard ? 'block' : 'none';
+        });
+    }
+
+    filterInputs.forEach(input => {
+        input.addEventListener('change', updateFilters);
+    });
+});
+</script>
+
+<style>
+.services-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.filters {
+    flex: 0 0 250px;
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+}
+
+.filter-section {
+    margin-bottom: 2rem;
+    background: var(--entry);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.filter-item {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.services-list {
+    flex: 1;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.service-card {
+    background: var(--entry);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.service-card:hover {
+    transform: translateY(-2px);
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.service-links a {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    color: var(--secondary);
+}
+
+.service-description {
+    margin-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.service-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background: var(--tertiary);
+    color: var(--primary);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.service-details {
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+}
+
+.features ul, .requirements ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.features li::before {
+    content: "•";
+    color: var(--secondary);
+    margin-right: 0.5rem;
+}
+
+.deployment {
+    margin-top: 1rem;
+}
+
+.ports {
+    margin-bottom: 1rem;
+}
+
+.port {
+    background: var(--code-bg);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+}
+
+.docker-compose {
+    background: var(--code-bg);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+pre {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+    }
+    
+    .filters {
+        position: static;
+        width: 100%;
+    }
+}
+</style>
+
+{{- end }} 
