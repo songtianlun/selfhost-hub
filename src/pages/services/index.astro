@@ -22,19 +22,48 @@ const allTagGroups = services.reduce((groups, service) => {
 }, {} as Record<string, Set<string>>);
 
 // 获取当前选中的标签
-const selectedTag = Astro.url.searchParams.get('tag');
-const selectedCategory = Astro.url.searchParams.get('category');
+const searchParams = new URLSearchParams(Astro.url.search);
+const selectedCategory = searchParams.get('category');
+const selectedTag = searchParams.get('tag');
+
+// 调试信息
+console.log('Current URL:', Astro.url.toString());
+console.log('Raw search params:', Astro.url.search);
+console.log('Decoded category:', selectedCategory);
+console.log('Decoded tag:', selectedTag);
 
 // 过滤服务
 const filteredServices = services.filter(service => {
   if (!selectedTag && !selectedCategory) return true;
   
-  return service.data.tags.some(tagGroup => {
-    if (selectedCategory && tagGroup.category !== selectedCategory) return false;
-    if (selectedTag && !tagGroup.items.includes(selectedTag)) return false;
+  const matches = service.data.tags.some(tagGroup => {
+    // 如果选择了分类，检查当前服务是否属于该分类
+    if (selectedCategory && tagGroup.category !== selectedCategory) {
+      console.log(`Service ${service.data.title}: Category mismatch - ${tagGroup.category} !== ${selectedCategory}`);
+      return false;
+    }
+    // 如果选择了标签，检查当前服务是否包含该标签
+    if (selectedTag && !tagGroup.items.includes(selectedTag)) {
+      console.log(`Service ${service.data.title}: Tag mismatch - ${tagGroup.items.join(', ')} does not include ${selectedTag}`);
+      return false;
+    }
+    console.log(`Service ${service.data.title}: Matches filter`);
     return true;
   });
+
+  return matches;
 });
+
+console.log('Filtered services count:', filteredServices.length);
+console.log('Filtered services:', filteredServices.map(s => s.data.title));
+
+// 生成标签链接
+function getTagLink(category: string, tag?: string) {
+  const params = new URLSearchParams();
+  if (category) params.set('category', category);
+  if (tag) params.set('tag', tag);
+  return `/services?${params.toString()}`;
+}
 ---
 
 <Layout title="服务列表 - SelfHost Hub" description="浏览所有可自托管的服务，找到最适合你的工具。">
@@ -44,12 +73,12 @@ const filteredServices = services.filter(service => {
       <p class="text-lg text-gray-600">探索各种可自托管的工具和服务</p>
     </div>
 
-    <div class="space-y-4">
+    <div class="space-y-4" id="tagFilters">
       {Object.entries(allTagGroups).map(([category, tags]) => (
         <div class="flex flex-wrap gap-2">
           <span class="text-sm font-medium text-gray-500 px-2">{category}：</span>
-          <a
-            href={`/services?category=${encodeURIComponent(category)}`}
+          <button
+            data-category={category}
             class={`px-4 py-2 rounded-full text-sm font-medium ${
               selectedCategory === category && !selectedTag
                 ? 'bg-blue-100 text-blue-800'
@@ -57,10 +86,11 @@ const filteredServices = services.filter(service => {
             }`}
           >
             全部
-          </a>
+          </button>
           {Array.from(tags).map((tag) => (
-            <a
-              href={`/services?category=${encodeURIComponent(category)}&tag=${encodeURIComponent(tag)}`}
+            <button
+              data-category={category}
+              data-tag={tag}
               class={`px-4 py-2 rounded-full text-sm font-medium ${
                 selectedTag === tag && selectedCategory === category
                   ? 'bg-blue-100 text-blue-800'
@@ -68,7 +98,7 @@ const filteredServices = services.filter(service => {
               }`}
             >
               {tag}
-            </a>
+            </button>
           ))}
         </div>
       ))}
@@ -85,4 +115,35 @@ const filteredServices = services.filter(service => {
       ))}
     </div>
   </div>
-</Layout> 
+</Layout>
+
+<script>
+  // 获取所有标签按钮
+  const tagButtons = document.querySelectorAll('#tagFilters button');
+  
+  // 为每个按钮添加点击事件监听器
+  tagButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const category = button.getAttribute('data-category');
+      const tag = button.getAttribute('data-tag');
+      
+      // 调试信息
+      console.log('Button clicked:', { category, tag });
+      
+      // 构建新的 URL
+      const params = new URLSearchParams();
+      if (category) params.set('category', category);
+      if (tag) params.set('tag', tag);
+      
+      const newUrl = `/services?${params.toString()}`;
+      console.log('Navigating to:', newUrl);
+      
+      // 更新 URL 并刷新页面
+      window.location.href = newUrl;
+    });
+  });
+
+  // 页面加载时的调试信息
+  console.log('Current URL:', window.location.href);
+  console.log('Search params:', window.location.search);
+</script> 
