@@ -1,0 +1,85 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// 生成所有可能的路径
+export async function getStaticPaths() {
+  const services = await getCollection('services', ({ id }) => {
+    return id.startsWith('zh/');
+  });
+
+  // 打印调试信息
+  console.log('Available services:', services.map(s => s.id));
+
+  const paths = services.map(service => {
+    // 从文件路径中提取 slug（去掉 'zh/' 前缀和 '.md' 后缀）
+    const slug = service.id.replace('zh/', '').replace('.md', '');
+    console.log('Generated path:', { id: service.id, slug });
+    return {
+      params: { slug },
+      props: { service }
+    };
+  });
+
+  console.log('Generated paths:', paths.map(p => p.params.slug));
+  return paths;
+}
+
+// 从 props 中获取服务数据
+const { service } = Astro.props;
+
+const { Content } = await service.render();
+const { title, description, tags, features, website, github, license } = service.data;
+---
+
+<Layout title={`${title} - SelfHost Hub`} description={description}>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">{title}</h1>
+      <p class="text-xl text-gray-600">{description}</p>
+      
+      <div class="mt-4 flex flex-wrap gap-4">
+        {tags.map((tagGroup) => (
+          <div class="flex flex-col">
+            <span class="text-sm font-medium text-gray-500 mb-1">{tagGroup.category}</span>
+            <div class="flex flex-wrap gap-2">
+              {tagGroup.items.map((tag) => (
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-6 flex flex-wrap gap-4">
+        {website && (
+          <a href={website} target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+            官方网站
+          </a>
+        )}
+        {github && (
+          <a href={github} target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+            GitHub
+          </a>
+        )}
+      </div>
+    </header>
+
+    <div class="prose prose-blue max-w-none">
+      <Content />
+    </div>
+
+    <footer class="mt-8 pt-8 border-t border-gray-200">
+      <div class="flex flex-wrap gap-4 text-sm text-gray-500">
+        {license && (
+          <div>
+            <span class="font-medium">许可证：</span>
+            {license}
+          </div>
+        )}
+      </div>
+    </footer>
+  </article>
+</Layout> 

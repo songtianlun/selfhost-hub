@@ -1,0 +1,88 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import { getCollection } from 'astro:content';
+
+// 获取所有服务内容
+const services = await getCollection('services', ({ id }) => {
+  return id.startsWith('zh/');
+});
+
+// 获取所有标签分组
+const allTagGroups = services.reduce((groups, service) => {
+  service.data.tags.forEach(tagGroup => {
+    if (!groups[tagGroup.category]) {
+      groups[tagGroup.category] = new Set();
+    }
+    tagGroup.items.forEach(tag => {
+      groups[tagGroup.category].add(tag);
+    });
+  });
+  return groups;
+}, {} as Record<string, Set<string>>);
+
+// 获取当前选中的标签
+const selectedTag = Astro.url.searchParams.get('tag');
+const selectedCategory = Astro.url.searchParams.get('category');
+
+// 过滤服务
+const filteredServices = services.filter(service => {
+  if (!selectedTag && !selectedCategory) return true;
+  
+  return service.data.tags.some(tagGroup => {
+    if (selectedCategory && tagGroup.category !== selectedCategory) return false;
+    if (selectedTag && !tagGroup.items.includes(selectedTag)) return false;
+    return true;
+  });
+});
+---
+
+<Layout title="服务列表 - SelfHost Hub" description="浏览所有可自托管的服务，找到最适合你的工具。">
+  <div class="space-y-8">
+    <div class="text-center">
+      <h1 class="text-3xl font-bold text-gray-900 mb-4">服务列表</h1>
+      <p class="text-lg text-gray-600">探索各种可自托管的工具和服务</p>
+    </div>
+
+    <div class="space-y-4">
+      {Object.entries(allTagGroups).map(([category, tags]) => (
+        <div class="flex flex-wrap gap-2">
+          <span class="text-sm font-medium text-gray-500 px-2">{category}：</span>
+          <a
+            href={`/services?category=${encodeURIComponent(category)}`}
+            class={`px-4 py-2 rounded-full text-sm font-medium ${
+              selectedCategory === category && !selectedTag
+                ? 'bg-blue-100 text-blue-800'
+                : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+            }`}
+          >
+            全部
+          </a>
+          {Array.from(tags).map((tag) => (
+            <a
+              href={`/services?category=${encodeURIComponent(category)}&tag=${encodeURIComponent(tag)}`}
+              class={`px-4 py-2 rounded-full text-sm font-medium ${
+                selectedTag === tag && selectedCategory === category
+                  ? 'bg-blue-100 text-blue-800'
+                  : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+              }`}
+            >
+              {tag}
+            </a>
+          ))}
+        </div>
+      ))}
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {filteredServices.map((service) => (
+        <ServiceCard
+          title={service.data.title}
+          description={service.data.description}
+          tags={service.data.tags.flatMap(group => group.items)}
+          url={`/services/${service.id.replace('zh/', '').replace('.md', '')}`}
+        />
+      ))}
+    </div>
+  </div>
+</Layout> 

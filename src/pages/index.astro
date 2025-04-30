@@ -1,0 +1,105 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+
+// 这里将来会从内容集合中获取数据
+const services = [
+  {
+    title: 'Nextcloud',
+    description: '开源的私有云存储解决方案，支持文件同步、分享、协作等功能。',
+    tags: ['存储', '协作', '开源'],
+    url: '/services/nextcloud',
+    image: '/images/nextcloud.png'
+  },
+  {
+    title: 'Umami',
+    description: '简单、快速、注重隐私的网站分析工具，可以替代 Google Analytics。',
+    tags: ['分析', '统计', '隐私'],
+    url: '/services/umami',
+    image: '/images/umami.png'
+  },
+  {
+    title: 'Vaultwarden',
+    description: 'Bitwarden 密码管理器的轻量级实现，使用 Rust 编写，资源占用更少。',
+    tags: ['安全', '密码管理', 'Rust'],
+    url: '/services/vaultwarden',
+    image: '/images/vaultwarden.png'
+  },
+  {
+    title: 'Uptime Kuma',
+    description: '一个优雅的开源监控工具，支持多种监控类型，提供美观的仪表盘。',
+    tags: ['监控', '运维', 'Node.js'],
+    url: '/services/uptime-kuma',
+    image: '/images/uptime-kuma.png'
+  },
+  {
+    title: 'Typecho',
+    description: '一个轻量级的开源博客系统，专注于写作体验和性能。',
+    tags: ['博客', 'CMS', 'PHP'],
+    url: '/services/typecho',
+    image: '/images/typecho.png'
+  },
+  {
+    title: '不蒜子',
+    description: '一个轻量级的网站访问统计服务，支持 PV、UV 统计，无需注册即可使用。',
+    tags: ['统计', '分析', '轻量级'],
+    url: '/services/busuanzi',
+    image: '/images/busuanzi.png'
+  },
+  {
+    title: 'Memos',
+    description: '一个开源的、自托管的备忘录和知识管理工具，支持 Markdown 和标签系统。',
+    tags: ['笔记', '知识管理', 'Go'],
+    url: '/services/memos',
+    image: '/images/memos.png'
+  },
+  {
+    title: 'Joplin',
+    description: '一个开源的笔记和待办事项应用程序，支持端到端加密和同步功能。',
+    tags: ['笔记', '待办事项', '加密'],
+    url: '/services/joplin',
+    image: '/images/joplin.png'
+  }
+];
+
+const tutorials = [
+  {
+    title: '如何搭建自己的 Nextcloud 服务器',
+    description: '详细的 Nextcloud 安装和配置教程，包括系统要求、安装步骤和基本配置。',
+    date: '2024-04-30',
+    url: '/tutorials/nextcloud-setup',
+    author: 'Admin'
+  },
+  // 更多教程...
+];
+---
+
+<Layout title="SelfHost Hub - 自托管服务导航" description="发现和探索各种优秀的自托管服务，打造属于你自己的数字生活。">
+  <div class="space-y-12">
+    <section>
+      <div class="text-center mb-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">发现优秀的自托管服务</h1>
+        <p class="text-xl text-gray-600">探索各种可自托管的工具和服务，打造属于你自己的数字生活</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services.map((service) => (
+          <ServiceCard {...service} />
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">最新教程</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {tutorials.map((tutorial) => (
+          <a href={tutorial.url} class="block bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 p-6">
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">{tutorial.title}</h3>
+            <p class="text-gray-600 mb-2">{tutorial.description}</p>
+            <time class="text-sm text-gray-500">{tutorial.date}</time>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</Layout>

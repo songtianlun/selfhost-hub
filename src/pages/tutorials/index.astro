@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+// 这里将来会从内容集合中获取数据
+const tutorials = [
+  {
+    title: '如何搭建自己的 Nextcloud 服务器',
+    description: '详细的 Nextcloud 安装和配置教程，包括系统要求、安装步骤和基本配置。',
+    date: '2024-04-30',
+    url: '/tutorials/nextcloud-setup',
+    author: 'Admin'
+  },
+  // 更多教程...
+];
+---
+
+<Layout title="教程 - SelfHost Hub" description="学习如何搭建和配置各种自托管服务。">
+  <div class="space-y-8">
+    <div class="text-center">
+      <h1 class="text-3xl font-bold text-gray-900 mb-4">教程</h1>
+      <p class="text-lg text-gray-600">学习如何搭建和配置各种自托管服务</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {tutorials.map((tutorial) => (
+        <article class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+          <a href={tutorial.url} class="block p-6">
+            <h2 class="text-xl font-semibold text-gray-900 mb-2">{tutorial.title}</h2>
+            <p class="text-gray-600 mb-4">{tutorial.description}</p>
+            <div class="flex items-center text-sm text-gray-500">
+              <span>{tutorial.author}</span>
+              <span class="mx-2">•</span>
+              <time datetime={tutorial.date}>{tutorial.date}</time>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</Layout> 
