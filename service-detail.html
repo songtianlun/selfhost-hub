@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 动态插入元数据 -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>服务详情 | Selfhost Hub</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- 预加载语言文件 -->
+    <link rel="preload" href="js/lang/zh.js" as="script">
+    <link rel="preload" href="js/lang/en.js" as="script">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="Selfhost Hub Logo">
+                    <span>Selfhost Hub</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link" data-i18n="nav.home">首页</a></li>
+                    <li><a href="services.html" class="nav-link active" data-i18n="nav.services">服务</a></li>
+                    <li><a href="tags.html" class="nav-link" data-i18n="nav.tags">标签</a></li>
+                    <li><a href="blog.html" class="nav-link" data-i18n="nav.blog">博客</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav.about">关于</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <button class="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="breadcrumb">
+        <div class="container">
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+                <li><a href="services.html" data-i18n="nav.services">服务</a></li>
+                <li id="service-name"><!-- 动态插入服务名称 --></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="service-detail-container">
+        <div class="container">
+            <div class="loading-spinner" id="service-loading">
+                <i class="fas fa-spinner fa-spin"></i>
+                <span data-i18n="service.loading">正在加载服务信息...</span>
+            </div>
+
+            <div class="service-detail" id="service-detail" style="display: none;">
+                <div class="service-header">
+                    <div class="service-logo">
+                        <img src="" alt="" id="service-logo">
+                    </div>
+                    <div class="service-info">
+                        <h1 id="service-title"></h1>
+                        <div class="service-meta">
+                            <div class="service-links">
+                                <a href="#" id="service-website" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-globe"></i> <span data-i18n="service.website">官方网站</span>
+                                </a>
+                                <a href="#" id="service-github" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> <span>GitHub</span>
+                                </a>
+                                <a href="#" id="service-docker" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-docker"></i> <span>Docker Hub</span>
+                                </a>
+                            </div>
+                            <div class="service-stats">
+                                <span class="stars" id="service-stars"><i class="fas fa-star"></i> <span
+                                        class="count"></span></span>
+                                <span class="downloads" id="service-downloads"><i class="fas fa-download"></i> <span
+                                        class="count"></span></span>
+                            </div>
+                        </div>
+                        <div class="service-tags" id="service-tags">
+                            <!-- 动态插入标签 -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-content">
+                    <div class="service-summary">
+                        <h2 data-i18n="service.summary">概述</h2>
+                        <p id="service-summary"></p>
+                    </div>
+
+                    <div class="service-features">
+                        <h2 data-i18n="service.features">主要特性</h2>
+                        <ul id="service-features">
+                            <!-- 动态插入特性 -->
+                        </ul>
+                    </div>
+
+                    <div class="service-description">
+                        <h2 data-i18n="service.description">详细介绍</h2>
+                        <div id="service-description">
+                            <!-- 动态插入详细介绍 -->
+                        </div>
+                    </div>
+
+                    <div class="service-install">
+                        <h2 data-i18n="service.installation">安装指南</h2>
+                        <div class="install-methods">
+                            <div class="tab-container">
+                                <div class="tabs">
+                                    <button class="tab-btn active" data-tab="docker"
+                                        data-i18n="service.docker">Docker</button>
+                                    <button class="tab-btn" data-tab="docker-compose"
+                                        data-i18n="service.dockerCompose">Docker Compose</button>
+                                    <button class="tab-btn" data-tab="manual" data-i18n="service.manual">手动安装</button>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="docker">
+                                        <pre><code id="docker-code"></code></pre>
+                                        <button class="copy-btn" data-copy="docker-code"><i class="fas fa-copy"></i>
+                                            <span data-i18n="service.copy">复制</span></button>
+                                    </div>
+                                    <div class="tab-pane" id="docker-compose">
+                                        <pre><code id="docker-compose-code"></code></pre>
+                                        <button class="copy-btn" data-copy="docker-compose-code"><i
+                                                class="fas fa-copy"></i> <span
+                                                data-i18n="service.copy">复制</span></button>
+                                    </div>
+                                    <div class="tab-pane" id="manual">
+                                        <div id="manual-instructions"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-screenshots">
+                        <h2 data-i18n="service.screenshots">截图</h2>
+                        <div class="screenshot-gallery" id="screenshot-gallery">
+                            <!-- 动态插入截图 -->
+                        </div>
+                    </div>
+
+                    <div class="service-related">
+                        <h2 data-i18n="service.related">相关服务</h2>
+                        <div class="related-services" id="related-services">
+                            <!-- 动态插入相关服务 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-not-found" id="service-not-found" style="display: none;">
+                <div class="not-found-message">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <h2 data-i18n="service.notFound">服务未找到</h2>
+                    <p data-i18n="service.notFoundDesc">抱歉，无法找到您请求的服务信息。</p>
+                    <a href="services.html" class="btn btn-primary" data-i18n="service.backToServices">返回服务列表</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="service.cta.title">准备好部署这个服务了吗？</h2>
+            <p data-i18n="service.cta.description">查看我们的指南，获取更多关于自托管的技巧和最佳实践</p>
+            <a href="blog/getting-started.html" class="btn btn-primary" data-i18n="service.cta.button">查看指南</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo-white.svg" alt="Selfhost Hub Logo">
+                    <p data-i18n="footer.tagline">您的自托管服务资源中心</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.navigation">导航</h3>
+                        <ul>
+                            <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+                            <li><a href="services.html" data-i18n="nav.services">服务</a></li>
+                            <li><a href="tags.html" data-i18n="nav.tags">标签</a></li>
+                            <li><a href="blog.html" data-i18n="nav.blog">博客</a></li>
+                            <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.resources">资源</h3>
+                        <ul>
+                            <li><a href="blog/getting-started.html" data-i18n="footer.gettingStarted">入门指南</a></li>
+                            <li><a href="blog/security.html" data-i18n="footer.security">安全指南</a></li>
+                            <li><a href="blog/faq.html" data-i18n="footer.faq">常见问题</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.legal">法律</h3>
+                        <ul>
+                            <li><a href="privacy.html" data-i18n="footer.privacy">隐私政策</a></li>
+                            <li><a href="terms.html" data-i18n="footer.terms">使用条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Selfhost Hub. <span data-i18n="footer.copyright">保留所有权利</span>.</p>
+                <div class="social-links">
+                    <a href="https://github.com/selfhost-hub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/selfhosthub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://discord.gg/selfhosthub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/service-detail.js"></script>
+</body>
+
+</html>

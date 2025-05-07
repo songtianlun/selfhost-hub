@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "存储",
+        "slug": "storage",
+        "description": "文件存储和同步解决方案，包括网盘、备份工具和分布式存储系统。",
+        "count": 5,
+        "icon": "fas fa-hdd"
+    },
+    {
+        "id": 2,
+        "name": "媒体",
+        "slug": "media",
+        "description": "媒体服务器、流媒体和内容管理相关的自托管方案。",
+        "count": 4,
+        "icon": "fas fa-film"
+    },
+    {
+        "id": 3,
+        "name": "安全",
+        "slug": "security",
+        "description": "隐私保护、密码管理、加密通信和安全审计工具。",
+        "count": 6,
+        "icon": "fas fa-shield-alt"
+    },
+    {
+        "id": 4,
+        "name": "智能家居",
+        "slug": "smart-home",
+        "description": "家庭自动化、物联网设备管理和智能控制系统。",
+        "count": 3,
+        "icon": "fas fa-home"
+    },
+    {
+        "id": 5,
+        "name": "协作",
+        "slug": "collaboration",
+        "description": "团队协作、项目管理和沟通工具。",
+        "count": 5,
+        "icon": "fas fa-users"
+    },
+    {
+        "id": 6,
+        "name": "开发",
+        "slug": "development",
+        "description": "开发者工具、代码托管和CI/CD解决方案。",
+        "count": 4,
+        "icon": "fas fa-code"
+    },
+    {
+        "id": 7,
+        "name": "网络",
+        "slug": "network",
+        "description": "网络管理、DNS服务、VPN和反向代理解决方案。",
+        "count": 7,
+        "icon": "fas fa-network-wired"
+    },
+    {
+        "id": 8,
+        "name": "监控",
+        "slug": "monitoring",
+        "description": "系统监控、日志管理和资源使用分析工具。",
+        "count": 4,
+        "icon": "fas fa-chart-line"
+    },
+    {
+        "id": 9,
+        "name": "生产力",
+        "slug": "productivity",
+        "description": "笔记、日历、任务管理和个人知识库工具。",
+        "count": 5,
+        "icon": "fas fa-tasks"
+    },
+    {
+        "id": 10,
+        "name": "数据库",
+        "slug": "database",
+        "description": "自托管数据库系统和数据管理工具。",
+        "count": 3,
+        "icon": "fas fa-database"
+    },
+    {
+        "id": 11,
+        "name": "Docker",
+        "slug": "docker",
+        "description": "基于Docker容器技术的应用和工具。",
+        "count": 12,
+        "icon": "fab fa-docker"
+    },
+    {
+        "id": 12,
+        "name": "文档",
+        "slug": "documentation",
+        "description": "知识库、文档管理和信息组织工具。",
+        "count": 4,
+        "icon": "fas fa-file-alt"
+    }
+]

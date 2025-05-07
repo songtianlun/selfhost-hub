@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selfhost Hub - 发现和探索优质的自托管服务">
+    <meta name="keywords" content="selfhost, self-hosted, 自托管, 服务器, 开源, 私有云">
+    <title>Selfhost Hub | 自托管服务资源中心</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- 预加载语言文件 -->
+    <link rel="preload" href="js/lang/zh.js" as="script">
+    <link rel="preload" href="js/lang/en.js" as="script">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="Selfhost Hub Logo">
+                    <span>Selfhost Hub</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link" data-i18n="nav.home">首页</a></li>
+                    <li><a href="services.html" class="nav-link" data-i18n="nav.services">服务</a></li>
+                    <li><a href="tags.html" class="nav-link" data-i18n="nav.tags">标签</a></li>
+                    <li><a href="blog.html" class="nav-link" data-i18n="nav.blog">博客</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav.about">关于</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <button class="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 data-i18n="home.hero.title">探索自托管服务的世界</h1>
+            <p data-i18n="home.hero.subtitle">发现、部署和管理适合您需求的自托管解决方案</p>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="搜索服务..."
+                    data-i18n-placeholder="home.search.placeholder">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="hero-buttons">
+                <a href="services.html" class="btn btn-primary" data-i18n="home.hero.browse">浏览服务</a>
+                <a href="blog.html" class="btn btn-secondary" data-i18n="home.hero.learn">学习部署</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-services">
+        <div class="container">
+            <h2 data-i18n="home.featured.title">热门自托管服务</h2>
+            <div class="services-grid" id="featured-services-container">
+                <!-- 动态加载服务内容 -->
+            </div>
+            <div class="view-more">
+                <a href="services.html" class="btn btn-outline" data-i18n="home.featured.viewMore">查看更多服务</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <h2 data-i18n="home.categories.title">按类别浏览</h2>
+            <div class="categories-grid" id="categories-container">
+                <!-- 动态加载类别内容 -->
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-blog">
+        <div class="container">
+            <h2 data-i18n="home.blog.title">最新博客文章</h2>
+            <div class="blog-grid" id="recent-blog-container">
+                <!-- 动态加载博客内容 -->
+            </div>
+            <div class="view-more">
+                <a href="blog.html" class="btn btn-outline" data-i18n="home.blog.viewMore">浏览所有文章</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="home.cta.title">开始您的自托管之旅</h2>
+            <p data-i18n="home.cta.description">通过我们精选的服务和部署指南，掌控您的数据和隐私</p>
+            <a href="services.html" class="btn btn-primary" data-i18n="home.cta.button">开始探索</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo-white.svg" alt="Selfhost Hub Logo">
+                    <p data-i18n="footer.tagline">您的自托管服务资源中心</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.navigation">导航</h3>
+                        <ul>
+                            <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+                            <li><a href="services.html" data-i18n="nav.services">服务</a></li>
+                            <li><a href="tags.html" data-i18n="nav.tags">标签</a></li>
+                            <li><a href="blog.html" data-i18n="nav.blog">博客</a></li>
+                            <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.resources">资源</h3>
+                        <ul>
+                            <li><a href="blog/getting-started.html" data-i18n="footer.gettingStarted">入门指南</a></li>
+                            <li><a href="blog/security.html" data-i18n="footer.security">安全指南</a></li>
+                            <li><a href="blog/faq.html" data-i18n="footer.faq">常见问题</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.legal">法律</h3>
+                        <ul>
+                            <li><a href="privacy.html" data-i18n="footer.privacy">隐私政策</a></li>
+                            <li><a href="terms.html" data-i18n="footer.terms">使用条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Selfhost Hub. <span data-i18n="footer.copyright">保留所有权利</span>.</p>
+                <div class="social-links">
+                    <a href="https://github.com/selfhost-hub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/selfhosthub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://discord.gg/selfhosthub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

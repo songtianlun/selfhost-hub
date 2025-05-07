@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="关于Selfhost Hub - 您的自托管服务资源中心">
+    <meta name="keywords" content="selfhost, self-hosted, 自托管, 关于我们, 自托管资源">
+    <title>关于我们 | Selfhost Hub</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- 预加载语言文件 -->
+    <link rel="preload" href="js/lang/zh.js" as="script">
+    <link rel="preload" href="js/lang/en.js" as="script">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="Selfhost Hub Logo">
+                    <span>Selfhost Hub</span>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link" data-i18n="nav.home">首页</a></li>
+                    <li><a href="services.html" class="nav-link" data-i18n="nav.services">服务</a></li>
+                    <li><a href="tags.html" class="nav-link" data-i18n="nav.tags">标签</a></li>
+                    <li><a href="blog.html" class="nav-link" data-i18n="nav.blog">博客</a></li>
+                    <li><a href="about.html" class="nav-link active" data-i18n="nav.about">关于</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="zh">中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+            <button class="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-i18n="about.title">关于我们</h1>
+            <p data-i18n="about.subtitle">了解Selfhost Hub的使命和团队</p>
+        </div>
+    </section>
+
+    <section class="about-content">
+        <div class="container">
+            <div class="about-section mission">
+                <div class="about-image">
+                    <img src="images/about/mission.svg" alt="Selfhost Hub Mission" class="about-illustration">
+                </div>
+                <div class="about-text">
+                    <h2 data-i18n="about.mission.title">我们的使命</h2>
+                    <p data-i18n="about.mission.p1">
+                        Selfhost Hub 的使命是成为自托管服务的中心资源平台，帮助个人和组织发现、部署和管理适合其需求的自托管解决方案。我们相信通过自托管服务，用户可以更好地控制自己的数据和隐私。
+                    </p>
+                    <p data-i18n="about.mission.p2">
+                        我们致力于提供全面、准确和易于理解的信息，使得自托管变得更加简单和无障碍，无论你是技术专家还是刚刚开始接触自托管的新手。
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-section story">
+                <div class="about-text">
+                    <h2 data-i18n="about.story.title">我们的故事</h2>
+                    <p data-i18n="about.story.p1">
+                        Selfhost Hub 诞生于对简化自托管体验的需求。作为自托管爱好者，我们常常发现寻找合适的服务、理解它们的特性和学习如何部署它们是一个耗时且有时令人沮丧的过程。信息分散在各个网站、论坛和
+                        GitHub 仓库中。
+                    </p>
+                    <p data-i18n="about.story.p2">
+                        我们创建 Selfhost Hub 作为一个统一的平台，集合了数百种自托管服务的信息、特性比较、部署指南和最佳实践。我们的目标是使任何人都能轻松地发现和部署适合其需求的自托管解决方案。
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about/story.svg" alt="Our Story" class="about-illustration">
+                </div>
+            </div>
+
+            <div class="about-section values">
+                <div class="about-image">
+                    <img src="images/about/values.svg" alt="Our Values" class="about-illustration">
+                </div>
+                <div class="about-text">
+                    <h2 data-i18n="about.values.title">我们的价值观</h2>
+                    <div class="values-list">
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3 data-i18n="about.values.privacy.title">隐私和数据控制</h3>
+                                <p data-i18n="about.values.privacy.desc">我们相信人们应该能够控制自己的数据和在线体验。自托管是实现这一目标的有力方式。</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-hands-helping"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3 data-i18n="about.values.community.title">社区协作</h3>
+                                <p data-i18n="about.values.community.desc">我们重视社区的力量，鼓励用户分享经验、贡献内容和帮助完善平台。</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3 data-i18n="about.values.education.title">教育与赋能</h3>
+                                <p data-i18n="about.values.education.desc">我们致力于提供清晰、全面的信息和教程，使人们能够了解并利用自托管技术。</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="value-content">
+                                <h3 data-i18n="about.values.opensource.title">开源精神</h3>
+                                <p data-i18n="about.values.opensource.desc">我们支持开源软件和开放标准，认为它们是创建更好的互联网生态系统的关键。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section team">
+                <h2 data-i18n="about.team.title">我们的团队</h2>
+                <p class="team-intro" data-i18n="about.team.intro">Selfhost Hub由一群热爱自托管和开源软件的技术爱好者创建和维护。</p>
+
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <img src="images/team/member1.jpg" alt="Team Member">
+                        </div>
+                        <h3>李明</h3>
+                        <p class="member-role">创始人 & 技术负责人</p>
+                        <p class="member-bio">10年自托管经验，热衷于帮助人们掌控自己的数据和服务。</p>
+                        <div class="member-social">
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <img src="images/team/member2.jpg" alt="Team Member">
+                        </div>
+                        <h3>王华</h3>
+                        <p class="member-role">内容负责人</p>
+                        <p class="member-bio">技术写作专家，致力于使复杂的技术概念变得易于理解。</p>
+                        <div class="member-social">
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <img src="images/team/member3.jpg" alt="Team Member">
+                        </div>
+                        <h3>张伟</h3>
+                        <p class="member-role">前端开发</p>
+                        <p class="member-bio">专注于创建美观、易用和无障碍的用户界面。</p>
+                        <div class="member-social">
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <img src="images/team/member4.jpg" alt="Team Member">
+                        </div>
+                        <h3>陈红</h3>
+                        <p class="member-role">社区经理</p>
+                        <p class="member-bio">热爱与社区互动，帮助用户解决自托管挑战。</p>
+                        <div class="member-social">
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-section contact">
+                <h2 data-i18n="about.contact.title">联系我们</h2>
+                <p data-i18n="about.contact.intro">有问题、反馈或想要贡献？我们期待听到您的声音！</p>
+
+                <div class="contact-options">
+                    <div class="contact-option">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 data-i18n="about.contact.email.title">电子邮件</h3>
+                        <p><a href="mailto:contact@selfhost-hub.com">contact@selfhost-hub.com</a></p>
+                    </div>
+                    <div class="contact-option">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3 data-i18n="about.contact.github.title">GitHub</h3>
+                        <p data-i18n="about.contact.github.desc">
+                            在我们的 <a href="https://github.com/selfhost-hub/selfhost-hub" target="_blank"
+                                rel="noopener noreferrer">GitHub 仓库</a>上报告问题或提交Pull Request
+                        </p>
+                    </div>
+                    <div class="contact-option">
+                        <div class="contact-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <h3 data-i18n="about.contact.discord.title">Discord</h3>
+                        <p data-i18n="about.contact.discord.desc">
+                            加入我们的 <a href="https://discord.gg/selfhosthub" target="_blank"
+                                rel="noopener noreferrer">Discord 社区</a>讨论和获取帮助
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 data-i18n="about.cta.title">加入我们的自托管社区</h2>
+            <p data-i18n="about.cta.description">探索自托管服务、分享您的经验并帮助其他人控制他们的数据</p>
+            <div class="cta-buttons">
+                <a href="services.html" class="btn btn-primary" data-i18n="about.cta.explore">探索服务</a>
+                <a href="https://github.com/selfhost-hub/selfhost-hub" class="btn btn-secondary" target="_blank"
+                    rel="noopener noreferrer" data-i18n="about.cta.contribute">参与贡献</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo-white.svg" alt="Selfhost Hub Logo">
+                    <p data-i18n="footer.tagline">您的自托管服务资源中心</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.navigation">导航</h3>
+                        <ul>
+                            <li><a href="index.html" data-i18n="nav.home">首页</a></li>
+                            <li><a href="services.html" data-i18n="nav.services">服务</a></li>
+                            <li><a href="tags.html" data-i18n="nav.tags">标签</a></li>
+                            <li><a href="blog.html" data-i18n="nav.blog">博客</a></li>
+                            <li><a href="about.html" data-i18n="nav.about">关于</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.resources">资源</h3>
+                        <ul>
+                            <li><a href="blog/getting-started.html" data-i18n="footer.gettingStarted">入门指南</a></li>
+                            <li><a href="blog/security.html" data-i18n="footer.security">安全指南</a></li>
+                            <li><a href="blog/faq.html" data-i18n="footer.faq">常见问题</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-i18n="footer.legal">法律</h3>
+                        <ul>
+                            <li><a href="privacy.html" data-i18n="footer.privacy">隐私政策</a></li>
+                            <li><a href="terms.html" data-i18n="footer.terms">使用条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Selfhost Hub. <span data-i18n="footer.copyright">保留所有权利</span>.</p>
+                <div class="social-links">
+                    <a href="https://github.com/selfhost-hub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/selfhosthub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://discord.gg/selfhosthub" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+[
+    {
+        "id": "storage",
+        "name": "存储与备份",
+        "description": "文件存储、同步和备份解决方案，帮助您安全地存储和管理个人数据。",
+        "icon": "fas fa-hdd",
+        "count": 5
+    },
+    {
+        "id": "media",
+        "name": "媒体服务",
+        "description": "自托管的媒体服务器、音乐、视频和图片管理工具，让您完全控制您的媒体收藏。",
+        "icon": "fas fa-film",
+        "count": 4
+    },
+    {
+        "id": "security",
+        "name": "安全与隐私",
+        "description": "密码管理器、加密工具和身份验证服务，保障您的数字生活安全。",
+        "icon": "fas fa-shield-alt",
+        "count": 6
+    },
+    {
+        "id": "automation",
+        "name": "自动化与智能家居",
+        "description": "家庭自动化平台和智能家居控制系统，打造智能化生活环境。",
+        "icon": "fas fa-magic",
+        "count": 3
+    },
+    {
+        "id": "productivity",
+        "name": "生产力工具",
+        "description": "笔记、日历、任务管理和协作工具，提高个人和团队工作效率。",
+        "icon": "fas fa-tasks",
+        "count": 7
+    },
+    {
+        "id": "communication",
+        "name": "通信与社交",
+        "description": "聊天工具、论坛和社交网络平台，建立私密安全的沟通渠道。",
+        "icon": "fas fa-comments",
+        "count": 5
+    },
+    {
+        "id": "development",
+        "name": "开发工具",
+        "description": "代码托管、CI/CD平台和开发环境，为开发者提供完整的工具链。",
+        "icon": "fas fa-code",
+        "count": 4
+    },
+    {
+        "id": "network",
+        "name": "网络工具",
+        "description": "DNS服务器、反向代理、VPN和网络监控工具，优化您的网络环境。",
+        "icon": "fas fa-network-wired",
+        "count": 8
+    },
+    {
+        "id": "monitoring",
+        "name": "监控与分析",
+        "description": "系统监控、日志聚合和数据分析工具，保持对服务状态的实时掌握。",
+        "icon": "fas fa-chart-line",
+        "count": 5
+    }
+]

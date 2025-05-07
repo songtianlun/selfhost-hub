@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "name": "Nextcloud",
+        "description": "强大的开源个人云存储解决方案，可以存储文件、联系人、日历，并支持在线协作编辑文档。",
+        "category": "storage",
+        "tags": [
+            "存储",
+            "协作",
+            "文件共享",
+            "云盘"
+        ],
+        "stars": 18900,
+        "logo": "images/services/nextcloud.png",
+        "website": "https://nextcloud.com",
+        "github": "https://github.com/nextcloud/server",
+        "docker": "https://hub.docker.com/_/nextcloud",
+        "license": "AGPL-3.0",
+        "featured": true,
+        "added": "2023-01-15",
+        "installation": {
+            "docker": "docker run -d -p 8080:80 nextcloud",
+            "compose": "version: '3'\nservices:\n  nextcloud:\n    image: nextcloud\n    ports:\n      - 8080:80\n    volumes:\n      - nextcloud:/var/www/html\nvolumes:\n  nextcloud:",
+            "other": "请参考官方文档进行手动安装"
+        },
+        "contentFile": "nextcloud.md"
+    },
+    {
+        "id": 2,
+        "name": "Jellyfin",
+        "description": "开源的媒体系统，可以组织、管理和流式传输您的媒体。是Plex和Emby的免费开源替代品。",
+        "category": "media",
+        "tags": [
+            "媒体",
+            "流媒体",
+            "视频",
+            "音乐",
+            "电影"
+        ],
+        "stars": 15500,
+        "logo": "images/services/jellyfin.png",
+        "website": "https://jellyfin.org",
+        "github": "https://github.com/jellyfin/jellyfin",
+        "docker": "https://hub.docker.com/r/jellyfin/jellyfin",
+        "license": "GPL-2.0",
+        "featured": true,
+        "added": "2023-02-10",
+        "installation": {
+            "docker": "docker run -d -p 8096:8096 -v /path/to/media:/media jellyfin/jellyfin",
+            "compose": "version: '3'\nservices:\n  jellyfin:\n    image: jellyfin/jellyfin\n    ports:\n      - 8096:8096\n    volumes:\n      - /path/to/media:/media\n      - jellyfin-config:/config\nvolumes:\n  jellyfin-config:",
+            "other": "可从官方网站下载适用于各操作系统的安装包"
+        },
+        "contentFile": "jellyfin.md"
+    },
+    {
+        "id": 3,
+        "name": "Bitwarden",
+        "description": "安全的开源密码管理器，可以在所有设备上存储、共享和同步敏感数据。",
+        "category": "security",
+        "tags": [
+            "安全",
+            "密码管理",
+            "隐私"
+        ],
+        "stars": 27800,
+        "logo": "images/services/bitwarden.png",
+        "website": "https://bitwarden.com",
+        "github": "https://github.com/bitwarden/server",
+        "docker": "https://hub.docker.com/r/bitwarden/self-host",
+        "license": "AGPL-3.0",
+        "featured": true,
+        "added": "2023-01-05",
+        "installation": {
+            "docker": "docker run -d -p 80:80 -p 443:443 bitwarden/self-host",
+            "compose": "version: '3'\nservices:\n  bitwarden:\n    image: bitwarden/self-host\n    ports:\n      - 80:80\n      - 443:443\n    volumes:\n      - bitwarden-data:/data\nvolumes:\n  bitwarden-data:",
+            "other": "推荐使用官方的 Bitwarden_rs 或 Vaultwarden 轻量级替代品"
+        },
+        "contentFile": "bitwarden.md"
+    },
+    {
+        "id": 4,
+        "name": "Home Assistant",
+        "description": "开源的家庭自动化平台，致力于本地控制和隐私优先。可以集成上千种不同的设备和服务。",
+        "category": "automation",
+        "tags": [
+            "智能家居",
+            "自动化",
+            "物联网",
+            "IoT"
+        ],
+        "stars": 58600,
+        "logo": "images/services/home-assistant.png",
+        "website": "https://www.home-assistant.io",
+        "github": "https://github.com/home-assistant/core",
+        "docker": "https://hub.docker.com/r/homeassistant/home-assistant",
+        "license": "Apache-2.0",
+        "featured": false,
+        "added": "2023-03-01",
+        "installation": {
+            "docker": "docker run -d --name=home-assistant -p 8123:8123 -v /path/to/config:/config homeassistant/home-assistant",
+            "compose": "version: '3'\nservices:\n  homeassistant:\n    image: homeassistant/home-assistant\n    ports:\n      - 8123:8123\n    volumes:\n      - /path/to/config:/config\n    restart: unless-stopped",
+            "other": "Home Assistant OS 是一个完整的操作系统，可以在各种硬件上运行"
+        },
+        "contentFile": "home-assistant.md"
+    },
+    {
+        "id": 5,
+        "name": "Gitea",
+        "description": "轻量级的自托管Git服务，类似于GitHub/GitLab，但更加快速和易于安装。",
+        "category": "development",
+        "tags": [
+            "Git",
+            "版本控制",
+            "开发",
+            "代码托管"
+        ],
+        "stars": 34200,
+        "logo": "images/services/gitea.png",
+        "website": "https://gitea.io",
+        "github": "https://github.com/go-gitea/gitea",
+        "docker": "https://hub.docker.com/r/gitea/gitea",
+        "license": "MIT",
+        "featured": false,
+        "added": "2023-02-15",
+        "installation": {
+            "docker": "docker run -d -p 3000:3000 -p 22:22 -v gitea:/data gitea/gitea",
+            "compose": "version: '3'\nservices:\n  gitea:\n    image: gitea/gitea\n    ports:\n      - 3000:3000\n      - 22:22\n    volumes:\n      - gitea:/data\nvolumes:\n  gitea:",
+            "other": "可以直接从二进制文件安装或使用包管理器"
+        },
+        "contentFile": "gitea.md"
+    },
+    {
+        "id": 6,
+        "name": "Pi-hole",
+        "description": "网络级广告和互联网跟踪器拦截应用，可作为DNS服务器部署在您的网络中。",
+        "category": "network",
+        "tags": [
+            "广告拦截",
+            "DNS",
+            "隐私",
+            "网络"
+        ],
+        "stars": 41900,
+        "logo": "images/services/pihole.png",
+        "website": "https://pi-hole.net",
+        "github": "https://github.com/pi-hole/pi-hole",
+        "docker": "https://hub.docker.com/r/pihole/pihole",
+        "license": "EUPL-1.2",
+        "featured": false,
+        "added": "2023-01-20",
+        "installation": {
+            "docker": "docker run -d -p 53:53/tcp -p 53:53/udp -p 80:80 -e TZ=Asia/Shanghai -v pihole:/etc/pihole pihole/pihole",
+            "compose": "version: '3'\nservices:\n  pihole:\n    image: pihole/pihole\n    ports:\n      - 53:53/tcp\n      - 53:53/udp\n      - 80:80\n    environment:\n      TZ: 'Asia/Shanghai'\n    volumes:\n      - pihole:/etc/pihole\nvolumes:\n  pihole:",
+            "other": "可以使用一键安装脚本: curl -sSL https://install.pi-hole.net | bash"
+        },
+        "contentFile": "pihole.md"
+    }
+]

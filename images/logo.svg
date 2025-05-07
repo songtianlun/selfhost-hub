@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="90" fill="#3498db" />
+  
+  <!-- 服务器图标 -->
+  <rect x="60" y="60" width="80" height="80" rx="5" fill="white" />
+  <rect x="70" y="70" width="60" height="10" rx="2" fill="#3498db" />
+  <rect x="70" y="90" width="60" height="10" rx="2" fill="#3498db" />
+  <rect x="70" y="110" width="60" height="10" rx="2" fill="#3498db" />
+  
+  <!-- 连接线 -->
+  <path d="M50,40 L150,40 L150,160 L50,160 Z" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- 家庭图标 -->
+  <path d="M100,20 L130,45 L130,70 L70,70 L70,45 Z" fill="white" />
+</svg> 

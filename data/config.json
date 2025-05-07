@@ -1,0 +1,42 @@
+{
+    "site": {
+        "name": "Selfhost Hub",
+        "tagline": "自托管服务资源中心",
+        "description": "发现、学习和部署自托管服务，掌控您的数字生活。",
+        "url": "https://selfhost-hub.com",
+        "logo": "images/logo.png",
+        "favicon": "images/favicon.ico",
+        "language": "zh",
+        "availableLanguages": [
+            "zh",
+            "en"
+        ],
+        "footerText": "© 2023 Selfhost Hub. 保留所有权利。",
+        "contactEmail": "contact@selfhost-hub.com"
+    },
+    "features": {
+        "featuredServicesCount": 3,
+        "recentBlogsCount": 4,
+        "popularTagsCount": 8,
+        "servicesPerPage": 9,
+        "blogsPerPage": 6
+    },
+    "social": {
+        "github": "https://github.com/selfhost-hub",
+        "twitter": "https://twitter.com/selfhosthub",
+        "telegram": "https://t.me/selfhosthub",
+        "discord": "https://discord.gg/selfhosthub",
+        "matrix": "https://matrix.to/#/#selfhosthub:matrix.org"
+    },
+    "seo": {
+        "titleTemplate": "%s | Selfhost Hub",
+        "defaultTitle": "Selfhost Hub - 自托管服务资源中心",
+        "defaultDescription": "发现、学习和部署最佳的自托管服务，掌控您的数字生活，保护个人数据隐私。",
+        "defaultKeywords": "自托管,私有云,开源软件,数据隐私,家庭服务器",
+        "openGraph": {
+            "siteName": "Selfhost Hub",
+            "type": "website",
+            "image": "images/og-image.jpg"
+        }
+    }
+}

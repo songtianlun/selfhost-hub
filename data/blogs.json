@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "在家庭环境中部署 Nextcloud 的最佳实践",
+        "slug": "nextcloud-home-deployment-best-practices",
+        "author": "张明",
+        "date": "2023-05-15",
+        "tags": [
+            "Nextcloud",
+            "云存储",
+            "自托管",
+            "数据隐私"
+        ],
+        "summary": "详细介绍如何在家庭环境中高效部署 Nextcloud，包括硬件选择、网络配置、安全加固和日常维护。",
+        "image": "images/blog/nextcloud-home.jpg",
+        "contentFile": "nextcloud-home-deployment.md"
+    },
+    {
+        "id": 2,
+        "title": "使用 Docker 和 Traefik 构建自托管服务集群",
+        "slug": "docker-traefik-selfhosted-cluster",
+        "author": "李华",
+        "date": "2023-06-02",
+        "tags": [
+            "Docker",
+            "Traefik",
+            "反向代理",
+            "容器化"
+        ],
+        "summary": "本文将指导您如何使用 Docker 和 Traefik 构建一个功能完整的自托管服务集群，实现自动 HTTPS、负载均衡和服务发现。",
+        "image": "images/blog/docker-traefik.jpg",
+        "contentFile": "docker-traefik-cluster.md"
+    },
+    {
+        "id": 3,
+        "title": "自托管密码管理：Bitwarden vs KeePass",
+        "slug": "selfhosted-password-management-bitwarden-vs-keepass",
+        "author": "王红",
+        "date": "2023-06-20",
+        "tags": [
+            "安全",
+            "密码管理",
+            "Bitwarden",
+            "KeePass"
+        ],
+        "summary": "详细对比两种流行的自托管密码管理解决方案的优缺点，帮助您选择最适合自己需求的工具。",
+        "image": "images/blog/password-management.jpg",
+        "contentFile": "password-management-comparison.md"
+    },
+    {
+        "id": 4,
+        "title": "使用树莓派打造家庭媒体中心",
+        "slug": "raspberry-pi-home-media-center",
+        "author": "赵伟",
+        "date": "2023-07-08",
+        "tags": [
+            "树莓派",
+            "Jellyfin",
+            "媒体服务器",
+            "DIY"
+        ],
+        "summary": "利用树莓派和开源软件 Jellyfin，构建一个低功耗、高效能的家庭媒体中心，享受自托管流媒体的乐趣。",
+        "image": "images/blog/raspberry-pi-media.jpg",
+        "contentFile": "raspberry-pi-media-center.md"
+    },
+    {
+        "id": 5,
+        "title": "自托管服务的备份策略：防患于未然",
+        "slug": "backup-strategies-for-selfhosted-services",
+        "author": "陈磊",
+        "date": "2023-07-25",
+        "tags": [
+            "备份",
+            "数据安全",
+            "灾难恢复",
+            "存储"
+        ],
+        "summary": "探讨自托管服务的全面备份策略，包括本地备份、异地备份、自动化方案和恢复测试，确保您的数据永不丢失。",
+        "image": "images/blog/backup-strategy.jpg",
+        "contentFile": "backup-strategies.md"
+    },
+    {
+        "id": 6,
+        "title": "家庭自动化：Home Assistant 与 Node-RED 的完美结合",
+        "slug": "home-automation-home-assistant-node-red",
+        "author": "林小华",
+        "date": "2023-08-12",
+        "tags": [
+            "智能家居",
+            "Home Assistant",
+            "Node-RED",
+            "自动化"
+        ],
+        "summary": "结合 Home Assistant 和 Node-RED 打造智能家居系统，实现复杂自动化场景，提升生活品质和便利性。",
+        "image": "images/blog/home-automation.jpg",
+        "contentFile": "home-automation-integration.md"
+    }
+]
