@@ -1,0 +1,140 @@
+services:
+  - id: "nextcloud"
+    slug: "nextcloud"
+    name: "Nextcloud"
+    description: "An open-source personal cloud storage platform offering file synchronization, sharing, and collaboration features"
+    image: "/placeholder.svg?height=300&width=400"
+    tags:
+      - "Storage"
+      - "Collaboration"
+      - "Productivity"
+      - "File Sharing"
+    website: "https://nextcloud.com"
+    github: "https://github.com/nextcloud/server"
+    content: |
+      # Nextcloud
+
+      Nextcloud is a powerful personal cloud storage platform that supports file synchronization, sharing, and collaboration. It's completely open-source and can be easily deployed on your own server, giving you full control over your data.
+
+      ## Key Features
+
+      - **File Storage & Sync**: Synchronize your files across devices with multi-platform clients
+      - **Document Collaboration**: Real-time editing of documents, spreadsheets, and presentations
+      - **Calendar & Contacts**: Manage your schedule and address book
+      - **Photo Management**: Organize and share your photo library
+      - **Task Management**: Create and track task lists
+      - **App Ecosystem**: Extend functionality through the app store
+
+      ## Deployment Requirements
+
+      - PHP 7.4+
+      - Database (MySQL/MariaDB/PostgreSQL)
+      - Web server (Apache/Nginx)
+      - Minimum 2GB RAM
+      - Recommended 10GB+ storage space
+
+  - id: "homeassistant"
+    slug: "home-assistant"
+    name: "Home Assistant"
+    description: "Open-source home automation platform with support for integration of numerous devices and services"
+    image: "/placeholder.svg?height=300&width=400"
+    tags:
+      - "Smart Home"
+      - "Automation"
+      - "IoT"
+    website: "https://www.home-assistant.io"
+    github: "https://github.com/home-assistant/core"
+    content: |
+      # Home Assistant
+
+      Home Assistant is an open-source home automation platform designed to integrate all your smart devices into one easy-to-use system. It focuses on privacy protection, storing all data locally and not relying on cloud services.
+
+      ## Key Features
+
+      - **Device Integration**: Support for over 1000 smart devices and services
+      - **Automation**: Create powerful automation rules
+      - **Dashboard**: Customizable user interface
+      - **Energy Monitoring**: Track home energy usage
+      - **Local Control**: No reliance on cloud services, ensuring privacy and security
+
+      ## Deployment Options
+
+      - Home Assistant OS (recommended)
+      - Home Assistant Container
+      - Home Assistant Core
+      - Home Assistant Supervised
+
+      ## Hardware Requirements
+
+      - Recommended Raspberry Pi 4 (2GB+ RAM)
+      - Systems with x86-64 architecture supported
+      - Minimum 32GB storage space
+
+  - id: "jellyfin"
+    slug: "jellyfin"
+    name: "Jellyfin"
+    description: "Open-source media server that allows you to manage and stream your media collection"
+    image: "/placeholder.svg?height=300&width=400"
+    tags:
+      - "Media"
+      - "Streaming"
+      - "Video"
+      - "Music"
+    website: "https://jellyfin.org"
+    github: "https://github.com/jellyfin/jellyfin"
+    content: |
+      # Jellyfin
+
+      Jellyfin is an open-source media server solution that allows you to easily manage and stream your media collection. It contains no commercial components and is completely free to use.
+
+      ## Key Features
+
+      - **Video Streaming**: Support for various video formats and subtitles
+      - **Music Playback**: Manage and play your music library
+      - **Photo Collections**: Organize and view your photos
+      - **Multi-user Support**: Create separate user accounts for family members
+      - **Cross-platform Clients**: Support for mobile devices, TVs, and browsers
+      - **Live TV**: Support for live TV with devices like HDHomeRun
+
+      ## Deployment Requirements
+
+      - .NET 6.0 runtime
+      - Supports multiple operating systems (Linux, Windows, macOS, FreeBSD)
+      - Supported GPU for hardware transcoding (optional)
+      - Recommended minimum 2GB RAM
+      - Sufficient storage space for media
+
+tagGroups:
+  - id: "purpose"
+    name: "Purpose"
+    tags:
+      - "Storage"
+      - "Media"
+      - "Streaming"
+      - "Collaboration"
+      - "Productivity"
+      - "Smart Home"
+      - "Automation"
+      - "Monitoring"
+      - "Security"
+  
+  - id: "technology"
+    name: "Technology"
+    tags:
+      - "Docker"
+      - "Kubernetes"
+      - "Python"
+      - "JavaScript"
+      - "PHP"
+      - "Go"
+      - "Database"
+      - "IoT"
+  
+  - id: "media-type"
+    name: "Media Type"
+    tags:
+      - "Video"
+      - "Music"
+      - "Photos"
+      - "File Sharing"
+      - "Documents"
