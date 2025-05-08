@@ -5,6 +5,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { useLanguage } from "@/components/language-provider"
 import Image from "next/image"
 import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
 
 export function Tag({ tag }: { tag: string }) {
   return (
@@ -25,7 +26,10 @@ export default function ServiceCard({ service }: { service: Service }) {
         </div>
       )}
       <CardContent className="flex-1 flex flex-col p-4">
-        <h3 className="text-xl font-bold mt-2 mb-2">{service.name}</h3>
+        <div className="flex justify-between items-start mb-2">
+          <h3 className="text-xl font-bold">{service.name}</h3>
+          <Badge variant="outline" className="ml-2">{service.category}</Badge>
+        </div>
         <p className="text-muted-foreground line-clamp-3 mb-4 flex-1">{service.description}</p>
         <div className="flex flex-wrap gap-2 mt-auto">
           {service.tags.slice(0, 3).map((tag) => (

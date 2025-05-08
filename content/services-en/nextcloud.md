@@ -7,6 +7,7 @@ tags:
   - "Collaboration"
   - "Productivity"
   - "File Sharing"
+category: "Cloud Storage"
 website: "https://nextcloud.com"
 github: "https://github.com/nextcloud/server"
 #image: "/placeholder.svg?height=300&width=400"

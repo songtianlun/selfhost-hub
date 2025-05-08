@@ -12,6 +12,7 @@ export type Service = {
   description: string
   image?: string
   tags: string[]
+  category: string
   website?: string
   github?: string
   content?: string
@@ -196,18 +197,43 @@ async function loadTagGroups(language: "zh" | "en"): Promise<TagGroup[]> {
   }
 }
 
+// Get all categories
+export async function getAllCategories(language: "zh" | "en"): Promise<string[]> {
+  const services = await loadServicesFromMarkdown(language);
+
+  // 收集所有唯一的分类
+  const categoriesSet = new Set<string>();
+  services.forEach(service => {
+    if (service.category) {
+      categoriesSet.add(service.category);
+    }
+  });
+
+  // 将 Set 转换为数组并排序
+  return Array.from(categoriesSet).sort();
+}
+
 // Get all services
-export async function getAllServices(language: "zh" | "en", filterTags: string[] = []): Promise<Service[]> {
+export async function getAllServices(
+  language: "zh" | "en",
+  filterTags: string[] = [],
+  filterCategory?: string
+): Promise<Service[]> {
   // Load services from Markdown files
   const services = await loadServicesFromMarkdown(language);
 
-  // If no filter tags, return all services
+  // 首先根据分类过滤服务
+  let filteredServices = filterCategory
+    ? services.filter(service => service.category === filterCategory)
+    : services;
+
+  // 如果没有标签过滤，则返回按分类过滤后的服务
   if (!filterTags.length) {
-    return services;
+    return filteredServices;
   }
 
-  // Filter services that have ALL the selected tags
-  return services.filter((service) =>
+  // 继续根据标签过滤服务
+  return filteredServices.filter((service) =>
     filterTags.every((tag) => service.tags.includes(tag))
   );
 }

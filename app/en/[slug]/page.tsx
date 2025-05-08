@@ -50,10 +50,18 @@ export default async function ServicePage({ params }: { params: { slug: string }
               <h1 className="text-4xl font-bold mb-4">{service.name}</h1>
               <p className="text-xl text-muted-foreground mb-6">{service.description}</p>
 
-              <div className="flex flex-wrap gap-2 mb-6">
-                {service.tags.map((tag) => (
-                  <Tag key={tag} tag={tag} />
-                ))}
+              <div className="flex flex-wrap items-center gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 mb-2">
+                  {service.tags.map((tag) => (
+                    <Tag key={tag} tag={tag} />
+                  ))}
+                </div>
+                <div className="flex items-center ml-auto">
+                  <span className="text-sm font-medium text-muted-foreground mr-2">Category:</span>
+                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2.5 py-0.5 text-sm font-medium text-primary">
+                    {service.category}
+                  </span>
+                </div>
               </div>
 
               {service.website && (

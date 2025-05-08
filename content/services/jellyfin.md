@@ -7,6 +7,7 @@ tags:
   - "流媒体"
   - "视频"
   - "音乐"
+category: "媒体服务器"
 website: "https://jellyfin.org"
 github: "https://github.com/jellyfin/jellyfin"
 #image: "/placeholder.svg?height=300&width=400"

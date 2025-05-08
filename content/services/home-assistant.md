@@ -6,6 +6,7 @@ tags:
   - "智能家居"
   - "自动化"
   - "物联网"
+category: "智能家居"
 website: "https://www.home-assistant.io"
 github: "https://github.com/home-assistant/core"
 #image: "/placeholder.svg?height=300&width=400"

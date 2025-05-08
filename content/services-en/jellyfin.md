@@ -7,6 +7,7 @@ tags:
   - "Streaming"
   - "Video"
   - "Music"
+category: "Media Server"
 website: "https://jellyfin.org"
 github: "https://github.com/jellyfin/jellyfin"
 #image: "/placeholder.svg?height=300&width=400"

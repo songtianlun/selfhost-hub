@@ -6,6 +6,7 @@ tags:
   - "Smart Home"
   - "Automation"
   - "IoT"
+category: "Smart Home"
 website: "https://www.home-assistant.io"
 github: "https://github.com/home-assistant/core"
 #image: "/placeholder.svg?height=300&width=400"

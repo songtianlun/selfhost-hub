@@ -7,6 +7,7 @@ tags:
   - "协作"
   - "生产力"
   - "文件共享"
+category: "云存储"
 website: "https://nextcloud.com"
 github: "https://github.com/nextcloud/server"
 #image: "/placeholder.svg?height=300&width=400"
