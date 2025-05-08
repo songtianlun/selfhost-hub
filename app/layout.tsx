@@ -15,6 +15,11 @@ export const metadata: Metadata = {
     default: "SelfHost Hub - 自托管服务和工具目录",
   },
   description: "收集各种可自托管的服务、工具等内容，按标签分类并提供筛选功能",
+  icons: {
+    icon: [
+      { url: "/brand/favicon.svg", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     title: "SelfHost Hub - 自托管服务和工具目录",
     description: "收集各种可自托管的服务、工具等内容，按标签分类并提供筛选功能",

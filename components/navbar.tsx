@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { MoonIcon, SunIcon, Menu, X, Github } from "lucide-react"
@@ -27,7 +28,13 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href={language === "zh" ? "/" : "/en"} className="flex items-center space-x-2">
-            <span className="text-xl font-bold">SelfHost Hub</span>
+            <Image 
+              src="/brand/logo.svg" 
+              alt="SelfHost Hub Logo" 
+              width={120} 
+              height={40} 
+              className="h-auto"
+            />
           </Link>
         </div>
 

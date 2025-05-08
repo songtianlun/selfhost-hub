@@ -1,0 +1,34 @@
+tagGroups:
+  - id: "purpose"
+    name: "Purpose"
+    tags:
+      - "Storage"
+      - "Media"
+      - "Streaming"
+      - "Collaboration"
+      - "Productivity"
+      - "Smart Home"
+      - "Automation"
+      - "Monitoring"
+      - "Security"
+  
+  - id: "technology"
+    name: "Technology"
+    tags:
+      - "Docker"
+      - "Kubernetes"
+      - "Python"
+      - "JavaScript"
+      - "PHP"
+      - "Go"
+      - "Database"
+      - "IoT"
+  
+  - id: "media-type"
+    name: "Media Type"
+    tags:
+      - "Video"
+      - "Music"
+      - "Photos"
+      - "File Sharing"
+      - "Documents" 

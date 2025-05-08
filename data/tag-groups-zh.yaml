@@ -1,0 +1,34 @@
+tagGroups:
+  - id: "purpose"
+    name: "用途"
+    tags:
+      - "存储"
+      - "媒体"
+      - "流媒体"
+      - "协作"
+      - "生产力"
+      - "智能家居"
+      - "自动化"
+      - "监控"
+      - "安全"
+  
+  - id: "technology"
+    name: "技术"
+    tags:
+      - "Docker"
+      - "Kubernetes"
+      - "Python"
+      - "JavaScript"
+      - "PHP"
+      - "Go"
+      - "数据库"
+      - "物联网"
+  
+  - id: "media-type"
+    name: "媒体类型"
+    tags:
+      - "视频"
+      - "音乐"
+      - "照片"
+      - "文件共享"
+      - "文档" 

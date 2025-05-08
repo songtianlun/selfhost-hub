@@ -1,0 +1,6 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="8" fill="#3b82f6"/>
+  <path d="M10 20C10 14.4772 14.4772 10 20 10C25.5228 10 30 14.4772 30 20C30 25.5228 25.5228 30 20 30C14.4772 30 10 25.5228 10 20Z" fill="white"/>
+  <path d="M20 15C17.2386 15 15 17.2386 15 20C15 22.7614 17.2386 25 20 25C22.7614 25 25 22.7614 25 20" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+  <text x="45" y="25" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#1e3a8a">SelfhostHub</text>
+</svg> 
