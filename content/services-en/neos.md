@@ -1,0 +1,14 @@
+---
+id: "neos"
+name: "Neos"
+description: "Neos or TYPO3 Neos (for version 1) is a modern, open source CMS."
+tags:
+  - "GPL-3.0"
+  - "PHP"
+category: "Content Management Systems (CMS)"
+website: "https://www.neos.io"
+github: "https://github.com/neos"
+#image: "/placeholder.svg?height=300&width=400"
+---
+
+# Neos

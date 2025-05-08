@@ -1,0 +1,14 @@
+---
+id: "dspace"
+name: "DSpace"
+description: "Turnkey repository application providing durable access to digital resources."
+tags:
+  - "BSD-3-Clause"
+  - "Java"
+category: "Document Management"
+website: "http://www.dspace.org/"
+github: "https://github.com/DSpace/DSpace"
+#image: "/placeholder.svg?height=300&width=400"
+---
+
+# DSpace

@@ -32,7 +32,9 @@ export type YamlContent = {
 const defaultTagGroups: Record<string, { zh: string; en: string }> = {
   "purpose": { zh: "用途", en: "Purpose" },
   "technology": { zh: "技术", en: "Technology" },
-  "media-type": { zh: "媒体类型", en: "Media Type" }
+  "media-type": { zh: "媒体类型", en: "Media Type" },
+  "license": { zh: "许可证", en: "License" },
+  "others": { zh: "其他", en: "Others" }
 };
 
 // 特定标签的组映射
@@ -60,8 +62,10 @@ const tagToGroupMap: Record<string, string> = {
   "JavaScript": "technology",
   "PHP": "technology",
   "Go": "technology",
+  "C#": "technology",
   "数据库": "technology",
   "物联网": "technology",
+  "deb": "technology",
 
   // 英文标签
   "Storage": "purpose",
@@ -80,6 +84,12 @@ const tagToGroupMap: Record<string, string> = {
   "File Sharing": "media-type",
   "Documents": "media-type",
 
+  // 许可证
+  "AGPL-3.0": "license",
+  "GPL-2.0": "license",
+  "Apache-2.0": "license",
+  "MIT": "license",
+
   "IoT": "technology"
 };
 
@@ -90,13 +100,28 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
     const servicesDirectory = path.join(process.cwd(), "content", contentDir);
     const fileNames = await fs.readdir(servicesDirectory);
 
-    const services = await Promise.all(
-      fileNames.map(async (fileName) => {
+    const services: Service[] = [];
+
+    // 使用 for 循环而不是 Promise.all，这样可以在单个文件解析失败时继续处理其他文件
+    for (const fileName of fileNames) {
+      try {
         const fullPath = path.join(servicesDirectory, fileName);
         const fileContents = await fs.readFile(fullPath, "utf8");
 
         // Use gray-matter to parse the post metadata section
         const { data, content } = matter(fileContents);
+
+        // 确保必要的字段存在
+        if (!data.id || !data.name || !data.description || !data.tags || !data.category) {
+          console.warn(`Skipping ${fileName} due to missing required fields`);
+          continue;
+        }
+
+        // 确保标签是数组
+        if (!Array.isArray(data.tags)) {
+          console.warn(`Skipping ${fileName} because tags is not an array`);
+          continue;
+        }
 
         // Process content with remark to convert markdown into HTML string
         const processedContent = await remark().use(html).process(content);
@@ -105,13 +130,16 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
         // Extract slug from filename
         const slug = fileName.replace(/\.md$/, "");
 
-        return {
+        services.push({
           ...data,
           slug,
           content: contentHtml,
-        } as Service;
-      })
-    );
+        } as Service);
+      } catch (error) {
+        // 记录错误但继续处理其他文件
+        console.error(`Error processing ${fileName}: ${error instanceof Error ? error.message : String(error)}`);
+      }
+    }
 
     return services;
   } catch (error) {
@@ -125,10 +153,13 @@ function generateTagGroupsFromServices(services: Service[], language: "zh" | "en
   // 收集所有唯一标签并统计每个标签的使用次数
   const tagCounts = new Map<string, number>();
   services.forEach(service => {
-    service.tags.forEach(tag => {
-      const count = tagCounts.get(tag) || 0;
-      tagCounts.set(tag, count + 1);
-    });
+    // 确保 tags 是一个数组
+    if (Array.isArray(service.tags)) {
+      service.tags.forEach(tag => {
+        const count = tagCounts.get(tag) || 0;
+        tagCounts.set(tag, count + 1);
+      });
+    }
   });
 
   // 按组分类标签
@@ -142,7 +173,8 @@ function generateTagGroupsFromServices(services: Service[], language: "zh" | "en
   // 将标签分配到相应的组（只包含至少被一个服务使用的标签）
   tagCounts.forEach((count, tag) => {
     if (count > 0) { // 只有使用次数大于 0 的标签才会被包含
-      const groupId = tagToGroupMap[tag] || "purpose"; // 默认放到 purpose 组
+      // 如果标签没有在映射中定义，放入"others"组
+      const groupId = tagToGroupMap[tag] || "others";
       if (!groupedTags[groupId]) {
         groupedTags[groupId] = [];
       }

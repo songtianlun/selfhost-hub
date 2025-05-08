@@ -1,0 +1,14 @@
+---
+id: "kantree"
+name: "Kantree"
+description: "Work management and collaboration."
+tags:
+  - "⊘ Proprietary"
+  - "Python"
+category: "Software Development"
+website: "https://kantree.io"
+github: "https://kantree.io"
+#image: "/placeholder.svg?height=300&width=400"
+---
+
+# Kantree
