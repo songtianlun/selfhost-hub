@@ -6,6 +6,114 @@ import type { Service, TagGroup } from "@/lib/services"
 import ServiceGrid from "@/components/service-grid"
 import { TagFilter } from "@/components/tag-filter"
 import { CategoryFilter } from "@/components/category-filter"
+import { useRouter, usePathname } from "next/navigation"
+import { useLanguage } from "@/components/language-provider"
+import { Badge } from "@/components/ui/badge"
+import { X } from "lucide-react"
+
+// 筛选状态显示组件
+function FilterStatus({
+    selectedCategory,
+    selectedTags,
+    filteredCount,
+    totalCount
+}: {
+    selectedCategory?: string,
+    selectedTags: string[],
+    filteredCount: number,
+    totalCount: number
+}) {
+    const { translations, language } = useLanguage()
+    const router = useRouter()
+    const pathname = usePathname()
+    const searchParams = useSearchParams()
+
+    // 没有筛选条件时不显示
+    if (!selectedCategory && selectedTags.length === 0) {
+        return null
+    }
+
+    // 清除所有筛选
+    const clearAllFilters = () => {
+        router.push(pathname)
+    }
+
+    // 移除单个标签
+    const removeTag = (tag: string) => {
+        const params = new URLSearchParams(searchParams.toString())
+        params.delete("tags")
+        const newTags = selectedTags.filter(t => t !== tag)
+        newTags.forEach(t => params.append("tags", t))
+        router.push(`${pathname}?${params.toString()}`)
+    }
+
+    // 移除分类
+    const removeCategory = () => {
+        const params = new URLSearchParams(searchParams.toString())
+        params.delete("category")
+        router.push(`${pathname}?${params.toString()}`)
+    }
+
+    // 多语言结果数量显示
+    const getResultCountText = () => {
+        if (filteredCount === totalCount) {
+            return language === 'zh'
+                ? `共 ${filteredCount} 个服务`
+                : `Total: ${filteredCount} services`;
+        } else {
+            return language === 'zh'
+                ? `筛选出 ${filteredCount}/${totalCount} 个服务`
+                : `Filtered: ${filteredCount} of ${totalCount} services`;
+        }
+    };
+
+    return (
+        <div className="mb-6 p-4 bg-muted/30 rounded-lg">
+            <div className="flex flex-wrap items-center gap-3 mb-3">
+                <span className="text-sm font-medium text-muted-foreground">
+                    {translations.selectedFilters}:
+                </span>
+
+                {selectedCategory && (
+                    <Badge variant="outline" className="flex items-center gap-1 pl-3 pr-2 py-1.5">
+                        <span className="text-xs font-medium">{selectedCategory}</span>
+                        <button
+                            onClick={removeCategory}
+                            className="ml-1 text-muted-foreground hover:text-foreground rounded-full"
+                            aria-label={language === 'zh' ? `移除分类 ${selectedCategory}` : `Remove category ${selectedCategory}`}
+                        >
+                            <X className="h-3 w-3" />
+                        </button>
+                    </Badge>
+                )}
+
+                {selectedTags.map(tag => (
+                    <Badge key={tag} variant="secondary" className="flex items-center gap-1 pl-3 pr-2 py-1.5">
+                        <span className="text-xs font-medium">{tag}</span>
+                        <button
+                            onClick={() => removeTag(tag)}
+                            className="ml-1 text-muted-foreground hover:text-foreground rounded-full"
+                            aria-label={language === 'zh' ? `移除标签 ${tag}` : `Remove tag ${tag}`}
+                        >
+                            <X className="h-3 w-3" />
+                        </button>
+                    </Badge>
+                ))}
+
+                <button
+                    onClick={clearAllFilters}
+                    className="text-xs text-primary hover:text-primary/80 font-medium"
+                >
+                    {translations.clearFilters}
+                </button>
+            </div>
+
+            <div className="text-sm text-muted-foreground">
+                {getResultCountText()}
+            </div>
+        </div>
+    )
+}
 
 // 创建一个内部组件来使用 useSearchParams
 function ServiceFilterInner({
@@ -54,13 +162,22 @@ function ServiceFilterInner({
     }, [allServices, selectedTags, selectedCategory]);
 
     return (
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
-            <div className="lg:col-span-1 space-y-6">
-                <CategoryFilter categories={categories} selectedCategory={selectedCategory} />
-                <TagFilter tagGroups={tagGroups} selectedTags={selectedTags} />
-            </div>
-            <div className="lg:col-span-3">
-                <ServiceGrid services={filteredServices} />
+        <div className="space-y-6">
+            <FilterStatus
+                selectedCategory={selectedCategory}
+                selectedTags={selectedTags}
+                filteredCount={filteredServices.length}
+                totalCount={allServices.length}
+            />
+
+            <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
+                <div className="lg:col-span-1 space-y-6">
+                    <CategoryFilter categories={categories} selectedCategory={selectedCategory} />
+                    <TagFilter tagGroups={tagGroups} selectedTags={selectedTags} />
+                </div>
+                <div className="lg:col-span-3">
+                    <ServiceGrid services={filteredServices} />
+                </div>
             </div>
         </div>
     );

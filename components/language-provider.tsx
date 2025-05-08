@@ -24,6 +24,7 @@ type Translations = {
   categories: string
   clearFilter: string
   filterByCategory: string
+  selectedFilters: string
 }
 
 const translations: Record<Language, Translations> = {
@@ -45,6 +46,7 @@ const translations: Record<Language, Translations> = {
     categories: "分类",
     clearFilter: "清除筛选",
     filterByCategory: "按分类筛选",
+    selectedFilters: "已选择筛选"
   },
   en: {
     home: "Home",
@@ -64,6 +66,7 @@ const translations: Record<Language, Translations> = {
     categories: "Categories",
     clearFilter: "Clear Filter",
     filterByCategory: "Filter by Category",
+    selectedFilters: "Selected Filters"
   },
 }
 

@@ -45,39 +45,11 @@ function TagFilterInner({
     router.push(`${pathname}?${params.toString()}`)
   }
 
-  // Clear all filters
-  const clearFilters = () => {
-    router.push(pathname)
-  }
-
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
         <h3 className="text-lg font-semibold">{translations.filterByTags}</h3>
       </div>
-
-      {selectedTags.length > 0 && (
-        <div className="mb-4 p-3 bg-muted/50 rounded-md">
-          <p className="text-sm font-medium mb-2">{translations.selectedTags}:</p>
-          <div className="flex flex-wrap gap-2">
-            {selectedTags.map((tag) => (
-              <span
-                key={tag}
-                className="inline-flex items-center rounded-md bg-primary/10 px-2.5 py-1 text-xs font-medium text-primary cursor-pointer hover:bg-primary/20 transition-colors"
-                onClick={() => toggleTag(tag)}
-              >
-                {tag} &times;
-              </span>
-            ))}
-            <button
-              onClick={clearFilters}
-              className="inline-flex items-center rounded-md bg-muted px-2.5 py-1 text-xs font-medium hover:bg-muted/80 transition-colors"
-            >
-              {translations.clearFilters}
-            </button>
-          </div>
-        </div>
-      )}
 
       <Accordion type="multiple" className="w-full" value={expandedGroups}>
         {tagGroups.map((group) => (
