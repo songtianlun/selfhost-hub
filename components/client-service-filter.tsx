@@ -1,13 +1,14 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import type { Service, TagGroup } from "@/lib/services"
 import ServiceGrid from "@/components/service-grid"
 import { TagFilter } from "@/components/tag-filter"
 import { CategoryFilter } from "@/components/category-filter"
 
-export function ClientServiceFilter({
+// 创建一个内部组件来使用 useSearchParams
+function ServiceFilterInner({
     allServices,
     tagGroups,
     categories
@@ -62,5 +63,33 @@ export function ClientServiceFilter({
                 <ServiceGrid services={filteredServices} />
             </div>
         </div>
+    );
+}
+
+// 外部组件使用 Suspense 包装内部组件
+export function ClientServiceFilter(props: {
+    allServices: Service[]
+    tagGroups: TagGroup[]
+    categories: string[]
+}) {
+    return (
+        <Suspense fallback={
+            <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
+                <div className="lg:col-span-1 space-y-6">
+                    {/* 加载中的占位符 */}
+                    <div className="border rounded-md p-4 h-[400px] animate-pulse" />
+                </div>
+                <div className="lg:col-span-3">
+                    {/* 服务列表加载中占位符 */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        {[...Array(6)].map((_, i) => (
+                            <div key={i} className="border rounded-md p-4 h-[200px] animate-pulse" />
+                        ))}
+                    </div>
+                </div>
+            </div>
+        }>
+            <ServiceFilterInner {...props} />
+        </Suspense>
     );
 } 

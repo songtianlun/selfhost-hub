@@ -1,13 +1,14 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import { useRouter, usePathname, useSearchParams } from "next/navigation"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Checkbox } from "@/components/ui/checkbox"
 import type { TagGroup } from "@/lib/services"
 import { useLanguage } from "@/components/language-provider"
 
-export function TagFilter({
+// 内部组件使用 useSearchParams
+function TagFilterInner({
   tagGroups,
   selectedTags = [],
 }: {
@@ -108,4 +109,25 @@ export function TagFilter({
       </Accordion>
     </div>
   )
+}
+
+// 外部组件使用 Suspense 包装内部组件
+export function TagFilter(props: {
+  tagGroups: TagGroup[]
+  selectedTags: string[]
+}) {
+  return (
+    <Suspense fallback={
+      <div className="space-y-4 animate-pulse">
+        <div className="h-8 w-40 bg-muted rounded-md"></div>
+        <div className="space-y-2">
+          {[...Array(3)].map((_, i) => (
+            <div key={i} className="h-10 bg-muted rounded-md"></div>
+          ))}
+        </div>
+      </div>
+    }>
+      <TagFilterInner {...props} />
+    </Suspense>
+  );
 }

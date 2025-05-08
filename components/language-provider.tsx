@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import { createContext, useContext, useState, useEffect } from "react"
+import { createContext, useContext, useState, useEffect, Suspense } from "react"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 
 type Language = "zh" | "en"
@@ -75,7 +75,8 @@ type LanguageContextType = {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
+// 内部组件使用 useSearchParams 和 useRouter
+function LanguageProviderInner({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>("zh")
   const pathname = usePathname()
   const router = useRouter()
@@ -123,6 +124,15 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     >
       {children}
     </LanguageContext.Provider>
+  )
+}
+
+// 导出主组件，使用 Suspense 包装内部组件
+export function LanguageProvider({ children }: { children: React.ReactNode }) {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LanguageProviderInner>{children}</LanguageProviderInner>
+    </Suspense>
   )
 }
 

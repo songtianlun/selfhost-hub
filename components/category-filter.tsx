@@ -1,22 +1,22 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import { useRouter, usePathname, useSearchParams } from "next/navigation"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { useLanguage } from "@/components/language-provider"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "@/components/ui/label"
+import { cn } from "@/lib/utils"
 
-export function CategoryFilter({ categories, selectedCategory }: { categories: string[], selectedCategory?: string }) {
+// 包含 useSearchParams 的内部组件
+function CategoryFilterContent({ categories, selectedCategory }: { categories: string[], selectedCategory?: string }) {
     const router = useRouter()
     const pathname = usePathname()
     const searchParams = useSearchParams()
     const { translations } = useLanguage()
-    const [expanded, setExpanded] = useState<boolean>(true)
 
     // 处理分类点击
     const handleCategoryClick = (category: string) => {
-        const params = new URLSearchParams(searchParams)
+        const params = new URLSearchParams(searchParams.toString())
 
         if (category === selectedCategory) {
             // 如果点击的是已选中的分类，则移除该分类筛选
@@ -29,12 +29,40 @@ export function CategoryFilter({ categories, selectedCategory }: { categories: s
         router.push(`${pathname}?${params.toString()}`)
     }
 
-    // 清除筛选
-    const clearFilters = () => {
-        const params = new URLSearchParams(searchParams)
-        params.delete("category")
-        router.push(`${pathname}?${params.toString()}`)
-    }
+    return (
+        <div className="space-y-2 pl-2">
+            {categories.map((category) => (
+                <div
+                    key={category}
+                    className="flex items-center space-x-2 py-1 cursor-pointer"
+                    onClick={() => handleCategoryClick(category)}
+                >
+                    {/* 自定义单选框，支持取消选择 */}
+                    <div
+                        className={cn(
+                            "h-4 w-4 rounded-full border flex items-center justify-center",
+                            selectedCategory === category
+                                ? "border-primary"
+                                : "border-muted-foreground/50"
+                        )}
+                    >
+                        {selectedCategory === category && (
+                            <div className="h-2 w-2 rounded-full bg-primary" />
+                        )}
+                    </div>
+                    <span className="text-sm font-medium leading-none">
+                        {category}
+                    </span>
+                </div>
+            ))}
+        </div>
+    )
+}
+
+// 主组件使用 Suspense 包裹内部组件
+export function CategoryFilter({ categories, selectedCategory }: { categories: string[], selectedCategory?: string }) {
+    const { translations } = useLanguage()
+    const [expanded, setExpanded] = useState<boolean>(true)
 
     return (
         <div className="space-y-4">
@@ -42,48 +70,23 @@ export function CategoryFilter({ categories, selectedCategory }: { categories: s
                 <h3 className="text-lg font-semibold">{translations.filterByCategory || "按分类筛选"}</h3>
             </div>
 
-            {selectedCategory && (
-                <div className="mb-4 p-3 bg-muted/50 rounded-md">
-                    <p className="text-sm font-medium mb-2">{translations.categories || "分类"}:</p>
-                    <div className="flex flex-wrap gap-2">
-                        <span
-                            className="inline-flex items-center rounded-md bg-primary/10 px-2.5 py-1 text-xs font-medium text-primary cursor-pointer hover:bg-primary/20 transition-colors"
-                            onClick={() => handleCategoryClick(selectedCategory)}
-                        >
-                            {selectedCategory} &times;
-                        </span>
-                        <button
-                            onClick={clearFilters}
-                            className="inline-flex items-center rounded-md bg-muted px-2.5 py-1 text-xs font-medium hover:bg-muted/80 transition-colors"
-                        >
-                            {translations.clearFilter || "清除筛选"}
-                        </button>
-                    </div>
-                </div>
-            )}
-
-            <Accordion type="single" collapsible className="w-full" value={expanded ? "categories" : ""} onValueChange={(value) => setExpanded(!!value)}>
+            <Accordion
+                type="single"
+                collapsible
+                className="w-full"
+                value={expanded ? "categories" : ""}
+                onValueChange={(value) => setExpanded(!!value)}
+                defaultValue="categories"
+            >
                 <AccordionItem value="categories">
                     <AccordionTrigger className="text-sm">{translations.categories || "分类"}</AccordionTrigger>
                     <AccordionContent>
-                        <div className="space-y-2 pl-2">
-                            <RadioGroup value={selectedCategory} onValueChange={handleCategoryClick}>
-                                {categories.map((category) => (
-                                    <div key={category} className="flex items-center space-x-2">
-                                        <RadioGroupItem
-                                            id={`category-${category}`}
-                                            value={category}
-                                        />
-                                        <Label
-                                            htmlFor={`category-${category}`}
-                                            className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
-                                        >
-                                            {category}
-                                        </Label>
-                                    </div>
-                                ))}
-                            </RadioGroup>
-                        </div>
+                        <Suspense fallback={<div className="py-2 text-sm">加载中...</div>}>
+                            <CategoryFilterContent
+                                categories={categories}
+                                selectedCategory={selectedCategory}
+                            />
+                        </Suspense>
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
