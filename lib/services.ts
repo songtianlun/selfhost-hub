@@ -114,6 +114,7 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
         // 确保必要的字段存在
         if (!data.id || !data.name || !data.description || !data.tags || !data.category) {
           console.warn(`Skipping ${fileName} due to missing required fields`);
+          console.warn(`ID: [${data.id}] Name: [${data.name}] Description: [${data.description}] Tags: [${data.tags}] Category: [${data.category}]`);
           continue;
         }
 

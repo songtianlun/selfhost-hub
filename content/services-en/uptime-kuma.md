@@ -1,7 +1,7 @@
 ---
 id: "uptime-kuma"
 name: "Uptime Kuma"
-description: "Self-hosted website monitoring tool like "Uptime Robot"."
+description: "Self-hosted website monitoring tool like \"Uptime Robot\"."
 tags:
   - "MIT"
   - "Docker"

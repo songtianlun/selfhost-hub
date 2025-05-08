@@ -1,7 +1,7 @@
 ---
 id: "fenrus"
 name: "Fenrus"
-description: "Personal home page that allows for multiple users, guest access and multiple dashboards for each user. It also has "Smart Apps" which display live data for those apps."
+description: "Personal home page that allows for multiple users, guest access and multiple dashboards for each user. It also has \"Smart Apps\" which display live data for those apps."
 tags:
   - "GPL-3.0"
   - ".NET"
