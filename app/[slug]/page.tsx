@@ -79,13 +79,15 @@ export default async function ServicePage({ params }: { params: { slug: string }
             </div>
 
             <div className="flex-shrink-0 w-full md:w-1/3">
-              <Image
-                src={service.image || "/placeholder.svg"}
-                alt={service.name}
-                width={400}
-                height={300}
-                className="rounded-md object-cover w-full"
-              />
+              {service.image && (
+                <Image
+                  src={service.image}
+                  alt={service.name}
+                  width={400}
+                  height={300}
+                  className="rounded-md object-cover w-full"
+                />
+              )}
             </div>
           </div>
         </div>

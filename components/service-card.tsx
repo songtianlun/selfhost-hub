@@ -19,9 +19,11 @@ export default function ServiceCard({ service }: { service: Service }) {
 
   return (
     <Card className="overflow-hidden h-full flex flex-col">
-      <div className="relative aspect-video overflow-hidden">
-        <Image src={service.image || "/placeholder.svg"} alt={service.name} fill className="object-cover" />
-      </div>
+      {service.image && (
+        <div className="relative aspect-video overflow-hidden">
+          <Image src={service.image} alt={service.name} fill className="object-cover" />
+        </div>
+      )}
       <CardContent className="flex-1 flex flex-col p-4">
         <h3 className="text-xl font-bold mt-2 mb-2">{service.name}</h3>
         <p className="text-muted-foreground line-clamp-3 mb-4 flex-1">{service.description}</p>
