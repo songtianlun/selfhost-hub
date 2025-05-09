@@ -6,7 +6,7 @@ tags:
   - "存储"
   - "文件共享"
   - "Go"
-category: "文件管理"
+category: "文件存储"
 website: "https://alist.nn.ci"
 github: "https://github.com/alist-org/alist"
 ---
