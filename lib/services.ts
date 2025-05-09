@@ -106,6 +106,14 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
     for (const fileName of fileNames) {
       try {
         const fullPath = path.join(servicesDirectory, fileName);
+
+        // 检查是否为文件，跳过目录
+        const stat = await fs.stat(fullPath);
+        if (!stat.isFile()) {
+          console.log(`Skipping directory: ${fileName}`);
+          continue;
+        }
+
         const fileContents = await fs.readFile(fullPath, "utf8");
 
         // Use gray-matter to parse the post metadata section
@@ -138,7 +146,7 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
         } as Service);
       } catch (error) {
         // 记录错误但继续处理其他文件
-        console.error(`Error processing ${fileName}: ${error instanceof Error ? error.message : String(error)}`);
+        console.error(`Error processing [${fileName}]: ${error instanceof Error ? error.message : String(error)}`);
       }
     }
 
