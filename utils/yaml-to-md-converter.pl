@@ -133,7 +133,7 @@ sub convert_yaml_to_md {
     print $md_fh "---\n\n";
     
     # Add main content - just the name as a header
-    print $md_fh "# $safe_name\n";
+    # print $md_fh "# $safe_name\n";
     
     close($md_fh);
 }

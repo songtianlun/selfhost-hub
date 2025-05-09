@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils"
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme()
-  const { language, setLanguage, translations } = useLanguage()
+  const { language, setLanguage, translations, isChangingLanguage } = useLanguage()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
 
@@ -73,8 +73,14 @@ export default function Navbar() {
             size="icon"
             onClick={() => setLanguage(language === "zh" ? "en" : "zh")}
             aria-label={translations.switchLanguage}
+            disabled={isChangingLanguage}
+            className="relative"
           >
-            <span className="text-sm font-medium">{language === "zh" ? "EN" : "中"}</span>
+            {isChangingLanguage ? (
+              <div className="h-4 w-4 animate-spin rounded-full border-2 border-primary border-t-transparent"></div>
+            ) : (
+              <span className="text-sm font-medium">{language === "zh" ? "EN" : "中"}</span>
+            )}
           </Button>
 
           <Button
@@ -150,8 +156,13 @@ export default function Navbar() {
                 setIsMenuOpen(false)
               }}
               className="w-full justify-start"
+              disabled={isChangingLanguage}
             >
-              {translations.switchLanguage}: {language === "zh" ? "English" : "中文"}
+              {isChangingLanguage ? (
+                <div className="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-primary border-t-transparent"></div>
+              ) : (
+                <>{translations.switchLanguage}: {language === "zh" ? "English" : "中文"}</>
+              )}
             </Button>
 
             <Button asChild variant="outline" className="w-full justify-start">

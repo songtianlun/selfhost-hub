@@ -6,6 +6,12 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { LanguageProvider } from "@/components/language-provider"
+import { preloadAllData } from "@/lib/services"
+
+// 预加载所有语言数据
+preloadAllData()
+  .then(() => console.log("预加载数据完成"))
+  .catch(error => console.error("预加载数据失败:", error));
 
 const inter = Inter({ subsets: ["latin"] })
 

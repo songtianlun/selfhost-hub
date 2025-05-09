@@ -3,6 +3,7 @@
 import type React from "react"
 import { createContext, useContext, useState, useEffect, Suspense } from "react"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import { useTransition } from "react"
 
 type Language = "zh" | "en"
 
@@ -74,6 +75,7 @@ type LanguageContextType = {
   language: Language
   setLanguage: (language: Language) => void
   translations: Translations
+  isChangingLanguage: boolean
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
@@ -84,6 +86,10 @@ function LanguageProviderInner({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
   const router = useRouter()
   const searchParams = useSearchParams()
+  const [isPending, startTransition] = useTransition()
+
+  // 语言切换进行中的状态
+  const [isChangingLanguage, setIsChangingLanguage] = useState(false)
 
   // Initialize language based on path
   useEffect(() => {
@@ -94,25 +100,38 @@ function LanguageProviderInner({ children }: { children: React.ReactNode }) {
     }
   }, [pathname])
 
+  // 在语言切换成功后重置状态
+  useEffect(() => {
+    if (isChangingLanguage) {
+      setIsChangingLanguage(false)
+    }
+  }, [pathname, isChangingLanguage])
+
   // Handle language change
   const handleSetLanguage = (newLanguage: Language) => {
+    // 设置语言切换中状态
+    setIsChangingLanguage(true)
+
     // 获取当前的查询参数
     const params = new URLSearchParams(searchParams.toString())
     const queryString = params.toString() ? `?${params.toString()}` : ""
 
-    // 从英文切换到中文
-    if (newLanguage === "zh" && pathname.startsWith("/en")) {
-      // 正确处理 /en, /en/, /en/tags 等各种情况
-      const newPath = pathname === "/en" || pathname === "/en/"
-        ? "/"
-        : pathname.replace(/^\/en/, "")
+    // 使用startTransition优化路由切换
+    startTransition(() => {
+      // 从英文切换到中文
+      if (newLanguage === "zh" && pathname.startsWith("/en")) {
+        // 正确处理 /en, /en/, /en/tags 等各种情况
+        const newPath = pathname === "/en" || pathname === "/en/"
+          ? "/"
+          : pathname.replace(/^\/en/, "")
 
-      router.push(`${newPath}${queryString}`)
-    }
-    // 从中文切换到英文
-    else if (newLanguage === "en" && !pathname.startsWith("/en")) {
-      router.push(`/en${pathname === "/" ? "" : pathname}${queryString}`)
-    }
+        router.push(`${newPath}${queryString}`)
+      }
+      // 从中文切换到英文
+      else if (newLanguage === "en" && !pathname.startsWith("/en")) {
+        router.push(`/en${pathname === "/" ? "" : pathname}${queryString}`)
+      }
+    })
 
     setLanguage(newLanguage)
   }
@@ -123,6 +142,7 @@ function LanguageProviderInner({ children }: { children: React.ReactNode }) {
         language,
         setLanguage: handleSetLanguage,
         translations: translations[language],
+        isChangingLanguage
       }}
     >
       {children}

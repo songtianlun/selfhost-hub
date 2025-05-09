@@ -5,6 +5,22 @@ import { remark } from "remark"
 import html from "remark-html"
 import matter from "gray-matter"
 
+// 缓存机制
+const cache = {
+  services: {
+    zh: null as Service[] | null,
+    en: null as Service[] | null,
+  },
+  tagGroups: {
+    zh: null as TagGroup[] | null,
+    en: null as TagGroup[] | null,
+  },
+  categories: {
+    zh: null as string[] | null,
+    en: null as string[] | null,
+  },
+};
+
 export type Service = {
   id: string
   slug: string
@@ -95,6 +111,11 @@ const tagToGroupMap: Record<string, string> = {
 
 // Load services from Markdown files
 async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[]> {
+  // 检查缓存
+  if (cache.services[language]) {
+    return cache.services[language]!;
+  }
+
   try {
     const contentDir = language === "zh" ? "services" : "services-en";
     const servicesDirectory = path.join(process.cwd(), "content", contentDir);
@@ -150,6 +171,8 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
       }
     }
 
+    // 保存到缓存
+    cache.services[language] = services;
     return services;
   } catch (error) {
     console.error(`Error loading services from Markdown for ${language}:`, error);
@@ -203,11 +226,17 @@ function generateTagGroupsFromServices(services: Service[], language: "zh" | "en
 
 // 加载标签组
 async function loadTagGroups(language: "zh" | "en"): Promise<TagGroup[]> {
+  // 检查缓存
+  if (cache.tagGroups[language]) {
+    return cache.tagGroups[language]!;
+  }
+
   try {
     // 尝试从自定义 YAML 文件加载标签组
     const filePath = path.join(process.cwd(), "data", `tag-groups-${language}.yaml`);
     const fileExists = await fs.stat(filePath).then(() => true).catch(() => false);
 
+    let tagGroups;
     if (fileExists) {
       const fileContents = await fs.readFile(filePath, "utf8");
       const content = yaml.load(fileContents) as YamlContent;
@@ -220,17 +249,19 @@ async function loadTagGroups(language: "zh" | "en"): Promise<TagGroup[]> {
       });
 
       // 过滤标签组，只保留实际使用的标签
-      const filteredTagGroups = content.tagGroups.map(group => ({
+      tagGroups = content.tagGroups.map(group => ({
         ...group,
         tags: group.tags.filter(tag => usedTags.has(tag))
       })).filter(group => group.tags.length > 0); // 只保留非空标签组
-
-      return filteredTagGroups;
     } else {
       // 如果文件不存在，从 Markdown 服务数据生成标签组
       const services = await loadServicesFromMarkdown(language);
-      return generateTagGroupsFromServices(services, language);
+      tagGroups = generateTagGroupsFromServices(services, language);
     }
+
+    // 保存到缓存
+    cache.tagGroups[language] = tagGroups;
+    return tagGroups;
   } catch (error) {
     console.error(`Error loading tag groups for ${language}:`, error);
     // 出错时返回一个空数组
@@ -240,6 +271,11 @@ async function loadTagGroups(language: "zh" | "en"): Promise<TagGroup[]> {
 
 // Get all categories
 export async function getAllCategories(language: "zh" | "en"): Promise<string[]> {
+  // 检查缓存
+  if (cache.categories[language]) {
+    return cache.categories[language]!;
+  }
+
   const services = await loadServicesFromMarkdown(language);
 
   // 收集所有唯一的分类
@@ -251,7 +287,11 @@ export async function getAllCategories(language: "zh" | "en"): Promise<string[]>
   });
 
   // 将 Set 转换为数组并排序
-  return Array.from(categoriesSet).sort();
+  const categories = Array.from(categoriesSet).sort();
+
+  // 保存到缓存
+  cache.categories[language] = categories;
+  return categories;
 }
 
 // Get all services
@@ -300,4 +340,17 @@ export async function getServiceBySlug(slug: string, language: "zh" | "en"): Pro
 export async function getAllServiceSlugs(language: "zh" | "en"): Promise<string[]> {
   const services = await getAllServices(language);
   return services.map((service) => service.slug);
+}
+
+// 预加载所有数据，可以在应用启动时调用
+export async function preloadAllData(): Promise<void> {
+  // 并行预加载中英文数据
+  await Promise.all([
+    loadServicesFromMarkdown("zh"),
+    loadServicesFromMarkdown("en"),
+    getTags("zh"),
+    getTags("en"),
+    getAllCategories("zh"),
+    getAllCategories("en")
+  ]);
 }
