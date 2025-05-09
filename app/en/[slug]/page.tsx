@@ -10,7 +10,8 @@ export async function generateMetadata({
 }: {
   params: { slug: string }
 }): Promise<Metadata> {
-  const service = await getServiceBySlug(params.slug, "en")
+  const resolvedParams = await params
+  const service = await getServiceBySlug(resolvedParams.slug, "en")
   if (!service) return {}
 
   return {
@@ -31,7 +32,8 @@ export async function generateStaticParams() {
 }
 
 export default async function ServicePage({ params }: { params: { slug: string } }) {
-  const service = await getServiceBySlug(params.slug, "en")
+  const resolvedParams = await params
+  const service = await getServiceBySlug(resolvedParams.slug, "en")
 
   if (!service) {
     notFound()
