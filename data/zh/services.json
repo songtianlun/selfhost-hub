@@ -1,0 +1,98 @@
+[
+    {
+        "slug": "nextcloud",
+        "name": "Nextcloud",
+        "description": "一个开源的文件同步和共享解决方案，让您可以掌控自己的数据。",
+        "category": "文件共享",
+        "tags": [
+            "开源",
+            "Docker",
+            "PHP",
+            "多用户",
+            "安全"
+        ],
+        "image": "/images/services/nextcloud.png",
+        "website": "https://nextcloud.com/",
+        "github": "https://github.com/nextcloud/server"
+    },
+    {
+        "slug": "jellyfin",
+        "name": "Jellyfin",
+        "description": "免费开源的媒体系统，可以自托管您的电影、电视和音乐收藏。",
+        "category": "多媒体",
+        "tags": [
+            "开源",
+            "Docker",
+            "C#",
+            "跨平台",
+            "多用户"
+        ],
+        "image": "/images/services/jellyfin.png",
+        "website": "https://jellyfin.org/",
+        "github": "https://github.com/jellyfin/jellyfin"
+    },
+    {
+        "slug": "gitea",
+        "name": "Gitea",
+        "description": "一个轻量级的自托管Git服务，用Go语言编写。易于安装，资源消耗低。",
+        "category": "开发工具",
+        "tags": [
+            "Git",
+            "开源",
+            "Go",
+            "轻量级",
+            "Docker"
+        ],
+        "image": "/images/services/gitea.png",
+        "website": "https://gitea.io/",
+        "github": "https://github.com/go-gitea/gitea"
+    },
+    {
+        "slug": "grafana",
+        "name": "Grafana",
+        "description": "用于监控和可视化数据的开源平台，支持多种数据源，可创建漂亮的仪表盘。",
+        "category": "监控工具",
+        "tags": [
+            "监控",
+            "开源",
+            "Docker",
+            "高性能",
+            "Go"
+        ],
+        "image": "/images/services/grafana.png",
+        "website": "https://grafana.com/",
+        "github": "https://github.com/grafana/grafana"
+    },
+    {
+        "slug": "bitwarden_rs",
+        "name": "Vaultwarden",
+        "description": "Bitwarden 服务器 API 的轻量级替代品，使用 Rust 编写，资源消耗极低。",
+        "category": "自托管",
+        "tags": [
+            "密码管理",
+            "安全",
+            "加密",
+            "Rust",
+            "Docker"
+        ],
+        "image": "/images/services/vaultwarden.png",
+        "website": "https://github.com/dani-garcia/vaultwarden",
+        "github": "https://github.com/dani-garcia/vaultwarden"
+    },
+    {
+        "slug": "home-assistant",
+        "name": "Home Assistant",
+        "description": "开源的家庭自动化平台，可以控制所有智能家居设备，专注于本地控制和隐私。",
+        "category": "自托管",
+        "tags": [
+            "Python",
+            "物联网",
+            "自动化",
+            "开源",
+            "Docker"
+        ],
+        "image": "/images/services/home-assistant.png",
+        "website": "https://www.home-assistant.io/",
+        "github": "https://github.com/home-assistant/core"
+    }
+]

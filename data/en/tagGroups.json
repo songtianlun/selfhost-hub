@@ -1,0 +1,64 @@
+[
+    {
+        "id": "platform",
+        "name": "Platform",
+        "tags": [
+            "Docker",
+            "Kubernetes",
+            "Linux",
+            "Windows",
+            "MacOS",
+            "Cross Platform"
+        ]
+    },
+    {
+        "id": "language",
+        "name": "Programming Language",
+        "tags": [
+            "JavaScript",
+            "Python",
+            "Go",
+            "Rust",
+            "PHP",
+            "Java",
+            "C#",
+            "Ruby",
+            "C++"
+        ]
+    },
+    {
+        "id": "deployment",
+        "name": "Deployment",
+        "tags": [
+            "Containerized",
+            "One-click Deploy",
+            "Command Line",
+            "Web Installer"
+        ]
+    },
+    {
+        "id": "integration",
+        "name": "Integration",
+        "tags": [
+            "API",
+            "WebHook",
+            "OAuth",
+            "LDAP",
+            "SSO"
+        ]
+    },
+    {
+        "id": "features",
+        "name": "Features",
+        "tags": [
+            "Security",
+            "Encryption",
+            "Open Source",
+            "Lightweight",
+            "High Performance",
+            "Multi-user",
+            "Automation",
+            "Real-time Updates"
+        ]
+    }
+]

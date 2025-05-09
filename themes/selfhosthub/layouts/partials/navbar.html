@@ -1,0 +1,76 @@
+<header class="sticky top-0 z-50 w-full border-b bg-white dark:bg-gray-900">
+    <div class="container mx-auto flex h-16 items-center justify-between px-4">
+        <div class="flex items-center gap-2">
+            <a href="{{ if eq .Site.Language.Lang " zh" }}/{{ else }}/en/{{ end }}" class="flex items-center space-x-2">
+                <span class="text-xl font-bold">SelfHost Hub</span>
+            </a>
+        </div>
+        <nav class="hidden md:flex items-center gap-6">
+            <a href="{{ if eq .Site.Language.Lang " zh" }}/{{ else }}/en/{{ end }}" class="text-sm font-medium">
+                {{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}
+            </a>
+            <a href="{{ if eq .Site.Language.Lang " zh" }}/tags/{{ else }}/en/tags/{{ end }}"
+                class="text-sm font-medium">
+                {{ if eq .Site.Language.Lang "zh" }}标签{{ else }}Tags{{ end }}
+            </a>
+            <a href="{{ if eq .Site.Language.Lang " zh" }}/about/{{ else }}/en/about/{{ end }}"
+                class="text-sm font-medium">
+                {{ if eq .Site.Language.Lang "zh" }}关于{{ else }}About{{ end }}
+            </a>
+            <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener noreferrer" class="text-sm font-medium">
+                GitHub
+            </a>
+            <button id="theme-toggle" class="text-sm font-medium flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+            </button>
+            <button id="language-toggle" class="text-sm font-medium">
+                {{ if eq .Site.Language.Lang "zh" }}EN{{ else }}中文{{ end }}
+            </button>
+        </nav>
+
+        <!-- 移动端菜单按钮 -->
+        <button id="mobile-menu-button" class="md:hidden flex items-center" aria-expanded="false">
+            <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- 移动端菜单 -->
+    <div id="mobile-menu" class="md:hidden hidden">
+        <div class="container mx-auto px-4 py-2 flex flex-col">
+            <a href="{{ if eq .Site.Language.Lang " zh" }}/{{ else }}/en/{{ end }}" class="py-2">
+                {{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}
+            </a>
+            <a href="{{ if eq .Site.Language.Lang " zh" }}/tags/{{ else }}/en/tags/{{ end }}" class="py-2">
+                {{ if eq .Site.Language.Lang "zh" }}标签{{ else }}Tags{{ end }}
+            </a>
+            <a href="{{ if eq .Site.Language.Lang " zh" }}/about/{{ else }}/en/about/{{ end }}" class="py-2">
+                {{ if eq .Site.Language.Lang "zh" }}关于{{ else }}About{{ end }}
+            </a>
+            <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener noreferrer" class="py-2">
+                GitHub
+            </a>
+            <button id="mobile-theme-toggle" class="text-left py-2 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+                {{ if eq .Site.Language.Lang "zh" }}暗色模式{{ else }}Dark Mode{{ end }}
+            </button>
+            <button id="mobile-language-toggle" class="text-left py-2">
+                {{ if eq .Site.Language.Lang "zh" }}切换到英文{{ else }}Switch to Chinese{{ end }}
+            </button>
+        </div>
+    </div>
+</header>

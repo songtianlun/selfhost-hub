@@ -1,0 +1,24 @@
+# Navigation
+home: Home
+about: About
+tags: Tags
+categories: Categories
+
+# General
+website: Website
+github: GitHub
+search: Search
+backToHome: Back to Home
+noImage: No Image
+noServicesFound: No services found
+searchPlaceholder: Search services...
+showing: Showing
+of: of
+services: services
+filtered: Filtered
+clearFilters: Clear Filters
+allTags: All Tags
+allCategories: All Categories
+tag: Tag
+category: Category
+team: Team 

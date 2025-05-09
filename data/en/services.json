@@ -1,0 +1,98 @@
+[
+    {
+        "slug": "nextcloud",
+        "name": "Nextcloud",
+        "description": "An open-source file sync and share solution that gives you control over your data.",
+        "category": "File Sharing",
+        "tags": [
+            "Open Source",
+            "Docker",
+            "PHP",
+            "Multi-user",
+            "Security"
+        ],
+        "image": "/images/services/nextcloud.png",
+        "website": "https://nextcloud.com/",
+        "github": "https://github.com/nextcloud/server"
+    },
+    {
+        "slug": "jellyfin",
+        "name": "Jellyfin",
+        "description": "A free and open-source media system that lets you manage your movies, TV shows, and music collection.",
+        "category": "Multimedia",
+        "tags": [
+            "Open Source",
+            "Docker",
+            "C#",
+            "Cross Platform",
+            "Multi-user"
+        ],
+        "image": "/images/services/jellyfin.png",
+        "website": "https://jellyfin.org/",
+        "github": "https://github.com/jellyfin/jellyfin"
+    },
+    {
+        "slug": "gitea",
+        "name": "Gitea",
+        "description": "A lightweight self-hosted Git service written in Go. Easy to install and has low resource consumption.",
+        "category": "Development",
+        "tags": [
+            "Git",
+            "Open Source",
+            "Go",
+            "Lightweight",
+            "Docker"
+        ],
+        "image": "/images/services/gitea.png",
+        "website": "https://gitea.io/",
+        "github": "https://github.com/go-gitea/gitea"
+    },
+    {
+        "slug": "grafana",
+        "name": "Grafana",
+        "description": "An open-source platform for monitoring and observability, supports various data sources, and can create beautiful dashboards.",
+        "category": "Monitoring",
+        "tags": [
+            "Monitoring",
+            "Open Source",
+            "Docker",
+            "High Performance",
+            "Go"
+        ],
+        "image": "/images/services/grafana.png",
+        "website": "https://grafana.com/",
+        "github": "https://github.com/grafana/grafana"
+    },
+    {
+        "slug": "bitwarden_rs",
+        "name": "Vaultwarden",
+        "description": "A lightweight alternative to the Bitwarden server API, written in Rust with minimal resource requirements.",
+        "category": "Self-Hosting",
+        "tags": [
+            "Password Manager",
+            "Security",
+            "Encryption",
+            "Rust",
+            "Docker"
+        ],
+        "image": "/images/services/vaultwarden.png",
+        "website": "https://github.com/dani-garcia/vaultwarden",
+        "github": "https://github.com/dani-garcia/vaultwarden"
+    },
+    {
+        "slug": "home-assistant",
+        "name": "Home Assistant",
+        "description": "Open source home automation platform that puts local control and privacy first, able to control all smart home devices.",
+        "category": "Self-Hosting",
+        "tags": [
+            "Python",
+            "IoT",
+            "Automation",
+            "Open Source",
+            "Docker"
+        ],
+        "image": "/images/services/home-assistant.png",
+        "website": "https://www.home-assistant.io/",
+        "github": "https://github.com/home-assistant/core"
+    }
+]

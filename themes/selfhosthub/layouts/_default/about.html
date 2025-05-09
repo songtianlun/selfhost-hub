@@ -1,0 +1,90 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 py-8">
+    <!-- 返回链接 -->
+    <div class="mb-8">
+        <a href="{{ .Site.Home.RelPermalink }}"
+            class="inline-flex items-center text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18">
+                </path>
+            </svg>
+            {{ i18n "backToHome" }}
+        </a>
+    </div>
+
+    <!-- 标题 -->
+    <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+
+    <!-- 内容 -->
+    <div class="prose prose-lg max-w-none dark:prose-invert">
+        {{ .Content }}
+    </div>
+
+    <!-- 团队成员 (可选) -->
+    {{ if isset .Params "team" }}
+    <div class="mt-12">
+        <h2 class="text-2xl font-bold mb-6">{{ i18n "team" }}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {{ range .Params.team }}
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    {{ if .avatar }}
+                    <img src="{{ .avatar }}" alt="{{ .name }}" class="w-12 h-12 rounded-full mr-4">
+                    {{ else }}
+                    <div
+                        class="w-12 h-12 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center mr-4">
+                        <span class="text-gray-500 dark:text-gray-400 text-xl font-bold">{{ index (split .name " ") 0 |
+                            substr 0 1 }}</span>
+                    </div>
+                    {{ end }}
+                    <div>
+                        <h3 class="font-bold">{{ .name }}</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">{{ .role }}</p>
+                    </div>
+                </div>
+                {{ if .bio }}
+                <p class="text-gray-700 dark:text-gray-300 text-sm">{{ .bio }}</p>
+                {{ end }}
+                {{ if .links }}
+                <div class="mt-4 flex gap-3">
+                    {{ if .links.github }}
+                    <a href="{{ .links.github }}" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z">
+                            </path>
+                        </svg>
+                    </a>
+                    {{ end }}
+                    {{ if .links.twitter }}
+                    <a href="{{ .links.twitter }}" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.028 10.028 0 01-3.127 1.195 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z">
+                            </path>
+                        </svg>
+                    </a>
+                    {{ end }}
+                    {{ if .links.website }}
+                    <a href="{{ .links.website }}" target="_blank" rel="noopener noreferrer"
+                        class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9">
+                            </path>
+                        </svg>
+                    </a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

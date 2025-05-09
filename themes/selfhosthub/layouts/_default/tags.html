@@ -1,0 +1,76 @@
+{{ define "main" }}
+<div class="container mx-auto py-10 px-4">
+    <!-- 返回链接 -->
+    <a href="{{ if eq .Site.Language.Lang " zh" }}{{ "/" | relLangURL }}{{ else }}{{ "/en/" | relLangURL }}{{ end }}"
+        class="inline-flex items-center text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 mb-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        {{ if eq .Site.Language.Lang "zh" }}返回首页{{ else }}Back to Home{{ end }}
+    </a>
+
+    <!-- 页面标题 -->
+    <h1 class="text-4xl font-bold mb-8">{{ .Title }}</h1>
+
+    <div class="space-y-8">
+        <!-- 标签云 -->
+        <div>
+            <h2 class="text-2xl font-bold mb-4">{{ if eq .Site.Language.Lang "zh" }}所有标签{{ else }}All Tags{{ end }}</h2>
+            <div class="flex flex-wrap gap-3" x-data="{
+                tagGroups: {{ (index .Site.Data .Site.Language.Lang).tagGroups | jsonify }},
+                allTags: []
+            }">
+                <template x-for="group in tagGroups" :key="group.id">
+                    <template x-for="tag in group.tags" :key="tag">
+                        <a :href="'{{ if eq .Site.Language.Lang " zh" }}{{ "/" | relLangURL }}{{ else }}{{ "/en/" |
+                            relLangURL }}{{ end }}?tags=' + encodeURIComponent(tag)" 
+                           class="px-3 py-1.5 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md text-sm">
+                            <span x-text="tag"></span>
+                        </a>
+                    </template>
+                </template>
+            </div>
+        </div>
+        
+        <!-- 按分组展示标签 -->
+        <div>
+            <h2 class="text-2xl font-bold mb-4">{{ if eq .Site.Language.Lang "zh" }}标签分组{{ else }}Tag Groups{{ end }}</h2>
+            <div class="space-y-6" x-data="{
+                tagGroups: {{ (index .Site.Data .Site.Language.Lang).tagGroups | jsonify }}
+            }">
+                <template x-for="group in tagGroups" :key="group.id">
+                    <div class="p-6 border border-gray-200 dark:border-gray-800 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4" x-text="group.name"></h3>
+                        <div class="flex flex-wrap gap-3">
+                            <template x-for="tag in group.tags" :key="tag">
+                                <a :href="' {{ if eq .Site.Language.Lang "zh" }}{{ "/" | relLangURL }}{{ else
+                            }}{{ "/en/" | relLangURL }}{{ end }}?tags=' + encodeURIComponent(tag)" 
+                                   class="px-3 py-1.5 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md text-sm">
+                                    <span x-text="tag"></span>
+                                </a>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+        
+        <!-- 按分类展示标签 -->
+        <div>
+            <h2 class="text-2xl font-bold mb-4">{{ if eq .Site.Language.Lang "zh" }}分类{{ else }}Categories{{ end }}</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" x-data="{
+                categories: {{ (index .Site.Data .Site.Language.Lang).categories | jsonify }}
+            }">
+                <template x-for="category in categories" :key="category">
+                    <a :href="' {{ if eq .Site.Language.Lang "zh" }}{{ "/" | relLangURL }}{{ else }}{{ "/en/" |
+                            relLangURL }}{{ end }}?category=' + encodeURIComponent(category)" 
+                       class="p-4 border border-gray-200 dark:border-gray-800 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-900 flex items-center">
+                        <span class="text-lg font-medium" x-text="category"></span>
+                    </a>
+                </template>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }} 

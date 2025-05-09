@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}"
+    class="{{ if (in (slice .Site.Params.mainSections) .Type) }}has-navbar-fixed-top{{ end }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description"
+        content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description | default .Summary }}{{ end }}">
+
+    <!-- Favicons -->
+    <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="/js/theme.js" defer></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    {{ if .Params.customCSS }}
+    {{ range .Params.customCSS }}
+    <link rel="stylesheet" href="{{ . | relURL }}">
+    {{ end }}
+    {{ end }}
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+        content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta property="og:description"
+        content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description | default .Summary }}{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="{{ if eq .Site.Language.Lang " zh" }}zh_CN{{ else }}en_US{{ end }}">
+    <meta property="og:type" content="website">
+    {{ if .Params.image }}
+    <meta property="og:image" content="{{ .Params.image | absURL }}">
+    {{ end }}
+</head>
+
+<body class="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div class="flex min-h-screen flex-col">
+        {{ partial "navbar.html" . }}
+
+        <main class="flex-1">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        {{ partial "footer.html" . }}
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/app.js" defer></script>
+
+    {{ if .Params.customJS }}
+    {{ range .Params.customJS }}
+    <script src="{{ . | relURL }}" defer></script>
+    {{ end }}
+    {{ end }}
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<footer class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+    <div class="container mx-auto py-8 px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div class="flex items-center space-x-4">
+                <a href="{{ if eq .Site.Language.Lang " zh" }}/{{ else }}/en/{{ end }}"
+                    class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                    {{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}
+                </a>
+                <a href="{{ if eq .Site.Language.Lang " zh" }}/tags/{{ else }}/en/tags/{{ end }}"
+                    class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                    {{ if eq .Site.Language.Lang "zh" }}标签{{ else }}Tags{{ end }}
+                </a>
+                <a href="{{ if eq .Site.Language.Lang " zh" }}/about/{{ else }}/en/about/{{ end }}"
+                    class="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                    {{ if eq .Site.Language.Lang "zh" }}关于{{ else }}About{{ end }}
+                </a>
+            </div>
+
+            <div class="text-center md:text-right">
+                <p class="text-sm text-gray-500 dark:text-gray-400">
+                    &copy; {{ now.Format "2006" }} SelfHost Hub. {{ if eq .Site.Language.Lang "zh" }}保留所有权利。{{ else
+                    }}All rights reserved.{{ end }}
+                </p>
+                <p class="text-xs text-gray-400 dark:text-gray-500 mt-1">
+                    {{ if eq .Site.Language.Lang "zh" }}
+                    使用 <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer"
+                        class="hover:underline">Hugo</a> 构建
+                    {{ else }}
+                    Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer"
+                        class="hover:underline">Hugo</a>
+                    {{ end }}
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,24 @@
+# 导航
+home: 首页
+about: 关于
+tags: 标签
+categories: 分类
+
+# 通用
+website: 官方网站
+github: GitHub
+search: 搜索
+backToHome: 返回首页
+noImage: 无图片
+noServicesFound: 未找到服务
+searchPlaceholder: 搜索服务...
+showing: 显示
+of: 共
+services: 服务
+filtered: 已筛选
+clearFilters: 清除筛选
+allTags: 所有标签
+allCategories: 所有分类
+tag: 标签
+category: 分类
+team: 团队 

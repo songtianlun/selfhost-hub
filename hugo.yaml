@@ -1,0 +1,68 @@
+baseURL: 'https://selfhost-hub.com/'
+title: 'SelfHost Hub'
+languageCode: 'zh-CN'
+defaultContentLanguage: 'zh'
+
+# 多语言支持
+languages:
+  zh:
+    languageName: '中文'
+    weight: 1
+    title: 'SelfHost Hub - 自托管服务和工具目录'
+    params:
+      description: '收集各种可自托管的服务、工具等内容，按标签分类并提供筛选功能'
+  en:
+    languageName: 'English'
+    weight: 2
+    title: 'SelfHost Hub - Self-hosted Services and Tools Directory'
+    params:
+      description: 'Collection of various self-hosted services and tools, categorized by tags with filtering functionality'
+
+# 主题设置
+theme: 'selfhosthub'
+
+# 内容设置
+enableRobotsTXT: true
+taxonomies:
+  tag: 'tags'
+  category: 'categories'
+
+# 路径设置
+permalinks:
+  services: '/:contentbasename/'
+  services-en: '/en/:contentbasename/'
+
+# 内容处理设置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # 允许在 Markdown 中使用 HTML
+
+# 服务分页
+pagination:
+  pagerSize: 24
+
+# 模块导入
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: static
+      target: static
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: assets
+      target: assets
+    - source: i18n
+      target: i18n
+
+# 参数设置
+params:
+  mainSections: ['services', 'services-en']
+  dateFormat: '2006-01-02'
+  github: 'https://github.com/yourusername/selfhost-hub'
+  darkModeToggle: true
+  subtitle: '收集各种可自托管的服务、工具等内容，按标签分类并提供筛选功能'
+  subtitleEn: 'Discover, explore, and deploy various high-quality self-hosted services and tools to take control of your data and infrastructure.'
