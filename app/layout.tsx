@@ -7,6 +7,7 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { LanguageProvider } from "@/components/language-provider"
 import { preloadAllData } from "@/lib/services"
+import Script from "next/script"
 
 // 预加载所有语言数据
 preloadAllData()
@@ -45,6 +46,25 @@ export default function RootLayout({
   return (
     <html lang="zh" suppressHydrationWarning>
       <body className={inter.className}>
+        {/* Plausible Analytics */}
+        <Script
+          defer
+          data-domain="selfhost-hub.com"
+          src="https://plausible.frytea.com/js/script.js"
+          strategy="afterInteractive"
+        />
+
+        {/* Google Analytics */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-CBY95S9GJ1" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CBY95S9GJ1');
+          `}
+        </Script>
+
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <LanguageProvider>
             <div className="flex min-h-screen flex-col">
