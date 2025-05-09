@@ -11,4 +11,3 @@ github: "https://github.com/StackStorm/st2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# StackStorm

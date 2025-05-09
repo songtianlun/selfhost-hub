@@ -11,4 +11,3 @@ github: "https://github.com/django-wiki/django-wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# django-wiki

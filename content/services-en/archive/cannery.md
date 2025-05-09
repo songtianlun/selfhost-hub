@@ -11,4 +11,3 @@ github: "https://gitea.bubbletea.dev/shibao/cannery"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cannery

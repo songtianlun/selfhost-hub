@@ -11,4 +11,3 @@ github: "https://github.com/KL-Psychological-Methodology/ESMira"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ESMira

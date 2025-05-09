@@ -11,4 +11,3 @@ github: "https://github.com/mail-in-a-box/mailinabox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mail-in-a-Box

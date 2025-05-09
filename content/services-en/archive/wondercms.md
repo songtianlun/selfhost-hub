@@ -11,4 +11,3 @@ github: "https://github.com/WonderCMS/wondercms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WonderCMS

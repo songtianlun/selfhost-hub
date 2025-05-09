@@ -11,4 +11,3 @@ github: "https://github.com/openspeedtest/Speed-Test"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Speed Test by OpenSpeedTest™

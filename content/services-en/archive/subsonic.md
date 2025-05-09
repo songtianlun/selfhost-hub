@@ -11,4 +11,3 @@ github: "http://www.subsonic.org/pages/index.jsp"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Subsonic

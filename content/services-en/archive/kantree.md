@@ -11,4 +11,3 @@ github: "https://kantree.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kantree

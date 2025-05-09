@@ -11,4 +11,3 @@ github: "https://github.com/qbittorrent/qBittorrent"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# qBittorrent

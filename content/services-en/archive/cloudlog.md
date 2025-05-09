@@ -12,4 +12,3 @@ github: "https://github.com/magicbug/cloudlog"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cloudlog

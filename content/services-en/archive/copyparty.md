@@ -11,4 +11,3 @@ github: "https://github.com/9001/copyparty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# copyparty

@@ -11,4 +11,3 @@ github: "https://github.com/jointakahe/takahe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Takahē

@@ -11,4 +11,3 @@ github: "https://codeberg.org/Alamantus/FeatherWiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Feather Wiki

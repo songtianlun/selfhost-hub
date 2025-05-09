@@ -11,4 +11,3 @@ github: "https://github.com/Accessory/minus_games"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Minus Games

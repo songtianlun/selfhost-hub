@@ -11,4 +11,3 @@ github: "https://github.com/quassel/quassel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Quassel IRC

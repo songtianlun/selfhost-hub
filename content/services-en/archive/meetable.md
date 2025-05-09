@@ -11,4 +11,3 @@ github: "https://github.com/aaronpk/Meetable"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Meetable

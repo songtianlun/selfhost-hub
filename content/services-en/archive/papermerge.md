@@ -12,4 +12,3 @@ github: "https://github.com/papermerge/papermerge-core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Papermerge

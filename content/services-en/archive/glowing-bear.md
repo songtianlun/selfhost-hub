@@ -11,4 +11,3 @@ github: "https://github.com/glowing-bear/glowing-bear"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Glowing Bear

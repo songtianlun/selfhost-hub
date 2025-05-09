@@ -14,4 +14,3 @@ github: "https://github.com/domoticz/domoticz"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Domoticz

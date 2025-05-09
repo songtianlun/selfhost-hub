@@ -13,4 +13,3 @@ github: "https://github.com/zadam/trilium"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Trilium Notes

@@ -12,4 +12,3 @@ github: "https://github.com/cryptpad/cryptpad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# CryptPad

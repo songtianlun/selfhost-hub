@@ -11,4 +11,3 @@ github: "https://sendy.co"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Sendy

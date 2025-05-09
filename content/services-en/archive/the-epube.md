@@ -11,4 +11,3 @@ github: "https://gitlab.tt-rss.org/main/the-epube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# The Epube

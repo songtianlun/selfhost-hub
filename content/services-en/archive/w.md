@@ -11,4 +11,3 @@ github: "https://github.com/vincent-peugnet/wcms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# W

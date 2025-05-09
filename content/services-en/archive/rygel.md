@@ -11,4 +11,3 @@ github: "https://gitlab.gnome.org/GNOME/rygel/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Rygel

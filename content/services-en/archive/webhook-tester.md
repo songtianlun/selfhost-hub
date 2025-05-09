@@ -14,4 +14,3 @@ github: "https://github.com/tarampampam/webhook-tester"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WebHook Tester

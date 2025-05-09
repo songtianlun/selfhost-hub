@@ -12,4 +12,3 @@ github: "https://github.com/Zavy86/WikiDocs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WikiDocs

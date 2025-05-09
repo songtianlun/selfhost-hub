@@ -11,4 +11,3 @@ github: "https://github.com/archivesspace/archivesspace"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ArchivesSpace

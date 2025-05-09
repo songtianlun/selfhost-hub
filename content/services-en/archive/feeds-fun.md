@@ -11,4 +11,3 @@ github: "https://github.com/Tiendil/feeds.fun"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Feeds Fun

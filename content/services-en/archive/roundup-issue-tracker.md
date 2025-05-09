@@ -13,4 +13,3 @@ github: "https://www.roundup-tracker.org/code.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Roundup Issue Tracker

@@ -11,4 +11,3 @@ github: "https://www.redcort.com/timeclock"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Virtual TimeClock

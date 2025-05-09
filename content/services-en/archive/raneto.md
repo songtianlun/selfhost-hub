@@ -11,4 +11,3 @@ github: "https://github.com/ryanlelek/Raneto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Raneto

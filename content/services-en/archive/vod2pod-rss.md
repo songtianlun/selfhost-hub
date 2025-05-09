@@ -11,4 +11,3 @@ github: "https://github.com/madiele/vod2pod-rss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# vod2pod-rss

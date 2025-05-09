@@ -11,4 +11,3 @@ github: "https://github.com/live-codes/livecodes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# LiveCodes

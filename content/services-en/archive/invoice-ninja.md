@@ -13,4 +13,3 @@ github: "https://github.com/invoiceninja/invoiceninja"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Invoice Ninja

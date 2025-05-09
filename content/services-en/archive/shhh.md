@@ -11,4 +11,3 @@ github: "https://github.com/smallwat3r/shhh"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Shhh

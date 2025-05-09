@@ -12,4 +12,3 @@ github: "https://github.com/firefly-iii/firefly-iii"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Firefly III

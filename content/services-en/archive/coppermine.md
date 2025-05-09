@@ -11,4 +11,3 @@ github: "https://github.com/coppermine-gallery/cpg1.6.x"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Coppermine

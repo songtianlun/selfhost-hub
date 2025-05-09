@@ -11,4 +11,3 @@ github: "https://github.com/RetroShare/RetroShare"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RetroShare

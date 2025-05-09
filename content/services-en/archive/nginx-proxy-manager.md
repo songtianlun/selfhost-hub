@@ -11,4 +11,3 @@ github: "https://github.com/NginxProxyManager/nginx-proxy-manager"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Nginx Proxy Manager

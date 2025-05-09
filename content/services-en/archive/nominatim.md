@@ -11,4 +11,3 @@ github: "https://github.com/osm-search/Nominatim"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Nominatim

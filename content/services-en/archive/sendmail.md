@@ -12,4 +12,3 @@ github: "https://www.proofpoint.com/us/products/email-protection/open-source-ema
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Sendmail

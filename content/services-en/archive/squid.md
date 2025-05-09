@@ -12,4 +12,3 @@ github: "https://code.launchpad.net/squid"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Squid

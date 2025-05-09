@@ -11,4 +11,3 @@ github: "https://github.com/Islandora/islandora"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Islandora

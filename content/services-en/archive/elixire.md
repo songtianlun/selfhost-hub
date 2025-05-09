@@ -11,4 +11,3 @@ github: "https://gitlab.com/elixire/elixire"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# elixire

@@ -11,4 +11,3 @@ github: "https://github.com/knrdl/hubleys-dashboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Hubleys

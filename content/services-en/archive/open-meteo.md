@@ -11,4 +11,3 @@ github: "https://github.com/open-meteo/open-meteo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Open-Meteo

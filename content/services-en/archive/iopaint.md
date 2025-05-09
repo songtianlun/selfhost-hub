@@ -12,4 +12,3 @@ github: "https://github.com/Sanster/IOPaint"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# IOPaint

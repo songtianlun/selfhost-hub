@@ -11,4 +11,3 @@ github: "https://github.com/gchq/CyberChef"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# CyberChef

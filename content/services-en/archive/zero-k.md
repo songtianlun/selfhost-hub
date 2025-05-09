@@ -11,4 +11,3 @@ github: "https://github.com/ZeroK-RTS/Zero-K"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Zero-K

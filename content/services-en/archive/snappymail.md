@@ -11,4 +11,3 @@ github: "https://github.com/the-djmaze/snappymail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SnappyMail

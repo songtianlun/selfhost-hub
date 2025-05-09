@@ -11,4 +11,3 @@ github: "https://github.com/bigcapitalhq/bigcapital"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Bigcapital

@@ -15,4 +15,3 @@ github: "https://github.com/redeclipse/base"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Red Eclipse 2

@@ -12,4 +12,3 @@ github: "https://github.com/Yooooomi/your_spotify"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Your Spotify

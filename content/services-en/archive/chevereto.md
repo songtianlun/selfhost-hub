@@ -12,4 +12,3 @@ github: "https://github.com/chevereto/chevereto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Chevereto

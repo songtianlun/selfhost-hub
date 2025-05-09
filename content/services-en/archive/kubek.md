@@ -11,4 +11,3 @@ github: "https://github.com/seeroy/kubek-minecraft-dashboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kubek

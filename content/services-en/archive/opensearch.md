@@ -14,4 +14,3 @@ github: "https://github.com/opensearch-project/OpenSearch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OpenSearch

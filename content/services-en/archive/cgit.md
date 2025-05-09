@@ -11,4 +11,3 @@ github: "https://git.zx2c4.com/cgit/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cgit

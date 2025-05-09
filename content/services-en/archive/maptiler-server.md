@@ -11,4 +11,3 @@ github: "https://www.maptiler.com/server/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MapTiler Server

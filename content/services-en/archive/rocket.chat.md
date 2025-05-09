@@ -13,4 +13,3 @@ github: "https://github.com/RocketChat/Rocket.Chat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Rocket.Chat

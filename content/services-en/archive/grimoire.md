@@ -12,4 +12,3 @@ github: "https://github.com/goniszewski/grimoire"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Grimoire

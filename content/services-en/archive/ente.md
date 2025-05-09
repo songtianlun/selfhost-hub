@@ -13,4 +13,3 @@ github: "https://github.com/ente-io/ente"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Ente

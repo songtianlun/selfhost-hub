@@ -11,4 +11,3 @@ github: "https://github.com/apankrat/nullboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Nullboard

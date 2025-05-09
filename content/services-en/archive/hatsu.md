@@ -12,4 +12,3 @@ github: "https://github.com/importantimport/hatsu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Hatsu

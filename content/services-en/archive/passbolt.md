@@ -14,4 +14,3 @@ github: "https://github.com/passbolt/passbolt_api"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Passbolt

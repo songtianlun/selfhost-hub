@@ -12,4 +12,3 @@ github: "https://www.privoxy.org"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Privoxy

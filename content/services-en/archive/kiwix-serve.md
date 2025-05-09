@@ -11,4 +11,3 @@ github: "https://github.com/kiwix/kiwix-tools"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# kiwix-serve

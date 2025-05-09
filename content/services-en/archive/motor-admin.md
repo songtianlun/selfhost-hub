@@ -12,4 +12,3 @@ github: "https://github.com/motor-admin/motor-admin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Motor Admin

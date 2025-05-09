@@ -11,4 +11,3 @@ github: "https://github.com/gitblit-org/gitblit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Gitblit

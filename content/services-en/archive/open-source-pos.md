@@ -11,4 +11,3 @@ github: "https://github.com/opensourcepos/opensourcepos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Open Source POS

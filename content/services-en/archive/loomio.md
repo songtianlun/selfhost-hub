@@ -11,4 +11,3 @@ github: "https://github.com/loomio/loomio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Loomio

@@ -11,4 +11,3 @@ github: "https://github.com/fcrepo/fcrepo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Fedora Commons Repository

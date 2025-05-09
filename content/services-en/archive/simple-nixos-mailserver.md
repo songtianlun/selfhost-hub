@@ -11,4 +11,3 @@ github: "https://gitlab.com/simple-nixos-mailserver/nixos-mailserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Simple NixOS Mailserver

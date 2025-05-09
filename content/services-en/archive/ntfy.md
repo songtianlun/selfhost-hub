@@ -14,4 +14,3 @@ github: "https://github.com/binwiederhier/ntfy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ntfy

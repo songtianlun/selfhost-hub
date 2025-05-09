@@ -11,4 +11,3 @@ github: "https://gitlab.com/NickBusey/HomelabOS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HomelabOS

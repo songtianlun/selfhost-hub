@@ -11,4 +11,3 @@ github: "https://blitiri.com.ar/git/r/chasquid/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# chasquid

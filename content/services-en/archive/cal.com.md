@@ -11,4 +11,3 @@ github: "https://github.com/calcom/cal.com"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cal.com

@@ -12,4 +12,3 @@ github: "https://github.com/lissy93/dashy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Dashy

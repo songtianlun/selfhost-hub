@@ -12,4 +12,3 @@ github: "https://github.com/scribble-rs/scribble.rs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Scribble.rs

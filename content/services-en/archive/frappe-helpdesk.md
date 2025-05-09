@@ -11,4 +11,3 @@ github: "https://github.com/frappe/helpdesk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Frappe Helpdesk

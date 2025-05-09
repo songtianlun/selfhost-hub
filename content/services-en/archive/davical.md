@@ -12,4 +12,3 @@ github: "https://gitlab.com/davical-project/davical"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# DAViCal

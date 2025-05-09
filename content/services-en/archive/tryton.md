@@ -11,4 +11,3 @@ github: "https://foss.heptapod.net/tryton/tryton"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tryton

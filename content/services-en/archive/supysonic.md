@@ -12,4 +12,3 @@ github: "https://github.com/spl0k/supysonic"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Supysonic

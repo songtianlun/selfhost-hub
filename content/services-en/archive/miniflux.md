@@ -13,4 +13,3 @@ github: "https://github.com/miniflux/v2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Miniflux

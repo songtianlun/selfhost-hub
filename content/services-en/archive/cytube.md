@@ -11,4 +11,3 @@ github: "https://github.com/calzoneman/sync"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# CyTube

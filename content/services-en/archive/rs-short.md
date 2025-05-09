@@ -11,4 +11,3 @@ github: "https://git.42l.fr/42l/rs-short"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# rs-short

@@ -11,4 +11,3 @@ github: "https://github.com/Arthi-chaud/Meelo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Meelo

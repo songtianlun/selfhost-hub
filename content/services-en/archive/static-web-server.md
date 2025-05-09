@@ -13,4 +13,3 @@ github: "https://github.com/static-web-server/static-web-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Static Web Server

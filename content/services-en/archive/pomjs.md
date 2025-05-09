@@ -11,4 +11,3 @@ github: "https://github.com/joho1968/POMjs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# POMjs

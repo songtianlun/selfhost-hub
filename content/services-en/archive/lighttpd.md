@@ -13,4 +13,3 @@ github: "https://git.lighttpd.net/lighttpd/lighttpd1.4"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Lighttpd

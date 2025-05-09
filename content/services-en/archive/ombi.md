@@ -12,4 +12,3 @@ github: "https://github.com/Ombi-app/Ombi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Ombi

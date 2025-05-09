@@ -11,4 +11,3 @@ github: "https://github.com/Intermesh/groupoffice/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Group Office

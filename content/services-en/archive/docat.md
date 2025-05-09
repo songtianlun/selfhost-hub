@@ -12,4 +12,3 @@ github: "https://github.com/docat-org/docat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# DOCAT

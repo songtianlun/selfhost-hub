@@ -11,4 +11,3 @@ github: "https://www.getsoloapp.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Solo

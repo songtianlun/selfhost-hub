@@ -11,4 +11,3 @@ github: "https://github.com/arp242/goatcounter"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GoatCounter

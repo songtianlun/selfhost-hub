@@ -12,4 +12,3 @@ github: "https://github.com/centerofci/mathesar"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mathesar

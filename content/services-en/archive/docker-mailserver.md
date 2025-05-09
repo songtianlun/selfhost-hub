@@ -11,4 +11,3 @@ github: "https://github.com/docker-mailserver/docker-mailserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# docker-mailserver

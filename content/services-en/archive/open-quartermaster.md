@@ -12,4 +12,3 @@ github: "https://github.com/Epic-Breakfast-Productions/OpenQuarterMaster"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Open QuarterMaster

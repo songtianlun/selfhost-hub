@@ -13,4 +13,3 @@ github: "https://github.com/deck9/input"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Input

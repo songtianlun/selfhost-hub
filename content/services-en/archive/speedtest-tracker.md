@@ -12,4 +12,3 @@ github: "https://github.com/alexjustesen/speedtest-tracker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Speedtest Tracker

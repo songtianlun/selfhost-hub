@@ -11,4 +11,3 @@ github: "https://github.com/Kshitij-Banerjee/Cubiks-2048"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cubiks-2048

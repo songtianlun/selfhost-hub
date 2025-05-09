@@ -11,4 +11,3 @@ github: "https://framagit.org/les/gancio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Gancio

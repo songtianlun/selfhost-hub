@@ -12,4 +12,3 @@ github: "https://github.com/GIScience/openrouteservice"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OpenRouteService

@@ -11,4 +11,3 @@ github: "https://gitlab.com/francoisjacquet/rosariosis/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RosarioSIS

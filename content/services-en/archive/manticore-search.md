@@ -14,4 +14,3 @@ github: "https://github.com/manticoresoftware/manticoresearch/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Manticore Search

@@ -11,4 +11,3 @@ github: "https://github.com/solidtime-io/solidtime"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# solidtime

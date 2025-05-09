@@ -11,4 +11,3 @@ github: "https://github.com/uvdesk/community-skeleton"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# UVDesk

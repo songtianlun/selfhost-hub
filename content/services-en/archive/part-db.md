@@ -13,4 +13,3 @@ github: "https://github.com/Part-DB/Part-DB-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Part-DB

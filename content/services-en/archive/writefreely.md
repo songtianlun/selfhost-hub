@@ -11,4 +11,3 @@ github: "https://github.com/writefreely/writefreely"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WriteFreely

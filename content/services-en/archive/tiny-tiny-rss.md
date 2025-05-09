@@ -12,4 +12,3 @@ github: "https://git.tt-rss.org/fox/tt-rss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tiny Tiny RSS

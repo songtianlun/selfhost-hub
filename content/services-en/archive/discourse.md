@@ -11,4 +11,3 @@ github: "https://github.com/discourse/discourse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Discourse

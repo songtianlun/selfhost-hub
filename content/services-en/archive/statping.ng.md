@@ -12,4 +12,3 @@ github: "https://github.com/statping-ng/statping-ng"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# StatPing.ng

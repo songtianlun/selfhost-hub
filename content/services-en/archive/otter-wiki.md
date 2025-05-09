@@ -11,4 +11,3 @@ github: "https://github.com/redimp/otterwiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Otter Wiki

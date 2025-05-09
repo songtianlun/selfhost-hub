@@ -11,4 +11,3 @@ github: "https://github.com/depayfi/widgets"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# DePay

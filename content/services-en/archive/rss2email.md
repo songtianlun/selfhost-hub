@@ -12,4 +12,3 @@ github: "https://github.com/rss2email/rss2email"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RSS2EMail

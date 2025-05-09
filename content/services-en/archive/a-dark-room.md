@@ -11,4 +11,3 @@ github: "https://github.com/doublespeakgames/adarkroom"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# A Dark Room

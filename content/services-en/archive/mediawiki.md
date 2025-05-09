@@ -11,4 +11,3 @@ github: "https://phabricator.wikimedia.org/source/mediawiki/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mediawiki

@@ -11,4 +11,3 @@ github: "https://github.com/openfoodfoundation/openfoodnetwork"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Open Food Network

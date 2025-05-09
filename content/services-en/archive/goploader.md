@@ -11,4 +11,3 @@ github: "https://github.com/Depado/goploader"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# goploader

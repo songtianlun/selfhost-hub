@@ -12,4 +12,3 @@ github: "https://github.com/opentripplanner/OpenTripPlanner"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OpenTripPlanner

@@ -11,4 +11,3 @@ github: "https://github.com/hwgilbert16/scholarsome"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# scholarsome

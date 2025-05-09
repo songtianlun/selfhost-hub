@@ -11,4 +11,3 @@ github: "https://github.com/alextselegidis/easyappointments"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Easy!Appointments

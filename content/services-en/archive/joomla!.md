@@ -11,4 +11,3 @@ github: "https://github.com/joomla/joomla-cms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Joomla!

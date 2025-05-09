@@ -13,4 +13,3 @@ github: "https://github.com/Requarks/wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Wiki.js

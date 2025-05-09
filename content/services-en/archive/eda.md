@@ -12,4 +12,3 @@ github: "https://github.com/jortilles/EDA"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# EDA

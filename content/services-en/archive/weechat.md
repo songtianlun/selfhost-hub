@@ -13,4 +13,3 @@ github: "https://github.com/weechat/weechat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Weechat

@@ -12,4 +12,3 @@ github: "https://github.com/simple-login/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SimpleLogin

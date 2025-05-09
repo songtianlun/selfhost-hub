@@ -11,4 +11,3 @@ github: "https://github.com/azlux/Simple-URL-Shortener"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Simple-URL-Shortener

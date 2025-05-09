@@ -12,4 +12,3 @@ github: "https://gitlab.com/ogarcia/lesma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# lesma

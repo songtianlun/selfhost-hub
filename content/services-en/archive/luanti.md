@@ -15,4 +15,3 @@ github: "https://github.com/luanti-org/luanti"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Luanti

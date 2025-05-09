@@ -12,4 +12,3 @@ github: "https://github.com/Frooodle/Stirling-PDF"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Stirling-PDF

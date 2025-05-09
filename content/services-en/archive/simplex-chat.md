@@ -11,4 +11,3 @@ github: "https://github.com/simplex-chat/simplex-chat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SimpleX Chat

@@ -12,4 +12,3 @@ github: "https://github.com/umputun/remark42"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# remark42

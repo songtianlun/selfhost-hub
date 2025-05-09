@@ -11,4 +11,3 @@ github: "https://github.com/homeserverhq/hshq"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HomeServerHQ

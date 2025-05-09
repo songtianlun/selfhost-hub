@@ -11,4 +11,3 @@ github: "https://github.com/ignisda/ryot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ryot

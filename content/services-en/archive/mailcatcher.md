@@ -11,4 +11,3 @@ github: "https://github.com/sj26/mailcatcher"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MailCatcher

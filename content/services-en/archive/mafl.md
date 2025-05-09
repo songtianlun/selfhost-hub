@@ -12,4 +12,3 @@ github: "https://github.com/hywax/mafl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mafl

@@ -11,4 +11,3 @@ github: "https://github.com/inventaire/inventaire"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Inventaire

@@ -11,4 +11,3 @@ github: "https://github.com/stringer-rss/stringer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Stringer

@@ -12,4 +12,3 @@ github: "https://framagit.org/framasoft/mobilizon/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mobilizon

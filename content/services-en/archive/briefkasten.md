@@ -12,4 +12,3 @@ github: "https://github.com/ndom91/briefkasten"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Briefkasten

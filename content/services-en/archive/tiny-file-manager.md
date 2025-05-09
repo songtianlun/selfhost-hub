@@ -11,4 +11,3 @@ github: "https://github.com/prasathmani/tinyfilemanager"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tiny File Manager

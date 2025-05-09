@@ -12,4 +12,3 @@ github: "https://github.com/BookStackApp/BookStack"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# BookStack

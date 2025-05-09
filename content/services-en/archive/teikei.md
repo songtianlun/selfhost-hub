@@ -11,4 +11,3 @@ github: "https://github.com/teikei/teikei"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# teikei

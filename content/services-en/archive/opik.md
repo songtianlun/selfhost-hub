@@ -12,4 +12,3 @@ github: "https://github.com/comet-ml/opik"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Opik

@@ -11,4 +11,3 @@ github: "https://www.plex.tv/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Plex

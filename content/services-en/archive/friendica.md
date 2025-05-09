@@ -11,4 +11,3 @@ github: "https://github.com/friendica/friendica"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Friendica

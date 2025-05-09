@@ -11,4 +11,3 @@ github: "https://dovel.email/server/tree.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Dovel

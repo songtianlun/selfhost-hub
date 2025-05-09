@@ -11,4 +11,3 @@ github: "https://www.browserstack.com/automate-turboscale"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# BrowserStack Automate TurboScale

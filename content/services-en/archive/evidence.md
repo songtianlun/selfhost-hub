@@ -11,4 +11,3 @@ github: "https://github.com/evidence-dev/evidence"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Evidence

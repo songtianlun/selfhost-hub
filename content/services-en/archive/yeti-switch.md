@@ -12,4 +12,3 @@ github: "https://github.com/yeti-switch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Yeti-Switch

@@ -11,4 +11,3 @@ github: "https://github.com/mcarbonne/minimal-git-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# minimal-git-server

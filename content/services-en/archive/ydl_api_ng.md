@@ -11,4 +11,3 @@ github: "https://github.com/Totonyus/ydl_api_ng"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ydl_api_ng

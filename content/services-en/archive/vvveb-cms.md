@@ -12,4 +12,3 @@ github: "https://github.com/givanz/Vvveb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Vvveb CMS

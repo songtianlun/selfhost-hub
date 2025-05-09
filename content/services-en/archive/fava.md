@@ -11,4 +11,3 @@ github: "https://github.com/beancount/fava"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Fava

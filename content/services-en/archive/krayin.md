@@ -11,4 +11,3 @@ github: "https://github.com/krayin/laravel-crm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Krayin

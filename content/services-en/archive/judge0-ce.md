@@ -11,4 +11,3 @@ github: "https://github.com/judge0/judge0"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Judge0 CE

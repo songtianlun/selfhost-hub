@@ -11,4 +11,3 @@ github: "https://github.com/edx/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# edX

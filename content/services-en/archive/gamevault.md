@@ -12,4 +12,3 @@ github: "https://github.com/Phalcode/gamevault-backend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GameVault

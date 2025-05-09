@@ -11,4 +11,3 @@ github: "https://github.com/seatsurfing/backend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Seatsurfing

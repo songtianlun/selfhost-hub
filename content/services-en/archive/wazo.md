@@ -11,4 +11,3 @@ github: "https://github.com/wazo-platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Wazo

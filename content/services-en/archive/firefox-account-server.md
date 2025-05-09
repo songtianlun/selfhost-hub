@@ -12,4 +12,3 @@ github: "https://github.com/mozilla/fxa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Firefox Account Server

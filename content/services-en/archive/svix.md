@@ -12,4 +12,3 @@ github: "https://github.com/svix/svix-webhooks"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Svix

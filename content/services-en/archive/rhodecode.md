@@ -11,4 +11,3 @@ github: "https://code.rhodecode.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RhodeCode

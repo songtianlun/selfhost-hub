@@ -12,4 +12,3 @@ github: "https://github.com/mopidy/mopidy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mopidy

@@ -12,4 +12,3 @@ github: "https://github.com/mailcow/mailcow-dockerized"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mailcow

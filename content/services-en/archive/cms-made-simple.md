@@ -11,4 +11,3 @@ github: "http://svn.cmsmadesimple.org/svn/cmsmadesimple/trunk/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# CMS Made Simple

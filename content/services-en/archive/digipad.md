@@ -11,4 +11,3 @@ github: "https://codeberg.org/ladigitale/digipad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Digipad

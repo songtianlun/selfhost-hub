@@ -11,4 +11,3 @@ github: "https://github.com/zoriya/kyoo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kyoo

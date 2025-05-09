@@ -11,4 +11,3 @@ github: "https://www.supportpal.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SupportPal

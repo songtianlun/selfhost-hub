@@ -12,4 +12,3 @@ github: "https://github.com/home-assistant/core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Home Assistant

@@ -11,4 +11,3 @@ github: "https://github.com/fisharebest/webtrees"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# webtrees

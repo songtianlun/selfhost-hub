@@ -12,4 +12,3 @@ github: "https://github.com/websoft9/websoft9"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Websoft9

@@ -11,4 +11,3 @@ github: "https://sourceforge.net/projects/qstonline/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# QST

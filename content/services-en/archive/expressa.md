@@ -11,4 +11,3 @@ github: "https://github.com/thomas4019/expressa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Expressa

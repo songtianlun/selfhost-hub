@@ -12,4 +12,3 @@ github: "https://github.com/getsentry/sentry"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Sentry Self-Hosted

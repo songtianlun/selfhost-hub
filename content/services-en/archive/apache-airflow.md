@@ -12,4 +12,3 @@ github: "https://github.com/apache/airflow/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Apache Airflow

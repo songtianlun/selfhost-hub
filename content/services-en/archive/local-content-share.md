@@ -12,4 +12,3 @@ github: "https://github.com/Tanq16/local-content-share"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Local Content Share

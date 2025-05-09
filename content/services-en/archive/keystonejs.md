@@ -11,4 +11,3 @@ github: "https://github.com/keystonejs/keystone"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# KeystoneJS

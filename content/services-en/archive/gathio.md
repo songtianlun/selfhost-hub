@@ -12,4 +12,3 @@ github: "https://github.com/lowercasename/gathio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# gathio

@@ -12,4 +12,3 @@ github: "https://git.deluge-torrent.org/deluge/tree/?h=develop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Deluge

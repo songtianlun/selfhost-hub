@@ -12,4 +12,3 @@ github: "https://github.com/alexbates/Tamari"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tamari

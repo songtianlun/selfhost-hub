@@ -12,4 +12,3 @@ github: "https://akkoma.dev/AkkomaGang/akkoma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Akkoma

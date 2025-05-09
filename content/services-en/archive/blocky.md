@@ -12,4 +12,3 @@ github: "https://github.com/0xERR0R/blocky"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# blocky

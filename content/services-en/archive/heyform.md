@@ -11,4 +11,3 @@ github: "https://github.com/heyform/heyform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HeyForm

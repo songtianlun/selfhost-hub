@@ -12,4 +12,3 @@ github: "https://salsa.debian.org/freedombox-team/freedombox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# FreedomBox

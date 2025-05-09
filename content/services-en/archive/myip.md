@@ -12,4 +12,3 @@ github: "https://github.com/jason5ng32/MyIP"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MyIP

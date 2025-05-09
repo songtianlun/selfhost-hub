@@ -11,4 +11,3 @@ github: "https://github.com/immich-app/immich"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Immich

@@ -11,4 +11,3 @@ github: "https://github.com/managemeals/manage-meals-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ManageMeals

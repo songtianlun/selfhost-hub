@@ -13,4 +13,3 @@ github: "https://github.com/esl/MongooseIM"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MongooseIM

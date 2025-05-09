@@ -13,4 +13,3 @@ github: "https://github.com/flipt-io/flipt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Flipt

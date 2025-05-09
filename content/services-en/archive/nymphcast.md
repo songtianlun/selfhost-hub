@@ -11,4 +11,3 @@ github: "https://github.com/MayaPosch/NymphCast"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# NymphCast

@@ -11,4 +11,3 @@ github: "https://github.com/s-cart/s-cart"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# s-cart

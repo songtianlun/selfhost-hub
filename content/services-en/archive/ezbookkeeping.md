@@ -12,4 +12,3 @@ github: "https://github.com/mayswind/ezbookkeeping"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ezbookkeeping

@@ -12,4 +12,3 @@ github: "https://github.com/TechnitiumSoftware/DnsServer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Technitium DNS Server

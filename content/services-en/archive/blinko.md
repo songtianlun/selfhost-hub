@@ -11,4 +11,3 @@ github: "https://github.com/blinko-space/blinko"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Blinko

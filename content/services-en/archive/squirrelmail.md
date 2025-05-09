@@ -11,4 +11,3 @@ github: "https://sourceforge.net/p/squirrelmail/code/HEAD/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SquirrelMail

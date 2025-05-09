@@ -11,4 +11,3 @@ github: "https://gitlab.com/web-db/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WebDB

@@ -11,4 +11,3 @@ github: "https://0xacab.org/schleuder/schleuder/tree/master"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Schleuder

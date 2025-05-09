@@ -12,4 +12,3 @@ github: "https://github.com/HemmeligOrg/Hemmelig.app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Hemmelig

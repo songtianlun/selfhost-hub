@@ -11,4 +11,3 @@ github: "https://github.com/concretecms/concretecms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Concrete 5 CMS

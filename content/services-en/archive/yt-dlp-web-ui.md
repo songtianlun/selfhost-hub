@@ -13,4 +13,3 @@ github: "https://github.com/marcopeocchi/yt-dlp-web-ui"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# yt-dlp Web UI

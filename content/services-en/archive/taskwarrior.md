@@ -11,4 +11,3 @@ github: "https://taskwarrior.org/download/#git"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Taskwarrior

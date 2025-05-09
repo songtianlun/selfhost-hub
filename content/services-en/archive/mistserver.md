@@ -11,4 +11,3 @@ github: "https://github.com/DDVTECH/mistserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MistServer

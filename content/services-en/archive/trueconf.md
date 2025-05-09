@@ -12,4 +12,3 @@ github: "https://trueconf.com/products/tcsf/trueconf-server-free.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# TrueConf

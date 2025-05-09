@@ -11,4 +11,3 @@ github: "https://github.com/Swetrix/selfhosting"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Swetrix

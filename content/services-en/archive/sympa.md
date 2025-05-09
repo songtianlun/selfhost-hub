@@ -11,4 +11,3 @@ github: "https://github.com/sympa-community/sympa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Sympa

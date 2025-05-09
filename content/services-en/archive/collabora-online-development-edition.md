@@ -11,4 +11,3 @@ github: "https://cgit.freedesktop.org/libreoffice/online/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Collabora Online Development Edition

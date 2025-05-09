@@ -11,4 +11,3 @@ github: "https://svnweb.tuxfamily.org/listing.php?repname=wikiss/svn&path=%2F&sc
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WiKiss

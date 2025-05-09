@@ -11,4 +11,3 @@ github: "https://github.com/meetecho/janus-gateway"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Janus

@@ -13,4 +13,3 @@ github: "https://github.com/eikek/docspell"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Docspell

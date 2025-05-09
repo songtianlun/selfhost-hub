@@ -12,4 +12,3 @@ github: "https://github.com/project-zot/zot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ZOT OCI Registry

@@ -11,4 +11,3 @@ github: "https://github.com/sharetribe/sharetribe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Sharetribe

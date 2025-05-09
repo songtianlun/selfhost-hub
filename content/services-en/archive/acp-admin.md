@@ -11,4 +11,3 @@ github: "https://github.com/acp-admin/acp-admin/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ACP Admin

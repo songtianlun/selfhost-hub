@@ -13,4 +13,3 @@ github: "https://github.com/pi-hole/pi-hole"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Pi-hole

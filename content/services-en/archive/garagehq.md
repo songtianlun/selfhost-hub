@@ -12,4 +12,3 @@ github: "https://git.deuxfleurs.fr/Deuxfleurs/garage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GarageHQ

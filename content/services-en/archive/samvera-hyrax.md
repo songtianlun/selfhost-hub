@@ -11,4 +11,3 @@ github: "https://github.com/samvera/hyrax"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Samvera Hyrax

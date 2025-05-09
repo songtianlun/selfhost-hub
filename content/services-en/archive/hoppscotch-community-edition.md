@@ -12,4 +12,3 @@ github: "https://github.com/hoppscotch/hoppscotch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Hoppscotch Community Edition

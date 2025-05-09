@@ -11,4 +11,3 @@ github: "https://github.com/recurser/string-is"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# string.is

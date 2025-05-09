@@ -12,4 +12,3 @@ github: "https://github.com/GladysAssistant/Gladys"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Gladys

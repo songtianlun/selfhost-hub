@@ -11,4 +11,3 @@ github: "https://github.com/socioboard/Socioboard-5.0"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Socioboard

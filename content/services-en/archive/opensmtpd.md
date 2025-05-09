@@ -12,4 +12,3 @@ github: "https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.sbin/smtpd/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OpenSMTPD

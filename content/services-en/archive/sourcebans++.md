@@ -11,4 +11,3 @@ github: "https://github.com/sbpp/sourcebans-pp"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SourceBans++

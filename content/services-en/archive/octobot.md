@@ -12,4 +12,3 @@ github: "https://github.com/Drakkar-Software/OctoBot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OctoBot

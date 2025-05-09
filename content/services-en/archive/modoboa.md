@@ -11,4 +11,3 @@ github: "https://github.com/modoboa/modoboa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Modoboa

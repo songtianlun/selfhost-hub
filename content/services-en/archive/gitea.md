@@ -13,4 +13,3 @@ github: "https://github.com/go-gitea/gitea"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Gitea

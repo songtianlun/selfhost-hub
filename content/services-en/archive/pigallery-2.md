@@ -12,4 +12,3 @@ github: "https://github.com/bpatrik/pigallery2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# PiGallery 2

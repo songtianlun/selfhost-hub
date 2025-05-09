@@ -11,4 +11,3 @@ github: "https://sourceforge.net/p/projectorria/code/HEAD/tree/branches/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ProjeQtOr

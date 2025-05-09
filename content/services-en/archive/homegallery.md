@@ -12,4 +12,3 @@ github: "https://github.com/xemle/home-gallery"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HomeGallery

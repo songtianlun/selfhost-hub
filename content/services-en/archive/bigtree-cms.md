@@ -11,4 +11,3 @@ github: "https://github.com/bigtreecms/BigTree-CMS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# BigTree CMS

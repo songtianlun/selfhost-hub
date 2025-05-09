@@ -11,4 +11,3 @@ github: "https://www.atlassian.com/software/bamboo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Bamboo

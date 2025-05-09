@@ -12,4 +12,3 @@ github: "https://github.com/easy-wi/developer/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# EasyWI

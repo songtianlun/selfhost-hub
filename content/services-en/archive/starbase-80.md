@@ -11,4 +11,3 @@ github: "https://github.com/notclickable-jordan/starbase-80"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Starbase 80

@@ -12,4 +12,3 @@ github: "https://github.com/miroslavpejic85/mirotalk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MiroTalk P2P

@@ -14,4 +14,3 @@ github: "https://gitlab.com/gitlab-org/gitlab-foss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GitLab

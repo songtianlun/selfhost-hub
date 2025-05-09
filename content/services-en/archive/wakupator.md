@@ -11,4 +11,3 @@ github: "https://github.com/Gibus21250/Wakupator"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Wakupator

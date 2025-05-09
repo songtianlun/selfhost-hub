@@ -11,4 +11,3 @@ github: "https://github.com/baptisteArno/typebot.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Typebot

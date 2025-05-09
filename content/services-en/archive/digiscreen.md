@@ -12,4 +12,3 @@ github: "https://codeberg.org/ladigitale/digiscreen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Digiscreen

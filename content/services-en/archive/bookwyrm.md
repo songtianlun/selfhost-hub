@@ -11,4 +11,3 @@ github: "https://github.com/bookwyrm-social/bookwyrm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Bookwyrm

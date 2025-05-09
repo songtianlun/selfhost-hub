@@ -13,4 +13,3 @@ github: "https://github.com/jitsi/jitsi-meet"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Jitsi Meet

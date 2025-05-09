@@ -11,4 +11,3 @@ github: "https://github.com/pydio/cells"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Pydio

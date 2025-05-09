@@ -13,4 +13,3 @@ github: "https://github.com/tanq16/expenseowl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ExpenseOwl

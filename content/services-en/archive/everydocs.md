@@ -12,4 +12,3 @@ github: "https://github.com/jonashellmann/everydocs-core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# EveryDocs

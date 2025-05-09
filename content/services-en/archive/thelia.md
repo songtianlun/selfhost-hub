@@ -11,4 +11,3 @@ github: "https://github.com/thelia/thelia"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Thelia

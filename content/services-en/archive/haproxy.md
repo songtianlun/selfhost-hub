@@ -13,4 +13,3 @@ github: "https://git.haproxy.org/?p=haproxy.git;a=tree"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HAProxy

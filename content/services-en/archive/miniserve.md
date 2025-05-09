@@ -11,4 +11,3 @@ github: "https://github.com/svenstaro/miniserve"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# miniserve

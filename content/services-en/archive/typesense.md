@@ -14,4 +14,3 @@ github: "https://github.com/typesense/typesense"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Typesense

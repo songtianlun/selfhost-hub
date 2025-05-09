@@ -12,4 +12,3 @@ github: "https://github.com/node-red/node-red"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Node RED

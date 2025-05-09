@@ -11,4 +11,3 @@ github: "https://github.com/pymedusa/Medusa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Medusa

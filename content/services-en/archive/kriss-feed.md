@@ -11,4 +11,3 @@ github: "https://github.com/tontof/kriss_feed"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kriss Feed

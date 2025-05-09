@@ -13,4 +13,3 @@ github: "https://github.com/meilisearch/MeiliSearch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MeiliSearch

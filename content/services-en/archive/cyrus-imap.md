@@ -11,4 +11,3 @@ github: "https://github.com/cyrusimap/cyrus-imapd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cyrus IMAP

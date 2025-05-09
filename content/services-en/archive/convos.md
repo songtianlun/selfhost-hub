@@ -12,4 +12,3 @@ github: "https://github.com/convos-chat/convos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Convos

@@ -11,4 +11,3 @@ github: "https://github.com/bluecherrydvr/bluecherry-apps"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Bluecherry

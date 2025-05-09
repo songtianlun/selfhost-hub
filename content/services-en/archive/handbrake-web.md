@@ -11,4 +11,3 @@ github: "https://github.com/TheNickOfTime/handbrake-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HandBrake Web

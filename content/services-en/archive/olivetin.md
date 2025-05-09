@@ -11,4 +11,3 @@ github: "https://github.com/OliveTin/OliveTin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OliveTin

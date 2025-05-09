@@ -11,4 +11,3 @@ github: "https://gitlab.com/bramw/baserow"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Baserow

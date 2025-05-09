@@ -12,4 +12,3 @@ github: "https://github.com/mediacms-io/mediacms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MediaCMS

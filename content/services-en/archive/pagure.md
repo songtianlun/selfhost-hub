@@ -13,4 +13,3 @@ github: "https://pagure.io/pagure"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Pagure

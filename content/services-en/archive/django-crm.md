@@ -11,4 +11,3 @@ github: "https://github.com/DjangoCRM/django-crm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Django-CRM

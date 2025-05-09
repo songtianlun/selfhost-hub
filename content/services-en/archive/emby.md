@@ -11,4 +11,3 @@ github: "https://emby.media/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Emby

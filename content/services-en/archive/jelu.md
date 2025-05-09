@@ -12,4 +12,3 @@ github: "https://github.com/bayang/jelu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Jelu

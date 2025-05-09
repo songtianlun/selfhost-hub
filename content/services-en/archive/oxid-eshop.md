@@ -11,4 +11,3 @@ github: "https://github.com/OXID-eSales/oxideshop_ce"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OXID eShop

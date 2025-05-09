@@ -11,4 +11,3 @@ github: "https://github.com/pentacent/keila"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Keila

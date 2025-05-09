@@ -12,4 +12,3 @@ github: "https://github.com/zim-desktop-wiki/zim-desktop-wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Zim

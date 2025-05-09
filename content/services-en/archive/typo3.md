@@ -11,4 +11,3 @@ github: "https://github.com/TYPO3/typo3"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# TYPO3

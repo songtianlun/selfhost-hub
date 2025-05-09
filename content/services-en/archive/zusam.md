@@ -11,4 +11,3 @@ github: "https://github.com/zusam/zusam"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Zusam

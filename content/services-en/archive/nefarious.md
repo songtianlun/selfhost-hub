@@ -11,4 +11,3 @@ github: "https://github.com/lardbit/nefarious"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# nefarious

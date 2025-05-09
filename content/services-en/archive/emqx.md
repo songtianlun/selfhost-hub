@@ -12,4 +12,3 @@ github: "https://github.com/emqx/emqx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# EMQX

@@ -13,4 +13,3 @@ github: "https://github.com/sipcapture/homer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SIPCAPTURE Homer

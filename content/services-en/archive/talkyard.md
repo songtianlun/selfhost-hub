@@ -12,4 +12,3 @@ github: "https://github.com/debiki/talkyard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Talkyard

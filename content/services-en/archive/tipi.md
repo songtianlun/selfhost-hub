@@ -11,4 +11,3 @@ github: "https://github.com/meienberger/runtipi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tipi

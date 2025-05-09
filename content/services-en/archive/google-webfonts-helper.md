@@ -11,4 +11,3 @@ github: "https://github.com/majodev/google-webfonts-helper"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# google-webfonts-helper

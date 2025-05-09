@@ -11,4 +11,3 @@ github: "https://github.com/Project-OSRM/osrm-backend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Open Source Routing Machine (OSRM)

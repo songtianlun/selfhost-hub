@@ -11,4 +11,3 @@ github: "https://github.com/eprints/eprints3.4"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# EPrints

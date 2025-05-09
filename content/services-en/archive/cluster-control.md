@@ -14,4 +14,3 @@ github: "https://severalnines.com/clustercontrol/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cluster Control

@@ -12,4 +12,3 @@ github: "https://github.com/thecodingmachine/workadventure/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WorkAdventure

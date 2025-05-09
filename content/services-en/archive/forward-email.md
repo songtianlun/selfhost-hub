@@ -13,4 +13,3 @@ github: "https://github.com/forwardemail/forwardemail.net"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Forward Email

@@ -11,4 +11,3 @@ github: "https://github.com/gunet/openeclass"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Open eClass

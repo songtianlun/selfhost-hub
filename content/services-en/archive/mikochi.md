@@ -13,4 +13,3 @@ github: "https://github.com/zer0tonin/Mikochi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# mikochi

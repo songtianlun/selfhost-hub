@@ -11,4 +11,3 @@ github: "https://github.com/davideshay/groceries"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Specifically Clementines

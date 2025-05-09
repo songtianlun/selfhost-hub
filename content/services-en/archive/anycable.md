@@ -12,4 +12,3 @@ github: "https://github.com/anycable/anycable"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# AnyCable

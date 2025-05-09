@@ -11,4 +11,3 @@ github: "https://github.com/nilsteampassnet/TeamPass"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Teampass

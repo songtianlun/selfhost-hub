@@ -12,4 +12,3 @@ github: "https://github.com/ever-co/ever-gauzy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Ever Gauzy

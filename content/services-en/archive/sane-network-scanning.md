@@ -11,4 +11,3 @@ github: "http://www.sane-project.org/cvs.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SANE Network Scanning

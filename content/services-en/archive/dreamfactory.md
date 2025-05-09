@@ -13,4 +13,3 @@ github: "https://github.com/dreamfactorysoftware/dreamfactory"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# DreamFactory

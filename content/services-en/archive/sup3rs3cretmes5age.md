@@ -11,4 +11,3 @@ github: "https://github.com/algolia/sup3rS3cretMes5age"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Sup3rS3cretMes5age

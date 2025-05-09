@@ -11,4 +11,3 @@ github: "https://github.com/Squidex/squidex"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Squidex

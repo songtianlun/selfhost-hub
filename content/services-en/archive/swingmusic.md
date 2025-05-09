@@ -12,4 +12,3 @@ github: "https://github.com/swing-opensource/swingmusic"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SwingMusic

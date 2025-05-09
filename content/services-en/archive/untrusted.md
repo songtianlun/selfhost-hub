@@ -11,4 +11,3 @@ github: "https://github.com/AlexNisnevich/untrusted"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# untrusted

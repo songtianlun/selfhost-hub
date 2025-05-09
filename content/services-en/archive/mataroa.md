@@ -11,4 +11,3 @@ github: "https://github.com/mataroa-blog/mataroa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mataroa

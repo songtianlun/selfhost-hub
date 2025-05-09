@@ -12,4 +12,3 @@ github: "https://gitlab.com/passit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# PassIt

@@ -12,4 +12,3 @@ github: "https://github.com/mylar3/mylar3"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mylar3

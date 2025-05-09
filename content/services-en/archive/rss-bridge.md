@@ -12,4 +12,3 @@ github: "https://github.com/RSS-Bridge/rss-bridge"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RSS-Bridge

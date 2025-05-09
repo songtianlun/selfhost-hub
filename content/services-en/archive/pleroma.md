@@ -11,4 +11,3 @@ github: "https://git.pleroma.social/pleroma/pleroma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Pleroma

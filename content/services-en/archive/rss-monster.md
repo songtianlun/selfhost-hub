@@ -11,4 +11,3 @@ github: "https://github.com/pietheinstrengholt/rssmonster"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RSS Monster

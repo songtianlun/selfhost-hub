@@ -11,4 +11,3 @@ github: "https://github.com/flatpressblog/flatpress"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# FlatPress

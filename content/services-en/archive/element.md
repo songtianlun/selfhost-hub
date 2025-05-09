@@ -11,4 +11,3 @@ github: "https://github.com/vector-im/element-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Element

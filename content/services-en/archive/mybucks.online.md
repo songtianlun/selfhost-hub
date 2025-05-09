@@ -11,4 +11,3 @@ github: "https://github.com/mybucks-online/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mybucks.online

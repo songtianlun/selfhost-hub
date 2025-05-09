@@ -11,4 +11,3 @@ github: "https://github.com/kasmtech"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kasm Workspaces

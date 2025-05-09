@@ -11,4 +11,3 @@ github: "https://gitlab.com/mailman/hyperkitty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HyperKitty

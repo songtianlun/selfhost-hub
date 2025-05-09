@@ -11,4 +11,3 @@ github: "https://github.com/opensource-socialnetwork/opensource-socialnetwork"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OSSN

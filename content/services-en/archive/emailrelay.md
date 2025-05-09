@@ -11,4 +11,3 @@ github: "https://sourceforge.net/p/emailrelay/code/HEAD/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# EmailRelay

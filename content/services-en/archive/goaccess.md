@@ -11,4 +11,3 @@ github: "https://github.com/allinurl/goaccess"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GoAccess

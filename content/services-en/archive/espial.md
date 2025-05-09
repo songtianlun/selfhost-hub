@@ -11,4 +11,3 @@ github: "https://github.com/jonschoning/espial"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Espial

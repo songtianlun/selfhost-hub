@@ -12,4 +12,3 @@ github: "https://github.com/reaper47/recipya"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Recipya

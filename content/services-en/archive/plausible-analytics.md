@@ -11,4 +11,3 @@ github: "https://github.com/plausible/analytics/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Plausible Analytics

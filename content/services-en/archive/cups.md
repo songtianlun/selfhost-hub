@@ -11,4 +11,3 @@ github: "https://github.com/OpenPrinting/cups"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# CUPS

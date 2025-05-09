@@ -11,4 +11,3 @@ github: "https://github.com/BreizhHardware/ntfy_alerts"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Github Ntfy

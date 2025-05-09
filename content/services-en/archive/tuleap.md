@@ -11,4 +11,3 @@ github: "https://tuleap.net/plugins/git/tuleap/tuleap/stable?p=tuleap%2Fstable.g
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tuleap

@@ -11,4 +11,3 @@ github: "https://github.com/inveniosoftware/invenio-app-rdm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# InvenioRDM

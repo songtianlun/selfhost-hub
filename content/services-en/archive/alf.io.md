@@ -11,4 +11,3 @@ github: "https://github.com/alfio-event/alf.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Alf.io

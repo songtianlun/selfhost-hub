@@ -13,4 +13,3 @@ github: "https://github.com/blakeblackshear/frigate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Frigate

@@ -12,4 +12,3 @@ github: "https://github.com/m1k1o/neko"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Neko

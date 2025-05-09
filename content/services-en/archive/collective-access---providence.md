@@ -11,4 +11,3 @@ github: "https://github.com/collectiveaccess/providence"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Collective Access - Providence

@@ -11,4 +11,3 @@ github: "https://github.com/andrii-kryvoviaz/slink"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Slink

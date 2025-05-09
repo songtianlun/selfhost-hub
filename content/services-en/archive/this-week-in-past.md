@@ -12,4 +12,3 @@ github: "https://github.com/RouHim/this-week-in-past"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# This week in past

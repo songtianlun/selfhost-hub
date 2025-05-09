@@ -12,4 +12,3 @@ github: "https://github.com/not-three/main"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# not-th.re

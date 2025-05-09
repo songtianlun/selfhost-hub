@@ -12,4 +12,3 @@ github: "https://github.com/firezone/firezone"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Firezone

@@ -11,4 +11,3 @@ github: "https://github.com/standardnotes/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Standard Notes

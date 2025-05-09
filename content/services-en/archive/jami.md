@@ -11,4 +11,3 @@ github: "https://git.jami.net/savoirfairelinux?sort=latest_activity_desc&filter=
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Jami

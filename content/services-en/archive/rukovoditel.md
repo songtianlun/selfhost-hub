@@ -11,4 +11,3 @@ github: "https://www.rukovoditel.net/download.php"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Rukovoditel

@@ -11,4 +11,3 @@ github: "https://github.com/georgemandis/bubo-rss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Bubo Reader

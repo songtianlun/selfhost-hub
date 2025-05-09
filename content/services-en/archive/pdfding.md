@@ -11,4 +11,3 @@ github: "https://github.com/mrmn2/PdfDing"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# PdfDing

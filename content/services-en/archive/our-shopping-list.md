@@ -11,4 +11,3 @@ github: "https://github.com/nanawel/our-shopping-list"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Our Shopping List

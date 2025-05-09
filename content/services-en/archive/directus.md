@@ -12,4 +12,3 @@ github: "https://github.com/directus/directus"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Directus

@@ -11,4 +11,3 @@ github: "https://github.com/SpectrumIM/spectrum2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Spectrum 2

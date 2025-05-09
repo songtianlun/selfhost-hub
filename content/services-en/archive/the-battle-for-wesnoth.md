@@ -12,4 +12,3 @@ github: "https://github.com/wesnoth/wesnoth"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# The Battle for Wesnoth

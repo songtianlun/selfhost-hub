@@ -11,4 +11,3 @@ github: "https://github.com/inventree/InvenTree"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Inventree

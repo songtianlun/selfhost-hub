@@ -12,4 +12,3 @@ github: "https://github.com/cfu288/mere-medical"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mere Medical

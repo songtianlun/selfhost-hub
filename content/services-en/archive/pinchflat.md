@@ -11,4 +11,3 @@ github: "https://github.com/kieraneglin/pinchflat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Pinchflat

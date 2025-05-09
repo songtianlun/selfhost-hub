@@ -13,4 +13,3 @@ github: "https://github.com/ever-co/ever-traduora"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Traduora

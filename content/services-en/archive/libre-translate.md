@@ -12,4 +12,3 @@ github: "https://github.com/LibreTranslate/LibreTranslate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Libre Translate

@@ -12,4 +12,3 @@ github: "https://github.com/dani-garcia/vaultwarden"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Vaultwarden

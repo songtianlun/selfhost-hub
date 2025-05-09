@@ -11,4 +11,3 @@ github: "https://github.com/l4rm4nd/VoucherVault"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# VoucherVault

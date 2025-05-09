@@ -12,4 +12,3 @@ github: "https://github.com/fastenhealth/fasten-onprem/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Fasten Health

@@ -12,4 +12,3 @@ github: "https://github.com/element-hq/synapse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Synapse

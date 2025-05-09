@@ -11,4 +11,3 @@ github: "https://github.com/Dan-in-CA/SIP"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SIP Irrigation Control

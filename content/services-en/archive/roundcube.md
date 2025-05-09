@@ -12,4 +12,3 @@ github: "https://github.com/roundcube/roundcubemail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Roundcube

@@ -11,4 +11,3 @@ github: "https://kanbantool.com/kanban-tool-on-site"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kanban Tool

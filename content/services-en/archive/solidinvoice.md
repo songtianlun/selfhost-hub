@@ -11,4 +11,3 @@ github: "https://github.com/SolidInvoice/SolidInvoice"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SolidInvoice

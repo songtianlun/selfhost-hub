@@ -13,4 +13,3 @@ github: "https://github.com/caddyserver/caddy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Caddy

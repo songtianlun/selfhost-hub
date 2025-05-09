@@ -11,4 +11,3 @@ github: "https://github.com/saimn/sigal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# sigal

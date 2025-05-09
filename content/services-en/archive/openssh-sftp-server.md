@@ -12,4 +12,3 @@ github: "https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/ssh/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OpenSSH SFTP server

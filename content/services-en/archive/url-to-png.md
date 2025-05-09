@@ -12,4 +12,3 @@ github: "https://github.com/jasonraimondi/url-to-png"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# URL-to-PNG

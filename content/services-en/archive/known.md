@@ -11,4 +11,3 @@ github: "https://github.com/idno/known"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Known

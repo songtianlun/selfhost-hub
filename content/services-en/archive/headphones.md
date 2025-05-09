@@ -11,4 +11,3 @@ github: "https://github.com/rembo10/headphones"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Headphones

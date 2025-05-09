@@ -11,4 +11,3 @@ github: "https://svn.redmine.org/redmine/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Redmine

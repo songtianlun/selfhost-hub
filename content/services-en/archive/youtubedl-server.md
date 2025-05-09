@@ -12,4 +12,3 @@ github: "https://github.com/nbr23/youtube-dl-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# YoutubeDL-Server

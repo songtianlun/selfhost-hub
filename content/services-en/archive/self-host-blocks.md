@@ -11,4 +11,3 @@ github: "https://github.com/ibizaman/selfhostblocks"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Self Host Blocks

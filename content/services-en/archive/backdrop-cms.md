@@ -11,4 +11,3 @@ github: "https://github.com/backdrop/backdrop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Backdrop CMS

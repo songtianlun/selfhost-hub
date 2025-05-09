@@ -11,4 +11,3 @@ github: "https://github.com/textpattern/textpattern"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Textpattern

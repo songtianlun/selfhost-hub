@@ -12,4 +12,3 @@ github: "https://github.com/livebook-dev/livebook"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Livebook

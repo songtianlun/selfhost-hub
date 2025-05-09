@@ -12,4 +12,3 @@ github: "https://github.com/nirix/traq"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Traq

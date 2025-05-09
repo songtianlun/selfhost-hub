@@ -11,4 +11,3 @@ github: "https://github.com/humhub/humhub"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# HumHub

@@ -11,4 +11,3 @@ github: "https://github.com/ILIAS-eLearning/ILIAS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ILIAS

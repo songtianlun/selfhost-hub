@@ -11,4 +11,3 @@ github: "https://github.com/leon-ai/leon"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Leon

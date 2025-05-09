@@ -13,4 +13,3 @@ github: "https://gitlab.com/glitchtip/glitchtip"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GlitchTip

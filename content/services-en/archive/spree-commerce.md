@@ -11,4 +11,3 @@ github: "https://github.com/spree/spree"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Spree Commerce

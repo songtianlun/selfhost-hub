@@ -12,4 +12,3 @@ github: "https://github.com/maptiler/tileserver-gl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# TileServer GL

@@ -11,4 +11,3 @@ github: "https://gitlab.xiph.org/xiph/icecast-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Icecast 2

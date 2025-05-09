@@ -11,4 +11,3 @@ github: "https://github.com/moode-player/moode"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# moOde Audio

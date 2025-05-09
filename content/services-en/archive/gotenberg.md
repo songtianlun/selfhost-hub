@@ -11,4 +11,3 @@ github: "https://github.com/gotenberg/gotenberg"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Gotenberg

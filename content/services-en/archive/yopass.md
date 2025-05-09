@@ -12,4 +12,3 @@ github: "https://github.com/jhaals/yopass"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Yopass

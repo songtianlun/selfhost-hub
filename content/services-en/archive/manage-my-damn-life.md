@@ -12,4 +12,3 @@ github: "https://github.com/intri-in/manage-my-damn-life-nextjs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Manage My Damn Life

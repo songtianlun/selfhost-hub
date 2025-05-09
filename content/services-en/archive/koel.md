@@ -11,4 +11,3 @@ github: "https://github.com/koel/koel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# koel

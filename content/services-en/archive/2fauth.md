@@ -12,4 +12,3 @@ github: "https://github.com/Bubka/2FAuth"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# 2FAuth

@@ -11,4 +11,3 @@ github: "https://www.github.com/grai-io/grai-core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Grai

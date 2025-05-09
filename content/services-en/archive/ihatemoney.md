@@ -12,4 +12,3 @@ github: "https://github.com/spiral-project/ihatemoney"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# IHateMoney

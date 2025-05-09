@@ -11,4 +11,3 @@ github: "https://github.com/AdguardTeam/AdGuardHome"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# AdGuard Home

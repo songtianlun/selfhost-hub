@@ -11,4 +11,3 @@ github: "https://github.com/kassner/whattocook"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# What To Cook?

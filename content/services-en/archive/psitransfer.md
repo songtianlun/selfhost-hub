@@ -11,4 +11,3 @@ github: "https://github.com/psi-4ward/psitransfer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# PsiTransfer

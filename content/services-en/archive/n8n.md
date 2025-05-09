@@ -12,4 +12,3 @@ github: "https://github.com/n8n-io/n8n"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# n8n

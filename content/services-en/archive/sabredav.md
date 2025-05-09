@@ -11,4 +11,3 @@ github: "https://github.com/sabre-io/dav"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SabreDAV

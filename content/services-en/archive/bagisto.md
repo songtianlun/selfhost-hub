@@ -11,4 +11,3 @@ github: "https://github.com/bagisto/bagisto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Bagisto

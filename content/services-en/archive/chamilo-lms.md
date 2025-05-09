@@ -11,4 +11,3 @@ github: "https://github.com/chamilo/chamilo-lms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Chamilo LMS

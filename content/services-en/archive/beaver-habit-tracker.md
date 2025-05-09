@@ -11,4 +11,3 @@ github: "https://github.com/daya0576/beaverhabits"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Beaver Habit Tracker

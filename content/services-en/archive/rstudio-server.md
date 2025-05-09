@@ -12,4 +12,3 @@ github: "https://github.com/rstudio/rstudio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RStudio Server

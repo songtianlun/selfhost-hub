@@ -11,4 +11,3 @@ github: "https://github.com/gitroomhq/postiz-app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Postiz

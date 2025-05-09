@@ -12,4 +12,3 @@ github: "https://github.com/yusing/godoxy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# go-doxy

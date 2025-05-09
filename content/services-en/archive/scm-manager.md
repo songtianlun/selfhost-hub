@@ -14,4 +14,3 @@ github: "https://github.com/scm-manager/scm-manager"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SCM Manager

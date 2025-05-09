@@ -11,4 +11,3 @@ github: "https://github.com/dutchcoders/transfer.sh"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# transfer.sh

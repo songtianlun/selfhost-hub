@@ -11,4 +11,3 @@ github: "https://github.com/maybe-finance/maybe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Maybe

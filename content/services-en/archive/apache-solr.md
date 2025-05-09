@@ -13,4 +13,3 @@ github: "https://github.com/apache/solr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Apache Solr

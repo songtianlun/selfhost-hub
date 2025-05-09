@@ -11,4 +11,3 @@ github: "https://getchannels.com/dvr-server/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Channels DVR Server

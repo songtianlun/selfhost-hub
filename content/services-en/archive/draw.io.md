@@ -12,4 +12,3 @@ github: "https://github.com/jgraph/drawio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# draw.io

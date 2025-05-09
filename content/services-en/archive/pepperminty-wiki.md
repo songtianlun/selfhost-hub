@@ -11,4 +11,3 @@ github: "https://github.com/sbrl/Pepperminty-Wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Pepperminty Wiki

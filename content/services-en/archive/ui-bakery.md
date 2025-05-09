@@ -12,4 +12,3 @@ github: "https://github.com/uibakery/self-hosted"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# UI Bakery

@@ -13,4 +13,3 @@ github: "https://github.com/varnishcache/varnish-cache"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Varnish

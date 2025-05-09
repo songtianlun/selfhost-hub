@@ -11,4 +11,3 @@ github: "https://github.com/WebThingsIO/gateway"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WebThings Gateway

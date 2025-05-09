@@ -11,4 +11,3 @@ github: "https://github.com/TheWicklowWolf/BookBounty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# BookBounty

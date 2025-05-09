@@ -11,4 +11,3 @@ github: "https://github.com/SimpleMachines/SMF"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Simple Machines Forum

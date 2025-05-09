@@ -11,4 +11,3 @@ github: "https://github.com/foxcpp/maddy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Maddy Mail Server

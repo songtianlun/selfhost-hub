@@ -11,4 +11,3 @@ github: "https://git.samba.org/samba.git/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Samba

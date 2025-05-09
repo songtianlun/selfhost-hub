@@ -11,4 +11,3 @@ github: "https://github.com/tanrax/maza-ad-blocking"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Maza ad blocking

@@ -11,4 +11,3 @@ github: "https://gnunet.org/git/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GNUnet

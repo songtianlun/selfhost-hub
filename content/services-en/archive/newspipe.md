@@ -11,4 +11,3 @@ github: "https://git.sr.ht/~cedric/newspipe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Newspipe

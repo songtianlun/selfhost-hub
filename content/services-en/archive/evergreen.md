@@ -11,4 +11,3 @@ github: "https://github.com/evergreen-library-system/Evergreen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Evergreen

@@ -11,4 +11,3 @@ github: "https://github.com/TheWicklowWolf/Lidify"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Lidify

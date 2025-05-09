@@ -11,4 +11,3 @@ github: "https://github.com/Receipt-Wrangler/receipt-wrangler-api"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Receipt Wrangler

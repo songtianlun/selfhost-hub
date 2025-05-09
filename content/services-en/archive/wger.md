@@ -12,4 +12,3 @@ github: "https://github.com/wger-project/wger"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# wger

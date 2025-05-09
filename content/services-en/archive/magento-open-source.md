@@ -11,4 +11,3 @@ github: "https://github.com/magento/magento2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Magento Open Source

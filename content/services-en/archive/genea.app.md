@@ -11,4 +11,3 @@ github: "https://github.com/genea-app/genea-app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Genea.app

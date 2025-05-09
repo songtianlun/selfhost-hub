@@ -11,4 +11,3 @@ github: "https://gitlab.com/LazyLibrarian/LazyLibrarian"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# LazyLibrarian

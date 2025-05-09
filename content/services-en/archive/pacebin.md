@@ -11,4 +11,3 @@ github: "https://git.swurl.xyz/swirl/pacebin.git"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# pacebin

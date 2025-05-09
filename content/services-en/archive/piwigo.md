@@ -11,4 +11,3 @@ github: "https://github.com/Piwigo/Piwigo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Piwigo

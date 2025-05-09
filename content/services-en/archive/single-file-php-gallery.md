@@ -11,4 +11,3 @@ github: "http://sye.dk/sfpg/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Single File PHP Gallery

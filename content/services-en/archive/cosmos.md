@@ -13,4 +13,3 @@ github: "https://github.com/azukaar/cosmos-Server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cosmos

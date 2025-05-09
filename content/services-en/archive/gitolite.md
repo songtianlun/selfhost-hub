@@ -11,4 +11,3 @@ github: "https://github.com/sitaramc/gitolite"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Gitolite

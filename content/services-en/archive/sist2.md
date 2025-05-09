@@ -12,4 +12,3 @@ github: "https://github.com/simon987/sist2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# sist2

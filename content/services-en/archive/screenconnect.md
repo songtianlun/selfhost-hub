@@ -11,4 +11,3 @@ github: "https://www.connectwise.com/platform/unified-management/control"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ScreenConnect

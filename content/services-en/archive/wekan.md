@@ -11,4 +11,3 @@ github: "https://github.com/wekan/wekan"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Wekan

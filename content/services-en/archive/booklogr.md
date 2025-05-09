@@ -11,4 +11,3 @@ github: "https://github.com/Mozzo1000/booklogr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# BookLogr

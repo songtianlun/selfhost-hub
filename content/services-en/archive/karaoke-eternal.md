@@ -12,4 +12,3 @@ github: "https://www.karaoke-eternal.com/repo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Karaoke Eternal

@@ -14,4 +14,3 @@ github: "https://github.com/owntracks/recorder"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# OwnTracks Recorder

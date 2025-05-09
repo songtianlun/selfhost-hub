@@ -12,4 +12,3 @@ github: "https://github.com/etesync/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Etebase (EteSync)

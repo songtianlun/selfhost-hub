@@ -13,4 +13,3 @@ github: "https://github.com/azimuttapp/azimutt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Azimutt

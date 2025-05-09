@@ -11,4 +11,3 @@ github: "https://git.dotclear.org/dev/dotclear"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Dotclear

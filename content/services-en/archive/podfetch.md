@@ -12,4 +12,3 @@ github: "https://github.com/SamTV12345/PodFetch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# PodFetch

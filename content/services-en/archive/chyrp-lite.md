@@ -11,4 +11,3 @@ github: "https://github.com/xenocrat/chyrp-lite"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Chyrp Lite

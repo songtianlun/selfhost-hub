@@ -12,4 +12,3 @@ github: "https://github.com/damongolding/immich-kiosk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Immich Kiosk

@@ -11,4 +11,3 @@ github: "https://codeberg.org/ladigitale/digicard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Digicard

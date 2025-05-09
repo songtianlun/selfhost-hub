@@ -11,4 +11,3 @@ github: "https://github.com/Jermolene/TiddlyWiki5"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# TiddlyWiki

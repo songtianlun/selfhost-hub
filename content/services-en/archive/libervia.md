@@ -11,4 +11,3 @@ github: "https://repos.goffi.org/libervia-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Libervia

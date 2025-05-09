@@ -12,4 +12,3 @@ github: "https://github.com/prismelabs/analytics"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Prisme Analytics

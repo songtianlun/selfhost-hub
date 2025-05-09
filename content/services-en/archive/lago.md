@@ -11,4 +11,3 @@ github: "https://github.com/getlago/lago"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Lago

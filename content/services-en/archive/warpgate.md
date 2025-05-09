@@ -12,4 +12,3 @@ github: "https://github.com/warp-tech/warpgate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Warpgate

@@ -13,4 +13,3 @@ github: "https://github.com/MrBrax/LiveStreamDVR"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# LiveStreamDVR

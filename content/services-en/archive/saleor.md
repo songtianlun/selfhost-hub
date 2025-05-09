@@ -12,4 +12,3 @@ github: "https://github.com/saleor/saleor"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Saleor

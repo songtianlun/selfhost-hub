@@ -13,4 +13,3 @@ github: "https://github.com/centrifugal/centrifugo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Centrifugo

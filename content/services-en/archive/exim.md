@@ -12,4 +12,3 @@ github: "https://git.exim.org/exim.git"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Exim

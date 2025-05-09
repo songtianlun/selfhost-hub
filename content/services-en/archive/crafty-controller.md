@@ -12,4 +12,3 @@ github: "https://gitlab.com/crafty-controller/crafty-4"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Crafty Controller

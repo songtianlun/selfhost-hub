@@ -11,4 +11,3 @@ github: "https://kallithea-scm.org/repos/kallithea"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kallithea

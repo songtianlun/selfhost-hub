@@ -11,4 +11,3 @@ github: "https://reservo.co"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Reservo

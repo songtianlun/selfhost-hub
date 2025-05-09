@@ -11,4 +11,3 @@ github: "https://framagit.org/hubzilla/core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Hubzilla

@@ -11,4 +11,3 @@ github: "https://github.com/bestpractical/rt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Request Tracker

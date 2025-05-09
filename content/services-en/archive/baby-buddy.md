@@ -11,4 +11,3 @@ github: "https://github.com/babybuddy/babybuddy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Baby Buddy

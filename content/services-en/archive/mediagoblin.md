@@ -11,4 +11,3 @@ github: "https://git.savannah.gnu.org/cgit/mediagoblin.git/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mediagoblin

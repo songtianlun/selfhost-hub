@@ -11,4 +11,3 @@ github: "https://sourceforge.net/p/minidlna/git/ci/master/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ReadyMedia

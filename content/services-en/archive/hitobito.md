@@ -11,4 +11,3 @@ github: "https://github.com/hitobito/hitobito"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# hitobito

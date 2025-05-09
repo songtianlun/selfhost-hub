@@ -11,4 +11,3 @@ github: "https://github.com/ipv6rslimited/cloudseeder"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cloud Seeder

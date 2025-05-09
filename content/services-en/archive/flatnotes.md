@@ -11,4 +11,3 @@ github: "https://github.com/dullage/flatnotes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# flatnotes

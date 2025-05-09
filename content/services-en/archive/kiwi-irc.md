@@ -11,4 +11,3 @@ github: "https://github.com/kiwiirc/kiwiirc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kiwi IRC

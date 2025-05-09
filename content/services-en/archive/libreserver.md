@@ -11,4 +11,3 @@ github: "https://github.com/bashrc2/libreserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# LibreServer

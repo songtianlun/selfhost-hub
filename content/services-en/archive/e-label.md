@@ -11,4 +11,3 @@ github: "https://github.com/filipecarneiro/ELabel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# E-Label

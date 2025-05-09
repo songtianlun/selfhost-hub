@@ -11,4 +11,3 @@ github: "https://github.com/ampache/ampache"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Ampache

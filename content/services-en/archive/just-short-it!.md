@@ -11,4 +11,3 @@ github: "https://github.com/miawinter98/just-short-it"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Just Short It!

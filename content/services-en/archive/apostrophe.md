@@ -11,4 +11,3 @@ github: "https://github.com/apostrophecms/apostrophe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Apostrophe

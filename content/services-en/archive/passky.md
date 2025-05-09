@@ -11,4 +11,3 @@ github: "https://github.com/Rabbit-Company/Passky-Server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Passky

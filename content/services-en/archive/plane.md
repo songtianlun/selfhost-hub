@@ -11,4 +11,3 @@ github: "https://github.com/makeplane/plane"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Plane

@@ -12,4 +12,3 @@ github: "https://github.com/open-webui/open-webui"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Open-WebUI

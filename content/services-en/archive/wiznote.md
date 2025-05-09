@@ -11,4 +11,3 @@ github: "https://www.wiz.cn/docker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Wiznote

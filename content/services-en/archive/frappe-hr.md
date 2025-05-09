@@ -13,4 +13,3 @@ github: "https://github.com/frappe/hrms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Frappe HR

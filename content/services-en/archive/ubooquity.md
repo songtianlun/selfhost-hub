@@ -11,4 +11,3 @@ github: "https://vaemendis.net/ubooquity/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Ubooquity

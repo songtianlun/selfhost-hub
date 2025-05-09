@@ -12,4 +12,3 @@ github: "https://github.com/coder/code-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# code-server

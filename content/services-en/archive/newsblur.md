@@ -11,4 +11,3 @@ github: "https://github.com/samuelclay/NewsBlur"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# NewsBlur

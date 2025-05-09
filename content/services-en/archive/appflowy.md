@@ -13,4 +13,3 @@ github: "https://github.com/AppFlowy-IO/appflowy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# AppFlowy

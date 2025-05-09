@@ -12,4 +12,3 @@ github: "https://github.com/CatoTH/antragsgruen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# motion.tools (Antragsgrün)

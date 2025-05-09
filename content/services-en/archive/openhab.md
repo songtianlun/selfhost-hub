@@ -11,4 +11,3 @@ github: "https://github.com/openhab/openhab-core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# openHAB

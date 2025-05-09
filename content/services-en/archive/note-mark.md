@@ -11,4 +11,3 @@ github: "https://github.com/enchant97/note-mark"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Note Mark

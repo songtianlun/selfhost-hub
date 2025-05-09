@@ -12,4 +12,3 @@ github: "https://github.com/timvisee/send"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Send

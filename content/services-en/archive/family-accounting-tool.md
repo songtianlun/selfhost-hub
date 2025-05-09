@@ -11,4 +11,3 @@ github: "https://github.com/nymanjens/facto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Family Accounting Tool

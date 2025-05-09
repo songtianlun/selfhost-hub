@@ -19,4 +19,3 @@ github: "https://wikisuite.org/Source-Code"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# WikiSuite

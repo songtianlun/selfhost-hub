@@ -11,4 +11,3 @@ github: "https://aerokube.com/moon/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Moon

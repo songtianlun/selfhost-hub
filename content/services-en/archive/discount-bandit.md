@@ -12,4 +12,3 @@ github: "https://github.com/Cybrarist/Discount-Bandit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Discount Bandit

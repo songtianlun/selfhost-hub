@@ -11,4 +11,3 @@ github: "https://gitlab.com/mailman/postorius/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Postorius

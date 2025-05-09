@@ -13,4 +13,3 @@ github: "https://github.com/RARgames/4gaBoards"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# 4ga Boards

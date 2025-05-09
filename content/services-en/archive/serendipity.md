@@ -11,4 +11,3 @@ github: "https://github.com/s9y/serendipity"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Serendipity

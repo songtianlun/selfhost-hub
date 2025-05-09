@@ -11,4 +11,3 @@ github: "https://github.com/getfider/fider"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Fider

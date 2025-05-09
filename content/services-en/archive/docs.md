@@ -11,4 +11,3 @@ github: "https://github.com/suitenumerique/docs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Docs

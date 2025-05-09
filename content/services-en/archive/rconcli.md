@@ -11,4 +11,3 @@ github: "https://github.com/gorcon/rcon-cli"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# RconCli

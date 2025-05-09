@@ -12,4 +12,3 @@ github: "https://github.com/w4/rgit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# rgit

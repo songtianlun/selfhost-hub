@@ -11,4 +11,3 @@ github: "https://github.com/Librum-Reader/Librum"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Librum

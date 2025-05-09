@@ -11,4 +11,3 @@ github: "https://github.com/omeka/omeka-s"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Omeka S

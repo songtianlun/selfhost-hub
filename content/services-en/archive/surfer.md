@@ -11,4 +11,3 @@ github: "https://git.cloudron.io/cloudron/surfer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Surfer

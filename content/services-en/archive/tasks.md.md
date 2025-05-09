@@ -11,4 +11,3 @@ github: "https://github.com/BaldissaraMatheus/Tasks.md"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tasks.md

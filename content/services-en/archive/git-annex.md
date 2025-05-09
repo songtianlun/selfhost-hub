@@ -11,4 +11,3 @@ github: "https://git.joeyh.name/index.cgi/git-annex.git/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Git Annex

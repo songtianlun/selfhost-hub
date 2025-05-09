@@ -11,4 +11,3 @@ github: "https://www.fullhelp.com/en/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Full Help

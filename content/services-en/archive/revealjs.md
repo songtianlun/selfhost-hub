@@ -11,4 +11,3 @@ github: "https://github.com/hakimel/reveal.js"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# revealjs

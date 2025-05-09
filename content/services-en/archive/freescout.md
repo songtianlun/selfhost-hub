@@ -12,4 +12,3 @@ github: "https://github.com/freescout-helpdesk/freescout"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# FreeScout

@@ -12,4 +12,3 @@ github: "https://github.com/reviewboard/reviewboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Review Board

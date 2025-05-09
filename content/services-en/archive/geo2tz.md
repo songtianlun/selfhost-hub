@@ -12,4 +12,3 @@ github: "https://github.com/noandrea/geo2tz"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Geo2tz

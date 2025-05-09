@@ -11,4 +11,3 @@ github: "https://github.com/eldy/awstats"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# AWStats

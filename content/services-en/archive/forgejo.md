@@ -12,4 +12,3 @@ github: "https://codeberg.org/forgejo/forgejo/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Forgejo

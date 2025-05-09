@@ -11,4 +11,3 @@ github: "https://github.com/tigase/tigase-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tigase

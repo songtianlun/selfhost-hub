@@ -11,4 +11,3 @@ github: "https://github.com/docusealco/docuseal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Docuseal

@@ -12,4 +12,3 @@ github: "https://github.com/stv0g/gose"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GoSƐ

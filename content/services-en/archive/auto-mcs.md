@@ -11,4 +11,3 @@ github: "https://github.com/macarooni-man/auto-mcs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# auto-mcs

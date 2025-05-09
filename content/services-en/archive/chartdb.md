@@ -12,4 +12,3 @@ github: "https://github.com/chartdb/chartdb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ChartDB

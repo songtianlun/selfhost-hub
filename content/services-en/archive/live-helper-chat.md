@@ -11,4 +11,3 @@ github: "https://github.com/LiveHelperChat/livehelperchat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Live Helper Chat

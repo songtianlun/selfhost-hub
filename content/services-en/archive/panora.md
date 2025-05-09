@@ -12,4 +12,3 @@ github: "https://github.com/panoratech/Panora"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Panora

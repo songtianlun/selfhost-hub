@@ -12,4 +12,3 @@ github: "https://gitlab.com/cyber5k/mistborn"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mistborn

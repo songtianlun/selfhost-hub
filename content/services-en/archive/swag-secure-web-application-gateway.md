@@ -11,4 +11,3 @@ github: "https://github.com/linuxserver/docker-swag"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SWAG (Secure Web Application Gateway)

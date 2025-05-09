@@ -12,4 +12,3 @@ github: "https://github.com/ether/etherpad-lite"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Etherpad

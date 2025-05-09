@@ -11,4 +11,3 @@ github: "https://github.com/shellhub-io/shellhub"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ShellHub

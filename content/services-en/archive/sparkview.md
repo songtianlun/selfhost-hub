@@ -11,4 +11,3 @@ github: "https://www.beyondssl.com/en/products/sparkview/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SparkView

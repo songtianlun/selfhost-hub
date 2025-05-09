@@ -13,4 +13,3 @@ github: "https://github.com/yacy/yacy_search_server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Yacy

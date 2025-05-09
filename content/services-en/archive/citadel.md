@@ -13,4 +13,3 @@ github: "https://www.citadel.org/source.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Citadel

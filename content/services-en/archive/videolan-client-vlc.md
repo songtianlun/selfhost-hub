@@ -12,4 +12,3 @@ github: "https://code.videolan.org/videolan/vlc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# VideoLAN Client (VLC)

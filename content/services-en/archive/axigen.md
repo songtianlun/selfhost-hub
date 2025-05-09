@@ -11,4 +11,3 @@ github: "https://www.axigen.com/mail-server/free/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Axigen

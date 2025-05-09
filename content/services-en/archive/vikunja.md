@@ -11,4 +11,3 @@ github: "https://kolaente.dev/vikunja/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Vikunja

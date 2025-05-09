@@ -12,4 +12,3 @@ github: "https://github.com/blackcandy-org/black_candy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Black Candy

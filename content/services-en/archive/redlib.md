@@ -11,4 +11,3 @@ github: "https://github.com/redlib-org/redlib"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Redlib

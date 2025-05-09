@@ -13,4 +13,3 @@ github: "https://github.com/ybizeul/ybFeed"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ybFeed

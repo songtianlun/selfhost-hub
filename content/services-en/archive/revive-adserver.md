@@ -11,4 +11,3 @@ github: "https://github.com/revive-adserver/revive-adserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Revive Adserver

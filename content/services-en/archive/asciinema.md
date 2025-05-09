@@ -12,4 +12,3 @@ github: "https://github.com/asciinema/asciinema-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# asciinema

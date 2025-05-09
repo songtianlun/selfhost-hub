@@ -11,4 +11,3 @@ github: "https://github.com/AlexSciFier/neonlink"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# NeonLink

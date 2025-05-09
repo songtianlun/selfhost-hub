@@ -11,4 +11,3 @@ github: "https://git.mills.io/yarnsocial/yarn"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# yarn.social

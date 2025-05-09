@@ -12,4 +12,3 @@ github: "https://github.com/lowdefy/lowdefy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Lowdefy

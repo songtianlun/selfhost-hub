@@ -11,4 +11,3 @@ github: "https://github.com/laurent22/joplin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Joplin

@@ -12,4 +12,3 @@ github: "https://github.com/foodcoops/foodsoft"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Foodsoft

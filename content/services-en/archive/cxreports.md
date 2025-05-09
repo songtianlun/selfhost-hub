@@ -11,4 +11,3 @@ github: "https://www.cx-reports.com"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# CxReports

@@ -11,4 +11,3 @@ github: "https://www.groupboard.com/products/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Groupboard

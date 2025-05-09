@@ -11,4 +11,3 @@ github: "https://github.com/Alfresco/alfresco-community-repo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Alfresco Community Edition

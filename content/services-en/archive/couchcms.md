@@ -11,4 +11,3 @@ github: "https://github.com/CouchCMS/CouchCMS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# CouchCMS

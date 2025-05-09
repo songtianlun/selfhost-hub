@@ -11,4 +11,3 @@ github: "https://github.com/conversejs/converse.js"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Converse.js

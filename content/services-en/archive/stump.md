@@ -11,4 +11,3 @@ github: "https://github.com/stumpapp/stump"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Stump

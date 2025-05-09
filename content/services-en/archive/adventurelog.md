@@ -11,4 +11,3 @@ github: "https://github.com/seanmorley15/AdventureLog"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# AdventureLog

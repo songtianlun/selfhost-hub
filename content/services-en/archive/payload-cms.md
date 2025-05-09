@@ -11,4 +11,3 @@ github: "https://github.com/payloadcms/payload"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Payload CMS

@@ -11,4 +11,3 @@ github: "https://github.com/projectsend/projectsend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# ProjectSend

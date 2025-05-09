@@ -11,4 +11,3 @@ github: "https://github.com/jsxc/jsxc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# JSXC

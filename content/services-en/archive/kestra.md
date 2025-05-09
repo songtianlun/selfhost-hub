@@ -11,4 +11,3 @@ github: "https://github.com/kestra-io/kestra"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kestra

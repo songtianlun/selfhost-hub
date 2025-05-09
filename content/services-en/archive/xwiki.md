@@ -13,4 +13,3 @@ github: "https://github.com/xwiki/xwiki-platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# XWiki

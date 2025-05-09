@@ -11,4 +11,3 @@ github: "https://github.com/penpot/penpot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# penpot

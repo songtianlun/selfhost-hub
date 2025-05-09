@@ -11,4 +11,3 @@ github: "https://github.com/bouncepaw/mycorrhiza/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Mycorrhiza Wiki

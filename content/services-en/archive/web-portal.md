@@ -12,4 +12,3 @@ github: "https://github.com/enchant97/web-portal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Web-Portal

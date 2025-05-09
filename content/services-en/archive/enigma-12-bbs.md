@@ -13,4 +13,3 @@ github: "https://github.com/NuSkooler/enigma-bbs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Enigma 1/2 BBS

@@ -12,4 +12,3 @@ github: "https://github.com/Jigsaw-Code/outline-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Outline Server

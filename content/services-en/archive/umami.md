@@ -12,4 +12,3 @@ github: "https://github.com/umami-software/umami"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Umami

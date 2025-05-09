@@ -13,4 +13,3 @@ github: "https://gitlab.com/hook0/hook0"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Hook0

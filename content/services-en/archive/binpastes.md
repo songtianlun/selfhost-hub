@@ -11,4 +11,3 @@ github: "https://github.com/querwurzel/BinPastes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# BinPastes

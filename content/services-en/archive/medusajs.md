@@ -11,4 +11,3 @@ github: "https://github.com/medusajs/medusa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# MedusaJs

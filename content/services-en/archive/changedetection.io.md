@@ -12,4 +12,3 @@ github: "https://github.com/dgtlmoon/changedetection.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# changedetection.io

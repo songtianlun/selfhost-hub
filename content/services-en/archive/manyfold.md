@@ -11,4 +11,3 @@ github: "https://github.com/manyfold3d/manyfold"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Manyfold

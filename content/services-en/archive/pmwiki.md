@@ -11,4 +11,3 @@ github: "https://www.pmwiki.org"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# PmWiki

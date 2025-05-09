@@ -12,4 +12,3 @@ github: "https://gitlab.com/biolds1/sosse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Sosse

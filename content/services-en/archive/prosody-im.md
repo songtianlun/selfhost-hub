@@ -11,4 +11,3 @@ github: "https://hg.prosody.im/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Prosody IM

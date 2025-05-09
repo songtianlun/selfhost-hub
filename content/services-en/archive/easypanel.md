@@ -11,4 +11,3 @@ github: "https://easypanel.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Easypanel

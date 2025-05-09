@@ -12,4 +12,3 @@ github: "https://codeberg.org/ladigitale/digiview"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Digiview

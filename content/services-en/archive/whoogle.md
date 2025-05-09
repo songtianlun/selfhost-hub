@@ -11,4 +11,3 @@ github: "https://github.com/benbusby/whoogle-search"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Whoogle

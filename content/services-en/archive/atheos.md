@@ -12,4 +12,3 @@ github: "https://github.com/Atheos/Atheos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Atheos

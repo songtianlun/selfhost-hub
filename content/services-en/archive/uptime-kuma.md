@@ -12,4 +12,3 @@ github: "https://github.com/louislam/uptime-kuma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Uptime Kuma

@@ -11,4 +11,3 @@ github: "https://framagit.org/framasoft/framadate?"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Framadate

@@ -11,4 +11,3 @@ github: "https://github.com/GhostWriters/DockSTARTer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# DockSTARTer

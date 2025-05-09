@@ -13,4 +13,3 @@ github: "https://github.com/globaleaks/whistleblowing-software"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# GlobaLeaks

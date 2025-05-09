@@ -11,4 +11,3 @@ github: "https://github.com/sip3io/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SIP3

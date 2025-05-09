@@ -11,4 +11,3 @@ github: "https://github.com/farisc0de/Uploady"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Uploady

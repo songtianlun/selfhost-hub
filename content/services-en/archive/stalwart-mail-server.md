@@ -12,4 +12,3 @@ github: "https://github.com/stalwartlabs/mail-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Stalwart Mail Server

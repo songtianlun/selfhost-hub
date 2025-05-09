@@ -13,4 +13,3 @@ github: "https://github.com/onetimesecret/onetimesecret"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# One Time Secret

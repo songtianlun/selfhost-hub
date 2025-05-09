@@ -11,4 +11,3 @@ github: "https://gitlab.com/noosfero/noosfero"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Noosfero

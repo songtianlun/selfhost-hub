@@ -12,4 +12,3 @@ github: "https://git.cloudron.io/groups/cloudron"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cloudron

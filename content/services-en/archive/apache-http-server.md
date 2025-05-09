@@ -13,4 +13,3 @@ github: "https://svn.apache.org/repos/asf/httpd/httpd/trunk/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Apache HTTP Server

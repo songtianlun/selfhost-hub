@@ -12,4 +12,3 @@ github: "https://buddy.works/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Buddy Enterprise

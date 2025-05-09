@@ -11,4 +11,3 @@ github: "https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Fossil

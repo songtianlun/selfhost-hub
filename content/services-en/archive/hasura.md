@@ -13,4 +13,3 @@ github: "https://github.com/hasura/graphql-engine"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Hasura

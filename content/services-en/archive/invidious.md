@@ -12,4 +12,3 @@ github: "https://github.com/iv-org/invidious"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Invidious

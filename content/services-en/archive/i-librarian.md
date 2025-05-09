@@ -11,4 +11,3 @@ github: "https://github.com/mkucej/i-librarian-free"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# I, Librarian

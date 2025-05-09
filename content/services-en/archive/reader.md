@@ -11,4 +11,3 @@ github: "https://github.com/lemon24/reader"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# reader

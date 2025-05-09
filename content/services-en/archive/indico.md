@@ -11,4 +11,3 @@ github: "https://github.com/indico/indico"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# indico

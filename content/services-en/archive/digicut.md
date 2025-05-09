@@ -11,4 +11,3 @@ github: "https://codeberg.org/ladigitale/digicut"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Digicut

@@ -11,4 +11,3 @@ github: "https://github.com/strapi/strapi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Strapi

@@ -11,4 +11,3 @@ github: "https://github.com/Kinto/kinto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Kinto

@@ -11,4 +11,3 @@ github: "https://www.3cx.com/pbx/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# 3CX

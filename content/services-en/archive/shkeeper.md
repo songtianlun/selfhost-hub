@@ -11,4 +11,3 @@ github: "https://github.com/vsys-host/shkeeper.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SHKeeper

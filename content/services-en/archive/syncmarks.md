@@ -11,4 +11,3 @@ github: "https://codeberg.org/Offerel/SyncMarks-Webapp"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SyncMarks

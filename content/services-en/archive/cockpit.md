@@ -11,4 +11,3 @@ github: "https://github.com/Cockpit-HQ/Cockpit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Cockpit

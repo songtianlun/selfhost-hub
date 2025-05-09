@@ -12,4 +12,3 @@ github: "https://www.courier-mta.org/repo.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Courier MTA

@@ -11,4 +11,3 @@ github: "https://github.com/pereorga/minimalist-web-notepad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# minimalist-web-notepad

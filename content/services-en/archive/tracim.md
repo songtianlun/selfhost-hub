@@ -13,4 +13,3 @@ github: "https://github.com/tracim/tracim"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tracim

@@ -12,4 +12,3 @@ github: "https://github.com/siyuan-note/siyuan"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# SiYuan

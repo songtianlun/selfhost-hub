@@ -11,4 +11,3 @@ github: "https://github.com/snikket-im/snikket-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Snikket

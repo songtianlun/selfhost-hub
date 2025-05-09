@@ -11,4 +11,3 @@ github: "https://github.com/lomorage/homepage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Lomorage

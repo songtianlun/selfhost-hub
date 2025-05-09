@@ -11,4 +11,3 @@ github: "https://github.com/pterodactyl/panel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Pterodactyl

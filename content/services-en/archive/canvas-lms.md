@@ -11,4 +11,3 @@ github: "https://github.com/instructure/canvas-lms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Canvas LMS

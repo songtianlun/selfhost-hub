@@ -11,4 +11,3 @@ github: "https://github.com/gramps-project/gramps-web-api"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Gramps Web

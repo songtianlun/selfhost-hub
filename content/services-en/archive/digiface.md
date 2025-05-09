@@ -11,4 +11,3 @@ github: "https://codeberg.org/ladigitale/digiface"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Digiface

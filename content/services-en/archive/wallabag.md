@@ -11,4 +11,3 @@ github: "https://github.com/wallabag/wallabag"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Wallabag

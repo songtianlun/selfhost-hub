@@ -11,4 +11,3 @@ github: "https://github.com/TokTok/c-toxcore"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Tox

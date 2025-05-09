@@ -11,4 +11,3 @@ github: "https://github.com/webtorrent/bittorrent-tracker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# bittorrent-tracker

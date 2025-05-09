@@ -13,4 +13,3 @@ github: "https://github.com/nginx/nginx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# NGINX

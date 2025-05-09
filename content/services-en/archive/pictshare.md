@@ -12,4 +12,3 @@ github: "https://github.com/HaschekSolutions/pictshare"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# PictShare

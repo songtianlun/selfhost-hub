@@ -13,4 +13,3 @@ github: "https://gitlab.com/fdroid/fdroidserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# F-Droid

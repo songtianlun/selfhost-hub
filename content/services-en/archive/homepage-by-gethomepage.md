@@ -12,4 +12,3 @@ github: "https://github.com/gethomepage/homepage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Homepage by gethomepage

@@ -14,4 +14,3 @@ github: "https://github.com/haiwen/seafile"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Seafile
