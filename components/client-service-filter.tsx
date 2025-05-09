@@ -10,6 +10,7 @@ import { useRouter, usePathname } from "next/navigation"
 import { useLanguage } from "@/components/language-provider"
 import { Badge } from "@/components/ui/badge"
 import { X } from "lucide-react"
+import { SearchInput } from "@/components/search-input"
 
 // 筛选状态显示组件
 function FilterStatus({
@@ -158,11 +159,25 @@ function ServiceFilterInner({
             );
         }
 
+        // 按搜索关键词筛选
+        const searchQuery = searchParams.get('q')?.toLowerCase();
+        if (searchQuery) {
+            filtered = filtered.filter(service =>
+                service.name.toLowerCase().includes(searchQuery) ||
+                service.description.toLowerCase().includes(searchQuery) ||
+                service.tags.some(tag => tag.toLowerCase().includes(searchQuery))
+            );
+        }
+
         setFilteredServices(filtered);
-    }, [allServices, selectedTags, selectedCategory]);
+    }, [allServices, selectedTags, selectedCategory, searchParams]);
 
     return (
         <div className="space-y-6">
+            <div className="mb-6">
+                <SearchInput />
+            </div>
+
             <FilterStatus
                 selectedCategory={selectedCategory}
                 selectedTags={selectedTags}
