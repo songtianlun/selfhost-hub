@@ -8,7 +8,7 @@ tags:
   - PHP
   - 媒体
 rating: 4
-category: 图像服务
+category: 图像托管
 website: 'https://github.com/icret/EasyImages2.0'
 repo: 'https://github.com/icret/EasyImages2.0'
 updatedAt: '2025-05-07T22:03:37.794Z'
