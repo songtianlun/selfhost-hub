@@ -7,7 +7,7 @@ tags:
   - 分享
   - 安全
   - PHP
-category: 文本分享
+category: 云剪贴板
 website: 'https://privatebin.info'
 repo: 'https://github.com/PrivateBin/PrivateBin'
 updatedAt: '2025-05-09T04:29:37.214Z'
