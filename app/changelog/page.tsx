@@ -47,6 +47,9 @@ export default async function ChangelogPage() {
                     <div className="w-2 h-2 rounded-full bg-primary-foreground" />
                   </div>
                   <h2 className="text-xl font-semibold ml-4">{monthTitle}</h2>
+                  <span className="px-2 py-0.5 text-sm bg-primary/10 text-primary rounded-full ml-2">
+                    {monthServices.length} 个服务更新
+                  </span>
                 </div>
 
                 {/* 该月的服务列表 */}
