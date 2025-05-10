@@ -7,7 +7,7 @@ tags:
   - "聊天机器人"
   - "LLM"
   - "TypeScript"
-category: "AI应用"
+category: "AI平台"
 website: "https://chat-preview.lobehub.com"
 github: "https://github.com/lobehub/lobe-chat"
 ---
