@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Games"
 website: "https://craftycontrol.com/"
-github: "https://gitlab.com/crafty-controller/crafty-4"
+repo: "https://gitlab.com/crafty-controller/crafty-4"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

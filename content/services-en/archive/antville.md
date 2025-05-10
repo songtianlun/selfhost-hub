@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Blogging Platforms"
 website: "https://antville.org"
-github: "https://github.com/antville/antville"
+repo: "https://github.com/antville/antville"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

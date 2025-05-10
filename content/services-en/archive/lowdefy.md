@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.lowdefy.com/"
-github: "https://github.com/lowdefy/lowdefy"
+repo: "https://github.com/lowdefy/lowdefy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

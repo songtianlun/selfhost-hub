@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://www.wavelog.org"
-github: "https://github.com/wavelog/wavelog"
+repo: "https://github.com/wavelog/wavelog"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

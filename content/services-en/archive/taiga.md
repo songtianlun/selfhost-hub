@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Software Development"
 website: "https://www.taiga.io/"
-github: "https://github.com/kaleidos-ventures"
+repo: "https://github.com/kaleidos-ventures"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

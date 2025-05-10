@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Games"
 website: "https://gamevau.lt"
-github: "https://github.com/Phalcode/gamevault-backend"
+repo: "https://github.com/Phalcode/gamevault-backend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

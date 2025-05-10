@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Self-hosting Solutions"
 website: "https://www.openmediavault.org/"
-github: "https://github.com/openmediavault/openmediavault"
+repo: "https://github.com/openmediavault/openmediavault"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

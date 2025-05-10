@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://github.com/Yureien/YABin"
-github: "https://github.com/Yureien/YABin"
+repo: "https://github.com/Yureien/YABin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

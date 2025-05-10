@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Groupware"
 website: "https://www.egroupware.org/"
-github: "https://github.com/EGroupware/egroupware"
+repo: "https://github.com/EGroupware/egroupware"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

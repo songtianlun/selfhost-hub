@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Maps and Global Positioning System (GPS)"
 website: "http://project-osrm.org/"
-github: "https://github.com/Project-OSRM/osrm-backend"
+repo: "https://github.com/Project-OSRM/osrm-backend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

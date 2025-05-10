@@ -9,7 +9,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://superdesk.org/"
-github: "https://github.com/superdesk/superdesk"
+repo: "https://github.com/superdesk/superdesk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

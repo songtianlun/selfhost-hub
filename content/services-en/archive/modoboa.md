@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://modoboa.org/en/"
-github: "https://github.com/modoboa/modoboa"
+repo: "https://github.com/modoboa/modoboa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

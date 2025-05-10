@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "URL Shorteners"
 website: "https://git.swurl.xyz/swirl/clink.git/about/"
-github: "https://git.swurl.xyz/swirl/clink.git"
+repo: "https://git.swurl.xyz/swirl/clink.git"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Office Suites"
 website: "https://www.collaboraoffice.com/code"
-github: "https://cgit.freedesktop.org/libreoffice/online/"
+repo: "https://cgit.freedesktop.org/libreoffice/online/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

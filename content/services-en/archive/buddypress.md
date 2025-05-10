@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://buddypress.org/about/"
-github: "https://github.com/buddypress/BuddyPress"
+repo: "https://github.com/buddypress/BuddyPress"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

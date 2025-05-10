@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://github.com/teikei/teikei"
-github: "https://github.com/teikei/teikei"
+repo: "https://github.com/teikei/teikei"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

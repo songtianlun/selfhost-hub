@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Document Management"
 website: "https://samvera.org/"
-github: "https://github.com/samvera/hyrax"
+repo: "https://github.com/samvera/hyrax"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

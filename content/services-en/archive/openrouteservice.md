@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://openrouteservice.org/"
-github: "https://github.com/GIScience/openrouteservice"
+repo: "https://github.com/GIScience/openrouteservice"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

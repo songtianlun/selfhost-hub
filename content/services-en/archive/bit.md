@@ -8,7 +8,7 @@ tags:
   - "Crystal"
 category: "URL Shorteners"
 website: "https://github.com/sjdonado/bit"
-github: "https://github.com/sjdonado/bit"
+repo: "https://github.com/sjdonado/bit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

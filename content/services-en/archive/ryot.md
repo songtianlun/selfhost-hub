@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://github.com/ignisda/ryot"
-github: "https://github.com/ignisda/ryot"
+repo: "https://github.com/ignisda/ryot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

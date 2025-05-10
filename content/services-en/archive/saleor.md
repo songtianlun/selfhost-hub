@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "E-commerce"
 website: "https://saleor.io"
-github: "https://github.com/saleor/saleor"
+repo: "https://github.com/saleor/saleor"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

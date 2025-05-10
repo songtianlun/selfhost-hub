@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://github.com/opensourcepos/opensourcepos"
-github: "https://github.com/opensourcepos/opensourcepos"
+repo: "https://github.com/opensourcepos/opensourcepos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

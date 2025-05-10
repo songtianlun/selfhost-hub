@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Feed Readers"
 website: "https://tt-rss.org"
-github: "https://git.tt-rss.org/fox/tt-rss"
+repo: "https://git.tt-rss.org/fox/tt-rss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

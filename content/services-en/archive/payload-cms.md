@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Content Management Systems (CMS)"
 website: "https://payloadcms.com/"
-github: "https://github.com/payloadcms/payload"
+repo: "https://github.com/payloadcms/payload"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

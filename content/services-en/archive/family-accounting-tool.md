@@ -7,7 +7,7 @@ tags:
   - "Scala"
 category: "Money, Budgeting & Management"
 website: "https://github.com/nymanjens/facto"
-github: "https://github.com/nymanjens/facto"
+repo: "https://github.com/nymanjens/facto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

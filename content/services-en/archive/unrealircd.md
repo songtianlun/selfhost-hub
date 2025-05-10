@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://www.unrealircd.org/"
-github: "https://github.com/unrealircd/unrealircd"
+repo: "https://github.com/unrealircd/unrealircd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

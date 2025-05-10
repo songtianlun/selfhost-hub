@@ -9,7 +9,7 @@ tags:
 category: "文件存储"
 rating: 4
 website: "https://alist.nn.ci"
-github: "https://github.com/alist-org/alist"
+repo: "https://github.com/alist-org/alist"
 updatedAt: "2025-04-30T10:30:00Z"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://github.com/coder/code-server"
-github: "https://github.com/coder/code-server"
+repo: "https://github.com/coder/code-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

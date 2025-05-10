@@ -9,7 +9,7 @@ tags:
   - "Go"
 category: "Self-hosting Solutions"
 website: "https://cosmos-cloud.io/"
-github: "https://github.com/azukaar/cosmos-Server"
+repo: "https://github.com/azukaar/cosmos-Server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

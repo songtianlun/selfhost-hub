@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Bookmarks and Link Sharing"
 website: "https://mozilla-services.readthedocs.io/en/latest/howtos/run-fxa.html"
-github: "https://github.com/mozilla/fxa"
+repo: "https://github.com/mozilla/fxa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

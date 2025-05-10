@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/krateng/maloja"
-github: "https://github.com/krateng/maloja"
+repo: "https://github.com/krateng/maloja"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

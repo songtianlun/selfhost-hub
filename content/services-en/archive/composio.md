@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Software Development"
 website: "https://composio.dev/"
-github: "https://github.com/ComposioHQ/composio"
+repo: "https://github.com/ComposioHQ/composio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

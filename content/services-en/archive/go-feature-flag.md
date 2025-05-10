@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Software Development"
 website: "https://gofeatureflag.org"
-github: "https://github.com/thomaspoignant/go-feature-flag"
+repo: "https://github.com/thomaspoignant/go-feature-flag"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

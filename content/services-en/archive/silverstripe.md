@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.silverstripe.org"
-github: "https://github.com/silverstripe"
+repo: "https://github.com/silverstripe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

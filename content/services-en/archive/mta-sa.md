@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Games"
 website: "https://multitheftauto.com/"
-github: "https://github.com/multitheftauto/mtasa-blue"
+repo: "https://github.com/multitheftauto/mtasa-blue"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Photo Galleries"
 website: "https://github.com/RouHim/this-week-in-past"
-github: "https://github.com/RouHim/this-week-in-past"
+repo: "https://github.com/RouHim/this-week-in-past"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

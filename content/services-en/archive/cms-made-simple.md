@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.cmsmadesimple.org/"
-github: "http://svn.cmsmadesimple.org/svn/cmsmadesimple/trunk/"
+repo: "http://svn.cmsmadesimple.org/svn/cmsmadesimple/trunk/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Resource Planning"
 website: "https://ofbiz.apache.org/"
-github: "https://github.com/apache/ofbiz-framework"
+repo: "https://github.com/apache/ofbiz-framework"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

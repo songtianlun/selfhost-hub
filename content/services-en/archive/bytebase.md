@@ -9,7 +9,7 @@ tags:
   - "Go"
 category: "Database Management"
 website: "https://www.bytebase.com/"
-github: "https://github.com/bytebase/bytebase"
+repo: "https://github.com/bytebase/bytebase"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

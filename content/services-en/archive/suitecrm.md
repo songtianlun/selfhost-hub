@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Customer Relationship Management (CRM)"
 website: "https://suitecrm.com"
-github: "https://github.com/salesagility/SuiteCRM"
+repo: "https://github.com/salesagility/SuiteCRM"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

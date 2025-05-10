@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Search Engines"
 website: "https://yacy.net/en/index.html"
-github: "https://github.com/yacy/yacy_search_server"
+repo: "https://github.com/yacy/yacy_search_server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

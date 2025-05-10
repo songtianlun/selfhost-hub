@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://github.com/revenz/fenrus"
-github: "https://github.com/revenz/fenrus"
+repo: "https://github.com/revenz/fenrus"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

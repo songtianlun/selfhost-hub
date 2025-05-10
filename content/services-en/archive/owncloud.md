@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "File Transfer & Synchronization"
 website: "https://owncloud.org/"
-github: "https://github.com/owncloud/core"
+repo: "https://github.com/owncloud/core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

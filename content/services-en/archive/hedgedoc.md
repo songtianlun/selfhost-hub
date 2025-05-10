@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Note-taking & Editors"
 website: "https://hedgedoc.org/"
-github: "https://github.com/hedgedoc/hedgedoc"
+repo: "https://github.com/hedgedoc/hedgedoc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

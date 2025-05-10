@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Genealogy"
 website: "https://www.grampsweb.org/"
-github: "https://github.com/gramps-project/gramps-web-api"
+repo: "https://github.com/gramps-project/gramps-web-api"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

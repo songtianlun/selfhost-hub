@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Database Management"
 website: "https://mindsdb.com/"
-github: "https://github.com/mindsdb/mindsdb"
+repo: "https://github.com/mindsdb/mindsdb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

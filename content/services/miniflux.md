@@ -10,7 +10,7 @@ tags:
 rating: 3.5
 category: 新闻阅读
 website: 'https://miniflux.app'
-github: 'https://github.com/miniflux/v2'
+repo: 'https://github.com/miniflux/v2'
 updatedAt: '2025-05-09T04:17:26.766Z'
 ---
 

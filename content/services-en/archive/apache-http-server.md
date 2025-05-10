@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://httpd.apache.org/"
-github: "https://svn.apache.org/repos/asf/httpd/httpd/trunk/"
+repo: "https://svn.apache.org/repos/asf/httpd/httpd/trunk/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

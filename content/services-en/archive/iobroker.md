@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Internet of Things (IoT)"
 website: "https://www.iobroker.net/"
-github: "https://github.com/ioBroker/ioBroker"
+repo: "https://github.com/ioBroker/ioBroker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

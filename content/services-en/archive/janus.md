@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://janus.conf.meetecho.com/"
-github: "https://github.com/meetecho/janus-gateway"
+repo: "https://github.com/meetecho/janus-gateway"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

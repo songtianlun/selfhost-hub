@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Communication"
 website: "https://tiledesk.com"
-github: "https://github.com/Tiledesk/tiledesk"
+repo: "https://github.com/Tiledesk/tiledesk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

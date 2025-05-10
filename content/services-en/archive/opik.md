@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Software Development"
 website: "https://www.comet.com/site/products/opik/"
-github: "https://github.com/comet-ml/opik"
+repo: "https://github.com/comet-ml/opik"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

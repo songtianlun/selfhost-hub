@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Games"
 website: "https://github.com/JMBeresford/retrom"
-github: "https://github.com/JMBeresford/retrom"
+repo: "https://github.com/JMBeresford/retrom"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

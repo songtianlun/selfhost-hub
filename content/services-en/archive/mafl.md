@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Personal Dashboards"
 website: "https://mafl.hywax.space/"
-github: "https://github.com/hywax/mafl"
+repo: "https://github.com/hywax/mafl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Self-hosting Solutions"
 website: "https://www.unraid.net"
-github: "https://www.unraid.net"
+repo: "https://www.unraid.net"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

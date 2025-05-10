@@ -9,7 +9,7 @@ tags:
   - TypeScript
 category: AI平台
 website: 'https://librechat.ai'
-github: 'https://github.com/danny-avila/LibreChat'
+repo: 'https://github.com/danny-avila/LibreChat'
 updatedAt: '2025-05-10T22:00:00.000+08:00'
 ---
 

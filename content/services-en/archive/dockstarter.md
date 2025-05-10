@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://dockstarter.com/"
-github: "https://github.com/GhostWriters/DockSTARTer"
+repo: "https://github.com/GhostWriters/DockSTARTer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

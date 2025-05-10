@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://github.com/MrBrax/LiveStreamDVR"
-github: "https://github.com/MrBrax/LiveStreamDVR"
+repo: "https://github.com/MrBrax/LiveStreamDVR"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

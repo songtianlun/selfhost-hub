@@ -10,7 +10,7 @@ tags:
   - "K8S"
 category: "Communication"
 website: "https://mattermost.com/"
-github: "https://github.com/mattermost/mattermost"
+repo: "https://github.com/mattermost/mattermost"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

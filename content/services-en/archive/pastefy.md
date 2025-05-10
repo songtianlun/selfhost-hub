@@ -9,7 +9,7 @@ tags:
   - "Java"
 category: "Pastebins"
 website: "https://pastefy.app/"
-github: "https://github.com/interaapps/pastefy"
+repo: "https://github.com/interaapps/pastefy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

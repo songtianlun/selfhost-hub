@@ -9,7 +9,7 @@ tags:
 rating: 3
 category: 文件存储
 website: 'https://kodcloud.com'
-github: 'https://github.com/kalcaddle/kodbox'
+repo: 'https://github.com/kalcaddle/kodbox'
 updatedAt: '2025-05-08T02:57:31.078Z'
 ---
 

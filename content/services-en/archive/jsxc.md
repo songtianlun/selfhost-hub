@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Communication"
 website: "https://jsxc.org"
-github: "https://github.com/jsxc/jsxc"
+repo: "https://github.com/jsxc/jsxc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

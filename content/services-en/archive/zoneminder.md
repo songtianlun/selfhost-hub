@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Video Surveillance"
 website: "https://www.zoneminder.com/"
-github: "https://github.com/ZoneMinder/ZoneMinder"
+repo: "https://github.com/ZoneMinder/ZoneMinder"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

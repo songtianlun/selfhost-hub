@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "E-commerce"
 website: "https://github.com/shurco/litecart"
-github: "https://github.com/shurco/litecart"
+repo: "https://github.com/shurco/litecart"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

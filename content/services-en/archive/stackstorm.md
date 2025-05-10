@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Automation"
 website: "https://stackstorm.com"
-github: "https://github.com/StackStorm/st2"
+repo: "https://github.com/StackStorm/st2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

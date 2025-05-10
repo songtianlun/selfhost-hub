@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://hubzilla.org"
-github: "https://framagit.org/hubzilla/core"
+repo: "https://framagit.org/hubzilla/core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

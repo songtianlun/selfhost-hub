@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Resource Planning"
 website: "https://www.dolibarr.org/"
-github: "https://github.com/Dolibarr/dolibarr"
+repo: "https://github.com/Dolibarr/dolibarr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

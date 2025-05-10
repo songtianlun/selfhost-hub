@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.wondercms.com"
-github: "https://github.com/WonderCMS/wondercms"
+repo: "https://github.com/WonderCMS/wondercms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

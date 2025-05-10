@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://langfuse.com"
-github: "https://github.com/langfuse/langfuse"
+repo: "https://github.com/langfuse/langfuse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

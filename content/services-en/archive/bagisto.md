@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://bagisto.com/en/"
-github: "https://github.com/bagisto/bagisto"
+repo: "https://github.com/bagisto/bagisto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

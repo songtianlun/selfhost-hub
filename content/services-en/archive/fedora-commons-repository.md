@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Document Management"
 website: "https://wiki.lyrasis.org/display/FF/Fedora+Repository+Home"
-github: "https://github.com/fcrepo/fcrepo"
+repo: "https://github.com/fcrepo/fcrepo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

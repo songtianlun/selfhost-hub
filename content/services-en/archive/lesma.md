@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://lesma.eu"
-github: "https://gitlab.com/ogarcia/lesma"
+repo: "https://gitlab.com/ogarcia/lesma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

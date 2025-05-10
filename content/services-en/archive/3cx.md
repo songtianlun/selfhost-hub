@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Communication"
 website: "https://www.3cx.com/pbx/"
-github: "https://www.3cx.com/pbx/"
+repo: "https://www.3cx.com/pbx/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://tyk.io"
-github: "https://github.com/TykTechnologies/tyk"
+repo: "https://github.com/TykTechnologies/tyk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

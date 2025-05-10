@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "File Transfer"
 website: "https://www.directorylister.com/"
-github: "https://github.com/DirectoryLister/DirectoryLister"
+repo: "https://github.com/DirectoryLister/DirectoryLister"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

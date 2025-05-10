@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "File Transfer & Synchronization"
 website: "https://www.resilio.com/"
-github: "https://www.resilio.com/"
+repo: "https://www.resilio.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

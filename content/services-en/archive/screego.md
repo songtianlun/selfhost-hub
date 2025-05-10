@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://screego.net"
-github: "https://github.com/screego/server"
+repo: "https://github.com/screego/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

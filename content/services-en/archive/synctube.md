@@ -8,7 +8,7 @@ tags:
   - "Haxe"
 category: "Media Streaming"
 website: "https://github.com/RblSb/SyncTube"
-github: "https://github.com/RblSb/SyncTube"
+repo: "https://github.com/RblSb/SyncTube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

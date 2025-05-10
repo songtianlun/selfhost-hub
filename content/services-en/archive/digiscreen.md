@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://ladigitale.dev/digiscreen/"
-github: "https://codeberg.org/ladigitale/digiscreen"
+repo: "https://codeberg.org/ladigitale/digiscreen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

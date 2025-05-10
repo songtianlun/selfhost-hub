@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://coralproject.net/"
-github: "https://github.com/coralproject/talk"
+repo: "https://github.com/coralproject/talk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

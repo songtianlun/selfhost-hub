@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.hook0.com"
-github: "https://gitlab.com/hook0/hook0"
+repo: "https://gitlab.com/hook0/hook0"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

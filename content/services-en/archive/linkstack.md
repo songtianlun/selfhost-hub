@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://linkstack.org/"
-github: "https://github.com/LinkStackOrg/LinkStack"
+repo: "https://github.com/LinkStackOrg/LinkStack"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

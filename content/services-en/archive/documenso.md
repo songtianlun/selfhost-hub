@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://documenso.com"
-github: "https://github.com/documenso/documenso"
+repo: "https://github.com/documenso/documenso"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

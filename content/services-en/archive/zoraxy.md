@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://zoraxy.aroz.org/"
-github: "https://github.com/tobychui/zoraxy"
+repo: "https://github.com/tobychui/zoraxy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

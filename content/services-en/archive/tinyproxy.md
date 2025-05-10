@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Proxy"
 website: "https://tinyproxy.github.io/"
-github: "https://github.com/tinyproxy/tinyproxy"
+repo: "https://github.com/tinyproxy/tinyproxy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

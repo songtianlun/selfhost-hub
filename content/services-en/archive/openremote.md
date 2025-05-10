@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Internet of Things (IoT)"
 website: "https://openremote.io"
-github: "https://github.com/openremote/openremote"
+repo: "https://github.com/openremote/openremote"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

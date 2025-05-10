@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Photo Galleries"
 website: "https://mediagoblin.org"
-github: "https://git.savannah.gnu.org/cgit/mediagoblin.git/tree/"
+repo: "https://git.savannah.gnu.org/cgit/mediagoblin.git/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

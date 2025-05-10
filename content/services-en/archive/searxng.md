@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Search Engines"
 website: "https://docs.searxng.org/"
-github: "https://github.com/searxng/searxng/"
+repo: "https://github.com/searxng/searxng/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

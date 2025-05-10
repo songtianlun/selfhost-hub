@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "File Transfer"
 website: "https://oupala.github.io/apaxy/"
-github: "https://github.com/oupala/apaxy"
+repo: "https://github.com/oupala/apaxy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

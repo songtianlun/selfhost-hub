@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Content Management Systems (CMS)"
 website: "https://publify.github.io/"
-github: "https://github.com/publify/publify"
+repo: "https://github.com/publify/publify"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

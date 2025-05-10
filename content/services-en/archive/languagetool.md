@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://languagetool.org/"
-github: "https://github.com/languagetool-org/languagetool"
+repo: "https://github.com/languagetool-org/languagetool"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

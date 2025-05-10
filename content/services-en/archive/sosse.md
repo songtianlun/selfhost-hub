@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Search Engines"
 website: "https://sosse.readthedocs.io/en/stable/"
-github: "https://gitlab.com/biolds1/sosse"
+repo: "https://gitlab.com/biolds1/sosse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

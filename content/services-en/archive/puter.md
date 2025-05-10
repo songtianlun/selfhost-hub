@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer & Synchronization"
 website: "https://puter.com/"
-github: "https://github.com/heyputer/puter"
+repo: "https://github.com/heyputer/puter"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

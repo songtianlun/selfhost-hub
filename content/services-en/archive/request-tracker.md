@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Ticketing"
 website: "https://www.bestpractical.com/rt/"
-github: "https://github.com/bestpractical/rt"
+repo: "https://github.com/bestpractical/rt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

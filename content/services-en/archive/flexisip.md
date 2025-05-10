@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.linphone.org/en/flexisip-sip-server/"
-github: "https://github.com/BelledonneCommunications/flexisip"
+repo: "https://github.com/BelledonneCommunications/flexisip"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

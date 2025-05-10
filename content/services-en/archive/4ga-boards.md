@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Task Management & To-do Lists"
 website: "https://4gaboards.com"
-github: "https://github.com/RARgames/4gaBoards"
+repo: "https://github.com/RARgames/4gaBoards"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

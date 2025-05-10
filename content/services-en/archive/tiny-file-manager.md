@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "File Transfer"
 website: "https://tinyfilemanager.github.io"
-github: "https://github.com/prasathmani/tinyfilemanager"
+repo: "https://github.com/prasathmani/tinyfilemanager"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

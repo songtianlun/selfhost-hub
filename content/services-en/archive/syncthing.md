@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "File Transfer & Synchronization"
 website: "https://syncthing.net/"
-github: "https://github.com/syncthing/syncthing"
+repo: "https://github.com/syncthing/syncthing"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

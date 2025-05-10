@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://misago-project.org/"
-github: "https://github.com/rafalp/Misago"
+repo: "https://github.com/rafalp/Misago"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

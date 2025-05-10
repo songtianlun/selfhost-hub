@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://mosparo.io/"
-github: "https://github.com/mosparo/mosparo"
+repo: "https://github.com/mosparo/mosparo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

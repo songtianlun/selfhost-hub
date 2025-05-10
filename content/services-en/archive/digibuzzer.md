@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Games"
 website: "https://digibuzzer.app/"
-github: "https://codeberg.org/ladigitale/digibuzzer"
+repo: "https://codeberg.org/ladigitale/digibuzzer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

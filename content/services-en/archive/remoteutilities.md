@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Miscellaneous"
 website: "https://www.remoteutilities.com/"
-github: "https://www.remoteutilities.com/"
+repo: "https://www.remoteutilities.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

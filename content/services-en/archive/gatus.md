@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Status / Uptime pages"
 website: "https://gatus.io/"
-github: "https://github.com/TwiN/gatus"
+repo: "https://github.com/TwiN/gatus"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

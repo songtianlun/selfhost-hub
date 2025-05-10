@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Communication"
 website: "https://github.com/redlib-org/redlib"
-github: "https://github.com/redlib-org/redlib"
+repo: "https://github.com/redlib-org/redlib"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

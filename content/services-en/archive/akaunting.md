@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Money, Budgeting & Management"
 website: "https://akaunting.com/"
-github: "https://github.com/akaunting/akaunting"
+repo: "https://github.com/akaunting/akaunting"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Task Management & To-do Lists"
 website: "https://donetick.com"
-github: "https://github.com/donetick/donetick"
+repo: "https://github.com/donetick/donetick"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

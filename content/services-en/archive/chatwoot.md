@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Communication"
 website: "https://www.chatwoot.com"
-github: "https://github.com/chatwoot/chatwoot"
+repo: "https://github.com/chatwoot/chatwoot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

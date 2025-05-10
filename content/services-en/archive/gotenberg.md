@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://gotenberg.dev"
-github: "https://github.com/gotenberg/gotenberg"
+repo: "https://github.com/gotenberg/gotenberg"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

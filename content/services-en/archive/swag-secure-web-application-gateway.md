@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://github.com/linuxserver/docker-swag"
-github: "https://github.com/linuxserver/docker-swag"
+repo: "https://github.com/linuxserver/docker-swag"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

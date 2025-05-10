@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Conference Management"
 website: "https://pretalx.org"
-github: "https://github.com/pretalx/pretalx"
+repo: "https://github.com/pretalx/pretalx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

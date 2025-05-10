@@ -7,7 +7,7 @@ tags:
   - "Elixir"
 category: "Analytics"
 website: "https://plausible.io/"
-github: "https://github.com/plausible/analytics/"
+repo: "https://github.com/plausible/analytics/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

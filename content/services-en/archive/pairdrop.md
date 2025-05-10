@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/schlagmichdoch/pairdrop"
-github: "https://github.com/schlagmichdoch/pairdrop"
+repo: "https://github.com/schlagmichdoch/pairdrop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

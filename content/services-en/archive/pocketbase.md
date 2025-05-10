@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://pocketbase.io/"
-github: "https://github.com/pocketbase/pocketbase"
+repo: "https://github.com/pocketbase/pocketbase"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

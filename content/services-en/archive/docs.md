@@ -7,7 +7,7 @@ tags:
   - "K8S"
 category: "Note-taking & Editors"
 website: "https://docs.numerique.gouv.fr/"
-github: "https://github.com/suitenumerique/docs"
+repo: "https://github.com/suitenumerique/docs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Haskell"
 category: "Wikis"
 website: "https://github.com/jgm/gitit"
-github: "https://github.com/jgm/gitit"
+repo: "https://github.com/jgm/gitit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

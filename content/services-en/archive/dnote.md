@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Note-taking & Editors"
 website: "https://www.getdnote.com"
-github: "https://github.com/dnote/dnote"
+repo: "https://github.com/dnote/dnote"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Blogging Platforms"
 website: "https://flatpress.org/"
-github: "https://github.com/flatpressblog/flatpress"
+repo: "https://github.com/flatpressblog/flatpress"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

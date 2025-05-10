@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://github.com/vladkens/ghstats"
-github: "https://github.com/vladkens/ghstats"
+repo: "https://github.com/vladkens/ghstats"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

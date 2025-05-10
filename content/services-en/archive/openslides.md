@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Conference Management"
 website: "https://openslides.com/"
-github: "https://github.com/OpenSlides/OpenSlides"
+repo: "https://github.com/OpenSlides/OpenSlides"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

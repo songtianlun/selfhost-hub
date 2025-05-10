@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Miscellaneous"
 website: "https://neko.m1k1o.net"
-github: "https://github.com/m1k1o/neko"
+repo: "https://github.com/m1k1o/neko"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

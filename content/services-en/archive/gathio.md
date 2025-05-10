@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://docs.gath.io/"
-github: "https://github.com/lowercasename/gathio"
+repo: "https://github.com/lowercasename/gathio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

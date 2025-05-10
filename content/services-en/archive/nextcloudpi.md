@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Self-hosting Solutions"
 website: "https://github.com/nextcloud/nextcloudpi"
-github: "https://github.com/nextcloud/nextcloudpi"
+repo: "https://github.com/nextcloud/nextcloudpi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

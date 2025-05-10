@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "File Transfer & Synchronization"
 website: "https://nextcloud.com/"
-github: "https://github.com/nextcloud/server"
+repo: "https://github.com/nextcloud/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

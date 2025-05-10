@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Bookmarks and Link Sharing"
 website: "https://github.com/ndom91/briefkasten"
-github: "https://github.com/ndom91/briefkasten"
+repo: "https://github.com/ndom91/briefkasten"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://forwardemail.net"
-github: "https://github.com/forwardemail/forwardemail.net"
+repo: "https://github.com/forwardemail/forwardemail.net"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

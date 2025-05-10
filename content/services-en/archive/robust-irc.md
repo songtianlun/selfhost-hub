@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://robustirc.net/"
-github: "https://github.com/robustirc/robustirc"
+repo: "https://github.com/robustirc/robustirc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

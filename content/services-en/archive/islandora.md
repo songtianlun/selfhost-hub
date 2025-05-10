@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Document Management"
 website: "https://www.islandora.ca/"
-github: "https://github.com/Islandora/islandora"
+repo: "https://github.com/Islandora/islandora"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

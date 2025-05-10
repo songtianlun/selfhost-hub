@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Learning and Courses"
 website: "https://documen.tician.de/relate/"
-github: "https://github.com/inducer/relate"
+repo: "https://github.com/inducer/relate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

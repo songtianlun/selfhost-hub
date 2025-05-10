@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://craftcms.com/"
-github: "https://github.com/craftcms/cms"
+repo: "https://github.com/craftcms/cms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

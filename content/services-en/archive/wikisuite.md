@@ -15,7 +15,7 @@ tags:
   - "deb"
 category: "Self-hosting Solutions"
 website: "https://wikisuite.org"
-github: "https://wikisuite.org/Source-Code"
+repo: "https://wikisuite.org/Source-Code"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

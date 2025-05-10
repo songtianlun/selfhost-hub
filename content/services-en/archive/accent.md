@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.accent.reviews/"
-github: "https://github.com/mirego/accent"
+repo: "https://github.com/mirego/accent"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

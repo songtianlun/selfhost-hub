@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://github.com/stonith404/pingvin-share"
-github: "https://github.com/stonith404/pingvin-share"
+repo: "https://github.com/stonith404/pingvin-share"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - ".NET"
 category: "Content Management Systems (CMS)"
 website: "https://umbraco.com/"
-github: "https://github.com/umbraco/Umbraco-CMS"
+repo: "https://github.com/umbraco/Umbraco-CMS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

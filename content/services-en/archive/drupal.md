@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.drupal.org/"
-github: "https://git.drupalcode.org/project/drupal"
+repo: "https://git.drupalcode.org/project/drupal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

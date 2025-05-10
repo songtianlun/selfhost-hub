@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://element.io"
-github: "https://github.com/vector-im/element-web"
+repo: "https://github.com/vector-im/element-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

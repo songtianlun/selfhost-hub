@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Search Engines"
 website: "https://aleph.occrp.org/"
-github: "https://github.com/alephdata/aleph"
+repo: "https://github.com/alephdata/aleph"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

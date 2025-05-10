@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Wikis"
 website: "https://github.com/django-wiki/django-wiki"
-github: "https://github.com/django-wiki/django-wiki"
+repo: "https://github.com/django-wiki/django-wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

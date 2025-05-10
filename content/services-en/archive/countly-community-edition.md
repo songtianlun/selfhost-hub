@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://count.ly"
-github: "https://github.com/Countly/countly-server"
+repo: "https://github.com/Countly/countly-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

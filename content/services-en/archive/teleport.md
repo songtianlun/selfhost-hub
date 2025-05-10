@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Miscellaneous"
 website: "https://goteleport.com/"
-github: "https://github.com/gravitational/teleport"
+repo: "https://github.com/gravitational/teleport"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

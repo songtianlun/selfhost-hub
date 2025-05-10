@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.ejabberd.im/"
-github: "https://github.com/processone/ejabberd"
+repo: "https://github.com/processone/ejabberd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

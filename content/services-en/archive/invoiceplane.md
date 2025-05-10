@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Money, Budgeting & Management"
 website: "https://www.invoiceplane.com/"
-github: "https://github.com/InvoicePlane/InvoicePlane"
+repo: "https://github.com/InvoicePlane/InvoicePlane"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

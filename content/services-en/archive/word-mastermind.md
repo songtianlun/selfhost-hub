@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Games"
 website: "https://github.com/clupasq/word-mastermind"
-github: "https://github.com/clupasq/word-mastermind"
+repo: "https://github.com/clupasq/word-mastermind"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

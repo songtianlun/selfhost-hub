@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/AirenSoft/OvenMediaEngine"
-github: "https://github.com/AirenSoft/OvenMediaEngine"
+repo: "https://github.com/AirenSoft/OvenMediaEngine"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

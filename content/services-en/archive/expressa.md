@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Content Management Systems (CMS)"
 website: "https://github.com/thomas4019/expressa"
-github: "https://github.com/thomas4019/expressa"
+repo: "https://github.com/thomas4019/expressa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

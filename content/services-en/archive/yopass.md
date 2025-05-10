@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://github.com/jhaals/yopass"
-github: "https://github.com/jhaals/yopass"
+repo: "https://github.com/jhaals/yopass"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

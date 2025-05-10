@@ -7,7 +7,7 @@ tags:
   - "CommonLisp"
 category: "Note-taking & Editors"
 website: "https://turtl.it/"
-github: "https://github.com/turtl"
+repo: "https://github.com/turtl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

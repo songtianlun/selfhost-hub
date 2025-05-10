@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://listmonk.app/"
-github: "https://github.com/knadh/listmonk"
+repo: "https://github.com/knadh/listmonk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

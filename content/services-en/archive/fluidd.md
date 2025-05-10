@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Manufacturing"
 website: "https://docs.fluidd.xyz/"
-github: "https://github.com/fluidd-core/fluidd"
+repo: "https://github.com/fluidd-core/fluidd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

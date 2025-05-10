@@ -8,7 +8,7 @@ tags:
   - "Django"
 category: "Software Development"
 website: "https://github.com/getsentry/self-hosted"
-github: "https://github.com/getsentry/sentry"
+repo: "https://github.com/getsentry/sentry"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

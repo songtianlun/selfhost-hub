@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.spip.net/fr"
-github: "https://git.spip.net/"
+repo: "https://git.spip.net/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Wikis"
 website: "https://github.com/Linbreux/wikmd"
-github: "https://github.com/Linbreux/wikmd"
+repo: "https://github.com/Linbreux/wikmd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

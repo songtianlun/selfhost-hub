@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Document Management"
 website: "https://i-librarian.net"
-github: "https://github.com/mkucej/i-librarian-free"
+repo: "https://github.com/mkucej/i-librarian-free"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

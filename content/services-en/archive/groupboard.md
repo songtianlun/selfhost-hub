@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Communication"
 website: "https://www.groupboard.com/products/"
-github: "https://www.groupboard.com/products/"
+repo: "https://www.groupboard.com/products/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

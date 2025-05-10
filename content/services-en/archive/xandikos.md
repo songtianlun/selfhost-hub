@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Calendar & Contacts"
 website: "https://github.com/jelmer/xandikos"
-github: "https://github.com/jelmer/xandikos"
+repo: "https://github.com/jelmer/xandikos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

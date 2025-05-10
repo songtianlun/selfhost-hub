@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://koillection.github.io/"
-github: "https://github.com/benjaminjonard/koillection"
+repo: "https://github.com/benjaminjonard/koillection"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

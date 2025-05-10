@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Personal Dashboards"
 website: "https://github.com/enchant97/web-portal"
-github: "https://github.com/enchant97/web-portal"
+repo: "https://github.com/enchant97/web-portal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

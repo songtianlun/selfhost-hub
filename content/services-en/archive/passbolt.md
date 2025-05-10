@@ -10,7 +10,7 @@ tags:
   - "Docker"
 category: "Password Managers"
 website: "https://www.passbolt.com/"
-github: "https://github.com/passbolt/passbolt_api"
+repo: "https://github.com/passbolt/passbolt_api"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

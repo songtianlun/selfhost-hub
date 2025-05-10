@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://github.com/smallwat3r/shhh"
-github: "https://github.com/smallwat3r/shhh"
+repo: "https://github.com/smallwat3r/shhh"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

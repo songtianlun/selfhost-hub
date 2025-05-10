@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Database Management"
 website: "https://mathesar.org/"
-github: "https://github.com/centerofci/mathesar"
+repo: "https://github.com/centerofci/mathesar"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

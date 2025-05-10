@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/hauxir/rapidbay/"
-github: "https://github.com/hauxir/rapidbay/"
+repo: "https://github.com/hauxir/rapidbay/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

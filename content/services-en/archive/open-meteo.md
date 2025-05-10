@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://open-meteo.com/"
-github: "https://github.com/open-meteo/open-meteo"
+repo: "https://github.com/open-meteo/open-meteo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

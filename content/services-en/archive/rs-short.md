@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "URL Shorteners"
 website: "https://git.42l.fr/42l/rs-short"
-github: "https://git.42l.fr/42l/rs-short"
+repo: "https://git.42l.fr/42l/rs-short"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

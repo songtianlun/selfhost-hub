@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://yarn.social"
-github: "https://git.mills.io/yarnsocial/yarn"
+repo: "https://git.mills.io/yarnsocial/yarn"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

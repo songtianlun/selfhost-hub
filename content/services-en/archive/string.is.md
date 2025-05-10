@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://string.is/"
-github: "https://github.com/recurser/string-is"
+repo: "https://github.com/recurser/string-is"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

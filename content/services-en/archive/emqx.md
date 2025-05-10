@@ -8,7 +8,7 @@ tags:
   - "Erlang"
 category: "Internet of Things (IoT)"
 website: "https://www.emqx.io/"
-github: "https://github.com/emqx/emqx"
+repo: "https://github.com/emqx/emqx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

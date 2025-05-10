@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Feed Readers"
 website: "https://github.com/rss2email/rss2email"
-github: "https://github.com/rss2email/rss2email"
+repo: "https://github.com/rss2email/rss2email"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

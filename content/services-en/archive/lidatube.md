@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://github.com/TheWicklowWolf/LidaTube"
-github: "https://github.com/TheWicklowWolf/LidaTube"
+repo: "https://github.com/TheWicklowWolf/LidaTube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

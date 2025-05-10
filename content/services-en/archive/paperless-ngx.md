@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://docs.paperless-ngx.com/"
-github: "https://github.com/paperless-ngx/paperless-ngx"
+repo: "https://github.com/paperless-ngx/paperless-ngx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

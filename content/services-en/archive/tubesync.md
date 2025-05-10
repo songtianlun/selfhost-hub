@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Media Management"
 website: "https://github.com/meeb/tubesync"
-github: "https://github.com/meeb/tubesync"
+repo: "https://github.com/meeb/tubesync"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Wikis"
 website: "https://www.dokuwiki.org/DokuWiki"
-github: "https://github.com/dokuwiki/dokuwiki"
+repo: "https://github.com/dokuwiki/dokuwiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://remark42.com/"
-github: "https://github.com/umputun/remark42"
+repo: "https://github.com/umputun/remark42"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

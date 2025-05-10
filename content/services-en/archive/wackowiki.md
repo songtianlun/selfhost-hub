@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Wikis"
 website: "https://wackowiki.org/"
-github: "https://github.com/WackoWiki/wackowiki"
+repo: "https://github.com/WackoWiki/wackowiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://archivesspace.org/"
-github: "https://github.com/archivesspace/archivesspace"
+repo: "https://github.com/archivesspace/archivesspace"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

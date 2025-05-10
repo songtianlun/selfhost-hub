@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://getinput.co"
-github: "https://github.com/deck9/input"
+repo: "https://github.com/deck9/input"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Communication"
 website: "https://davmail.sourceforge.net/"
-github: "https://github.com/mguessan/davmail"
+repo: "https://github.com/mguessan/davmail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

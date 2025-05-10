@@ -7,7 +7,7 @@ tags:
   - "Lua"
 category: "Games"
 website: "https://zero-k.info/"
-github: "https://github.com/ZeroK-RTS/Zero-K"
+repo: "https://github.com/ZeroK-RTS/Zero-K"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

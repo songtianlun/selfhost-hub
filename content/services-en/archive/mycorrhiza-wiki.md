@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Wikis"
 website: "https://mycorrhiza.wiki/"
-github: "https://github.com/bouncepaw/mycorrhiza/"
+repo: "https://github.com/bouncepaw/mycorrhiza/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

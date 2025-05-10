@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Bookmarks and Link Sharing"
 website: "https://www.linkace.org/"
-github: "https://github.com/Kovah/LinkAce/"
+repo: "https://github.com/Kovah/LinkAce/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

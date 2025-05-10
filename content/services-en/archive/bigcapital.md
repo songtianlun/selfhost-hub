@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://bigcapital.app/"
-github: "https://github.com/bigcapitalhq/bigcapital"
+repo: "https://github.com/bigcapitalhq/bigcapital"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://business.adobe.com/products/magento/magento-commerce.html"
-github: "https://github.com/magento/magento2"
+repo: "https://github.com/magento/magento2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

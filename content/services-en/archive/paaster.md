@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://paaster.io"
-github: "https://github.com/WardPearce/paaster"
+repo: "https://github.com/WardPearce/paaster"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

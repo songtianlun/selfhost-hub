@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://pixelfed.social"
-github: "https://github.com/pixelfed/pixelfed"
+repo: "https://github.com/pixelfed/pixelfed"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

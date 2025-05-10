@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Software Development"
 website: "https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki"
-github: "https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki"
+repo: "https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

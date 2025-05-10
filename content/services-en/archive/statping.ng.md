@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Status / Uptime pages"
 website: "https://statping-ng.github.io/"
-github: "https://github.com/statping-ng/statping-ng"
+repo: "https://github.com/statping-ng/statping-ng"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

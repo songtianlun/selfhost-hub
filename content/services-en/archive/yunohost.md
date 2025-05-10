@@ -8,7 +8,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://yunohost.org/"
-github: "https://github.com/YunoHost"
+repo: "https://github.com/YunoHost"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

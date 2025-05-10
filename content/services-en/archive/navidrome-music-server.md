@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Media Streaming"
 website: "https://www.navidrome.org"
-github: "https://github.com/navidrome/navidrome"
+repo: "https://github.com/navidrome/navidrome"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

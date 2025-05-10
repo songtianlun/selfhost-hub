@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://www.activepieces.com"
-github: "https://github.com/activepieces/activepieces"
+repo: "https://github.com/activepieces/activepieces"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

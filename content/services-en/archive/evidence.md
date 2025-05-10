@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Database Management"
 website: "https://evidence.dev"
-github: "https://github.com/evidence-dev/evidence"
+repo: "https://github.com/evidence-dev/evidence"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "PHP"
 category: "Bookmarks and Link Sharing"
 website: "https://github.com/beromir/Servas"
-github: "https://github.com/beromir/Servas"
+repo: "https://github.com/beromir/Servas"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

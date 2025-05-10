@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://github.com/pikvm/ustreamer"
-github: "https://github.com/pikvm/ustreamer"
+repo: "https://github.com/pikvm/ustreamer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

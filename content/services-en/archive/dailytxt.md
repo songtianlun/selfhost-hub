@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Note-taking & Editors"
 website: "https://github.com/PhiTux/DailyTxT"
-github: "https://github.com/PhiTux/DailyTxT"
+repo: "https://github.com/PhiTux/DailyTxT"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Communication"
 website: "https://diasporafoundation.org/"
-github: "https://github.com/diaspora/diaspora"
+repo: "https://github.com/diaspora/diaspora"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Miscellaneous"
 website: "https://github.com/gchq/CyberChef"
-github: "https://github.com/gchq/CyberChef"
+repo: "https://github.com/gchq/CyberChef"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

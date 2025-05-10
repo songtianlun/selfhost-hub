@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Search Engines"
 website: "https://www.meilisearch.com"
-github: "https://github.com/meilisearch/MeiliSearch"
+repo: "https://github.com/meilisearch/MeiliSearch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

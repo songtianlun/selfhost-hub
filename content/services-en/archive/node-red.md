@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Internet of Things (IoT)"
 website: "https://nodered.org/"
-github: "https://github.com/node-red/node-red"
+repo: "https://github.com/node-red/node-red"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

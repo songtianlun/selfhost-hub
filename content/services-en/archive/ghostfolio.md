@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Money, Budgeting & Management"
 website: "https://ghostfol.io/"
-github: "https://github.com/ghostfolio/ghostfolio"
+repo: "https://github.com/ghostfolio/ghostfolio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
 rating: 4.5
 category: 博客系统
 website: 'https://typecho.org'
-github: 'https://github.com/typecho/typecho'
+repo: 'https://github.com/typecho/typecho'
 updatedAt: '2025-05-09T18:01:29.841Z'
 ---
 

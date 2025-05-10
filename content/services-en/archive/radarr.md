@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://radarr.video/"
-github: "https://github.com/Radarr/Radarr"
+repo: "https://github.com/Radarr/Radarr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

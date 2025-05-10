@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://anycable.io/"
-github: "https://github.com/anycable/anycable"
+repo: "https://github.com/anycable/anycable"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

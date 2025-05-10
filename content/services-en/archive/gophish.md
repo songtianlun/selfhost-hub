@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://getgophish.com/"
-github: "https://github.com/gophish/gophish"
+repo: "https://github.com/gophish/gophish"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

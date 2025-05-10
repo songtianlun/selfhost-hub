@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Resource Planning"
 website: "https://www.odoo.com"
-github: "https://github.com/odoo/odoo"
+repo: "https://github.com/odoo/odoo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

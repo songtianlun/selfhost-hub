@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://overseerr.dev/"
-github: "https://github.com/sct/overseerr"
+repo: "https://github.com/sct/overseerr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

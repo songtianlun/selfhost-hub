@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "http://www.postfix.org/"
-github: "http://www.postfix.org/"
+repo: "http://www.postfix.org/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

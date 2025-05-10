@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Photo Galleries"
 website: "https://coppermine-gallery.com/"
-github: "https://github.com/coppermine-gallery/cpg1.6.x"
+repo: "https://github.com/coppermine-gallery/cpg1.6.x"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

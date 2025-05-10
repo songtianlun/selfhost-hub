@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Feed Readers"
 website: "https://github.com/stringer-rss/stringer"
-github: "https://github.com/stringer-rss/stringer"
+repo: "https://github.com/stringer-rss/stringer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

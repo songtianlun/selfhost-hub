@@ -8,7 +8,7 @@ tags:
   - "C#"
 category: "DNS"
 website: "https://technitium.com/dns/"
-github: "https://github.com/TechnitiumSoftware/DnsServer"
+repo: "https://github.com/TechnitiumSoftware/DnsServer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://invoiceshelf.com/"
-github: "https://github.com/InvoiceShelf/InvoiceShelf"
+repo: "https://github.com/InvoiceShelf/InvoiceShelf"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

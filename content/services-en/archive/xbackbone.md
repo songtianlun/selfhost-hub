@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://xbackbone.app/"
-github: "https://github.com/SergiX44/XBackBone"
+repo: "https://github.com/SergiX44/XBackBone"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

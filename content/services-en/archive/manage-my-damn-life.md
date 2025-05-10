@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Calendar & Contacts"
 website: "https://intri.in/manage-my-damn-life/"
-github: "https://github.com/intri-in/manage-my-damn-life-nextjs"
+repo: "https://github.com/intri-in/manage-my-damn-life-nextjs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

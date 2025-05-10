@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://litlyx.com"
-github: "https://github.com/Litlyx/litlyx"
+repo: "https://github.com/Litlyx/litlyx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

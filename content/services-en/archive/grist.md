@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Office Suites"
 website: "https://getgrist.com/"
-github: "https://github.com/gristlabs/grist-core"
+repo: "https://github.com/gristlabs/grist-core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

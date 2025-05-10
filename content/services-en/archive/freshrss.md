@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://freshrss.org/"
-github: "https://github.com/FreshRSS/FreshRSS"
+repo: "https://github.com/FreshRSS/FreshRSS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

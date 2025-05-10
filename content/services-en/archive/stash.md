@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Media Streaming"
 website: "https://stashapp.cc"
-github: "https://github.com/stashapp/stash"
+repo: "https://github.com/stashapp/stash"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

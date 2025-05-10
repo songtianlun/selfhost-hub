@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Inventory Management"
 website: "https://docs.inventree.org/en/latest/"
-github: "https://github.com/inventree/InvenTree"
+repo: "https://github.com/inventree/InvenTree"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Ticketing"
 website: "https://www.mantisbt.org/"
-github: "https://github.com/mantisbt/mantisbt"
+repo: "https://github.com/mantisbt/mantisbt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://aptabase.com/"
-github: "https://github.com/aptabase/aptabase"
+repo: "https://github.com/aptabase/aptabase"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

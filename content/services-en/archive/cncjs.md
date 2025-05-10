@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Manufacturing"
 website: "https://cnc.js.org/"
-github: "https://github.com/cncjs/cncjs/"
+repo: "https://github.com/cncjs/cncjs/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

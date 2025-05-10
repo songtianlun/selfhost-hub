@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://www.cyrusimap.org/"
-github: "https://github.com/cyrusimap/cyrus-imapd"
+repo: "https://github.com/cyrusimap/cyrus-imapd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

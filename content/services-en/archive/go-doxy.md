@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Web Servers"
 website: "https://github.com/yusing/godoxy"
-github: "https://github.com/yusing/godoxy"
+repo: "https://github.com/yusing/godoxy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digiquiz/"
-github: "https://codeberg.org/ladigitale/digiquiz"
+repo: "https://codeberg.org/ladigitale/digiquiz"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

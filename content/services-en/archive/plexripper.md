@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://www.plexripper.rocks/"
-github: "https://github.com/PlexRipper/PlexRipper"
+repo: "https://github.com/PlexRipper/PlexRipper"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

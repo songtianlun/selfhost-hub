@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://c2c.mirotalk.com"
-github: "https://github.com/miroslavpejic85/mirotalkc2c"
+repo: "https://github.com/miroslavpejic85/mirotalkc2c"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

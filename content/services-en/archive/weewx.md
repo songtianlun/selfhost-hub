@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Miscellaneous"
 website: "https://weewx.com/"
-github: "https://github.com/weewx/weewx"
+repo: "https://github.com/weewx/weewx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

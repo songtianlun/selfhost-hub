@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://tileserver.readthedocs.io/"
-github: "https://github.com/maptiler/tileserver-gl"
+repo: "https://github.com/maptiler/tileserver-gl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

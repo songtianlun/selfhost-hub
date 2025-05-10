@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Calendar & Contacts"
 website: "https://www.davical.org/"
-github: "https://gitlab.com/davical-project/davical"
+repo: "https://gitlab.com/davical-project/davical"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://github.com/HaschekSolutions/opentrashmail"
-github: "https://github.com/HaschekSolutions/opentrashmail"
+repo: "https://github.com/HaschekSolutions/opentrashmail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

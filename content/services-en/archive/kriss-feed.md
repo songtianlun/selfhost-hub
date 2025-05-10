@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Feed Readers"
 website: "https://github.com/tontof/kriss_feed"
-github: "https://github.com/tontof/kriss_feed"
+repo: "https://github.com/tontof/kriss_feed"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

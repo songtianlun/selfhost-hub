@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.elabftw.net"
-github: "https://github.com/elabftw/elabftw"
+repo: "https://github.com/elabftw/elabftw"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

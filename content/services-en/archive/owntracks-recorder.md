@@ -10,7 +10,7 @@ tags:
   - "Docker"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://github.com/owntracks/recorder"
-github: "https://github.com/owntracks/recorder"
+repo: "https://github.com/owntracks/recorder"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

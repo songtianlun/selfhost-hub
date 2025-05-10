@@ -10,7 +10,7 @@ tags:
   - "K8S"
 category: "Communication"
 website: "https://ntfy.sh/"
-github: "https://github.com/binwiederhier/ntfy"
+repo: "https://github.com/binwiederhier/ntfy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

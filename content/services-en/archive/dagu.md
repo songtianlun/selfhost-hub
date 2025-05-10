@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://dagu.readthedocs.io/"
-github: "https://github.com/dagu-dev/dagu"
+repo: "https://github.com/dagu-dev/dagu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

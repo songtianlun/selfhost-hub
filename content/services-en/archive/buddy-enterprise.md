@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Software Development"
 website: "https://buddy.works/"
-github: "https://buddy.works/"
+repo: "https://buddy.works/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

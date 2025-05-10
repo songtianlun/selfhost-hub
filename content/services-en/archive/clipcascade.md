@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://github.com/Sathvik-Rao/ClipCascade"
-github: "https://github.com/Sathvik-Rao/ClipCascade"
+repo: "https://github.com/Sathvik-Rao/ClipCascade"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

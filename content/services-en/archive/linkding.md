@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Bookmarks and Link Sharing"
 website: "https://linkding.link/"
-github: "https://github.com/sissbruecker/linkding"
+repo: "https://github.com/sissbruecker/linkding"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

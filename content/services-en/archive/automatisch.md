@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://automatisch.io"
-github: "https://github.com/automatisch/automatisch"
+repo: "https://github.com/automatisch/automatisch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

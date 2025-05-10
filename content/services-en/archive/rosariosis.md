@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://www.rosariosis.org/"
-github: "https://gitlab.com/francoisjacquet/rosariosis/"
+repo: "https://gitlab.com/francoisjacquet/rosariosis/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

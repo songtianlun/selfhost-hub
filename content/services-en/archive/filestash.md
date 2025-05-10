@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://www.filestash.app/"
-github: "https://github.com/mickael-kerjean/filestash"
+repo: "https://github.com/mickael-kerjean/filestash"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

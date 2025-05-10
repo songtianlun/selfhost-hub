@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://designedbyashw.in/test/hiccup/"
-github: "https://github.com/ashwin-pc/hiccup"
+repo: "https://github.com/ashwin-pc/hiccup"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

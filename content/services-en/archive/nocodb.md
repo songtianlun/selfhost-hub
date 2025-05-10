@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://www.nocodb.com/"
-github: "https://github.com/nocodb/nocodb"
+repo: "https://github.com/nocodb/nocodb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

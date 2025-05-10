@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Miscellaneous"
 website: "https://www.connectwise.com/platform/unified-management/control"
-github: "https://www.connectwise.com/platform/unified-management/control"
+repo: "https://www.connectwise.com/platform/unified-management/control"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Personal Dashboards"
 website: "https://heimdall.site/"
-github: "https://github.com/linuxserver/Heimdall"
+repo: "https://github.com/linuxserver/Heimdall"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

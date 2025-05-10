@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "URL Shorteners"
 website: "https://kutt.it"
-github: "https://github.com/thedevs-network/kutt"
+repo: "https://github.com/thedevs-network/kutt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

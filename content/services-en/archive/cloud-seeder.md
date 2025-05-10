@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Self-hosting Solutions"
 website: "https://ipv6.rs/cloudseeder/"
-github: "https://github.com/ipv6rslimited/cloudseeder"
+repo: "https://github.com/ipv6rslimited/cloudseeder"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Document Management"
 website: "https://github.com/Frooodle/Stirling-PDF"
-github: "https://github.com/Frooodle/Stirling-PDF"
+repo: "https://github.com/Frooodle/Stirling-PDF"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

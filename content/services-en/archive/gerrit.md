@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.gerritcodereview.com/"
-github: "https://github.com/GerritCodeReview/gerrit"
+repo: "https://github.com/GerritCodeReview/gerrit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

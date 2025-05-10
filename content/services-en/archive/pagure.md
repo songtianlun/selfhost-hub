@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Software Development"
 website: "https://pagure.io/pagure"
-github: "https://pagure.io/pagure"
+repo: "https://pagure.io/pagure"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

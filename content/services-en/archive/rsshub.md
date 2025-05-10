@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://docs.rsshub.app"
-github: "https://github.com/DIYgod/RSSHub"
+repo: "https://github.com/DIYgod/RSSHub"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

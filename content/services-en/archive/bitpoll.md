@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Polls and Events"
 website: "https://github.com/fsinfuhh/Bitpoll"
-github: "https://github.com/fsinfuhh/Bitpoll"
+repo: "https://github.com/fsinfuhh/Bitpoll"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

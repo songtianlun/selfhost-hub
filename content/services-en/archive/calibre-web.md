@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Document Management"
 website: "https://github.com/janeczku/calibre-web"
-github: "https://github.com/janeczku/calibre-web"
+repo: "https://github.com/janeczku/calibre-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

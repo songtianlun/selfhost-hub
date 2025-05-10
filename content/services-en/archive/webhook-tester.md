@@ -10,7 +10,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://github.com/tarampampam/webhook-tester"
-github: "https://github.com/tarampampam/webhook-tester"
+repo: "https://github.com/tarampampam/webhook-tester"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

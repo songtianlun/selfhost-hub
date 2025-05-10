@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Money, Budgeting & Management"
 website: "https://rei3.de/home_en/"
-github: "https://github.com/r3-team/r3"
+repo: "https://github.com/r3-team/r3"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

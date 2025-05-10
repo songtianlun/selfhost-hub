@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://sql-page.com"
-github: "https://github.com/sqlpage/SQLPage"
+repo: "https://github.com/sqlpage/SQLPage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

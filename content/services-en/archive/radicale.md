@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Calendar & Contacts"
 website: "https://radicale.org/"
-github: "https://github.com/Kozea/Radicale"
+repo: "https://github.com/Kozea/Radicale"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

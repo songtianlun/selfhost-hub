@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Content Management Systems (CMS)"
 website: "https://localess.org/home"
-github: "https://github.com/Lessify/localess"
+repo: "https://github.com/Lessify/localess"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

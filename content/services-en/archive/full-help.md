@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Ticketing"
 website: "https://www.fullhelp.com/en/"
-github: "https://www.fullhelp.com/en/"
+repo: "https://www.fullhelp.com/en/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

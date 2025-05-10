@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://akkoma.social/"
-github: "https://akkoma.dev/AkkomaGang/akkoma"
+repo: "https://akkoma.dev/AkkomaGang/akkoma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

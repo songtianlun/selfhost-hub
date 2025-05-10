@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/timvisee/send"
-github: "https://github.com/timvisee/send"
+repo: "https://github.com/timvisee/send"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

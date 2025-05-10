@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Feed Readers"
 website: "https://github.com/nkanaev/yarr"
-github: "https://github.com/nkanaev/yarr"
+repo: "https://github.com/nkanaev/yarr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Wikis"
 website: "https://js.wiki/"
-github: "https://github.com/Requarks/wiki"
+repo: "https://github.com/Requarks/wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

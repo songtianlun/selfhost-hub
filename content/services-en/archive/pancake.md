@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Money, Budgeting & Management"
 website: "https://www.pancakeapp.com/"
-github: "https://www.pancakeapp.com/"
+repo: "https://www.pancakeapp.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://cypht.org"
-github: "https://github.com/cypht-org/cypht"
+repo: "https://github.com/cypht-org/cypht"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

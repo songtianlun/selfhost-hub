@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://www.rukovoditel.net/"
-github: "https://www.rukovoditel.net/download.php"
+repo: "https://www.rukovoditel.net/download.php"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

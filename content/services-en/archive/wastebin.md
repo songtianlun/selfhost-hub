@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://github.com/matze/wastebin"
-github: "https://github.com/matze/wastebin"
+repo: "https://github.com/matze/wastebin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

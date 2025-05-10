@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Internet of Things (IoT)"
 website: "https://fhem.de/fhem.html"
-github: "https://svn.fhem.de/trac"
+repo: "https://svn.fhem.de/trac"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

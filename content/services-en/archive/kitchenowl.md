@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Recipe Management"
 website: "https://docs.kitchenowl.org/latest/"
-github: "https://github.com/TomBursch/kitchenowl"
+repo: "https://github.com/TomBursch/kitchenowl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

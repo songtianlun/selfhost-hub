@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://anchr.io"
-github: "https://github.com/muety/anchr"
+repo: "https://github.com/muety/anchr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

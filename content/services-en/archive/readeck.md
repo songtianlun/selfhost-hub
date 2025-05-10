@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Bookmarks and Link Sharing"
 website: "https://readeck.org/en/"
-github: "https://codeberg.org/readeck/readeck"
+repo: "https://codeberg.org/readeck/readeck"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

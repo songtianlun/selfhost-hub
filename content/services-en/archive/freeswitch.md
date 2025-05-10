@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://freeswitch.org/"
-github: "https://github.com/signalwire/freeswitch"
+repo: "https://github.com/signalwire/freeswitch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

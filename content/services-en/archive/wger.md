@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://wger.de/"
-github: "https://github.com/wger-project/wger"
+repo: "https://github.com/wger-project/wger"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

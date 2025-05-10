@@ -9,7 +9,7 @@ tags:
   - ".NET"
 category: "Photo Galleries"
 website: "https://damselfly.info"
-github: "https://github.com/webreaper/damselfly"
+repo: "https://github.com/webreaper/damselfly"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

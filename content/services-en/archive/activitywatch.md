@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Time Tracking"
 website: "https://activitywatch.net"
-github: "https://github.com/ActivityWatch/activitywatch"
+repo: "https://github.com/ActivityWatch/activitywatch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

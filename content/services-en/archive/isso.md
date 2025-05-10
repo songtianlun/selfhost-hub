@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://isso-comments.de/"
-github: "https://github.com/posativ/isso"
+repo: "https://github.com/posativ/isso"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

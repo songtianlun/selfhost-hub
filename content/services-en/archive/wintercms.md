@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://wintercms.com/"
-github: "https://github.com/wintercms/winter"
+repo: "https://github.com/wintercms/winter"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

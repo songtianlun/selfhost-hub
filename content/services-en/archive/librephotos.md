@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Photo Galleries"
 website: "https://github.com/LibrePhotos/librephotos"
-github: "https://github.com/LibrePhotos/librephotos"
+repo: "https://github.com/LibrePhotos/librephotos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

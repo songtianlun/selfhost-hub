@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "File Transfer"
 website: "https://www.resourcespace.com"
-github: "https://www.resourcespace.com/svn"
+repo: "https://www.resourcespace.com/svn"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

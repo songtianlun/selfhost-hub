@@ -7,7 +7,7 @@ tags:
   - "Lua"
 category: "Internet of Things (IoT)"
 website: "https://github.com/javalikescript/lha"
-github: "https://github.com/javalikescript/lha"
+repo: "https://github.com/javalikescript/lha"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

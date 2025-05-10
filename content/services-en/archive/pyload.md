@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Automation"
 website: "https://pyload.net/"
-github: "https://github.com/pyload/pyload"
+repo: "https://github.com/pyload/pyload"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

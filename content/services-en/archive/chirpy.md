@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://chirpy.dev"
-github: "https://github.com/devrsi0n/chirpy"
+repo: "https://github.com/devrsi0n/chirpy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://www.mautic.org/"
-github: "https://github.com/mautic/mautic"
+repo: "https://github.com/mautic/mautic"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

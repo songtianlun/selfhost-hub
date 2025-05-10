@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Media Streaming"
 website: "https://www.audiobookshelf.org/"
-github: "https://github.com/advplyr/audiobookshelf"
+repo: "https://github.com/advplyr/audiobookshelf"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

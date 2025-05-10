@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Groupware"
 website: "https://digipad.app/"
-github: "https://codeberg.org/ladigitale/digipad"
+repo: "https://codeberg.org/ladigitale/digipad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

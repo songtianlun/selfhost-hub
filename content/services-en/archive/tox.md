@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://tox.chat/"
-github: "https://github.com/TokTok/c-toxcore"
+repo: "https://github.com/TokTok/c-toxcore"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

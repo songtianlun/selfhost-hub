@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Ticketing"
 website: "https://frappe.io/helpdesk"
-github: "https://github.com/frappe/helpdesk"
+repo: "https://github.com/frappe/helpdesk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

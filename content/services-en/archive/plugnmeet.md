@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://www.plugnmeet.org/"
-github: "https://github.com/mynaparrot/plugNmeet-server"
+repo: "https://github.com/mynaparrot/plugNmeet-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

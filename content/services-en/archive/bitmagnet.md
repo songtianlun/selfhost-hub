@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://bitmagnet.io"
-github: "https://github.com/bitmagnet-io/bitmagnet"
+repo: "https://github.com/bitmagnet-io/bitmagnet"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

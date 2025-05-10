@@ -10,7 +10,7 @@ tags:
 rating: 4
 category: AI平台
 website: 'https://dify.ai'
-github: 'https://github.com/langgenius/dify'
+repo: 'https://github.com/langgenius/dify'
 updatedAt: '2025-05-10T00:09:18.332Z'
 ---
 

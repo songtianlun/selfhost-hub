@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Analytics"
 website: "https://posthog.com"
-github: "https://github.com/posthog/posthog"
+repo: "https://github.com/posthog/posthog"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Games"
 website: "https://github.com/scribble-rs/scribble.rs"
-github: "https://github.com/scribble-rs/scribble.rs"
+repo: "https://github.com/scribble-rs/scribble.rs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

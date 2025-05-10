@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Note-taking & Editors"
 website: "https://notemark.docs.enchantedcode.co.uk/"
-github: "https://github.com/enchant97/note-mark"
+repo: "https://github.com/enchant97/note-mark"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://github.com/tinode"
-github: "https://github.com/tinode/chat"
+repo: "https://github.com/tinode/chat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -10,7 +10,7 @@ tags:
 category: 系统监控
 rating: 4.5
 website: 'https://uptime.kuma.pet'
-github: 'https://github.com/louislam/uptime-kuma'
+repo: 'https://github.com/louislam/uptime-kuma'
 updatedAt: '2025-05-08T19:24:54.151Z'
 ---
 

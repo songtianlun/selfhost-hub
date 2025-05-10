@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Software Development"
 website: "https://rhodecode.com/"
-github: "https://code.rhodecode.com/"
+repo: "https://code.rhodecode.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

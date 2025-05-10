@@ -8,7 +8,7 @@ tags:
   - "Django"
 category: "Pastebins"
 website: "https://dpaste.org/"
-github: "https://github.com/DarrenOfficial/dpaste"
+repo: "https://github.com/DarrenOfficial/dpaste"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Money, Budgeting & Management"
 website: "https://www.invoiceninja.org/"
-github: "https://github.com/invoiceninja/invoiceninja"
+repo: "https://github.com/invoiceninja/invoiceninja"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

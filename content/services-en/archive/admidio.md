@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Human Resources Management (HRM)"
 website: "https://www.admidio.org/"
-github: "https://github.com/Admidio/admidio"
+repo: "https://github.com/Admidio/admidio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

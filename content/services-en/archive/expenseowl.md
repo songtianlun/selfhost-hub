@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Money, Budgeting & Management"
 website: "https://github.com/tanq16/expenseowl"
-github: "https://github.com/tanq16/expenseowl"
+repo: "https://github.com/tanq16/expenseowl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

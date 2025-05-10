@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://onedev.io/"
-github: "https://code.onedev.io/projects/160"
+repo: "https://code.onedev.io/projects/160"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

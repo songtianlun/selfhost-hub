@@ -9,7 +9,7 @@ tags:
   - "Go"
 category: "Software Development"
 website: "https://flipt.io"
-github: "https://github.com/flipt-io/flipt"
+repo: "https://github.com/flipt-io/flipt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

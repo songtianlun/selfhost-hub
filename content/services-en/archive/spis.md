@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Photo Galleries"
 website: "https://github.com/gbbirkisson/spis"
-github: "https://github.com/gbbirkisson/spis"
+repo: "https://github.com/gbbirkisson/spis"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

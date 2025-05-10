@@ -9,7 +9,7 @@ tags:
   - JavaScript
 category: 自动化工具
 website: 'https://n8n.io'
-github: 'https://github.com/n8n-io/n8n'
+repo: 'https://github.com/n8n-io/n8n'
 updatedAt: '2025-05-08T01:24:51.131Z'
 ---
 

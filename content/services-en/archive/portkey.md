@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://portkey.page"
-github: "https://github.com/kodehat/portkey"
+repo: "https://github.com/kodehat/portkey"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "E-commerce"
 website: "https://medusajs.com/"
-github: "https://github.com/medusajs/medusa"
+repo: "https://github.com/medusajs/medusa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

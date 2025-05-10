@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Wikis"
 website: "https://www.pmwiki.org"
-github: "https://www.pmwiki.org"
+repo: "https://www.pmwiki.org"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

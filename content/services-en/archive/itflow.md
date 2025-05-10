@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Ticketing"
 website: "https://itflow.org"
-github: "https://github.com/itflow-org/itflow"
+repo: "https://github.com/itflow-org/itflow"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

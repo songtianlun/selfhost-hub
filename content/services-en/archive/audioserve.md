@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Media Streaming"
 website: "https://github.com/izderadicka/audioserve"
-github: "https://github.com/izderadicka/audioserve"
+repo: "https://github.com/izderadicka/audioserve"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

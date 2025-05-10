@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://titra.io/"
-github: "https://github.com/kromitgmbh/titra"
+repo: "https://github.com/kromitgmbh/titra"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

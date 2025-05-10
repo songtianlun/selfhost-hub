@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://actualbudget.github.io/docs/"
-github: "https://github.com/actualbudget/actual"
+repo: "https://github.com/actualbudget/actual"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

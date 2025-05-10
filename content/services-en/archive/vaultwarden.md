@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Password Managers"
 website: "https://github.com/dani-garcia/vaultwarden"
-github: "https://github.com/dani-garcia/vaultwarden"
+repo: "https://github.com/dani-garcia/vaultwarden"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

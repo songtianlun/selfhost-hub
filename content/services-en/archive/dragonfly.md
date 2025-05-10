@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://github.com/corecode/dma"
-github: "https://github.com/corecode/dma"
+repo: "https://github.com/corecode/dma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

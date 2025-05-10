@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://wakapi.dev/"
-github: "https://github.com/muety/wakapi"
+repo: "https://github.com/muety/wakapi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

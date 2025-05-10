@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Photo Galleries"
 website: "https://lycheeorg.github.io/"
-github: "https://github.com/LycheeOrg/Lychee"
+repo: "https://github.com/LycheeOrg/Lychee"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

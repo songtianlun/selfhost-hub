@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Inventory Management"
 website: "https://cannery.app"
-github: "https://gitea.bubbletea.dev/shibao/cannery"
+repo: "https://gitea.bubbletea.dev/shibao/cannery"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

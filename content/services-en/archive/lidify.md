@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://github.com/TheWicklowWolf/Lidify"
-github: "https://github.com/TheWicklowWolf/Lidify"
+repo: "https://github.com/TheWicklowWolf/Lidify"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

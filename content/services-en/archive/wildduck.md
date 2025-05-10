@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://wildduck.email/"
-github: "https://github.com/nodemailer/wildduck"
+repo: "https://github.com/nodemailer/wildduck"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

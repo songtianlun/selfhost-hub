@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://www.shopware.com/en/community/community-edition/"
-github: "https://github.com/shopware/platform"
+repo: "https://github.com/shopware/platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

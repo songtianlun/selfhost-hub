@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Miscellaneous"
 website: "https://github.com/babybuddy/babybuddy"
-github: "https://github.com/babybuddy/babybuddy"
+repo: "https://github.com/babybuddy/babybuddy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

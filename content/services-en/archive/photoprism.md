@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Photo Galleries"
 website: "https://photoprism.org"
-github: "https://github.com/photoprism/photoprism"
+repo: "https://github.com/photoprism/photoprism"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

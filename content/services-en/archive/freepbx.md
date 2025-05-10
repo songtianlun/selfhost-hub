@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://www.freepbx.org"
-github: "https://git.freepbx.org/projects/FREEPBX"
+repo: "https://git.freepbx.org/projects/FREEPBX"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

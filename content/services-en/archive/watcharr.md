@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://github.com/sbondCo/Watcharr"
-github: "https://github.com/sbondCo/Watcharr"
+repo: "https://github.com/sbondCo/Watcharr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

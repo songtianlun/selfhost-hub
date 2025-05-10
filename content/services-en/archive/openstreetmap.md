@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://www.openstreetmap.org/"
-github: "https://github.com/openstreetmap/openstreetmap-website"
+repo: "https://github.com/openstreetmap/openstreetmap-website"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

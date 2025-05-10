@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://trueconf.com/products/tcsf/trueconf-server-free.html"
-github: "https://trueconf.com/products/tcsf/trueconf-server-free.html"
+repo: "https://trueconf.com/products/tcsf/trueconf-server-free.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

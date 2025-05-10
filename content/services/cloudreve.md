@@ -9,7 +9,7 @@ tags:
   - 云存储
 category: 文件存储
 website: 'https://cloudreve.org'
-github: 'https://github.com/cloudreve/Cloudreve'
+repo: 'https://github.com/cloudreve/Cloudreve'
 updatedAt: '2025-05-08T21:43:18.211Z'
 ---
 

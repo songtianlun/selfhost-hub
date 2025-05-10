@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://wallosapp.com"
-github: "https://github.com/ellite/wallos"
+repo: "https://github.com/ellite/wallos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

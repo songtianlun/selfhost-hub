@@ -10,7 +10,7 @@ tags:
   - "K8S"
 category: "Search Engines"
 website: "https://github.com/manticoresoftware/manticoresearch/"
-github: "https://github.com/manticoresoftware/manticoresearch/"
+repo: "https://github.com/manticoresoftware/manticoresearch/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

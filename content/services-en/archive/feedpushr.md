@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://github.com/ncarlier/feedpushr"
-github: "https://github.com/ncarlier/feedpushr"
+repo: "https://github.com/ncarlier/feedpushr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

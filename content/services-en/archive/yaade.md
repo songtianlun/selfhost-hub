@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://docs.yaade.io/"
-github: "https://github.com/EsperoTech/yaade"
+repo: "https://github.com/EsperoTech/yaade"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

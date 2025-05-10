@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://casaos.zimaspace.com/"
-github: "https://github.com/IceWhaleTech/CasaOS"
+repo: "https://github.com/IceWhaleTech/CasaOS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

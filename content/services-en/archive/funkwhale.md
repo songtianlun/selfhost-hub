@@ -8,7 +8,7 @@ tags:
   - "Django"
 category: "Media Streaming"
 website: "https://dev.funkwhale.audio/funkwhale"
-github: "https://dev.funkwhale.audio/funkwhale"
+repo: "https://dev.funkwhale.audio/funkwhale"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

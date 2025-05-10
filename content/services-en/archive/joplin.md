@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Note-taking & Editors"
 website: "https://joplinapp.org/"
-github: "https://github.com/laurent22/joplin"
+repo: "https://github.com/laurent22/joplin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

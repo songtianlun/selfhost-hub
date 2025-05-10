@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Media Management"
 website: "https://lardbit.github.io/nefarious/"
-github: "https://github.com/lardbit/nefarious"
+repo: "https://github.com/lardbit/nefarious"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

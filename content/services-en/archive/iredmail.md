@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Communication"
 website: "https://www.iredmail.org/"
-github: "https://github.com/iredmail/iRedMail"
+repo: "https://github.com/iredmail/iRedMail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

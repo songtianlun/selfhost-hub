@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://datasette.io/"
-github: "https://github.com/simonw/datasette"
+repo: "https://github.com/simonw/datasette"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

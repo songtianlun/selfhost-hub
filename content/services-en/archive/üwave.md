@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Media Streaming"
 website: "https://u-wave.net/"
-github: "https://github.com/u-wave"
+repo: "https://github.com/u-wave"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

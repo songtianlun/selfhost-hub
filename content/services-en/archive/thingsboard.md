@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Internet of Things (IoT)"
 website: "https://thingsboard.io/"
-github: "https://github.com/thingsboard/thingsboard"
+repo: "https://github.com/thingsboard/thingsboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

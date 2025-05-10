@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Pastebins"
 website: "https://github.com/Tanq16/local-content-share"
-github: "https://github.com/Tanq16/local-content-share"
+repo: "https://github.com/Tanq16/local-content-share"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

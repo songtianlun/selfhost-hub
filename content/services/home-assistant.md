@@ -8,7 +8,7 @@ tags:
   - 物联网
 category: 智能家居
 website: 'https://www.home-assistant.io'
-github: 'https://github.com/home-assistant/core'
+repo: 'https://github.com/home-assistant/core'
 updatedAt: '2025-05-08T19:55:24.628Z'
 ---
 

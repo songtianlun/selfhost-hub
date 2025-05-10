@@ -7,7 +7,7 @@ tags:
   - ".NET"
 category: "Ticketing"
 website: "https://www.jitbit.com/helpdesk/"
-github: "https://www.jitbit.com/helpdesk/"
+repo: "https://www.jitbit.com/helpdesk/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

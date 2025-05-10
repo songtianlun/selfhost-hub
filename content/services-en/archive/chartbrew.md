@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://chartbrew.com"
-github: "https://github.com/chartbrew/chartbrew"
+repo: "https://github.com/chartbrew/chartbrew"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

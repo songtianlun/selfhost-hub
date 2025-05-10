@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://contao.org/"
-github: "https://github.com/contao/contao/"
+repo: "https://github.com/contao/contao/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

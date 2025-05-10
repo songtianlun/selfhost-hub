@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://enclosed.cc/"
-github: "https://github.com/CorentinTh/enclosed"
+repo: "https://github.com/CorentinTh/enclosed"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

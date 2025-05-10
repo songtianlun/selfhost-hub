@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://www.octobot.cloud/"
-github: "https://github.com/Drakkar-Software/OctoBot"
+repo: "https://github.com/Drakkar-Software/OctoBot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

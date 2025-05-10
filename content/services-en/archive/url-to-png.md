@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://github.com/jasonraimondi/url-to-png"
-github: "https://github.com/jasonraimondi/url-to-png"
+repo: "https://github.com/jasonraimondi/url-to-png"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://thelia.net/"
-github: "https://github.com/thelia/thelia"
+repo: "https://github.com/thelia/thelia"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

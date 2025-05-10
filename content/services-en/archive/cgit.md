@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Software Development"
 website: "https://git.zx2c4.com/cgit/about/"
-github: "https://git.zx2c4.com/cgit/tree/"
+repo: "https://git.zx2c4.com/cgit/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

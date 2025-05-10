@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Inventory Management"
 website: "https://inventaire.io/welcome"
-github: "https://github.com/inventaire/inventaire"
+repo: "https://github.com/inventaire/inventaire"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

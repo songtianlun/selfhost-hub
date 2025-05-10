@@ -11,7 +11,7 @@ tags:
   - "deb"
 category: "Games"
 website: "https://redeclipse.net"
-github: "https://github.com/redeclipse/base"
+repo: "https://github.com/redeclipse/base"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

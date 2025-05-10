@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://healthchecks.io/"
-github: "https://github.com/healthchecks/healthchecks"
+repo: "https://github.com/healthchecks/healthchecks"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

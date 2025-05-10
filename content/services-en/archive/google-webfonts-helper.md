@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://github.com/majodev/google-webfonts-helper"
-github: "https://github.com/majodev/google-webfonts-helper"
+repo: "https://github.com/majodev/google-webfonts-helper"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

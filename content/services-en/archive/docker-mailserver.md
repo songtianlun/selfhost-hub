@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://docker-mailserver.github.io/docker-mailserver/edge/"
-github: "https://github.com/docker-mailserver/docker-mailserver"
+repo: "https://github.com/docker-mailserver/docker-mailserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://wazo-platform.org/"
-github: "https://github.com/wazo-platform"
+repo: "https://github.com/wazo-platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

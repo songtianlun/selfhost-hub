@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://leantime.io"
-github: "https://github.com/leantime/leantime"
+repo: "https://github.com/leantime/leantime"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

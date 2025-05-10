@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://github.com/seriousm4x/UpSnap"
-github: "https://github.com/seriousm4x/UpSnap"
+repo: "https://github.com/seriousm4x/UpSnap"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

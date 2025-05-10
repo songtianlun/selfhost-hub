@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Games"
 website: "https://suroi.io/"
-github: "https://github.com/HasangerGames/suroi"
+repo: "https://github.com/HasangerGames/suroi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

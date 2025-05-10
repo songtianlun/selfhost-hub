@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Polls and Events"
 website: "https://docassemble.org/"
-github: "https://github.com/jhpyle/docassemble"
+repo: "https://github.com/jhpyle/docassemble"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

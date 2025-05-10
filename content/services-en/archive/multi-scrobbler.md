@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://foxxmd.github.io/multi-scrobbler"
-github: "https://github.com/FoxxMD/multi-scrobbler"
+repo: "https://github.com/FoxxMD/multi-scrobbler"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

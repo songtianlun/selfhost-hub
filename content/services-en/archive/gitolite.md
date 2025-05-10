@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Software Development"
 website: "https://gitolite.com/gitolite/index.html"
-github: "https://github.com/sitaramc/gitolite"
+repo: "https://github.com/sitaramc/gitolite"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

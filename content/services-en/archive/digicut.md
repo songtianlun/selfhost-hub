@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digicut/"
-github: "https://codeberg.org/ladigitale/digicut"
+repo: "https://codeberg.org/ladigitale/digicut"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "C#"
 category: "File Transfer"
 website: "https://github.com/slskd/slskd"
-github: "https://github.com/slskd/slskd"
+repo: "https://github.com/slskd/slskd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "C++"
 category: "Media Streaming"
 website: "https://gerbera.io/"
-github: "https://github.com/gerbera/gerbera"
+repo: "https://github.com/gerbera/gerbera"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

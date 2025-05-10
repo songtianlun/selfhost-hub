@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Personal Dashboards"
 website: "https://github.com/gethomepage/homepage"
-github: "https://github.com/gethomepage/homepage"
+repo: "https://github.com/gethomepage/homepage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

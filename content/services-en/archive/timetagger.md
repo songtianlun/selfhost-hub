@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Time Tracking"
 website: "https://timetagger.app"
-github: "https://github.com/almarklein/timetagger"
+repo: "https://github.com/almarklein/timetagger"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

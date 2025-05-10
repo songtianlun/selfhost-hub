@@ -8,7 +8,7 @@ tags:
   - "Django"
 category: "Calendar & Contacts"
 website: "https://www.etebase.com/"
-github: "https://github.com/etesync/server"
+repo: "https://github.com/etesync/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

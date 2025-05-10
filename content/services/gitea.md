@@ -10,7 +10,7 @@ tags:
 rating: 4.5
 category: 代码托管
 website: 'https://gitea.io'
-github: 'https://github.com/go-gitea/gitea'
+repo: 'https://github.com/go-gitea/gitea'
 updatedAt: '2025-05-07T22:07:20.623Z'
 ---
 

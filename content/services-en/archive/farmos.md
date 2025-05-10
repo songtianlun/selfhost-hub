@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Resource Planning"
 website: "https://farmos.org/"
-github: "https://github.com/farmOS/farmOS"
+repo: "https://github.com/farmOS/farmOS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

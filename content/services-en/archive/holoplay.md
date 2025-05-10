@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://app.holoplay.io"
-github: "https://github.com/stephane-r/holoplay-pwa"
+repo: "https://github.com/stephane-r/holoplay-pwa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

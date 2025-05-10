@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Wikis"
 website: "https://www.mediawiki.org/wiki/MediaWiki"
-github: "https://phabricator.wikimedia.org/source/mediawiki/"
+repo: "https://phabricator.wikimedia.org/source/mediawiki/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

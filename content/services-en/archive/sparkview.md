@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Remote Access"
 website: "https://www.beyondssl.com/en/products/sparkview/"
-github: "https://www.beyondssl.com/en/products/sparkview/"
+repo: "https://www.beyondssl.com/en/products/sparkview/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

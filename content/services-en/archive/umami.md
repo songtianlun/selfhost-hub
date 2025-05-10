@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://umami.is/"
-github: "https://github.com/umami-software/umami"
+repo: "https://github.com/umami-software/umami"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Software Development"
 website: "https://www.redmine.org/"
-github: "https://svn.redmine.org/redmine/"
+repo: "https://svn.redmine.org/redmine/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

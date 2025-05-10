@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://docking.shipsaas.tech"
-github: "https://github.com/shipsaas/docking"
+repo: "https://github.com/shipsaas/docking"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

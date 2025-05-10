@@ -8,7 +8,7 @@ tags:
   - "C#"
 category: "Money, Budgeting & Management"
 website: "https://github.com/TheAxelander/OpenBudgeteer"
-github: "https://github.com/TheAxelander/OpenBudgeteer"
+repo: "https://github.com/TheAxelander/OpenBudgeteer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Games"
 website: "https://pelican.dev/"
-github: "https://github.com/pelican-dev/panel"
+repo: "https://github.com/pelican-dev/panel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

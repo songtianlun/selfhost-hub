@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Media Streaming"
 website: "https://www.musicpd.org/"
-github: "https://github.com/MusicPlayerDaemon/MPD"
+repo: "https://github.com/MusicPlayerDaemon/MPD"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

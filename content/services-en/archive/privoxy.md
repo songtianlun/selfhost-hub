@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Proxy"
 website: "https://www.privoxy.org"
-github: "https://www.privoxy.org"
+repo: "https://www.privoxy.org"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Proxy"
 website: "http://www.squid-cache.org/"
-github: "https://code.launchpad.net/squid"
+repo: "https://code.launchpad.net/squid"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

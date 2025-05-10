@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://baserow.io/"
-github: "https://gitlab.com/bramw/baserow"
+repo: "https://gitlab.com/bramw/baserow"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

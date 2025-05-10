@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://www.cloudron.io/"
-github: "https://git.cloudron.io/groups/cloudron"
+repo: "https://git.cloudron.io/groups/cloudron"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

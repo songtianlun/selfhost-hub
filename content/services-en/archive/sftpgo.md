@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/drakkan/sftpgo"
-github: "https://github.com/drakkan/sftpgo"
+repo: "https://github.com/drakkan/sftpgo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

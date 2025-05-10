@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://flagsmith.com"
-github: "https://github.com/flagsmith/flagsmith"
+repo: "https://github.com/flagsmith/flagsmith"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Analytics"
 website: "https://www.goatcounter.com"
-github: "https://github.com/arp242/goatcounter"
+repo: "https://github.com/arp242/goatcounter"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

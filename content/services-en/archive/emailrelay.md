@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Communication"
 website: "https://emailrelay.sourceforge.net/"
-github: "https://sourceforge.net/p/emailrelay/code/HEAD/tree/"
+repo: "https://sourceforge.net/p/emailrelay/code/HEAD/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

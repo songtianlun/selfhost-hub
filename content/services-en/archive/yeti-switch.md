@@ -8,7 +8,7 @@ tags:
   - "Ruby"
 category: "Communication"
 website: "https://yeti-switch.org/"
-github: "https://github.com/yeti-switch"
+repo: "https://github.com/yeti-switch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://sickchill.github.io/"
-github: "https://github.com/SickChill/SickChill"
+repo: "https://github.com/SickChill/SickChill"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

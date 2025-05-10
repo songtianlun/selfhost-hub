@@ -10,7 +10,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://about.gitlab.com"
-github: "https://gitlab.com/gitlab-org/gitlab-foss"
+repo: "https://gitlab.com/gitlab-org/gitlab-foss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

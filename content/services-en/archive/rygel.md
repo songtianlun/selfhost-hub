@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Media Streaming"
 website: "https://gnome.pages.gitlab.gnome.org/rygel/"
-github: "https://gitlab.gnome.org/GNOME/rygel/"
+repo: "https://gitlab.gnome.org/GNOME/rygel/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

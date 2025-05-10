@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://www.appsmith.com/"
-github: "https://github.com/appsmithorg/appsmith"
+repo: "https://github.com/appsmithorg/appsmith"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Polls and Events"
 website: "https://github.com/Wingysam/Christmas-Community"
-github: "https://github.com/Wingysam/Christmas-Community"
+repo: "https://github.com/Wingysam/Christmas-Community"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

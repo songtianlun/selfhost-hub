@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://opensmtpd.org/"
-github: "https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.sbin/smtpd/"
+repo: "https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.sbin/smtpd/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

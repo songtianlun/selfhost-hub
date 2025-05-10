@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://octobox.io/"
-github: "https://github.com/octobox/octobox"
+repo: "https://github.com/octobox/octobox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

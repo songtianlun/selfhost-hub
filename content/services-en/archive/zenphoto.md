@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Photo Galleries"
 website: "https://www.zenphoto.org/"
-github: "https://github.com/zenphoto/zenphoto"
+repo: "https://github.com/zenphoto/zenphoto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

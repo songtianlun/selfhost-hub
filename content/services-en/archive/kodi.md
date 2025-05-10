@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://kodi.tv/"
-github: "https://github.com/xbmc/xbmc"
+repo: "https://github.com/xbmc/xbmc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

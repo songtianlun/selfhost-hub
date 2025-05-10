@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "File Transfer"
 website: "https://ladigitale.dev/digirecord/"
-github: "https://codeberg.org/ladigitale/digirecord"
+repo: "https://codeberg.org/ladigitale/digirecord"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

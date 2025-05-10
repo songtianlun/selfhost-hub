@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Media Streaming"
 website: "http://www.subsonic.org/pages/index.jsp"
-github: "http://www.subsonic.org/pages/index.jsp"
+repo: "http://www.subsonic.org/pages/index.jsp"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

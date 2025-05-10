@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Money, Budgeting & Management"
 website: "https://ihatemoney.org/"
-github: "https://github.com/spiral-project/ihatemoney"
+repo: "https://github.com/spiral-project/ihatemoney"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

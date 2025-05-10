@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://esmira.kl.ac.at"
-github: "https://github.com/KL-Psychological-Methodology/ESMira"
+repo: "https://github.com/KL-Psychological-Methodology/ESMira"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

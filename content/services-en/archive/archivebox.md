@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://archivebox.io/"
-github: "https://github.com/ArchiveBox/ArchiveBox"
+repo: "https://github.com/ArchiveBox/ArchiveBox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

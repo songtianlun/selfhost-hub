@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://dovel.email"
-github: "https://dovel.email/server/tree.html"
+repo: "https://dovel.email/server/tree.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "C#"
 category: "Money, Budgeting & Management"
 website: "https://btcpayserver.org/"
-github: "https://github.com/btcpayserver/btcpayserver"
+repo: "https://github.com/btcpayserver/btcpayserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "URL Shorteners"
 website: "https://shlink.io"
-github: "https://github.com/shlinkio/shlink"
+repo: "https://github.com/shlinkio/shlink"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

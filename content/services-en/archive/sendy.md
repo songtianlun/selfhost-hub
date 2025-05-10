@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://sendy.co"
-github: "https://sendy.co"
+repo: "https://sendy.co"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

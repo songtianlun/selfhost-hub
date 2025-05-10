@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Games"
 website: "https://mindustrygame.github.io/"
-github: "https://github.com/Anuken/Mindustry"
+repo: "https://github.com/Anuken/Mindustry"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

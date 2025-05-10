@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://mixpost.app/"
-github: "https://github.com/inovector/MixpostApp"
+repo: "https://github.com/inovector/MixpostApp"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

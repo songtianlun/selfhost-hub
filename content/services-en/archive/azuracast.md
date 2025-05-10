@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://www.azuracast.com/"
-github: "https://github.com/AzuraCast/AzuraCast"
+repo: "https://github.com/AzuraCast/AzuraCast"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://www.dittofeed.com"
-github: "https://github.com/dittofeed/dittofeed"
+repo: "https://github.com/dittofeed/dittofeed"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

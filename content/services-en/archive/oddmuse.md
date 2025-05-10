@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Note-taking & Editors"
 website: "https://oddmuse.org/"
-github: "https://github.com/kensanata/oddmuse"
+repo: "https://github.com/kensanata/oddmuse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

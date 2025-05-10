@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://chibisafe.moe"
-github: "https://github.com/chibisafe/chibisafe"
+repo: "https://github.com/chibisafe/chibisafe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

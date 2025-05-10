@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "File Transfer & Synchronization"
 website: "https://kinto.readthedocs.org"
-github: "https://github.com/Kinto/kinto"
+repo: "https://github.com/Kinto/kinto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

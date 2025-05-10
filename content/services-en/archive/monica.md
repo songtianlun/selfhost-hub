@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Customer Relationship Management (CRM)"
 website: "https://monicahq.com/"
-github: "https://github.com/monicahq/monica"
+repo: "https://github.com/monicahq/monica"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

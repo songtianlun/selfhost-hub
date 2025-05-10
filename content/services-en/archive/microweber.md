@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://microweber.com/"
-github: "https://github.com/microweber/microweber"
+repo: "https://github.com/microweber/microweber"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

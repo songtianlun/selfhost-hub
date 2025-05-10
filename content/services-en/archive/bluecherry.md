@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Video Surveillance"
 website: "https://www.bluecherrydvr.com/"
-github: "https://github.com/bluecherrydvr/bluecherry-apps"
+repo: "https://github.com/bluecherrydvr/bluecherry-apps"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

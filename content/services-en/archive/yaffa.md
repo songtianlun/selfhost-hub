@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Money, Budgeting & Management"
 website: "https://www.yaffa.cc"
-github: "https://github.com/kantorge/yaffa"
+repo: "https://github.com/kantorge/yaffa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Document Management"
 website: "https://www.mayan-edms.com"
-github: "https://gitlab.com/mayan-edms/mayan-edms"
+repo: "https://gitlab.com/mayan-edms/mayan-edms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

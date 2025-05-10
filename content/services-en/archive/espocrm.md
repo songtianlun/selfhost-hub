@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Customer Relationship Management (CRM)"
 website: "https://www.espocrm.com/"
-github: "https://github.com/espocrm/espocrm"
+repo: "https://github.com/espocrm/espocrm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

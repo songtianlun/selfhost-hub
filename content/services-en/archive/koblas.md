@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Proxy"
 website: "https://github.com/ynuwenhof/koblas"
-github: "https://github.com/ynuwenhof/koblas"
+repo: "https://github.com/ynuwenhof/koblas"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

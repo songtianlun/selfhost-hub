@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Ticketing"
 website: "https://erxes.io/install/"
-github: "https://github.com/erxes/erxes"
+repo: "https://github.com/erxes/erxes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "File Transfer"
 website: "https://github.com/9001/copyparty"
-github: "https://github.com/9001/copyparty"
+repo: "https://github.com/9001/copyparty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

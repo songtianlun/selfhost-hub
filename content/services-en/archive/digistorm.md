@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Groupware"
 website: "https://digistorm.app/"
-github: "https://codeberg.org/ladigitale/digistorm"
+repo: "https://codeberg.org/ladigitale/digistorm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

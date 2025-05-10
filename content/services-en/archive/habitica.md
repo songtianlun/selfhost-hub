@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://habitica.com/"
-github: "https://github.com/HabitRPG/habitica"
+repo: "https://github.com/HabitRPG/habitica"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

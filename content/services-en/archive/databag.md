@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://github.com/balzack/databag"
-github: "https://github.com/balzack/databag"
+repo: "https://github.com/balzack/databag"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

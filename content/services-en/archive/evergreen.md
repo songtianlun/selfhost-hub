@@ -7,7 +7,7 @@ tags:
   - "PLpgSQL"
 category: "Document Management"
 website: "https://evergreen-ils.org"
-github: "https://github.com/evergreen-library-system/Evergreen"
+repo: "https://github.com/evergreen-library-system/Evergreen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

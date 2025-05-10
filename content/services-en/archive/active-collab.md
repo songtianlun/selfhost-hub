@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://activecollab.com/"
-github: "https://activecollab.com/"
+repo: "https://activecollab.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

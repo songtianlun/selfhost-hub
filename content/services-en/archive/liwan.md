@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://liwan.dev/"
-github: "https://github.com/explodingcamera/liwan"
+repo: "https://github.com/explodingcamera/liwan"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

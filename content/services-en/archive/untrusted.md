@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Games"
 website: "https://github.com/AlexNisnevich/untrusted"
-github: "https://github.com/AlexNisnevich/untrusted"
+repo: "https://github.com/AlexNisnevich/untrusted"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

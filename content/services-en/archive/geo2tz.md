@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://github.com/noandrea/geo2tz"
-github: "https://github.com/noandrea/geo2tz"
+repo: "https://github.com/noandrea/geo2tz"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "File Transfer & Synchronization"
 website: "https://pydio.com/"
-github: "https://github.com/pydio/cells"
+repo: "https://github.com/pydio/cells"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

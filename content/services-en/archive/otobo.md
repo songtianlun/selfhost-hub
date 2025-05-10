@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Ticketing"
 website: "https://otobo.io/en/"
-github: "https://github.com/RotherOSS/otobo"
+repo: "https://github.com/RotherOSS/otobo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Document Management"
 website: "https://www.kiwix.org/en/downloads/kiwix-serve/"
-github: "https://github.com/kiwix/kiwix-tools"
+repo: "https://github.com/kiwix/kiwix-tools"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

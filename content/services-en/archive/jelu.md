@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://bayang.github.io/jelu-web"
-github: "https://github.com/bayang/jelu"
+repo: "https://github.com/bayang/jelu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

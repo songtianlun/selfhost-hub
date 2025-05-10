@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Note-taking & Editors"
 website: "https://livebook.dev"
-github: "https://github.com/livebook-dev/livebook"
+repo: "https://github.com/livebook-dev/livebook"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://www.opensource-socialnetwork.org/"
-github: "https://github.com/opensource-socialnetwork/opensource-socialnetwork"
+repo: "https://github.com/opensource-socialnetwork/opensource-socialnetwork"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

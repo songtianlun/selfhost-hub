@@ -8,7 +8,7 @@ tags:
   - "Ruby"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://foodcoops.net/"
-github: "https://github.com/foodcoops/foodsoft"
+repo: "https://github.com/foodcoops/foodsoft"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

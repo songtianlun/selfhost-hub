@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Search Engines"
 website: "https://www.elastic.co/elasticsearch/"
-github: "https://github.com/elastic/elasticsearch"
+repo: "https://github.com/elastic/elasticsearch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://filipecarneiro.github.io/ELabel/"
-github: "https://github.com/filipecarneiro/ELabel"
+repo: "https://github.com/filipecarneiro/ELabel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

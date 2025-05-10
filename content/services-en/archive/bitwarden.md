@@ -8,7 +8,7 @@ tags:
   - "C#"
 category: "Password Managers"
 website: "https://bitwarden.com/"
-github: "https://github.com/bitwarden/server"
+repo: "https://github.com/bitwarden/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

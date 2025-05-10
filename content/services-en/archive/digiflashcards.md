@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digiflashcards/"
-github: "https://codeberg.org/ladigitale/digiflashcards"
+repo: "https://codeberg.org/ladigitale/digiflashcards"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

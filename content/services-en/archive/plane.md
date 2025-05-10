@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://plane.so"
-github: "https://github.com/makeplane/plane"
+repo: "https://github.com/makeplane/plane"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

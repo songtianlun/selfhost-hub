@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://ngircd.barton.de/"
-github: "https://github.com/ngircd/ngircd"
+repo: "https://github.com/ngircd/ngircd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

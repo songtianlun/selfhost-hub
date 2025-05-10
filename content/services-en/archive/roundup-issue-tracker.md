@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Ticketing"
 website: "https://www.roundup-tracker.org/"
-github: "https://www.roundup-tracker.org/code.html"
+repo: "https://www.roundup-tracker.org/code.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

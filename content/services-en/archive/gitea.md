@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://gitea.com"
-github: "https://github.com/go-gitea/gitea"
+repo: "https://github.com/go-gitea/gitea"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

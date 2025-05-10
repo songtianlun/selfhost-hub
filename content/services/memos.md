@@ -10,7 +10,7 @@ tags:
 rating: 4.5
 category: 笔记应用
 website: 'https://usememos.com'
-github: 'https://github.com/usememos/memos'
+repo: 'https://github.com/usememos/memos'
 updatedAt: '2025-05-09T11:44:55.357Z'
 ---
 

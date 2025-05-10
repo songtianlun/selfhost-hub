@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://weechat.org/"
-github: "https://github.com/weechat/weechat"
+repo: "https://github.com/weechat/weechat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

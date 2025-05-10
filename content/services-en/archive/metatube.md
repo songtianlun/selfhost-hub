@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Media Management"
 website: "https://github.com/JVT038/MetaTube"
-github: "https://github.com/JVT038/MetaTube"
+repo: "https://github.com/JVT038/MetaTube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

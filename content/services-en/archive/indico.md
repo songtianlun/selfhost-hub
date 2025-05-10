@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Conference Management"
 website: "https://getindico.io/"
-github: "https://github.com/indico/indico"
+repo: "https://github.com/indico/indico"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

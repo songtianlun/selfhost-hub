@@ -8,7 +8,7 @@ tags:
   - "Javascript"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://www.opentripplanner.org/"
-github: "https://github.com/opentripplanner/OpenTripPlanner"
+repo: "https://github.com/opentripplanner/OpenTripPlanner"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

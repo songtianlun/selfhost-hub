@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Media Streaming"
 website: "https://ampache.org/"
-github: "https://github.com/ampache/ampache"
+repo: "https://github.com/ampache/ampache"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

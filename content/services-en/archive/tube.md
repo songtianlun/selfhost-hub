@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Media Streaming"
 website: "https://git.mills.io/prologic/tube"
-github: "https://git.mills.io/prologic/tube"
+repo: "https://git.mills.io/prologic/tube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

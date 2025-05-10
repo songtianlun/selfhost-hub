@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Media Streaming"
 website: "https://mstream.io/"
-github: "https://github.com/IrosTheBeggar/mStream"
+repo: "https://github.com/IrosTheBeggar/mStream"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

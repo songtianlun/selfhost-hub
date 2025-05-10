@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Status / Uptime pages"
 website: "https://cstate.netlify.app/"
-github: "https://github.com/cstate/cstate"
+repo: "https://github.com/cstate/cstate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

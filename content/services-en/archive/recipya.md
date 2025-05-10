@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Recipe Management"
 website: "https://recipes.musicavis.ca"
-github: "https://github.com/reaper47/recipya"
+repo: "https://github.com/reaper47/recipya"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

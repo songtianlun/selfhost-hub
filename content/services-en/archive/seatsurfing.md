@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Booking and Scheduling"
 website: "https://seatsurfing.app/"
-github: "https://github.com/seatsurfing/backend"
+repo: "https://github.com/seatsurfing/backend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -10,7 +10,7 @@ tags:
   - "deb"
 category: "Software Development"
 website: "https://coder.com/"
-github: "https://github.com/coder/coder"
+repo: "https://github.com/coder/coder"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

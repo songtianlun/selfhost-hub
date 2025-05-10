@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Remote Access"
 website: "https://bifroest.engity.org/"
-github: "https://github.com/engity-com/bifroest"
+repo: "https://github.com/engity-com/bifroest"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

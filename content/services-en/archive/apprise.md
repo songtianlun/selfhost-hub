@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://github.com/caronc/apprise"
-github: "https://github.com/caronc/apprise"
+repo: "https://github.com/caronc/apprise"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

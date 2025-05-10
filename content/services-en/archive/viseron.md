@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Video Surveillance"
 website: "https://viseron.netlify.app/"
-github: "https://github.com/roflcoopter/viseron"
+repo: "https://github.com/roflcoopter/viseron"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

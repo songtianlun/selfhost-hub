@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Analytics"
 website: "http://superset.apache.org/"
-github: "https://github.com/apache/superset"
+repo: "https://github.com/apache/superset"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

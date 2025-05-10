@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Note-taking & Editors"
 website: "https://github.com/dullage/flatnotes"
-github: "https://github.com/dullage/flatnotes"
+repo: "https://github.com/dullage/flatnotes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

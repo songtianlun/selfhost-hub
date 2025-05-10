@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Content Management Systems (CMS)"
 website: "https://www.vvveb.com"
-github: "https://github.com/givanz/Vvveb"
+repo: "https://github.com/givanz/Vvveb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

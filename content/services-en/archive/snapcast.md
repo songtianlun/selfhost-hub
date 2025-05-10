@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://github.com/badaix/snapcast"
-github: "https://github.com/badaix/snapcast"
+repo: "https://github.com/badaix/snapcast"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

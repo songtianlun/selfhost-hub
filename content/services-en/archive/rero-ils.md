@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://rero21.ch/"
-github: "https://github.com/rero/rero-ils"
+repo: "https://github.com/rero/rero-ils"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://github.com/TheWicklowWolf/ChannelTube"
-github: "https://github.com/TheWicklowWolf/ChannelTube"
+repo: "https://github.com/TheWicklowWolf/ChannelTube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

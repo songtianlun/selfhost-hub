@@ -11,7 +11,7 @@ tags:
   - "deb"
 category: "Games"
 website: "https://www.luanti.org/"
-github: "https://github.com/luanti-org/luanti"
+repo: "https://github.com/luanti-org/luanti"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

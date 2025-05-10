@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://www.homeserverhq.com/"
-github: "https://github.com/homeserverhq/hshq"
+repo: "https://github.com/homeserverhq/hshq"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

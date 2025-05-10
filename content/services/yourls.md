@@ -9,7 +9,7 @@ tags:
   - PHP
 category: URL工具
 website: 'https://yourls.org'
-github: 'https://github.com/YOURLS/YOURLS'
+repo: 'https://github.com/YOURLS/YOURLS'
 updatedAt: '2025-05-07T19:04:06.604Z'
 ---
 

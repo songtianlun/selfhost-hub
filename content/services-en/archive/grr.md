@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Money, Budgeting & Management"
 website: "https://grr.devome.com/?lang=en"
-github: "https://github.com/JeromeDevome/GRR"
+repo: "https://github.com/JeromeDevome/GRR"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

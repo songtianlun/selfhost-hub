@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Communication"
 website: "https://syndie.de"
-github: "https://syndie.de"
+repo: "https://syndie.de"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

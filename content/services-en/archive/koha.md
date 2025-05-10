@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Document Management"
 website: "https://koha-community.org/"
-github: "https://github.com/Koha-Community/Koha"
+repo: "https://github.com/Koha-Community/Koha"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

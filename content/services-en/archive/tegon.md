@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Task Management & To-do Lists"
 website: "https://tegon.ai"
-github: "https://github.com/tegonhq/tegon"
+repo: "https://github.com/tegonhq/tegon"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

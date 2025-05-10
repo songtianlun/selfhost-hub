@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Money, Budgeting & Management"
 website: "https://mybucks.online"
-github: "https://github.com/mybucks-online/app"
+repo: "https://github.com/mybucks-online/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

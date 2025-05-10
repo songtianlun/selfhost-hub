@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://webdb.app"
-github: "https://gitlab.com/web-db/app"
+repo: "https://gitlab.com/web-db/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

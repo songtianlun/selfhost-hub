@@ -9,7 +9,7 @@ tags:
   - "Go"
 category: "Miscellaneous"
 website: "https://beelzebub-honeypot.com/"
-github: "https://github.com/mariocandela/beelzebub"
+repo: "https://github.com/mariocandela/beelzebub"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

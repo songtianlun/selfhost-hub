@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.getmotoradmin.com/"
-github: "https://github.com/motor-admin/motor-admin"
+repo: "https://github.com/motor-admin/motor-admin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Password Managers"
 website: "https://psono.com/"
-github: "https://gitlab.com/psono"
+repo: "https://gitlab.com/psono"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

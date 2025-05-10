@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://zulip.org"
-github: "https://github.com/zulip/zulip"
+repo: "https://github.com/zulip/zulip"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

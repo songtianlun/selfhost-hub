@@ -9,7 +9,7 @@ tags:
   - "Ruby"
 category: "Pastebins"
 website: "https://pwpush.com"
-github: "https://github.com/pglombardo/PasswordPusher"
+repo: "https://github.com/pglombardo/PasswordPusher"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

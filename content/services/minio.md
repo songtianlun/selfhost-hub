@@ -9,7 +9,7 @@ tags:
 rating: 4
 category: 文件存储
 website: 'https://min.io'
-github: 'https://github.com/minio/minio'
+repo: 'https://github.com/minio/minio'
 updatedAt: '2025-05-10T12:19:25.648Z'
 ---
 

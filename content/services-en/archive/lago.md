@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://www.getlago.com/"
-github: "https://github.com/getlago/lago"
+repo: "https://github.com/getlago/lago"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

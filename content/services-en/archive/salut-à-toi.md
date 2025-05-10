@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://www.salut-a-toi.org/"
-github: "https://repos.goffi.org/libervia-backend"
+repo: "https://repos.goffi.org/libervia-backend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

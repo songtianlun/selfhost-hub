@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://datarhei.github.io/restreamer/"
-github: "https://github.com/datarhei/restreamer"
+repo: "https://github.com/datarhei/restreamer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

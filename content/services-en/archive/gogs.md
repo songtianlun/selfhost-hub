@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Software Development"
 website: "https://gogs.io/"
-github: "https://github.com/gogs/gogs"
+repo: "https://github.com/gogs/gogs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

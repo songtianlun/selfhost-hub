@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://hoppscotch.io"
-github: "https://github.com/hoppscotch/hoppscotch"
+repo: "https://github.com/hoppscotch/hoppscotch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "URL Shorteners"
 website: "https://yourls.org/"
-github: "https://github.com/YOURLS/YOURLS"
+repo: "https://github.com/YOURLS/YOURLS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

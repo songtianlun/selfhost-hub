@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Money, Budgeting & Management"
 website: "https://galette.eu/"
-github: "https://github.com/galette/galette"
+repo: "https://github.com/galette/galette"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

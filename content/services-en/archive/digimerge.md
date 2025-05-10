@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digimerge/"
-github: "https://codeberg.org/ladigitale/Digimerge"
+repo: "https://codeberg.org/ladigitale/Digimerge"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

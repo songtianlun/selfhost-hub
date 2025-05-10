@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Miscellaneous"
 website: "https://libretranslate.com/"
-github: "https://github.com/LibreTranslate/LibreTranslate"
+repo: "https://github.com/LibreTranslate/LibreTranslate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

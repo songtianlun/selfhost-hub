@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://webtorrent.io/"
-github: "https://github.com/webtorrent/bittorrent-tracker"
+repo: "https://github.com/webtorrent/bittorrent-tracker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

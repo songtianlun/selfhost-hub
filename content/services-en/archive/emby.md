@@ -7,7 +7,7 @@ tags:
   - "C#"
 category: "Media Streaming"
 website: "https://emby.media/"
-github: "https://emby.media/"
+repo: "https://emby.media/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

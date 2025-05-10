@@ -10,7 +10,7 @@ tags:
 rating: 3
 category: 网站系统
 website: 'https://wordpress.org'
-github: 'https://github.com/WordPress/WordPress'
+repo: 'https://github.com/WordPress/WordPress'
 updatedAt: '2025-05-09T13:59:05.094Z'
 ---
 

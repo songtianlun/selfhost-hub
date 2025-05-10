@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://www.wallabag.org"
-github: "https://github.com/wallabag/wallabag"
+repo: "https://github.com/wallabag/wallabag"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

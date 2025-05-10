@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Internet of Things (IoT)"
 website: "https://flowforge.com/"
-github: "https://github.com/flowforge/flowforge"
+repo: "https://github.com/flowforge/flowforge"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

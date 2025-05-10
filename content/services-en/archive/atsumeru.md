@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://atsumeru.xyz"
-github: "https://github.com/AtsumeruDev/Atsumeru"
+repo: "https://github.com/AtsumeruDev/Atsumeru"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

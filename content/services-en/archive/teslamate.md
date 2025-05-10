@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://github.com/adriankumpf/teslamate"
-github: "https://github.com/adriankumpf/teslamate"
+repo: "https://github.com/adriankumpf/teslamate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

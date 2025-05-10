@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://github.com/alexta69/metube"
-github: "https://github.com/alexta69/metube"
+repo: "https://github.com/alexta69/metube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

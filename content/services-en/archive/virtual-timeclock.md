@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Time Tracking"
 website: "https://www.redcort.com/timeclock"
-github: "https://www.redcort.com/timeclock"
+repo: "https://www.redcort.com/timeclock"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

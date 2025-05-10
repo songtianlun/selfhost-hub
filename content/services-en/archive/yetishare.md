@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "File Transfer & Synchronization"
 website: "https://yetishare.com"
-github: "https://yetishare.com"
+repo: "https://yetishare.com"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

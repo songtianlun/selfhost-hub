@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Media Streaming"
 website: "https://owncast.online/"
-github: "https://github.com/owncast/owncast"
+repo: "https://github.com/owncast/owncast"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

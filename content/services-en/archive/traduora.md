@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Software Development"
 website: "https://traduora.co"
-github: "https://github.com/ever-co/ever-traduora"
+repo: "https://github.com/ever-co/ever-traduora"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Remote Access"
 website: "https://www.shellhub.io"
-github: "https://github.com/shellhub-io/shellhub"
+repo: "https://github.com/shellhub-io/shellhub"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Document Management"
 website: "https://librumreader.com"
-github: "https://github.com/Librum-Reader/Librum"
+repo: "https://github.com/Librum-Reader/Librum"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

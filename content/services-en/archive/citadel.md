@@ -9,7 +9,7 @@ tags:
   - "Shell"
 category: "Groupware"
 website: "https://www.citadel.org/"
-github: "https://www.citadel.org/source.html"
+repo: "https://www.citadel.org/source.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

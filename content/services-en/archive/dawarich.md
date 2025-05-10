@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://dawarich.app/"
-github: "https://github.com/Freika/dawarich"
+repo: "https://github.com/Freika/dawarich"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

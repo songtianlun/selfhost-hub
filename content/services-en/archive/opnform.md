@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://opnform.com"
-github: "https://github.com/JhumanJ/opnform"
+repo: "https://github.com/JhumanJ/opnform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://repos.goffi.org/libervia-web"
-github: "https://repos.goffi.org/libervia-web"
+repo: "https://repos.goffi.org/libervia-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

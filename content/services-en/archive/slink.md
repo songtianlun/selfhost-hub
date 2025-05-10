@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://docs.slinkapp.io/"
-github: "https://github.com/andrii-kryvoviaz/slink"
+repo: "https://github.com/andrii-kryvoviaz/slink"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

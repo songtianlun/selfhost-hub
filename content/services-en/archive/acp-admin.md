@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://acp-admin.ch/"
-github: "https://github.com/acp-admin/acp-admin/"
+repo: "https://github.com/acp-admin/acp-admin/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

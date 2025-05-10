@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.concretecms.com"
-github: "https://github.com/concretecms/concretecms"
+repo: "https://github.com/concretecms/concretecms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

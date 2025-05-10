@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://nominatim.org/"
-github: "https://github.com/osm-search/Nominatim"
+repo: "https://github.com/osm-search/Nominatim"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

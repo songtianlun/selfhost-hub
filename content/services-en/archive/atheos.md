@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.atheos.io"
-github: "https://github.com/Atheos/Atheos"
+repo: "https://github.com/Atheos/Atheos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

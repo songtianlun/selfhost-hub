@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Password Managers"
 website: "https://www.aliasvault.net"
-github: "https://github.com/lanedirt/AliasVault"
+repo: "https://github.com/lanedirt/AliasVault"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

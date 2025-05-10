@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Proxy"
 website: "https://github.com/antoniomika/sish"
-github: "https://github.com/antoniomika/sish"
+repo: "https://github.com/antoniomika/sish"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

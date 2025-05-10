@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Learning and Courses"
 website: "https://www.scholarsome.com/"
-github: "https://github.com/hwgilbert16/scholarsome"
+repo: "https://github.com/hwgilbert16/scholarsome"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

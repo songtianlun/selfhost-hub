@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Task Management & To-do Lists"
 website: "https://planka.app/"
-github: "https://github.com/plankanban/planka"
+repo: "https://github.com/plankanban/planka"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

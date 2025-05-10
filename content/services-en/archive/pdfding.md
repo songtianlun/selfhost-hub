@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://github.com/mrmn2/PdfDing"
-github: "https://github.com/mrmn2/PdfDing"
+repo: "https://github.com/mrmn2/PdfDing"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

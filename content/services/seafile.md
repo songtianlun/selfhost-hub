@@ -9,7 +9,7 @@ tags:
   - Python
 category: 文件存储
 website: 'https://www.seafile.com'
-github: 'https://github.com/haiwen/seafile'
+repo: 'https://github.com/haiwen/seafile'
 updatedAt: '2025-05-08T14:29:37.125Z'
 ---
 

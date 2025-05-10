@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Wikis"
 website: "https://www.getoutline.com/"
-github: "https://github.com/outline/outline"
+repo: "https://github.com/outline/outline"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

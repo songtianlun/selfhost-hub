@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Communication"
 website: "https://mailcatcher.me/"
-github: "https://github.com/sj26/mailcatcher"
+repo: "https://github.com/sj26/mailcatcher"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

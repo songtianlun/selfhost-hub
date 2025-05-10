@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Self-hosting Solutions"
 website: "https://poste.io"
-github: "https://poste.io"
+repo: "https://poste.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

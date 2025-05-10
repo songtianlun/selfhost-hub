@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Wikis"
 website: "https://documize.com"
-github: "https://github.com/documize/community"
+repo: "https://github.com/documize/community"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Haskell"
 category: "Bookmarks and Link Sharing"
 website: "https://github.com/jonschoning/espial"
-github: "https://github.com/jonschoning/espial"
+repo: "https://github.com/jonschoning/espial"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

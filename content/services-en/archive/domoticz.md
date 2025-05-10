@@ -10,7 +10,7 @@ tags:
   - "Shell"
 category: "Internet of Things (IoT)"
 website: "https://www.domoticz.com/"
-github: "https://github.com/domoticz/domoticz"
+repo: "https://github.com/domoticz/domoticz"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

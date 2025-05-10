@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "File Transfer"
 website: "https://github.com/zer0tonin/Mikochi"
-github: "https://github.com/zer0tonin/Mikochi"
+repo: "https://github.com/zer0tonin/Mikochi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

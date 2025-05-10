@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Human Resources Management (HRM)"
 website: "https://www.orangehrm.com/"
-github: "https://github.com/orangehrm/orangehrm"
+repo: "https://github.com/orangehrm/orangehrm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

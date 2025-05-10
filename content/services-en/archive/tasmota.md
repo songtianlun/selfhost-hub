@@ -8,7 +8,7 @@ tags:
   - "C++"
 category: "Internet of Things (IoT)"
 website: "https://tasmota.com"
-github: "https://github.com/arendst/Tasmota"
+repo: "https://github.com/arendst/Tasmota"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

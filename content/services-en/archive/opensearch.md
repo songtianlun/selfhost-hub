@@ -10,7 +10,7 @@ tags:
   - "deb"
 category: "Search Engines"
 website: "https://opensearch.org"
-github: "https://github.com/opensearch-project/OpenSearch"
+repo: "https://github.com/opensearch-project/OpenSearch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

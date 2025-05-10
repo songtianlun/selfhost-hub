@@ -9,7 +9,7 @@ tags:
   - OAuth
 category: 身份管理
 website: 'https://casdoor.org'
-github: 'https://github.com/casdoor/casdoor'
+repo: 'https://github.com/casdoor/casdoor'
 updatedAt: '2025-05-08T18:10:18.313Z'
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://www.foodcoopshop.com/"
-github: "https://github.com/foodcoopshop/foodcoopshop"
+repo: "https://github.com/foodcoopshop/foodcoopshop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

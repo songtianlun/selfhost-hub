@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Customer Relationship Management (CRM)"
 website: "https://github.com/DjangoCRM/django-crm"
-github: "https://github.com/DjangoCRM/django-crm"
+repo: "https://github.com/DjangoCRM/django-crm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

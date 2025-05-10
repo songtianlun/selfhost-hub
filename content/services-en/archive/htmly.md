@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Blogging Platforms"
 website: "https://www.htmly.com/"
-github: "https://github.com/danpros/htmly"
+repo: "https://github.com/danpros/htmly"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

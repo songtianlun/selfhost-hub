@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Miscellaneous"
 website: "https://revealjs.com"
-github: "https://github.com/hakimel/reveal.js"
+repo: "https://github.com/hakimel/reveal.js"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

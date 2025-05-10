@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Communication"
 website: "https://spectrum.im/"
-github: "https://github.com/SpectrumIM/spectrum2"
+repo: "https://github.com/SpectrumIM/spectrum2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

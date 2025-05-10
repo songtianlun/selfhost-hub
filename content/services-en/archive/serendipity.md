@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Blogging Platforms"
 website: "https://docs.s9y.org/"
-github: "https://github.com/s9y/serendipity"
+repo: "https://github.com/s9y/serendipity"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

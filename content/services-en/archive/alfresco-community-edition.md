@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Content Management Systems (CMS)"
 website: "https://www.alfresco.com/products/community/download"
-github: "https://github.com/Alfresco/alfresco-community-repo"
+repo: "https://github.com/Alfresco/alfresco-community-repo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

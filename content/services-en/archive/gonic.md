@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/sentriz/gonic"
-github: "https://github.com/sentriz/gonic"
+repo: "https://github.com/sentriz/gonic"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

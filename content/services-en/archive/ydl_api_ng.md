@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Media Management"
 website: "https://github.com/Totonyus/ydl_api_ng"
-github: "https://github.com/Totonyus/ydl_api_ng"
+repo: "https://github.com/Totonyus/ydl_api_ng"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

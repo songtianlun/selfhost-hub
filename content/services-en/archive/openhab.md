@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Internet of Things (IoT)"
 website: "https://www.openhab.org"
-github: "https://github.com/openhab/openhab-core"
+repo: "https://github.com/openhab/openhab-core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

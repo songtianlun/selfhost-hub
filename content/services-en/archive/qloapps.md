@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Booking and Scheduling"
 website: "https://qloapps.com/"
-github: "https://github.com/webkul/hotelcommerce"
+repo: "https://github.com/webkul/hotelcommerce"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

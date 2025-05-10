@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://getkirby.com/"
-github: "https://github.com/getkirby/kirby"
+repo: "https://github.com/getkirby/kirby"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

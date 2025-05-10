@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Blogging Platforms"
 website: "https://git.dotclear.org/dev/dotclear"
-github: "https://git.dotclear.org/dev/dotclear"
+repo: "https://git.dotclear.org/dev/dotclear"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

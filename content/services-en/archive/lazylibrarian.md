@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Automation"
 website: "https://gitlab.com/LazyLibrarian/LazyLibrarian"
-github: "https://gitlab.com/LazyLibrarian/LazyLibrarian"
+repo: "https://gitlab.com/LazyLibrarian/LazyLibrarian"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

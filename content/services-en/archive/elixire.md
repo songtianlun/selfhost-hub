@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "File Transfer"
 website: "https://gitlab.com/elixire/elixire"
-github: "https://gitlab.com/elixire/elixire"
+repo: "https://gitlab.com/elixire/elixire"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

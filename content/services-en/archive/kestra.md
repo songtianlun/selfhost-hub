@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://kestra.io"
-github: "https://github.com/kestra-io/kestra"
+repo: "https://github.com/kestra-io/kestra"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://www.tuleap.org/"
-github: "https://tuleap.net/plugins/git/tuleap/tuleap/stable?p=tuleap%2Fstable.git&a=tree"
+repo: "https://tuleap.net/plugins/git/tuleap/tuleap/stable?p=tuleap%2Fstable.git&a=tree"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

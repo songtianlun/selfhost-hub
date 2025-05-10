@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Learning and Courses"
 website: "https://www.edx.org/"
-github: "https://github.com/edx/"
+repo: "https://github.com/edx/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

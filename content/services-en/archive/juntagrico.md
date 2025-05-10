@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://juntagrico.org/"
-github: "https://github.com/juntagrico/juntagrico"
+repo: "https://github.com/juntagrico/juntagrico"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

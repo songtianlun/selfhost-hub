@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "E-commerce"
 website: "https://pretix.eu/"
-github: "https://github.com/pretix/pretix"
+repo: "https://github.com/pretix/pretix"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

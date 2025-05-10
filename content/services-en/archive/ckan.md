@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://ckan.org"
-github: "https://github.com/ckan/ckan"
+repo: "https://github.com/ckan/ckan"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

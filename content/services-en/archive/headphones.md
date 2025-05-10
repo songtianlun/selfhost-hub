@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Media Management"
 website: "https://github.com/rembo10/headphones"
-github: "https://github.com/rembo10/headphones"
+repo: "https://github.com/rembo10/headphones"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

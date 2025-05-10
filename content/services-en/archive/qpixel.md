@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Communication"
 website: "https://codidact.com/"
-github: "https://github.com/codidact/qpixel"
+repo: "https://github.com/codidact/qpixel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

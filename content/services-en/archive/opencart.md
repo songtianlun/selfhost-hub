@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://www.opencart.com"
-github: "https://github.com/opencart/opencart"
+repo: "https://github.com/opencart/opencart"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

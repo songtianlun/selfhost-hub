@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Money, Budgeting & Management"
 website: "https://hyperswitch.io/"
-github: "https://github.com/juspay/hyperswitch"
+repo: "https://github.com/juspay/hyperswitch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

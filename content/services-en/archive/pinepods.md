@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://www.pinepods.online/"
-github: "https://github.com/madeofpendletonwool/PinePods"
+repo: "https://github.com/madeofpendletonwool/PinePods"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

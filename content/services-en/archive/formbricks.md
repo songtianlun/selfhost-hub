@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://formbricks.com"
-github: "https://github.com/formbricks/formbricks"
+repo: "https://github.com/formbricks/formbricks"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

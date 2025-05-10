@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "File Transfer"
 website: "https://filebrowser.org/"
-github: "https://github.com/filebrowser/filebrowser"
+repo: "https://github.com/filebrowser/filebrowser"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

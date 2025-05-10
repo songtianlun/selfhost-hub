@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Miscellaneous"
 website: "https://docs.speedtest-tracker.dev/"
-github: "https://github.com/alexjustesen/speedtest-tracker"
+repo: "https://github.com/alexjustesen/speedtest-tracker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

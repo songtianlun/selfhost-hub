@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://github.com/mcarbonne/minimal-git-server"
-github: "https://github.com/mcarbonne/minimal-git-server"
+repo: "https://github.com/mcarbonne/minimal-git-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

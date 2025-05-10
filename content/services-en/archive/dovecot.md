@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://www.dovecot.org/"
-github: "https://github.com/dovecot/core"
+repo: "https://github.com/dovecot/core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

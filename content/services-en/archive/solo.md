@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://www.getsoloapp.com/"
-github: "https://www.getsoloapp.com/"
+repo: "https://www.getsoloapp.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

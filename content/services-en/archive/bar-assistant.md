@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Recipe Management"
 website: "https://barassistant.app/"
-github: "https://github.com/karlomikus/bar-assistant"
+repo: "https://github.com/karlomikus/bar-assistant"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Communication"
 website: "https://bigbluebutton.org/"
-github: "https://github.com/bigbluebutton/bigbluebutton"
+repo: "https://github.com/bigbluebutton/bigbluebutton"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

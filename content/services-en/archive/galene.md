@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://galene.org/"
-github: "https://github.com/jech/galene"
+repo: "https://github.com/jech/galene"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

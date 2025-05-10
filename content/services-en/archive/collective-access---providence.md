@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://collectiveaccess.org/"
-github: "https://github.com/collectiveaccess/providence"
+repo: "https://github.com/collectiveaccess/providence"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://syncloud.org/"
-github: "https://github.com/syncloud/platform"
+repo: "https://github.com/syncloud/platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

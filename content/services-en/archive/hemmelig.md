@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Pastebins"
 website: "https://hemmelig.app"
-github: "https://github.com/HemmeligOrg/Hemmelig.app"
+repo: "https://github.com/HemmeligOrg/Hemmelig.app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

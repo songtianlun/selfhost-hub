@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://killbill.io/"
-github: "https://github.com/killbill/killbill"
+repo: "https://github.com/killbill/killbill"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

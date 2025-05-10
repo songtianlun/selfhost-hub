@@ -9,7 +9,7 @@ tags:
   - "Python"
 category: "Groupware"
 website: "https://github.com/tracim/tracim"
-github: "https://github.com/tracim/tracim"
+repo: "https://github.com/tracim/tracim"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "C++"
 category: "Media Streaming"
 website: "https://github.com/epoupon/lms"
-github: "https://github.com/epoupon/lms"
+repo: "https://github.com/epoupon/lms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

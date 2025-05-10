@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Software Development"
 website: "https://bencher.dev/"
-github: "https://github.com/bencherdev/bencher"
+repo: "https://github.com/bencherdev/bencher"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

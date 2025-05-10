@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "E-commerce"
 website: "https://www.sharetribe.com"
-github: "https://github.com/sharetribe/sharetribe"
+repo: "https://github.com/sharetribe/sharetribe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

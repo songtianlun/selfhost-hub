@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Knowledge Management Tools"
 website: "https://b3log.org/siyuan/"
-github: "https://github.com/siyuan-note/siyuan"
+repo: "https://github.com/siyuan-note/siyuan"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

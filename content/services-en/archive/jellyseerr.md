@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Media Management"
 website: "https://github.com/Fallenbagel/jellyseerr"
-github: "https://github.com/Fallenbagel/jellyseerr"
+repo: "https://github.com/Fallenbagel/jellyseerr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

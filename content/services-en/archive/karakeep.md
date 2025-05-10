@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Bookmarks and Link Sharing"
 website: "https://karakeep.app/"
-github: "https://github.com/karakeep-app/karakeep"
+repo: "https://github.com/karakeep-app/karakeep"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

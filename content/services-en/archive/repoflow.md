@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.repoflow.io"
-github: "https://www.repoflow.io"
+repo: "https://www.repoflow.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

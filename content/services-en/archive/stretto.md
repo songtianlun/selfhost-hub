@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Media Streaming"
 website: "https://github.com/benkaiser/stretto"
-github: "https://github.com/benkaiser/stretto"
+repo: "https://github.com/benkaiser/stretto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

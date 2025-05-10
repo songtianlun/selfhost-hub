@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://blitiri.com.ar/p/chasquid/"
-github: "https://blitiri.com.ar/git/r/chasquid/"
+repo: "https://blitiri.com.ar/git/r/chasquid/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

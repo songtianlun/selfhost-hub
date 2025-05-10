@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Bookmarks and Link Sharing"
 website: "https://github.com/AlexSciFier/neonlink"
-github: "https://github.com/AlexSciFier/neonlink"
+repo: "https://github.com/AlexSciFier/neonlink"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

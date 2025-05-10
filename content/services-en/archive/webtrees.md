@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Genealogy"
 website: "https://www.webtrees.net"
-github: "https://github.com/fisharebest/webtrees"
+repo: "https://github.com/fisharebest/webtrees"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

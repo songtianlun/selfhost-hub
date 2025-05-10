@@ -8,7 +8,7 @@ tags:
   - ".NET"
 category: "Games"
 website: "https://github.com/gaseous-project/gaseous-server"
-github: "https://github.com/gaseous-project/gaseous-server"
+repo: "https://github.com/gaseous-project/gaseous-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

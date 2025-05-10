@@ -10,7 +10,7 @@ tags:
   - "K8S"
 category: "Recipe Management"
 website: "https://docs.tandoor.dev/"
-github: "https://github.com/TandoorRecipes/recipes"
+repo: "https://github.com/TandoorRecipes/recipes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "http://redash.io"
-github: "https://github.com/getredash/redash"
+repo: "https://github.com/getredash/redash"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

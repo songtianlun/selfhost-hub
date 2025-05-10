@@ -7,7 +7,7 @@ tags:
   - "Objective-C"
 category: "Groupware"
 website: "https://www.sogo.nu/"
-github: "https://github.com/Alinto/sogo"
+repo: "https://github.com/Alinto/sogo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

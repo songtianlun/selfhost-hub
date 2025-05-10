@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://omeka.org"
-github: "https://github.com/omeka/Omeka"
+repo: "https://github.com/omeka/Omeka"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

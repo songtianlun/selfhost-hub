@@ -8,7 +8,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://sandstorm.io/"
-github: "https://github.com/sandstorm-io/sandstorm"
+repo: "https://github.com/sandstorm-io/sandstorm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

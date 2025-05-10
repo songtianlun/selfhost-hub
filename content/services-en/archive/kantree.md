@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Software Development"
 website: "https://kantree.io"
-github: "https://kantree.io"
+repo: "https://kantree.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

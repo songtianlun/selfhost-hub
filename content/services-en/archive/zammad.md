@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Ticketing"
 website: "https://zammad.org/"
-github: "https://github.com/zammad/zammad"
+repo: "https://github.com/zammad/zammad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

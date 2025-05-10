@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://chitchatter.im/"
-github: "https://github.com/jeremyckahn/chitchatter"
+repo: "https://github.com/jeremyckahn/chitchatter"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Conference Management"
 website: "https://osem.io/"
-github: "https://github.com/openSUSE/osem"
+repo: "https://github.com/openSUSE/osem"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

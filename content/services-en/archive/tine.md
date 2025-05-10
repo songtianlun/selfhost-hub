@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Groupware"
 website: "https://www.tine-groupware.de/"
-github: "https://github.com/tine-groupware/tine"
+repo: "https://github.com/tine-groupware/tine"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

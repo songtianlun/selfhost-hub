@@ -9,7 +9,7 @@ tags:
   - PHP
 category: 信息聚合
 website: 'https://github.com/YieldRay/wewe-rss'
-github: 'https://github.com/YieldRay/wewe-rss'
+repo: 'https://github.com/YieldRay/wewe-rss'
 updatedAt: '2025-05-09T11:05:11.852Z'
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Note-taking & Editors"
 website: "https://github.com/zadam/trilium"
-github: "https://github.com/zadam/trilium"
+repo: "https://github.com/zadam/trilium"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - ".NET"
 category: "Content Management Systems (CMS)"
 website: "https://squidex.io"
-github: "https://github.com/Squidex/squidex"
+repo: "https://github.com/Squidex/squidex"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

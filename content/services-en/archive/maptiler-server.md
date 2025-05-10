@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://www.maptiler.com/server/"
-github: "https://www.maptiler.com/server/"
+repo: "https://www.maptiler.com/server/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

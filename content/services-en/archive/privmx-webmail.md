@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://privmx.com"
-github: "https://privmx.com"
+repo: "https://privmx.com"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

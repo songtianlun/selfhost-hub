@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Status / Uptime pages"
 website: "https://uptime.kuma.pet/"
-github: "https://github.com/louislam/uptime-kuma"
+repo: "https://github.com/louislam/uptime-kuma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Django"
 category: "Password Managers"
 website: "https://passit.io/"
-github: "https://gitlab.com/passit"
+repo: "https://gitlab.com/passit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

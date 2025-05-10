@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://algernon.roboticoverlords.org/"
-github: "https://github.com/xyproto/algernon"
+repo: "https://github.com/xyproto/algernon"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

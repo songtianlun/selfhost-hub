@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://fossbilling.org/"
-github: "https://github.com/FOSSBilling/FOSSBilling"
+repo: "https://github.com/FOSSBilling/FOSSBilling"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

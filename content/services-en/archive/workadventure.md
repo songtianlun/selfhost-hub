@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://workadventu.re"
-github: "https://github.com/thecodingmachine/workadventure/"
+repo: "https://github.com/thecodingmachine/workadventure/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

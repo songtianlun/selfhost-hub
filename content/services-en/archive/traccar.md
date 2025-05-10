@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://www.traccar.org/"
-github: "https://github.com/traccar"
+repo: "https://github.com/traccar"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

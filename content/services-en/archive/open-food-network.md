@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://www.openfoodnetwork.org/"
-github: "https://github.com/openfoodfoundation/openfoodnetwork"
+repo: "https://github.com/openfoodfoundation/openfoodnetwork"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

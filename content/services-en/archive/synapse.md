@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://element-hq.github.io/synapse/latest/index.html"
-github: "https://github.com/element-hq/synapse"
+repo: "https://github.com/element-hq/synapse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://beets.io/"
-github: "https://github.com/beetbox/beets"
+repo: "https://github.com/beetbox/beets"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

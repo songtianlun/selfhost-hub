@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Video Surveillance"
 website: "https://codeberg.org/SentryShot/sentryshot"
-github: "https://codeberg.org/SentryShot/sentryshot"
+repo: "https://codeberg.org/SentryShot/sentryshot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

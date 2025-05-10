@@ -8,7 +8,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://xsrv.readthedocs.io/"
-github: "https://github.com/nodiscc/xsrv"
+repo: "https://github.com/nodiscc/xsrv"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

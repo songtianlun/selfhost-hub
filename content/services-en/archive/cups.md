@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Miscellaneous"
 website: "https://www.cups.org/"
-github: "https://github.com/OpenPrinting/cups"
+repo: "https://github.com/OpenPrinting/cups"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

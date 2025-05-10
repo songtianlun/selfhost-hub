@@ -10,7 +10,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/eikek/sharry"
-github: "https://github.com/eikek/sharry"
+repo: "https://github.com/eikek/sharry"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

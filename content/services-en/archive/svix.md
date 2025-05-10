@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Software Development"
 website: "https://svix.com"
-github: "https://github.com/svix/svix-webhooks"
+repo: "https://github.com/svix/svix-webhooks"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

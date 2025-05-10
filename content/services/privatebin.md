@@ -9,7 +9,7 @@ tags:
   - PHP
 category: 文本分享
 website: 'https://privatebin.info'
-github: 'https://github.com/PrivateBin/PrivateBin'
+repo: 'https://github.com/PrivateBin/PrivateBin'
 updatedAt: '2025-05-09T04:29:37.214Z'
 ---
 

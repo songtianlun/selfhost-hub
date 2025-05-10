@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "File Transfer"
 website: "https://github.com/ihexxa/quickshare"
-github: "https://github.com/ihexxa/quickshare"
+repo: "https://github.com/ihexxa/quickshare"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

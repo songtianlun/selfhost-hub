@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Blogging Platforms"
 website: "https://mataroa.blog/"
-github: "https://github.com/mataroa-blog/mataroa"
+repo: "https://github.com/mataroa-blog/mataroa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

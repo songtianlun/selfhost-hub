@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://answer.dev/"
-github: "https://github.com/answerdev/answer"
+repo: "https://github.com/answerdev/answer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

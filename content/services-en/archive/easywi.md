@@ -8,7 +8,7 @@ tags:
   - "Shell"
 category: "Games"
 website: "https://easy-wi.com"
-github: "https://github.com/easy-wi/developer/"
+repo: "https://github.com/easy-wi/developer/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

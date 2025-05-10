@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Analytics"
 website: "https://github.com/socioboard/Socioboard-5.0"
-github: "https://github.com/socioboard/Socioboard-5.0"
+repo: "https://github.com/socioboard/Socioboard-5.0"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

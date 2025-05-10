@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://mailcow.email/"
-github: "https://github.com/mailcow/mailcow-dockerized"
+repo: "https://github.com/mailcow/mailcow-dockerized"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Note-taking & Editors"
 website: "https://www.overleaf.com/"
-github: "https://github.com/overleaf/overleaf"
+repo: "https://github.com/overleaf/overleaf"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

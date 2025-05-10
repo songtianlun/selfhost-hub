@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://haraka.github.io/"
-github: "https://github.com/haraka/Haraka"
+repo: "https://github.com/haraka/Haraka"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://filegator.io/"
-github: "https://github.com/filegator/filegator"
+repo: "https://github.com/filegator/filegator"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Bookmarks and Link Sharing"
 website: "https://grimoire.pro"
-github: "https://github.com/goniszewski/grimoire"
+repo: "https://github.com/goniszewski/grimoire"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

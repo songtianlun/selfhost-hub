@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "File Transfer"
 website: "https://depado.github.io/goploader/"
-github: "https://github.com/Depado/goploader"
+repo: "https://github.com/Depado/goploader"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

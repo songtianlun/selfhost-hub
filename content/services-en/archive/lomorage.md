@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Photo Galleries"
 website: "https://lomorage.com/"
-github: "https://github.com/lomorage/homepage"
+repo: "https://github.com/lomorage/homepage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

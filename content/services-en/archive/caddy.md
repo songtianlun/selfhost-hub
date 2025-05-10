@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://caddyserver.com/"
-github: "https://github.com/caddyserver/caddy"
+repo: "https://github.com/caddyserver/caddy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

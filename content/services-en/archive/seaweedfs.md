@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "File Transfer"
 website: "https://github.com/seaweedfs/seaweedfs"
-github: "https://github.com/seaweedfs/seaweedfs"
+repo: "https://github.com/seaweedfs/seaweedfs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://jointakahe.org/"
-github: "https://github.com/jointakahe/takahe"
+repo: "https://github.com/jointakahe/takahe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

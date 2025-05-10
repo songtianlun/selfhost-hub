@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Task Management & To-do Lists"
 website: "https://taskwarrior.org/"
-github: "https://taskwarrior.org/download/#git"
+repo: "https://taskwarrior.org/download/#git"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Booking and Scheduling"
 website: "https://cal.com/"
-github: "https://github.com/calcom/cal.com"
+repo: "https://github.com/calcom/cal.com"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://movim.eu/"
-github: "https://github.com/movim/movim"
+repo: "https://github.com/movim/movim"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://tooljet.io/"
-github: "https://github.com/ToolJet/ToolJet"
+repo: "https://github.com/ToolJet/ToolJet"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

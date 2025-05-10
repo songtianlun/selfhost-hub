@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Communication"
 website: "https://retroshare.cc"
-github: "https://github.com/RetroShare/RetroShare"
+repo: "https://github.com/RetroShare/RetroShare"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Resource Planning"
 website: "https://frappe.io/erpnext"
-github: "https://github.com/frappe/erpnext"
+repo: "https://github.com/frappe/erpnext"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

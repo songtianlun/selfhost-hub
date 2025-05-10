@@ -9,7 +9,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://www.domjudge.org/"
-github: "https://github.com/DOMjudge/domjudge"
+repo: "https://github.com/DOMjudge/domjudge"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

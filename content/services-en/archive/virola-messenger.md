@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Communication"
 website: "https://virola.io/"
-github: "https://virola.io/"
+repo: "https://virola.io/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

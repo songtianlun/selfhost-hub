@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Remote Access"
 website: "https://meshcentral.com/"
-github: "https://github.com/Ylianst/MeshCentral"
+repo: "https://github.com/Ylianst/MeshCentral"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

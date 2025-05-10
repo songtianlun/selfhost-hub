@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Ticketing"
 website: "https://www.deskpro.com/"
-github: "https://www.deskpro.com/"
+repo: "https://www.deskpro.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

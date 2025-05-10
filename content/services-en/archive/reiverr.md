@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://github.com/aleksilassila/reiverr"
-github: "https://github.com/aleksilassila/reiverr"
+repo: "https://github.com/aleksilassila/reiverr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

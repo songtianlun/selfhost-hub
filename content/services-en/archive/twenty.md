@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Customer Relationship Management (CRM)"
 website: "https://twenty.com"
-github: "https://github.com/twentyhq/twenty"
+repo: "https://github.com/twentyhq/twenty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

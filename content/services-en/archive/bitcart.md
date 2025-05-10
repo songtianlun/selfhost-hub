@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Money, Budgeting & Management"
 website: "https://bitcart.ai"
-github: "https://github.com/bitcart/bitcart"
+repo: "https://github.com/bitcart/bitcart"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

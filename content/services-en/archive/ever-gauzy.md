@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Time Tracking"
 website: "https://gauzy.co"
-github: "https://github.com/ever-co/ever-gauzy"
+repo: "https://github.com/ever-co/ever-gauzy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

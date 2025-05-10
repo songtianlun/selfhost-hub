@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Photo Galleries"
 website: "http://thumbor.org/"
-github: "https://github.com/thumbor/thumbor"
+repo: "https://github.com/thumbor/thumbor"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

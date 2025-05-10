@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "File Transfer & Synchronization"
 website: "https://bewcloud.com"
-github: "https://github.com/bewcloud/bewcloud"
+repo: "https://github.com/bewcloud/bewcloud"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

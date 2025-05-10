@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://github.com/ovh/utask"
-github: "https://github.com/ovh/utask"
+repo: "https://github.com/ovh/utask"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

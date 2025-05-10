@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Communication"
 website: "https://rocket.chat/"
-github: "https://github.com/RocketChat/Rocket.Chat"
+repo: "https://github.com/RocketChat/Rocket.Chat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

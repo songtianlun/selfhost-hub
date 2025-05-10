@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Games"
 website: "https://www.openttd.org/"
-github: "https://github.com/OpenTTD/OpenTTD"
+repo: "https://github.com/OpenTTD/OpenTTD"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

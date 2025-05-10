@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://receiptwrangler.io"
-github: "https://github.com/Receipt-Wrangler/receipt-wrangler-api"
+repo: "https://github.com/Receipt-Wrangler/receipt-wrangler-api"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

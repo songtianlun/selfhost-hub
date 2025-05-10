@@ -30,7 +30,7 @@ export type Service = {
   tags: string[]
   category: string
   website?: string
-  github?: string
+  repo?: string
   content?: string
   updatedAt?: string
   rating?: number // 0-5 的评分，支持 0.5 分
@@ -174,7 +174,7 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
           tags: data.tags,
           category: data.category,
           website: data.website,
-          github: data.github,
+          repo: data.repo,
           content: contentHtml,
           updatedAt: data.updatedAt || lastModified,
           rating: data.rating,

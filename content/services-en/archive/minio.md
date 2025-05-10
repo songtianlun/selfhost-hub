@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "File Transfer"
 website: "https://min.io/"
-github: "https://github.com/minio/minio"
+repo: "https://github.com/minio/minio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

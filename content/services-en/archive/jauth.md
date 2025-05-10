@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Web Servers"
 website: "https://github.com/Jipok/Jauth"
-github: "https://github.com/Jipok/Jauth"
+repo: "https://github.com/Jipok/Jauth"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

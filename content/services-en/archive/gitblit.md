@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Software Development"
 website: "https://www.gitblit.com/"
-github: "https://github.com/gitblit-org/gitblit"
+repo: "https://github.com/gitblit-org/gitblit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

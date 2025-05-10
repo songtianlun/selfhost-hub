@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.sipcapture.org/"
-github: "https://github.com/sipcapture/homer"
+repo: "https://github.com/sipcapture/homer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

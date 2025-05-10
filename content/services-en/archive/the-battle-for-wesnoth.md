@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Games"
 website: "https://github.com/wesnoth/wesnoth"
-github: "https://github.com/wesnoth/wesnoth"
+repo: "https://github.com/wesnoth/wesnoth"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

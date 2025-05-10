@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "File Transfer & Synchronization"
 website: "https://www.filerun.com/"
-github: "https://www.filerun.com/"
+repo: "https://www.filerun.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

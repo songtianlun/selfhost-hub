@@ -10,7 +10,7 @@ tags:
 rating: 4
 category: 邮件服务
 website: 'https://listmonk.app'
-github: 'https://github.com/knadh/listmonk'
+repo: 'https://github.com/knadh/listmonk'
 updatedAt: '2025-05-09T23:40:04.783Z'
 ---
 

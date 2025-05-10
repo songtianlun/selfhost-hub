@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Wikis"
 website: "https://feather.wiki"
-github: "https://codeberg.org/Alamantus/FeatherWiki"
+repo: "https://codeberg.org/Alamantus/FeatherWiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

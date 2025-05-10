@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://nginx.org/en/"
-github: "https://github.com/nginx/nginx"
+repo: "https://github.com/nginx/nginx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

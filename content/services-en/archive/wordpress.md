@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://wordpress.org/"
-github: "https://github.com/WordPress/WordPress"
+repo: "https://github.com/WordPress/WordPress"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

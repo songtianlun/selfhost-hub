@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.discourse.org/"
-github: "https://github.com/discourse/discourse"
+repo: "https://github.com/discourse/discourse"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

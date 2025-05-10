@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "URL Shorteners"
 website: "https://github.com/SinTan1729/chhoto-url"
-github: "https://github.com/SinTan1729/chhoto-url"
+repo: "https://github.com/SinTan1729/chhoto-url"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

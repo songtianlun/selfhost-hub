@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "URL Shorteners"
 website: "https://github.com/miawinter98/just-short-it"
-github: "https://github.com/miawinter98/just-short-it"
+repo: "https://github.com/miawinter98/just-short-it"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

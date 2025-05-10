@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Note-taking & Editors"
 website: "https://docs.standardnotes.com/self-hosting/getting-started"
-github: "https://github.com/standardnotes/app"
+repo: "https://github.com/standardnotes/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

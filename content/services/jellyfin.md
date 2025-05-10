@@ -9,7 +9,7 @@ tags:
   - 音乐
 category: 媒体服务器
 website: 'https://jellyfin.org'
-github: 'https://github.com/jellyfin/jellyfin'
+repo: 'https://github.com/jellyfin/jellyfin'
 updatedAt: '2025-05-09T05:31:04.179Z'
 ---
 

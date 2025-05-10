@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Games"
 website: "https://github.com/gorcon/rcon-cli"
-github: "https://github.com/gorcon/rcon-cli"
+repo: "https://github.com/gorcon/rcon-cli"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

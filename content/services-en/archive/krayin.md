@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Customer Relationship Management (CRM)"
 website: "https://krayincrm.com/"
-github: "https://github.com/krayin/laravel-crm"
+repo: "https://github.com/krayin/laravel-crm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

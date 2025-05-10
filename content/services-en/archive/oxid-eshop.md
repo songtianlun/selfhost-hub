@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://oxidforge.org/en/"
-github: "https://github.com/OXID-eSales/oxideshop_ce"
+repo: "https://github.com/OXID-eSales/oxideshop_ce"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

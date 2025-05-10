@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Software Development"
 website: "https://aerokube.com/moon/"
-github: "https://aerokube.com/moon/"
+repo: "https://aerokube.com/moon/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

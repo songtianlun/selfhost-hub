@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Media Management"
 website: "https://github.com/pymedusa/Medusa"
-github: "https://github.com/pymedusa/Medusa"
+repo: "https://github.com/pymedusa/Medusa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

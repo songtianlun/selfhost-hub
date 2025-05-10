@@ -10,7 +10,7 @@ tags:
   - "Nodejs"
 category: "Analytics"
 website: "https://rudderstack.com/"
-github: "https://github.com/rudderlabs/rudder-server/"
+repo: "https://github.com/rudderlabs/rudder-server/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

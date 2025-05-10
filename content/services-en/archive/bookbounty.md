@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://github.com/TheWicklowWolf/BookBounty"
-github: "https://github.com/TheWicklowWolf/BookBounty"
+repo: "https://github.com/TheWicklowWolf/BookBounty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

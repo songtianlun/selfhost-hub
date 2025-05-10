@@ -10,7 +10,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://severalnines.com/clustercontrol/"
-github: "https://severalnines.com/clustercontrol/"
+repo: "https://severalnines.com/clustercontrol/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Money, Budgeting & Management"
 website: "https://solidinvoice.co"
-github: "https://github.com/SolidInvoice/SolidInvoice"
+repo: "https://github.com/SolidInvoice/SolidInvoice"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

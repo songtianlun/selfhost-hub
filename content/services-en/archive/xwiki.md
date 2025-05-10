@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Wikis"
 website: "https://www.xwiki.org"
-github: "https://github.com/xwiki/xwiki-platform"
+repo: "https://github.com/xwiki/xwiki-platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

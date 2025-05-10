@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Software Development"
 website: "https://livecodes.io/docs/features/self-hosting"
-github: "https://github.com/live-codes/livecodes"
+repo: "https://github.com/live-codes/livecodes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

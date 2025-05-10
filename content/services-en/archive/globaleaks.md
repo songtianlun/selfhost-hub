@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.globaleaks.org/"
-github: "https://github.com/globaleaks/whistleblowing-software"
+repo: "https://github.com/globaleaks/whistleblowing-software"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

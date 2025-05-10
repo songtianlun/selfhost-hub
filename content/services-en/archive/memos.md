@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Note-taking & Editors"
 website: "https://usememos.com/"
-github: "https://github.com/usememos/memos"
+repo: "https://github.com/usememos/memos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

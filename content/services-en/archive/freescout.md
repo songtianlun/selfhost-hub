@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Ticketing"
 website: "https://freescout.net/"
-github: "https://github.com/freescout-helpdesk/freescout"
+repo: "https://github.com/freescout-helpdesk/freescout"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

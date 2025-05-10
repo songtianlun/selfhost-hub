@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Software Development"
 website: "https://luraproject.org/"
-github: "https://github.com/luraproject/lura"
+repo: "https://github.com/luraproject/lura"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

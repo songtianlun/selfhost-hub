@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Communication"
 website: "https://mailinabox.email/"
-github: "https://github.com/mail-in-a-box/mailinabox"
+repo: "https://github.com/mail-in-a-box/mailinabox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

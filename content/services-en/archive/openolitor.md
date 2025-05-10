@@ -7,7 +7,7 @@ tags:
   - "Scala"
 category: "Community-Supported Agriculture (CSA)"
 website: "https://openolitor.org/"
-github: "https://github.com/OpenOlitor/openolitor-server"
+repo: "https://github.com/OpenOlitor/openolitor-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

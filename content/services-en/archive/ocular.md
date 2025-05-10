@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://simonwep.github.io/ocular/"
-github: "https://github.com/simonwep/ocular"
+repo: "https://github.com/simonwep/ocular"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

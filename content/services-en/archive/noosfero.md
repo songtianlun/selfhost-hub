@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Content Management Systems (CMS)"
 website: "https://gitlab.com/noosfero/noosfero"
-github: "https://gitlab.com/noosfero/noosfero"
+repo: "https://gitlab.com/noosfero/noosfero"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

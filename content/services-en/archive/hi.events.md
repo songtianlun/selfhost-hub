@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Booking and Scheduling"
 website: "https://hi.events"
-github: "https://github.com/HiEventsDev/hi.events"
+repo: "https://github.com/HiEventsDev/hi.events"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

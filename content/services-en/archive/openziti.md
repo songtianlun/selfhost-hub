@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Miscellaneous"
 website: "https://openziti.github.io/"
-github: "https://github.com/openziti/ziti"
+repo: "https://github.com/openziti/ziti"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

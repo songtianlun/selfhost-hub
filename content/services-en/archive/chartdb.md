@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://chartdb.io/"
-github: "https://github.com/chartdb/chartdb"
+repo: "https://github.com/chartdb/chartdb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

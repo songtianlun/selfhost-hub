@@ -7,7 +7,7 @@ tags:
   - "Nix"
 category: "Self-hosting Solutions"
 website: "https://github.com/ibizaman/selfhostblocks"
-github: "https://github.com/ibizaman/selfhostblocks"
+repo: "https://github.com/ibizaman/selfhostblocks"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

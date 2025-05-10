@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Proxy"
 website: "https://code.kryo.se/iodine/"
-github: "https://github.com/yarrick/iodine"
+repo: "https://github.com/yarrick/iodine"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

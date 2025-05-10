@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Software Development"
 website: "https://trac.edgewall.org/"
-github: "https://trac.edgewall.org/"
+repo: "https://trac.edgewall.org/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

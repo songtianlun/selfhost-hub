@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Polls and Events"
 website: "https://docs.bracketapp.nl/"
-github: "https://github.com/evroon/bracket"
+repo: "https://github.com/evroon/bracket"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

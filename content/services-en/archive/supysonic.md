@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://github.com/spl0k/supysonic"
-github: "https://github.com/spl0k/supysonic"
+repo: "https://github.com/spl0k/supysonic"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

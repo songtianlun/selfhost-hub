@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Password Managers"
 website: "https://passky.org"
-github: "https://github.com/Rabbit-Company/Passky-Server"
+repo: "https://github.com/Rabbit-Company/Passky-Server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

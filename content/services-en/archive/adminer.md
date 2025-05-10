@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Database Management"
 website: "https://www.adminer.org/"
-github: "https://github.com/vrana/adminer"
+repo: "https://github.com/vrana/adminer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

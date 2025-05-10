@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://anonaddy.com"
-github: "https://github.com/anonaddy/anonaddy"
+repo: "https://github.com/anonaddy/anonaddy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

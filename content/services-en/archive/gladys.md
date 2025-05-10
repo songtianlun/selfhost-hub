@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Internet of Things (IoT)"
 website: "https://gladysassistant.com/"
-github: "https://github.com/GladysAssistant/Gladys"
+repo: "https://github.com/GladysAssistant/Gladys"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

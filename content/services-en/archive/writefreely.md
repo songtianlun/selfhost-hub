@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Blogging Platforms"
 website: "https://writefreely.org"
-github: "https://github.com/writefreely/writefreely"
+repo: "https://github.com/writefreely/writefreely"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

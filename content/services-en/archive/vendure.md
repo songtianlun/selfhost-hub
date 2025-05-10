@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "E-commerce"
 website: "https://www.vendure.io"
-github: "https://github.com/vendure-ecommerce/vendure"
+repo: "https://github.com/vendure-ecommerce/vendure"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

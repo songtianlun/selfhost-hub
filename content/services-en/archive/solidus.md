@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "E-commerce"
 website: "https://solidus.io/"
-github: "https://github.com/solidusio/solidus"
+repo: "https://github.com/solidusio/solidus"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

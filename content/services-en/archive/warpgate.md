@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Remote Access"
 website: "https://github.com/warp-tech/warpgate"
-github: "https://github.com/warp-tech/warpgate"
+repo: "https://github.com/warp-tech/warpgate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

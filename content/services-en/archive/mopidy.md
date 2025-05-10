@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://docs.mopidy.com/"
-github: "https://github.com/mopidy/mopidy"
+repo: "https://github.com/mopidy/mopidy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

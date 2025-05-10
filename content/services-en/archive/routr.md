@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Communication"
 website: "https://routr.io"
-github: "https://github.com/fonoster/routr"
+repo: "https://github.com/fonoster/routr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

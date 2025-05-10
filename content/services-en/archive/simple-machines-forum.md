@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://www.simplemachines.org/"
-github: "https://github.com/SimpleMachines/SMF"
+repo: "https://github.com/SimpleMachines/SMF"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

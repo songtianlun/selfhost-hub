@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Blogging Platforms"
 website: "https://havenweb.org/"
-github: "https://github.com/havenweb/haven"
+repo: "https://github.com/havenweb/haven"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

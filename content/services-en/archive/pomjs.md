@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Miscellaneous"
 website: "https://password.oppetmoln.se/"
-github: "https://github.com/joho1968/POMjs"
+repo: "https://github.com/joho1968/POMjs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

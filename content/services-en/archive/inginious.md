@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Learning and Courses"
 website: "https://inginious.org/?lang=en"
-github: "https://github.com/UCL-INGI/INGInious"
+repo: "https://github.com/UCL-INGI/INGInious"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

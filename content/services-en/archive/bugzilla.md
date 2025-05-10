@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Ticketing"
 website: "https://www.bugzilla.org/"
-github: "https://github.com/bugzilla/bugzilla"
+repo: "https://github.com/bugzilla/bugzilla"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

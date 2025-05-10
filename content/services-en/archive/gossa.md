@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "File Transfer"
 website: "https://github.com/pldubouilh/gossa"
-github: "https://github.com/pldubouilh/gossa"
+repo: "https://github.com/pldubouilh/gossa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

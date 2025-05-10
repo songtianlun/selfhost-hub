@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://chiefonboarding.com"
-github: "https://github.com/chiefonboarding/ChiefOnboarding"
+repo: "https://github.com/chiefonboarding/ChiefOnboarding"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

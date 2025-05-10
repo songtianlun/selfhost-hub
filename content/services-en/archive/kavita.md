@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://www.kavitareader.com/"
-github: "https://github.com/Kareadita/Kavita"
+repo: "https://github.com/Kareadita/Kavita"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

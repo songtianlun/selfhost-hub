@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://trailbase.io/"
-github: "https://github.com/trailbaseio/trailbase"
+repo: "https://github.com/trailbaseio/trailbase"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

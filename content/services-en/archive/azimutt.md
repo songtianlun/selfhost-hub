@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://azimutt.app"
-github: "https://github.com/azimuttapp/azimutt"
+repo: "https://github.com/azimuttapp/azimutt"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

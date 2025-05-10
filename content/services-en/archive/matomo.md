@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Analytics"
 website: "https://matomo.org/"
-github: "https://github.com/matomo-org/matomo"
+repo: "https://github.com/matomo-org/matomo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

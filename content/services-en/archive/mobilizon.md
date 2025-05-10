@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://mobilizon.org"
-github: "https://framagit.org/framasoft/mobilizon/"
+repo: "https://framagit.org/framasoft/mobilizon/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

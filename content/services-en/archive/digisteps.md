@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digisteps/"
-github: "https://codeberg.org/ladigitale/digisteps"
+repo: "https://codeberg.org/ladigitale/digisteps"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

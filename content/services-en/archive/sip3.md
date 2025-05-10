@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Communication"
 website: "https://sip3.io/"
-github: "https://github.com/sip3io/"
+repo: "https://github.com/sip3io/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

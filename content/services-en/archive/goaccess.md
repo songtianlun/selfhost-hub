@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Analytics"
 website: "http://goaccess.io/"
-github: "https://github.com/allinurl/goaccess"
+repo: "https://github.com/allinurl/goaccess"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

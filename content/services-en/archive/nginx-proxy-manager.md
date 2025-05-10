@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://nginxproxymanager.com/"
-github: "https://github.com/NginxProxyManager/nginx-proxy-manager"
+repo: "https://github.com/NginxProxyManager/nginx-proxy-manager"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

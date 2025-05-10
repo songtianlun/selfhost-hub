@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://github.com/Qolors/FeedCord"
-github: "https://github.com/Qolors/FeedCord"
+repo: "https://github.com/Qolors/FeedCord"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

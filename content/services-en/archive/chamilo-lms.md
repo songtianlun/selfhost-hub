@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://chamilo.org/"
-github: "https://github.com/chamilo/chamilo-lms"
+repo: "https://github.com/chamilo/chamilo-lms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

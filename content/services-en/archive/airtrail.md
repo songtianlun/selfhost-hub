@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://airtrail.johan.ohly.dk"
-github: "https://github.com/johanohly/AirTrail"
+repo: "https://github.com/johanohly/AirTrail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

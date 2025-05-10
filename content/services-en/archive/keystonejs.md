@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Content Management Systems (CMS)"
 website: "https://keystonejs.com/"
-github: "https://github.com/keystonejs/keystone"
+repo: "https://github.com/keystonejs/keystone"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

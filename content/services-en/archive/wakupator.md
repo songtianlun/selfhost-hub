@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Miscellaneous"
 website: "https://github.com/Gibus21250/Wakupator"
-github: "https://github.com/Gibus21250/Wakupator"
+repo: "https://github.com/Gibus21250/Wakupator"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

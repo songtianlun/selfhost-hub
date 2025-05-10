@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://komga.org"
-github: "https://github.com/gotson/komga"
+repo: "https://github.com/gotson/komga"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

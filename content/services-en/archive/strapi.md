@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Content Management Systems (CMS)"
 website: "https://strapi.io/"
-github: "https://github.com/strapi/strapi"
+repo: "https://github.com/strapi/strapi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

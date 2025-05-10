@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Feed Readers"
 website: "https://1pxsolidblack.pl/jarr-en.html"
-github: "https://github.com/jaesivsm/JARR"
+repo: "https://github.com/jaesivsm/JARR"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

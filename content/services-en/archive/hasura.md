@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://hasura.io"
-github: "https://github.com/hasura/graphql-engine"
+repo: "https://github.com/hasura/graphql-engine"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

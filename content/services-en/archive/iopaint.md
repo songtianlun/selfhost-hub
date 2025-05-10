@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Generative Artificial Intelligence (GenAI)"
 website: "https://www.iopaint.com/"
-github: "https://github.com/Sanster/IOPaint"
+repo: "https://github.com/Sanster/IOPaint"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

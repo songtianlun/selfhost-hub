@@ -7,7 +7,7 @@ tags:
   - "Scala"
 category: "Games"
 website: "https://lichess.org/"
-github: "https://github.com/lichess-org/lila"
+repo: "https://github.com/lichess-org/lila"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

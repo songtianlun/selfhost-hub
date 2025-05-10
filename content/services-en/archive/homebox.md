@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Communication"
 website: "https://github.com/progmaticltd/homebox"
-github: "https://github.com/progmaticltd/homebox"
+repo: "https://github.com/progmaticltd/homebox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

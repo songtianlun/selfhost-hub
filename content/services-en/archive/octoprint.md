@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Manufacturing"
 website: "https://octoprint.org/"
-github: "https://github.com/OctoPrint/OctoPrint"
+repo: "https://github.com/OctoPrint/OctoPrint"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://s-cart.org/"
-github: "https://github.com/s-cart/s-cart"
+repo: "https://github.com/s-cart/s-cart"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

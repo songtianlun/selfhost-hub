@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://flyimg.io"
-github: "https://github.com/flyimg/flyimg"
+repo: "https://github.com/flyimg/flyimg"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

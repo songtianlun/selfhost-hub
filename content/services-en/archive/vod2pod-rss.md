@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/madiele/vod2pod-rss"
-github: "https://github.com/madiele/vod2pod-rss"
+repo: "https://github.com/madiele/vod2pod-rss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

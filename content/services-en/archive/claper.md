@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://claper.co/"
-github: "https://github.com/ClaperCo/Claper"
+repo: "https://github.com/ClaperCo/Claper"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

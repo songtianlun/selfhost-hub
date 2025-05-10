@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Miscellaneous"
 website: "https://github.com/verifid/graph-vl"
-github: "https://github.com/verifid/graph-vl"
+repo: "https://github.com/verifid/graph-vl"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

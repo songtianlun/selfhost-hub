@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://www.fusionpbx.com/"
-github: "https://github.com/fusionpbx/fusionpbx"
+repo: "https://github.com/fusionpbx/fusionpbx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

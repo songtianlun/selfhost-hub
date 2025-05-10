@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://livehelperchat.com/"
-github: "https://github.com/LiveHelperChat/livehelperchat"
+repo: "https://github.com/LiveHelperChat/livehelperchat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

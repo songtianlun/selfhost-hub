@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://eqivo.org/"
-github: "https://github.com/rtckit/eqivo"
+repo: "https://github.com/rtckit/eqivo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

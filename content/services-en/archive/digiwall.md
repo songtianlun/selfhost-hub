@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Groupware"
 website: "https://digiwall.app/"
-github: "https://codeberg.org/ladigitale/digiwall"
+repo: "https://codeberg.org/ladigitale/digiwall"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

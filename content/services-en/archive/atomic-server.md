@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Knowledge Management Tools"
 website: "https://github.com/atomicdata-dev/atomic-server"
-github: "https://github.com/atomicdata-dev/atomic-server"
+repo: "https://github.com/atomicdata-dev/atomic-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

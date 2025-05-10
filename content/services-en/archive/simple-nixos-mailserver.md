@@ -7,7 +7,7 @@ tags:
   - "Nix"
 category: "Communication"
 website: "https://gitlab.com/simple-nixos-mailserver/nixos-mailserver"
-github: "https://gitlab.com/simple-nixos-mailserver/nixos-mailserver"
+repo: "https://gitlab.com/simple-nixos-mailserver/nixos-mailserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

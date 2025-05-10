@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://www.haproxy.org/"
-github: "https://git.haproxy.org/?p=haproxy.git;a=tree"
+repo: "https://git.haproxy.org/?p=haproxy.git;a=tree"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

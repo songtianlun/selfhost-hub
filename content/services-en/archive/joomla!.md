@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.joomla.org/"
-github: "https://github.com/joomla/joomla-cms"
+repo: "https://github.com/joomla/joomla-cms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

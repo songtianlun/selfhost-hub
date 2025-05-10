@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Inventory Management"
 website: "https://www.shelf.nu"
-github: "https://github.com/Shelf-nu/shelf.nu"
+repo: "https://github.com/Shelf-nu/shelf.nu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

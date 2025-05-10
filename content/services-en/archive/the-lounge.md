@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://thelounge.chat/"
-github: "https://github.com/thelounge/thelounge"
+repo: "https://github.com/thelounge/thelounge"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

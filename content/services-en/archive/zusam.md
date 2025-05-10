@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://github.com/zusam/zusam"
-github: "https://github.com/zusam/zusam"
+repo: "https://github.com/zusam/zusam"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

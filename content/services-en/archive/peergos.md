@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "File Transfer & Synchronization"
 website: "https://peergos.org"
-github: "https://github.com/Peergos"
+repo: "https://github.com/Peergos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

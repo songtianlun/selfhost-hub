@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Self-hosting Solutions"
 website: "https://ubos.net/"
-github: "https://ubos.net/"
+repo: "https://ubos.net/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

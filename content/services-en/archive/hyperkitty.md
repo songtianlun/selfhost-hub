@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://wiki.list.org/HyperKitty"
-github: "https://gitlab.com/mailman/hyperkitty"
+repo: "https://gitlab.com/mailman/hyperkitty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

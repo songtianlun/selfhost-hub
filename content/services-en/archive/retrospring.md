@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://github.com/retrospring/retrospring"
-github: "https://github.com/retrospring/retrospring"
+repo: "https://github.com/retrospring/retrospring"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

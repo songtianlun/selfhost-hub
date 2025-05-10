@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Media Streaming"
 website: "https://clipbucket.fr/"
-github: "https://github.com/MacWarrior/clipbucket-v5"
+repo: "https://github.com/MacWarrior/clipbucket-v5"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://ergo.chat/"
-github: "https://github.com/ergochat/ergo"
+repo: "https://github.com/ergochat/ergo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

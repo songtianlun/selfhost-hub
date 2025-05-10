@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Wikis"
 website: "https://github.com/sbrl/Pepperminty-Wiki"
-github: "https://github.com/sbrl/Pepperminty-Wiki"
+repo: "https://github.com/sbrl/Pepperminty-Wiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

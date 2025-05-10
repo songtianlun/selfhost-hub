@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Knowledge Management Tools"
 website: "https://gitea.bubbletea.dev/shibao/memEx"
-github: "https://gitea.bubbletea.dev/shibao/memEx"
+repo: "https://gitea.bubbletea.dev/shibao/memEx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

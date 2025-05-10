@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Media Streaming"
 website: "https://www.karaoke-eternal.com"
-github: "https://www.karaoke-eternal.com/repo"
+repo: "https://www.karaoke-eternal.com/repo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

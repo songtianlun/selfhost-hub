@@ -8,7 +8,7 @@ tags:
   - "Deno"
 category: "Self-hosting Solutions"
 website: "https://dropserver.org"
-github: "https://github.com/teleclimber/Dropserver/"
+repo: "https://github.com/teleclimber/Dropserver/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

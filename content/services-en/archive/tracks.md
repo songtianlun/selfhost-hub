@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Task Management & To-do Lists"
 website: "https://www.getontracks.org/"
-github: "https://github.com/TracksApp/tracks"
+repo: "https://github.com/TracksApp/tracks"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

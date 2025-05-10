@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://openspeedtest.com/"
-github: "https://github.com/openspeedtest/Speed-Test"
+repo: "https://github.com/openspeedtest/Speed-Test"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

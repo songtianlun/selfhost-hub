@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Media Streaming"
 website: "https://joinpeertube.org/en/"
-github: "https://github.com/Chocobozzz/PeerTube"
+repo: "https://github.com/Chocobozzz/PeerTube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

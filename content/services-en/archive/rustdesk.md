@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Remote Access"
 website: "https://rustdesk.com/"
-github: "https://github.com/rustdesk/rustdesk-server"
+repo: "https://github.com/rustdesk/rustdesk-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

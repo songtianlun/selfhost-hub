@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Miscellaneous"
 website: "http://sane-project.org/"
-github: "http://www.sane-project.org/cvs.html"
+repo: "http://www.sane-project.org/cvs.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

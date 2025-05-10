@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Media Streaming"
 website: "https://getchannels.com/dvr-server/"
-github: "https://getchannels.com/dvr-server/"
+repo: "https://getchannels.com/dvr-server/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

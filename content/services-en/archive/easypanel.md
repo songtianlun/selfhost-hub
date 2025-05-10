@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://easypanel.io"
-github: "https://easypanel.io"
+repo: "https://easypanel.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

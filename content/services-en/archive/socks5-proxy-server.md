@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Proxy"
 website: "https://github.com/nskondratev/socks5-proxy-server"
-github: "https://github.com/nskondratev/socks5-proxy-server"
+repo: "https://github.com/nskondratev/socks5-proxy-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

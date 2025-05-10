@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://kasmweb.com/"
-github: "https://github.com/kasmtech"
+repo: "https://github.com/kasmtech"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Photo Galleries"
 website: "https://piwigo.org/"
-github: "https://github.com/Piwigo/Piwigo"
+repo: "https://github.com/Piwigo/Piwigo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

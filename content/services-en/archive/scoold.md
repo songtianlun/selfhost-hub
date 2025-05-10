@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Communication"
 website: "https://scoold.com"
-github: "https://github.com/Erudika/scoold"
+repo: "https://github.com/Erudika/scoold"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

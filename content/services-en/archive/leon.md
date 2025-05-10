@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Automation"
 website: "https://getleon.ai"
-github: "https://github.com/leon-ai/leon"
+repo: "https://github.com/leon-ai/leon"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://codeberg.org/nanawel/geeftlist"
-github: "https://codeberg.org/nanawel/geeftlist"
+repo: "https://codeberg.org/nanawel/geeftlist"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

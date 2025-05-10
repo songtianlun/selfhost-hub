@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Blogging Platforms"
 website: "https://castopod.org"
-github: "https://code.castopod.org/adaures/castopod"
+repo: "https://code.castopod.org/adaures/castopod"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

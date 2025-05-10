@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Communication"
 website: "https://www.sympa.community/"
-github: "https://github.com/sympa-community/sympa"
+repo: "https://github.com/sympa-community/sympa"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

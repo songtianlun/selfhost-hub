@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://getcockpit.com"
-github: "https://github.com/Cockpit-HQ/Cockpit"
+repo: "https://github.com/Cockpit-HQ/Cockpit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

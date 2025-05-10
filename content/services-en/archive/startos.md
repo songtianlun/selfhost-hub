@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Self-hosting Solutions"
 website: "https://start9.com"
-github: "https://github.com/Start9Labs/start-os"
+repo: "https://github.com/Start9Labs/start-os"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

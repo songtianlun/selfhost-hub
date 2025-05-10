@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Search Engines"
 website: "https://lucene.apache.org/solr/"
-github: "https://github.com/apache/solr"
+repo: "https://github.com/apache/solr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

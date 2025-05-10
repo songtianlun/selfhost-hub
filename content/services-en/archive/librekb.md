@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Knowledge Management Tools"
 website: "https://librekb.com/"
-github: "https://github.com/michaelstaake/LibreKB/"
+repo: "https://github.com/michaelstaake/LibreKB/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

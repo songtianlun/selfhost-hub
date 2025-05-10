@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.bludit.com/"
-github: "https://github.com/bludit/bludit"
+repo: "https://github.com/bludit/bludit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

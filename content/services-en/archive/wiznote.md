@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Knowledge Management Tools"
 website: "https://www.wiz.cn/docker"
-github: "https://www.wiz.cn/docker"
+repo: "https://www.wiz.cn/docker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

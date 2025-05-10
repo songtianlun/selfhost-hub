@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://www.prestashop.com/"
-github: "https://github.com/PrestaShop/PrestaShop"
+repo: "https://github.com/PrestaShop/PrestaShop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

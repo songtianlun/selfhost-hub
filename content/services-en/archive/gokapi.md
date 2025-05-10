@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/Forceu/gokapi"
-github: "https://github.com/Forceu/gokapi"
+repo: "https://github.com/Forceu/gokapi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://panora.dev"
-github: "https://github.com/panoratech/Panora"
+repo: "https://github.com/panoratech/Panora"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

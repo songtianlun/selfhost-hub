@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Wikis"
 website: "https://w.club1.fr"
-github: "https://github.com/vincent-peugnet/wcms"
+repo: "https://github.com/vincent-peugnet/wcms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

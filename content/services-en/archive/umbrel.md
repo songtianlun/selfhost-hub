@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://umbrel.com/"
-github: "https://github.com/getumbrel/umbrel"
+repo: "https://github.com/getumbrel/umbrel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

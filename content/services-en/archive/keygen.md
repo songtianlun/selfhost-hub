@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Miscellaneous"
 website: "https://keygen.sh/"
-github: "https://github.com/keygen-sh/keygen-api"
+repo: "https://github.com/keygen-sh/keygen-api"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

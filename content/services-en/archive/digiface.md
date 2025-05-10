@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digiface/"
-github: "https://codeberg.org/ladigitale/digiface"
+repo: "https://codeberg.org/ladigitale/digiface"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

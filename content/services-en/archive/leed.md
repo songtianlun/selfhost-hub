@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Feed Readers"
 website: "https://github.com/LeedRSS/Leed"
-github: "https://github.com/LeedRSS/Leed"
+repo: "https://github.com/LeedRSS/Leed"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

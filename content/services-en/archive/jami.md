@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Communication"
 website: "https://jami.net/"
-github: "https://git.jami.net/savoirfairelinux?sort=latest_activity_desc&filter=jami"
+repo: "https://git.jami.net/savoirfairelinux?sort=latest_activity_desc&filter=jami"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

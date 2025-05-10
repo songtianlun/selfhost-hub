@@ -8,7 +8,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://uibakery.io"
-github: "https://github.com/uibakery/self-hosted"
+repo: "https://github.com/uibakery/self-hosted"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

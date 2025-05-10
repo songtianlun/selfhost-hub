@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://flarum.org"
-github: "https://github.com/flarum/flarum"
+repo: "https://github.com/flarum/flarum"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

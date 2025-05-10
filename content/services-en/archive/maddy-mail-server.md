@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://maddy.email/"
-github: "https://github.com/foxcpp/maddy"
+repo: "https://github.com/foxcpp/maddy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

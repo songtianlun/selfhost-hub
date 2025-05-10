@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://ladigitale.dev/digitools"
-github: "https://codeberg.org/ladigitale/digitools"
+repo: "https://codeberg.org/ladigitale/digitools"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

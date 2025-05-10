@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Search Engines"
 website: "https://github.com/jina-ai/jina/"
-github: "https://github.com/jina-ai/jina/"
+repo: "https://github.com/jina-ai/jina/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

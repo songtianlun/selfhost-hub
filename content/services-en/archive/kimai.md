@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Time Tracking"
 website: "https://www.kimai.org/"
-github: "https://github.com/kimai/kimai"
+repo: "https://github.com/kimai/kimai"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

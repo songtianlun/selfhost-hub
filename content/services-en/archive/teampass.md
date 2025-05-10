@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Password Managers"
 website: "https://teampass.net/"
-github: "https://github.com/nilsteampassnet/TeamPass"
+repo: "https://github.com/nilsteampassnet/TeamPass"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

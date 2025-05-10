@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://www.xmox.nl/"
-github: "https://github.com/mjl-/mox"
+repo: "https://github.com/mjl-/mox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://wiki.mumble.info/wiki/Main_Page"
-github: "https://github.com/mumble-voip/mumble"
+repo: "https://github.com/mumble-voip/mumble"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

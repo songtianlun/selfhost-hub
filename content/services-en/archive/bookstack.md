@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Wikis"
 website: "https://www.bookstackapp.com/"
-github: "https://github.com/BookStackApp/BookStack"
+repo: "https://github.com/BookStackApp/BookStack"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

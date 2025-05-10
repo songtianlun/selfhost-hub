@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Search Engines"
 website: "https://github.com/neon-mmd/websurfx"
-github: "https://github.com/neon-mmd/websurfx"
+repo: "https://github.com/neon-mmd/websurfx"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

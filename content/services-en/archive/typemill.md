@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://typemill.net/"
-github: "https://github.com/typemill/typemill"
+repo: "https://github.com/typemill/typemill"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

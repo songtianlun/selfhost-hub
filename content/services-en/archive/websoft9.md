@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Self-hosting Solutions"
 website: "https://www.websoft9.com"
-github: "https://github.com/websoft9/websoft9"
+repo: "https://github.com/websoft9/websoft9"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

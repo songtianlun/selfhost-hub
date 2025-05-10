@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Human Resources Management (HRM)"
 website: "https://minthcm.org/"
-github: "https://github.com/minthcm/minthcm"
+repo: "https://github.com/minthcm/minthcm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

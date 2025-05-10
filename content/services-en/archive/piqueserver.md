@@ -8,7 +8,7 @@ tags:
   - "C++"
 category: "Games"
 website: "https://github.com/piqueserver/piqueserver"
-github: "https://github.com/piqueserver/piqueserver"
+repo: "https://github.com/piqueserver/piqueserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

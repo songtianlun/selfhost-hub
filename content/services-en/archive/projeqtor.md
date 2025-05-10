@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://www.projeqtor.org/"
-github: "https://sourceforge.net/p/projectorria/code/HEAD/tree/branches/"
+repo: "https://sourceforge.net/p/projectorria/code/HEAD/tree/branches/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

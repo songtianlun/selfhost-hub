@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Personal Dashboards"
 website: "https://github.com/glanceapp/glance"
-github: "https://github.com/glanceapp/glance"
+repo: "https://github.com/glanceapp/glance"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://92fiveapp.com/"
-github: "https://92fiveapp.com/"
+repo: "https://92fiveapp.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

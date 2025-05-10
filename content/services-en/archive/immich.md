@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Photo Galleries"
 website: "https://immich.app/"
-github: "https://github.com/immich-app/immich"
+repo: "https://github.com/immich-app/immich"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Communication"
 website: "https://github.com/pushbits/server"
-github: "https://github.com/pushbits/server"
+repo: "https://github.com/pushbits/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

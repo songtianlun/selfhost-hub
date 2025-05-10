@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Knowledge Management Tools"
 website: "https://github.com/b310-digital/teammapper"
-github: "https://github.com/b310-digital/teammapper"
+repo: "https://github.com/b310-digital/teammapper"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

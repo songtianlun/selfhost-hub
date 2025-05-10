@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://myfinbudget.com"
-github: "https://github.com/afaneca/myfin"
+repo: "https://github.com/afaneca/myfin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

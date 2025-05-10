@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "URL Shorteners"
 website: "https://github.com/azlux/Simple-URL-Shortener"
-github: "https://github.com/azlux/Simple-URL-Shortener"
+repo: "https://github.com/azlux/Simple-URL-Shortener"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

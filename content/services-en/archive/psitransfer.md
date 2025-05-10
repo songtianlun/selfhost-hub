@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://github.com/psi-4ward/psitransfer"
-github: "https://github.com/psi-4ward/psitransfer"
+repo: "https://github.com/psi-4ward/psitransfer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

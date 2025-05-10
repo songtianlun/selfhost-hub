@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://tubearchivist.com/"
-github: "https://github.com/tubearchivist/tubearchivist"
+repo: "https://github.com/tubearchivist/tubearchivist"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

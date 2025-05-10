@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://changedetection.io/"
-github: "https://github.com/dgtlmoon/changedetection.io"
+repo: "https://github.com/dgtlmoon/changedetection.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

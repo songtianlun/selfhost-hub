@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Document Management"
 website: "https://www.stumpapp.dev"
-github: "https://github.com/stumpapp/stump"
+repo: "https://github.com/stumpapp/stump"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://dietpi.com/"
-github: "https://github.com/MichaIng/DietPi"
+repo: "https://github.com/MichaIng/DietPi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://releasebell.com/"
-github: "https://git.cloudron.io/cloudron/releasebell"
+repo: "https://git.cloudron.io/cloudron/releasebell"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

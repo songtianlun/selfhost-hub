@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://docs.onetimesecret.com"
-github: "https://github.com/onetimesecret/onetimesecret"
+repo: "https://github.com/onetimesecret/onetimesecret"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

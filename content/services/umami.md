@@ -12,7 +12,7 @@ tags:
 rating: 4
 category: 网站分析
 website: 'https://umami.is'
-github: 'https://github.com/umami-software/umami'
+repo: 'https://github.com/umami-software/umami'
 updatedAt: '2025-05-07T19:32:36.597Z'
 ---
 

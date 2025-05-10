@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://github.com/diced/zipline"
-github: "https://github.com/diced/zipline"
+repo: "https://github.com/diced/zipline"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

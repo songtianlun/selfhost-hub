@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://firefly-iii.org/"
-github: "https://github.com/firefly-iii/firefly-iii"
+repo: "https://github.com/firefly-iii/firefly-iii"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

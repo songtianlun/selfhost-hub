@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Ticketing"
 website: "https://glitchtip.com"
-github: "https://gitlab.com/glitchtip/glitchtip"
+repo: "https://gitlab.com/glitchtip/glitchtip"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

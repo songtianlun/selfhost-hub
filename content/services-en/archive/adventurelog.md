@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://adventurelog.app"
-github: "https://github.com/seanmorley15/AdventureLog"
+repo: "https://github.com/seanmorley15/AdventureLog"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

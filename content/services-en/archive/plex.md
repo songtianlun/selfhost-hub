@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Media Streaming"
 website: "https://www.plex.tv/"
-github: "https://www.plex.tv/"
+repo: "https://www.plex.tv/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

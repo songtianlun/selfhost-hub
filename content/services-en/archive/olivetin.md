@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Automation"
 website: "https://www.olivetin.app/"
-github: "https://github.com/OliveTin/OliveTin"
+repo: "https://github.com/OliveTin/OliveTin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

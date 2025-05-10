@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Photo Galleries"
 website: "http://sye.dk/sfpg/"
-github: "http://sye.dk/sfpg/"
+repo: "http://sye.dk/sfpg/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

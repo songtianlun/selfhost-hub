@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://github.com/l4rm4nd/VoucherVault"
-github: "https://github.com/l4rm4nd/VoucherVault"
+repo: "https://github.com/l4rm4nd/VoucherVault"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

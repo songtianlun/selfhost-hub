@@ -10,7 +10,7 @@ tags:
 rating: 4
 category: 网络工具
 website: 'https://tailscale.com/kb/1118/custom-derp-servers'
-github: 'https://github.com/tailscale/tailscale'
+repo: 'https://github.com/tailscale/tailscale'
 updatedAt: '2025-05-09T21:40:13.578Z'
 ---
 

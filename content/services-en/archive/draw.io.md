@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Note-taking & Editors"
 website: "https://draw.io"
-github: "https://github.com/jgraph/drawio"
+repo: "https://github.com/jgraph/drawio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "File Transfer"
 website: "https://github.com/svenstaro/miniserve"
-github: "https://github.com/svenstaro/miniserve"
+repo: "https://github.com/svenstaro/miniserve"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

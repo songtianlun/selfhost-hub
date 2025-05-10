@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Booking and Scheduling"
 website: "https://alf.io/"
-github: "https://github.com/alfio-event/alf.io"
+repo: "https://github.com/alfio-event/alf.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

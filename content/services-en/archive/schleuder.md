@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Communication"
 website: "https://schleuder.nadir.org/"
-github: "https://0xacab.org/schleuder/schleuder/tree/master"
+repo: "https://0xacab.org/schleuder/schleuder/tree/master"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

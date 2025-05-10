@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "File Transfer"
 website: "https://github.com/farisc0de/Uploady"
-github: "https://github.com/farisc0de/Uploady"
+repo: "https://github.com/farisc0de/Uploady"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

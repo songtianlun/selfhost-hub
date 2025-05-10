@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Generative Artificial Intelligence (GenAI)"
 website: "https://openwebui.com"
-github: "https://github.com/open-webui/open-webui"
+repo: "https://github.com/open-webui/open-webui"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

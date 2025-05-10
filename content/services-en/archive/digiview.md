@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digiview/"
-github: "https://codeberg.org/ladigitale/digiview"
+repo: "https://codeberg.org/ladigitale/digiview"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

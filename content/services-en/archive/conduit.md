@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Communication"
 website: "https://conduit.rs/"
-github: "https://gitlab.com/famedly/conduit"
+repo: "https://gitlab.com/famedly/conduit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Remote Access"
 website: "https://github.com/immense/Remotely"
-github: "https://github.com/immense/Remotely"
+repo: "https://github.com/immense/Remotely"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Document Management"
 website: "https://gitlab.tt-rss.org/main/the-epube/-/wikis/home"
-github: "https://gitlab.tt-rss.org/main/the-epube"
+repo: "https://gitlab.tt-rss.org/main/the-epube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://postiz.com"
-github: "https://github.com/gitroomhq/postiz-app"
+repo: "https://github.com/gitroomhq/postiz-app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

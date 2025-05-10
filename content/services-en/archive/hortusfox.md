@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://hortusfox.github.io"
-github: "https://github.com/danielbrendel/hortusfox-web"
+repo: "https://github.com/danielbrendel/hortusfox-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://readflow.app"
-github: "https://github.com/ncarlier/readflow"
+repo: "https://github.com/ncarlier/readflow"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

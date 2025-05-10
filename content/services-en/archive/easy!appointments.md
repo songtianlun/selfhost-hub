@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Booking and Scheduling"
 website: "https://easyappointments.org/"
-github: "https://github.com/alextselegidis/easyappointments"
+repo: "https://github.com/alextselegidis/easyappointments"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

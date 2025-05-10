@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://directus.io/"
-github: "https://github.com/directus/directus"
+repo: "https://github.com/directus/directus"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

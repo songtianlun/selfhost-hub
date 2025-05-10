@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://meremedical.co/"
-github: "https://github.com/cfu288/mere-medical"
+repo: "https://github.com/cfu288/mere-medical"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://www.uvdesk.com/"
-github: "https://github.com/uvdesk/community-skeleton"
+repo: "https://github.com/uvdesk/community-skeleton"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

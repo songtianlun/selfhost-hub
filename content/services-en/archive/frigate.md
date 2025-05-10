@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Video Surveillance"
 website: "https://frigate.video/"
-github: "https://github.com/blakeblackshear/frigate"
+repo: "https://github.com/blakeblackshear/frigate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

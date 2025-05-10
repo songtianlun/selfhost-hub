@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.loomio.org/"
-github: "https://github.com/loomio/loomio"
+repo: "https://github.com/loomio/loomio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

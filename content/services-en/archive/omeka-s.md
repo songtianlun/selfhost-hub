@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://omeka.org/s/"
-github: "https://github.com/omeka/omeka-s"
+repo: "https://github.com/omeka/omeka-s"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

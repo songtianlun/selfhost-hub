@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://www.mailpiler.org/"
-github: "https://github.com/jsuto/piler/"
+repo: "https://github.com/jsuto/piler/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

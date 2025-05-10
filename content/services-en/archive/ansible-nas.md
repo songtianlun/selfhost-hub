@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://github.com/DaveStephens/ansible-nas"
-github: "https://github.com/DaveStephens/ansible-nas"
+repo: "https://github.com/DaveStephens/ansible-nas"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

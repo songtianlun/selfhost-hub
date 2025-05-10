@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Personal Dashboards"
 website: "https://github.com/daledavies/jump"
-github: "https://github.com/daledavies/jump"
+repo: "https://github.com/daledavies/jump"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

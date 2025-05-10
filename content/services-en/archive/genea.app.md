@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Genealogy"
 website: "https://www.genea.app/"
-github: "https://github.com/genea-app/genea-app"
+repo: "https://github.com/genea-app/genea-app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

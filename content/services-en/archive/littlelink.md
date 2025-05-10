@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Personal Dashboards"
 website: "https://littlelink.io/"
-github: "https://github.com/sethcottle/littlelink"
+repo: "https://github.com/sethcottle/littlelink"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

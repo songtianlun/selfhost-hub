@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Software Development"
 website: "https://traq.io/"
-github: "https://github.com/nirix/traq"
+repo: "https://github.com/nirix/traq"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

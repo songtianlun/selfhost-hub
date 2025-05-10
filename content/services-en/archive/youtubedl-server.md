@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://github.com/nbr23/youtube-dl-server"
-github: "https://github.com/nbr23/youtube-dl-server"
+repo: "https://github.com/nbr23/youtube-dl-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

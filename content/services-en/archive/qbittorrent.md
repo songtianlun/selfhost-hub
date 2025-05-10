@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "File Transfer"
 website: "https://www.qbittorrent.org/"
-github: "https://github.com/qbittorrent/qBittorrent"
+repo: "https://github.com/qbittorrent/qBittorrent"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

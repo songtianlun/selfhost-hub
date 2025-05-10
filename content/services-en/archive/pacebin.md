@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Pastebins"
 website: "https://git.swurl.xyz/swirl/pacebin.git/about/"
-github: "https://git.swurl.xyz/swirl/pacebin.git"
+repo: "https://git.swurl.xyz/swirl/pacebin.git"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

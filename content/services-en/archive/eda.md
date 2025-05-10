@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://github.com/jortilles/EDA"
-github: "https://github.com/jortilles/EDA"
+repo: "https://github.com/jortilles/EDA"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

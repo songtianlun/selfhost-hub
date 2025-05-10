@@ -10,7 +10,7 @@ tags:
 rating: 4.5
 category: 安全工具
 website: 'https://github.com/dani-garcia/vaultwarden'
-github: 'https://github.com/dani-garcia/vaultwarden'
+repo: 'https://github.com/dani-garcia/vaultwarden'
 updatedAt: '2025-05-08T09:40:05.703Z'
 ---
 

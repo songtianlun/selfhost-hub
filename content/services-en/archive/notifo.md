@@ -7,7 +7,7 @@ tags:
   - "C#"
 category: "Communication"
 website: "https://github.com/notifo-io/notifo"
-github: "https://github.com/notifo-io/notifo"
+repo: "https://github.com/notifo-io/notifo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

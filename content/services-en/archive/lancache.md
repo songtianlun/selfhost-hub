@@ -8,7 +8,7 @@ tags:
   - "Shell"
 category: "Games"
 website: "https://lancache.net"
-github: "https://github.com/lancachenet/monolithic"
+repo: "https://github.com/lancachenet/monolithic"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

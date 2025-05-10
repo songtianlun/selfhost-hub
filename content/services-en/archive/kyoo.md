@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/zoriya/kyoo"
-github: "https://github.com/zoriya/kyoo"
+repo: "https://github.com/zoriya/kyoo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Recipe Management"
 website: "https://davideshay.github.io/groceries/"
-github: "https://github.com/davideshay/groceries"
+repo: "https://github.com/davideshay/groceries"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

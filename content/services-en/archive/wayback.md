@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://github.com/wabarc/wayback"
-github: "https://github.com/wabarc/wayback"
+repo: "https://github.com/wabarc/wayback"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

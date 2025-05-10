@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://www.coreshop.org"
-github: "https://github.com/coreshop/CoreShop"
+repo: "https://github.com/coreshop/CoreShop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

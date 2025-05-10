@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://maybe.co/"
-github: "https://github.com/maybe-finance/maybe"
+repo: "https://github.com/maybe-finance/maybe"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://sfu.mirotalk.com"
-github: "https://github.com/miroslavpejic85/mirotalksfu"
+repo: "https://github.com/miroslavpejic85/mirotalksfu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

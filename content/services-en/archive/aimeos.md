@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://aimeos.org/"
-github: "https://github.com/aimeos/aimeos"
+repo: "https://github.com/aimeos/aimeos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

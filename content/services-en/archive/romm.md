@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Games"
 website: "https://romm.app/"
-github: "https://github.com/rommapp/romm"
+repo: "https://github.com/rommapp/romm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

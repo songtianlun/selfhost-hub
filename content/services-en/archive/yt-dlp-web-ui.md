@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Media Management"
 website: "https://github.com/marcopeocchi/yt-dlp-web-ui"
-github: "https://github.com/marcopeocchi/yt-dlp-web-ui"
+repo: "https://github.com/marcopeocchi/yt-dlp-web-ui"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

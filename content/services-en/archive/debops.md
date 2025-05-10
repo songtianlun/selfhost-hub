@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://docs.debops.org/"
-github: "https://github.com/debops/debops"
+repo: "https://github.com/debops/debops"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

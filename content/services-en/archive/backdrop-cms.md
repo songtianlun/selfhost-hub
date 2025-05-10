@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://backdropcms.org/"
-github: "https://github.com/backdrop/backdrop"
+repo: "https://github.com/backdrop/backdrop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

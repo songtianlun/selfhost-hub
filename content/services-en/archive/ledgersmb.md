@@ -8,7 +8,7 @@ tags:
   - "Perl"
 category: "Resource Planning"
 website: "https://ledgersmb.org/"
-github: "https://github.com/ledgersmb/LedgerSMB"
+repo: "https://github.com/ledgersmb/LedgerSMB"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

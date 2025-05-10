@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Communication"
 website: "https://revolt.chat/"
-github: "https://github.com/revoltchat/self-hosted"
+repo: "https://github.com/revoltchat/self-hosted"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

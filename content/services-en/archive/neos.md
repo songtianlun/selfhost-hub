@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.neos.io"
-github: "https://github.com/neos"
+repo: "https://github.com/neos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

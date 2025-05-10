@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "File Transfer"
 website: "https://transmissionbt.com/"
-github: "https://github.com/transmission/transmission"
+repo: "https://github.com/transmission/transmission"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

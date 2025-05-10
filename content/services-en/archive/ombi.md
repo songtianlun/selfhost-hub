@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Management"
 website: "https://ombi.io/"
-github: "https://github.com/Ombi-app/Ombi"
+repo: "https://github.com/Ombi-app/Ombi"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

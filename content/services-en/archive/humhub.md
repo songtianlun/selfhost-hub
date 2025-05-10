@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://www.humhub.org/"
-github: "https://github.com/humhub/humhub"
+repo: "https://github.com/humhub/humhub"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://penpot.app/"
-github: "https://github.com/penpot/penpot"
+repo: "https://github.com/penpot/penpot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "OCaml"
 category: "File Transfer & Synchronization"
 website: "https://www.cis.upenn.edu/~bcpierce/unison/"
-github: "https://github.com/bcpierce00/unison"
+repo: "https://github.com/bcpierce00/unison"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

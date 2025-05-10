@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://inboxen.org"
-github: "https://codeberg.org/Inboxen/Inboxen"
+repo: "https://codeberg.org/Inboxen/Inboxen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

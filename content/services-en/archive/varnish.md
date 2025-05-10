@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://varnish-cache.org/"
-github: "https://github.com/varnishcache/varnish-cache"
+repo: "https://github.com/varnishcache/varnish-cache"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

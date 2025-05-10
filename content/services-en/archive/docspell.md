@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://docspell.org"
-github: "https://github.com/eikek/docspell"
+repo: "https://github.com/eikek/docspell"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

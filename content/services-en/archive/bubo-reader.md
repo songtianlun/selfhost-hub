@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Feed Readers"
 website: "https://github.com/georgemandis/bubo-rss"
-github: "https://github.com/georgemandis/bubo-rss"
+repo: "https://github.com/georgemandis/bubo-rss"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

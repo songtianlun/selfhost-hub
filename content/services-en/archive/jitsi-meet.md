@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://jitsi.org/Projects/JitsiMeet"
-github: "https://github.com/jitsi/jitsi-meet"
+repo: "https://github.com/jitsi/jitsi-meet"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

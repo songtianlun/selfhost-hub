@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Conference Management"
 website: "https://motion.tools/"
-github: "https://github.com/CatoTH/antragsgruen"
+repo: "https://github.com/CatoTH/antragsgruen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

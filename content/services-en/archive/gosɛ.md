@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/stv0g/gose"
-github: "https://github.com/stv0g/gose"
+repo: "https://github.com/stv0g/gose"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

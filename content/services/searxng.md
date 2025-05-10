@@ -9,7 +9,7 @@ tags:
   - 自托管
 category: 搜索工具
 website: 'https://docs.searxng.org'
-github: 'https://github.com/searxng/searxng'
+repo: 'https://github.com/searxng/searxng'
 updatedAt: '2025-05-10T06:40:15.819Z'
 ---
 

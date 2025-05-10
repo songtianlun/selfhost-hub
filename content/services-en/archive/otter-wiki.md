@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Wikis"
 website: "https://otterwiki.com/"
-github: "https://github.com/redimp/otterwiki"
+repo: "https://github.com/redimp/otterwiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

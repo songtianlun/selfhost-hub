@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://wiki.znc.in/ZNC"
-github: "https://github.com/znc/znc"
+repo: "https://github.com/znc/znc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

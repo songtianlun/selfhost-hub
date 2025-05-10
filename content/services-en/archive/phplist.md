@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://www.phplist.org"
-github: "https://github.com/phpList/phplist3"
+repo: "https://github.com/phpList/phplist3"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

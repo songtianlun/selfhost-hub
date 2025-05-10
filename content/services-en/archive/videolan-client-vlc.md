@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://www.videolan.org/"
-github: "https://code.videolan.org/videolan/vlc"
+repo: "https://code.videolan.org/videolan/vlc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

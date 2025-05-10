@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://swingmusic.vercel.app/"
-github: "https://github.com/swing-opensource/swingmusic"
+repo: "https://github.com/swing-opensource/swingmusic"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

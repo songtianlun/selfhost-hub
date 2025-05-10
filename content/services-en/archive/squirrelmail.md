@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://squirrelmail.org"
-github: "https://sourceforge.net/p/squirrelmail/code/HEAD/tree/"
+repo: "https://sourceforge.net/p/squirrelmail/code/HEAD/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

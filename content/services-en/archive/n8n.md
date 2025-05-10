@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Automation"
 website: "https://n8n.io/"
-github: "https://github.com/n8n-io/n8n"
+repo: "https://github.com/n8n-io/n8n"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

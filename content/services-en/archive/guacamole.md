@@ -8,7 +8,7 @@ tags:
   - "C"
 category: "Remote Access"
 website: "https://guacamole.apache.org"
-github: "https://github.com/apache/guacamole-server"
+repo: "https://github.com/apache/guacamole-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

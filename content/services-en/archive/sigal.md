@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Photo Galleries"
 website: "https://github.com/saimn/sigal"
-github: "https://github.com/saimn/sigal"
+repo: "https://github.com/saimn/sigal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

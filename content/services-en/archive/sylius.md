@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://sylius.com"
-github: "https://github.com/Sylius/Sylius"
+repo: "https://github.com/Sylius/Sylius"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

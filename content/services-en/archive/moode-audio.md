@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Media Streaming"
 website: "https://moodeaudio.org/"
-github: "https://github.com/moode-player/moode"
+repo: "https://github.com/moode-player/moode"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

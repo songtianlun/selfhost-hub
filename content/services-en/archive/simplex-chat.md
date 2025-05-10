@@ -7,7 +7,7 @@ tags:
   - "Haskell"
 category: "Communication"
 website: "https://github.com/simplex-chat/simplex-chat"
-github: "https://github.com/simplex-chat/simplex-chat"
+repo: "https://github.com/simplex-chat/simplex-chat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

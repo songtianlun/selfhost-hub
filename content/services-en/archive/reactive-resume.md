@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://rxresu.me/"
-github: "https://github.com/AmruthPillai/Reactive-Resume"
+repo: "https://github.com/AmruthPillai/Reactive-Resume"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

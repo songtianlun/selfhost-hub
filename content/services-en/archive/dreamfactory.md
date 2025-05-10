@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://www.dreamfactory.com/"
-github: "https://github.com/dreamfactorysoftware/dreamfactory"
+repo: "https://github.com/dreamfactorysoftware/dreamfactory"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

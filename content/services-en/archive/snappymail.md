@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://snappymail.eu/"
-github: "https://github.com/the-djmaze/snappymail"
+repo: "https://github.com/the-djmaze/snappymail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

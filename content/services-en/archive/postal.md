@@ -8,7 +8,7 @@ tags:
   - "Ruby"
 category: "Communication"
 website: "https://docs.postalserver.io/"
-github: "https://github.com/postalserver/postal"
+repo: "https://github.com/postalserver/postal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

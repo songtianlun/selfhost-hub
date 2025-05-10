@@ -8,7 +8,7 @@ tags:
   - "C++"
 category: "Media Streaming"
 website: "https://ossrs.io/"
-github: "https://github.com/ossrs/srs"
+repo: "https://github.com/ossrs/srs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://github.com/docat-org/docat"
-github: "https://github.com/docat-org/docat"
+repo: "https://github.com/docat-org/docat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

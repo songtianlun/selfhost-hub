@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://gnunet.org/"
-github: "https://gnunet.org/git/"
+repo: "https://gnunet.org/git/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

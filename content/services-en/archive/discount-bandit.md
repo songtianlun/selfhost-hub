@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://discount-bandit.cybrarist.com/"
-github: "https://github.com/Cybrarist/Discount-Bandit"
+repo: "https://github.com/Cybrarist/Discount-Bandit"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

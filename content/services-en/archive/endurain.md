@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://docs.endurain.com/"
-github: "https://github.com/joaovitoriasilva/endurain"
+repo: "https://github.com/joaovitoriasilva/endurain"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

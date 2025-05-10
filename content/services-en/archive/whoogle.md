@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Search Engines"
 website: "https://github.com/benbusby/whoogle-search"
-github: "https://github.com/benbusby/whoogle-search"
+repo: "https://github.com/benbusby/whoogle-search"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

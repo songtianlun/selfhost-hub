@@ -10,7 +10,7 @@ tags:
   - "deb"
 category: "Search Engines"
 website: "https://typesense.org"
-github: "https://github.com/typesense/typesense"
+repo: "https://github.com/typesense/typesense"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

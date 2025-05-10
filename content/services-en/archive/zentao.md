@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://www.zentao.pm/"
-github: "https://github.com/easysoft/zentaopms"
+repo: "https://github.com/easysoft/zentaopms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Software Development"
 website: "https://huly.io"
-github: "https://github.com/hcengineering/platform"
+repo: "https://github.com/hcengineering/platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

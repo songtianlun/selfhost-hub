@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://github.com/C4illin/ConvertX"
-github: "https://github.com/C4illin/ConvertX"
+repo: "https://github.com/C4illin/ConvertX"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

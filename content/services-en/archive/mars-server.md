@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://github.com/borjapazr/mars-server"
-github: "https://github.com/borjapazr/mars-server"
+repo: "https://github.com/borjapazr/mars-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

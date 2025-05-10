@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://judge0.com"
-github: "https://github.com/judge0/judge0"
+repo: "https://github.com/judge0/judge0"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

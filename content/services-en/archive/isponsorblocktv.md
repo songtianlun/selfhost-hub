@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Miscellaneous"
 website: "https://github.com/dmunozv04/iSponsorBlockTV"
-github: "https://github.com/dmunozv04/iSponsorBlockTV"
+repo: "https://github.com/dmunozv04/iSponsorBlockTV"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Games"
 website: "https://linuxgsm.com/"
-github: "https://github.com/GameServerManagers/LinuxGSM"
+repo: "https://github.com/GameServerManagers/LinuxGSM"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

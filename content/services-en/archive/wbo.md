@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://github.com/lovasoa/whitebophir"
-github: "https://github.com/lovasoa/whitebophir"
+repo: "https://github.com/lovasoa/whitebophir"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

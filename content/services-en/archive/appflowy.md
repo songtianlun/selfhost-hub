@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Task Management & To-do Lists"
 website: "https://appflowy.io/"
-github: "https://github.com/AppFlowy-IO/appflowy"
+repo: "https://github.com/AppFlowy-IO/appflowy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

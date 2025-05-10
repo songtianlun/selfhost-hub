@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Personal Dashboards"
 website: "https://github.com/bastienwirtz/homer"
-github: "https://github.com/bastienwirtz/homer"
+repo: "https://github.com/bastienwirtz/homer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

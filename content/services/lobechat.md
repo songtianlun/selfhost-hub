@@ -10,7 +10,7 @@ tags:
 rating: 4.5
 category: AI平台
 website: 'https://chat-preview.lobehub.com'
-github: 'https://github.com/lobehub/lobe-chat'
+repo: 'https://github.com/lobehub/lobe-chat'
 updatedAt: '2025-05-07T22:32:29.423Z'
 ---
 

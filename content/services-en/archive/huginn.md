@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Automation"
 website: "https://github.com/huginn/huginn"
-github: "https://github.com/huginn/huginn"
+repo: "https://github.com/huginn/huginn"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

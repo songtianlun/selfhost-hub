@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://pico.rocks"
-github: "https://github.com/mtlynch/picoshare"
+repo: "https://github.com/mtlynch/picoshare"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

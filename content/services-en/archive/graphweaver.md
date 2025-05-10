@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Software Development"
 website: "https://graphweaver.com/"
-github: "https://github.com/exogee-technology/graphweaver"
+repo: "https://github.com/exogee-technology/graphweaver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

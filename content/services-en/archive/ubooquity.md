@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Document Management"
 website: "https://vaemendis.net/ubooquity/"
-github: "https://vaemendis.net/ubooquity/"
+repo: "https://vaemendis.net/ubooquity/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

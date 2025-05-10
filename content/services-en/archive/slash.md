@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Bookmarks and Link Sharing"
 website: "https://github.com/boojack/slash"
-github: "https://github.com/boojack/slash"
+repo: "https://github.com/boojack/slash"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Content Management Systems (CMS)"
 website: "https://www.redaxo.org"
-github: "https://github.com/redaxo/redaxo"
+repo: "https://github.com/redaxo/redaxo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

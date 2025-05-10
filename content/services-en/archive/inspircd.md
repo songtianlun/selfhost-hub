@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.inspircd.org/"
-github: "https://github.com/inspircd/inspircd"
+repo: "https://github.com/inspircd/inspircd"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

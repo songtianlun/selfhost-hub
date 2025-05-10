@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://dify.ai"
-github: "https://github.com/langgenius/dify"
+repo: "https://github.com/langgenius/dify"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

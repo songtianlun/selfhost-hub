@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://www.docuseal.co"
-github: "https://github.com/docusealco/docuseal"
+repo: "https://github.com/docusealco/docuseal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Archiving and Digital Preservation (DP)"
 website: "https://github.com/derfenix/webarchive"
-github: "https://github.com/derfenix/webarchive"
+repo: "https://github.com/derfenix/webarchive"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

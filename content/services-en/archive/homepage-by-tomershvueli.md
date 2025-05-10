@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Personal Dashboards"
 website: "https://github.com/tomershvueli/homepage"
-github: "https://github.com/tomershvueli/homepage"
+repo: "https://github.com/tomershvueli/homepage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Scala"
 category: "Communication"
 website: "https://www.talkyard.io/"
-github: "https://github.com/debiki/talkyard"
+repo: "https://github.com/debiki/talkyard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

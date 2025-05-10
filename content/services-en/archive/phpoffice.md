@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Office Suites"
 website: "https://github.com/PHPOffice"
-github: "https://github.com/PHPOffice"
+repo: "https://github.com/PHPOffice"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

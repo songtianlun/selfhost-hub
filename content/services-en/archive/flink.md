@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "URL Shorteners"
 website: "https://gitlab.com/rtraceio/web/flink"
-github: "https://gitlab.com/rtraceio/web/flink"
+repo: "https://gitlab.com/rtraceio/web/flink"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.openproject.org"
-github: "https://github.com/opf/openproject"
+repo: "https://github.com/opf/openproject"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

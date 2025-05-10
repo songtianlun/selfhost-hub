@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Maps and Global Positioning System (GPS)"
 website: "https://github.com/Flomp/wanderer"
-github: "https://github.com/Flomp/wanderer"
+repo: "https://github.com/Flomp/wanderer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

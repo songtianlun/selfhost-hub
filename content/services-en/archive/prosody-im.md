@@ -7,7 +7,7 @@ tags:
   - "Lua"
 category: "Communication"
 website: "https://prosody.im/"
-github: "https://hg.prosody.im/"
+repo: "https://hg.prosody.im/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://form.io"
-github: "https://github.com/formio"
+repo: "https://github.com/formio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

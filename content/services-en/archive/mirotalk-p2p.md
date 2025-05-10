@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://p2p.mirotalk.com"
-github: "https://github.com/miroslavpejic85/mirotalk"
+repo: "https://github.com/miroslavpejic85/mirotalk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

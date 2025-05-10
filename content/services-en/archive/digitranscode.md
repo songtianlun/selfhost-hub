@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digitranscode"
-github: "https://codeberg.org/ladigitale/digitranscode"
+repo: "https://codeberg.org/ladigitale/digitranscode"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

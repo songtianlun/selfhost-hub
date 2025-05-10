@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Software Development"
 website: "https://www.eclipse.org/che/"
-github: "https://github.com/eclipse/che"
+repo: "https://github.com/eclipse/che"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

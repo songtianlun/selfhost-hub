@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.fusio-project.org/"
-github: "https://github.com/apioo/fusio"
+repo: "https://github.com/apioo/fusio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

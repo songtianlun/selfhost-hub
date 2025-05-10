@@ -10,7 +10,7 @@ tags:
 rating: 4
 category: 网站分析
 website: 'https://plausible.io'
-github: 'https://github.com/plausible/analytics'
+repo: 'https://github.com/plausible/analytics'
 updatedAt: '2025-05-07T14:08:12.222Z'
 ---
 

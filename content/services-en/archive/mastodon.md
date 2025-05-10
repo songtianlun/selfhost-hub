@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Communication"
 website: "https://joinmastodon.org/"
-github: "https://github.com/mastodon/mastodon"
+repo: "https://github.com/mastodon/mastodon"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

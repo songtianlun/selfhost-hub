@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Wikis"
 website: "https://docmost.com/"
-github: "https://github.com/docmost/docmost"
+repo: "https://github.com/docmost/docmost"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

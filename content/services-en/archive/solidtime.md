@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Time Tracking"
 website: "https://www.solidtime.io"
-github: "https://github.com/solidtime-io/solidtime"
+repo: "https://github.com/solidtime-io/solidtime"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

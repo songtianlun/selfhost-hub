@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://appwrite.io"
-github: "https://github.com/appwrite/appwrite"
+repo: "https://github.com/appwrite/appwrite"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

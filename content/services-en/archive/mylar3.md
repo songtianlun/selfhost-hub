@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://mylarcomics.com/"
-github: "https://github.com/mylar3/mylar3"
+repo: "https://github.com/mylar3/mylar3"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

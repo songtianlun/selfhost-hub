@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://butlerx.github.io/wetty/#/"
-github: "https://github.com/butlerx/wetty"
+repo: "https://github.com/butlerx/wetty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

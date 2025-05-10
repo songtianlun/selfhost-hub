@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Inventory Management"
 website: "https://homebox.software/"
-github: "https://github.com/sysadminsmedia/homebox"
+repo: "https://github.com/sysadminsmedia/homebox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

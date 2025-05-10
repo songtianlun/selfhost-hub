@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Feed Readers"
 website: "https://github.com/lemon24/reader"
-github: "https://github.com/lemon24/reader"
+repo: "https://github.com/lemon24/reader"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

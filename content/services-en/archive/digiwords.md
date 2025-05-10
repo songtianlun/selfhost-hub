@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Miscellaneous"
 website: "https://ladigitale.dev/digiwords/"
-github: "https://codeberg.org/ladigitale/digiwords"
+repo: "https://codeberg.org/ladigitale/digiwords"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

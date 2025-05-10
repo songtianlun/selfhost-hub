@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Photo Galleries"
 website: "https://github.com/damongolding/immich-kiosk"
-github: "https://github.com/damongolding/immich-kiosk"
+repo: "https://github.com/damongolding/immich-kiosk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

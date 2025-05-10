@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Task Management & To-do Lists"
 website: "https://www.mytinytodo.net/"
-github: "https://github.com/maxpozdeev/mytinytodo/"
+repo: "https://github.com/maxpozdeev/mytinytodo/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

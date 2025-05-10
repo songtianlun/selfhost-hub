@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Media Streaming"
 website: "https://libretime.org"
-github: "https://github.com/LibreTime/libretime"
+repo: "https://github.com/LibreTime/libretime"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

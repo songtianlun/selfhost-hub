@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://artalk.js.org/"
-github: "https://github.com/ArtalkJS/Artalk"
+repo: "https://github.com/ArtalkJS/Artalk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

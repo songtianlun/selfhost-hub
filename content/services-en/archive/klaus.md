@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://github.com/jonashaag/klaus"
-github: "https://github.com/jonashaag/klaus"
+repo: "https://github.com/jonashaag/klaus"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

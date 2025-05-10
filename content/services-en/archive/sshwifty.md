@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Remote Access"
 website: "https://github.com/nirui/sshwifty"
-github: "https://github.com/nirui/sshwifty"
+repo: "https://github.com/nirui/sshwifty"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://github.com/BreizhHardware/ntfy_alerts"
-github: "https://github.com/BreizhHardware/ntfy_alerts"
+repo: "https://github.com/BreizhHardware/ntfy_alerts"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

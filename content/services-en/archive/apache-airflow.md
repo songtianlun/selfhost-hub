@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://airflow.apache.org/"
-github: "https://github.com/apache/airflow/"
+repo: "https://github.com/apache/airflow/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

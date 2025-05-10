@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Groupware"
 website: "https://openmeetings.apache.org/index.html"
-github: "https://github.com/apache/openmeetings"
+repo: "https://github.com/apache/openmeetings"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

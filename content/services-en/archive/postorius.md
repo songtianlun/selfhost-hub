@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://docs.mailman3.org/projects/postorius/en/latest/"
-github: "https://gitlab.com/mailman/postorius/"
+repo: "https://gitlab.com/mailman/postorius/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

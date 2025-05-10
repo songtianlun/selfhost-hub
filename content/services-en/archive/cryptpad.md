@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Office Suites"
 website: "https://cryptpad.org"
-github: "https://github.com/cryptpad/cryptpad"
+repo: "https://github.com/cryptpad/cryptpad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

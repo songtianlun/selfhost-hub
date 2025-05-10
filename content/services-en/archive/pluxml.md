@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Blogging Platforms"
 website: "https://pluxml.org"
-github: "https://github.com/pluxml/PluXml"
+repo: "https://github.com/pluxml/PluXml"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

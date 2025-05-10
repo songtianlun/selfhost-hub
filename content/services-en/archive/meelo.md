@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/Arthi-chaud/Meelo"
-github: "https://github.com/Arthi-chaud/Meelo"
+repo: "https://github.com/Arthi-chaud/Meelo"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

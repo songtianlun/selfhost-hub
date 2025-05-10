@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.bigtreecms.org/"
-github: "https://github.com/bigtreecms/BigTree-CMS"
+repo: "https://github.com/bigtreecms/BigTree-CMS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

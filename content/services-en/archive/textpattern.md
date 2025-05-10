@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://textpattern.com/"
-github: "https://github.com/textpattern/textpattern"
+repo: "https://github.com/textpattern/textpattern"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://homelabos.com"
-github: "https://gitlab.com/NickBusey/HomelabOS"
+repo: "https://gitlab.com/NickBusey/HomelabOS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

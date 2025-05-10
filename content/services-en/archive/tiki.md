@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Wikis"
 website: "https://tiki.org/HomePage"
-github: "https://gitlab.com/tikiwiki/tiki"
+repo: "https://gitlab.com/tikiwiki/tiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

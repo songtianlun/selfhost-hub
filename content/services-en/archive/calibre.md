@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Document Management"
 website: "https://calibre-ebook.com/"
-github: "https://github.com/kovidgoyal/calibre"
+repo: "https://github.com/kovidgoyal/calibre"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

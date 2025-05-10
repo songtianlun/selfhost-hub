@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Polls and Events"
 website: "https://events.indieweb.org"
-github: "https://github.com/aaronpk/Meetable"
+repo: "https://github.com/aaronpk/Meetable"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

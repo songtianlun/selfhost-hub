@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Document Management"
 website: "https://teedy.io/"
-github: "https://github.com/sismics/docs"
+repo: "https://github.com/sismics/docs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

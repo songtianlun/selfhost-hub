@@ -7,7 +7,7 @@ tags:
   - "Scala"
 category: "Games"
 website: "https://github.com/nymanjens/quizmaster"
-github: "https://github.com/nymanjens/quizmaster"
+repo: "https://github.com/nymanjens/quizmaster"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

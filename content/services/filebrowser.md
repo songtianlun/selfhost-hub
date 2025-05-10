@@ -8,7 +8,7 @@ tags:
   - Go
 category: 文件存储
 website: 'https://filebrowser.org'
-github: 'https://github.com/filebrowser/filebrowser'
+repo: 'https://github.com/filebrowser/filebrowser'
 updatedAt: '2025-05-07T23:41:16.078Z'
 ---
 

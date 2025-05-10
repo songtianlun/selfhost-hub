@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://www.kamailio.org/w/"
-github: "https://github.com/kamailio/kamailio"
+repo: "https://github.com/kamailio/kamailio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

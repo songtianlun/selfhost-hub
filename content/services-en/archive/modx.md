@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://modx.com/"
-github: "https://github.com/modxcms/revolution"
+repo: "https://github.com/modxcms/revolution"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

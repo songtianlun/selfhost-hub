@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Learning and Courses"
 website: "https://qstonline.org"
-github: "https://sourceforge.net/projects/qstonline/"
+repo: "https://sourceforge.net/projects/qstonline/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

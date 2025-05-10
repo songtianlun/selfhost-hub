@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "E-commerce"
 website: "https://spreecommerce.org"
-github: "https://github.com/spree/spree"
+repo: "https://github.com/spree/spree"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://nuskooler.github.io/enigma-bbs/"
-github: "https://github.com/NuSkooler/enigma-bbs"
+repo: "https://github.com/NuSkooler/enigma-bbs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

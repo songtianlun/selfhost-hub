@@ -10,7 +10,7 @@ tags:
   - "C"
 category: "File Transfer & Synchronization"
 website: "https://www.seafile.com/en/home/"
-github: "https://github.com/haiwen/seafile"
+repo: "https://github.com/haiwen/seafile"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

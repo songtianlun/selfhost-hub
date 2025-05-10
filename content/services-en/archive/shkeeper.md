@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Money, Budgeting & Management"
 website: "https://shkeeper.io/"
-github: "https://github.com/vsys-host/shkeeper.io"
+repo: "https://github.com/vsys-host/shkeeper.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

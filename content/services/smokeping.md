@@ -9,7 +9,7 @@ tags:
   - Perl
 category: 网络监控
 website: 'https://oss.oetiker.ch/smokeping'
-github: 'https://github.com/oetiker/SmokePing'
+repo: 'https://github.com/oetiker/SmokePing'
 updatedAt: '2025-05-10T01:03:50.100Z'
 ---
 

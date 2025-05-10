@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://www.asterisk.org/"
-github: "https://github.com/asterisk/asterisk"
+repo: "https://github.com/asterisk/asterisk"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

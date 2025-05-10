@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://mediacms.io"
-github: "https://github.com/mediacms-io/mediacms"
+repo: "https://github.com/mediacms-io/mediacms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

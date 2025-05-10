@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://spaceb.in"
-github: "https://github.com/lukewhrit/spacebin"
+repo: "https://github.com/lukewhrit/spacebin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

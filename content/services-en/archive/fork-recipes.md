@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Recipe Management"
 website: "https://mikebgrep.github.io/forkapi/clients/"
-github: "https://github.com/mikebgrep/fork.recipes"
+repo: "https://github.com/mikebgrep/fork.recipes"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

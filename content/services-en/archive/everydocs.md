@@ -8,7 +8,7 @@ tags:
   - "Ruby"
 category: "Document Management"
 website: "https://github.com/jonashellmann/everydocs-core"
-github: "https://github.com/jonashellmann/everydocs-core"
+repo: "https://github.com/jonashellmann/everydocs-core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Bookmarks and Link Sharing"
 website: "https://codeberg.org/Offerel/SyncMarks-Webapp"
-github: "https://codeberg.org/Offerel/SyncMarks-Webapp"
+repo: "https://codeberg.org/Offerel/SyncMarks-Webapp"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Games"
 website: "https://www.auto-mcs.com"
-github: "https://github.com/macarooni-man/auto-mcs"
+repo: "https://github.com/macarooni-man/auto-mcs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

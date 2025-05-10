@@ -7,7 +7,7 @@ tags:
   - "Elixir"
 category: "Communication"
 website: "https://pleroma.social"
-github: "https://git.pleroma.social/pleroma/pleroma"
+repo: "https://git.pleroma.social/pleroma/pleroma"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

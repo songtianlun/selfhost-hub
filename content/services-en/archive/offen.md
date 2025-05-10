@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://www.offen.dev/"
-github: "https://github.com/offen/offen"
+repo: "https://github.com/offen/offen"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Wikis"
 website: "https://amusewiki.org/"
-github: "https://github.com/melmothx/amusewiki"
+repo: "https://github.com/melmothx/amusewiki"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

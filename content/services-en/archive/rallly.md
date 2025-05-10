@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Booking and Scheduling"
 website: "https://rallly.co"
-github: "https://github.com/lukevella/rallly"
+repo: "https://github.com/lukevella/rallly"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Streaming"
 website: "https://github.com/agersant/polaris"
-github: "https://github.com/agersant/polaris"
+repo: "https://github.com/agersant/polaris"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

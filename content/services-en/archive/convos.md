@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://convos.chat/"
-github: "https://github.com/convos-chat/convos"
+repo: "https://github.com/convos-chat/convos"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

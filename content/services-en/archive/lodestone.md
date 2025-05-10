@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Games"
 website: "https://github.com/Lodestone-Team/lodestone"
-github: "https://github.com/Lodestone-Team/lodestone"
+repo: "https://github.com/Lodestone-Team/lodestone"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Search Engines"
 website: "https://zincsearch.com"
-github: "https://github.com/zincsearch/zincsearch"
+repo: "https://github.com/zincsearch/zincsearch"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

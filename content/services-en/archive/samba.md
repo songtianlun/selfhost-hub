@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "File Transfer & Synchronization"
 website: "https://www.samba.org/"
-github: "https://git.samba.org/samba.git/"
+repo: "https://git.samba.org/samba.git/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

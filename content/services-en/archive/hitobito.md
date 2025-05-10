@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Polls and Events"
 website: "https://hitobito.com"
-github: "https://github.com/hitobito/hitobito"
+repo: "https://github.com/hitobito/hitobito"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "File Transfer"
 website: "https://github.com/dutchcoders/transfer.sh"
-github: "https://github.com/dutchcoders/transfer.sh"
+repo: "https://github.com/dutchcoders/transfer.sh"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

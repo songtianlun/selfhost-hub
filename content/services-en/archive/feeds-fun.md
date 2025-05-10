@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Feed Readers"
 website: "https://feeds.fun/"
-github: "https://github.com/Tiendil/feeds.fun"
+repo: "https://github.com/Tiendil/feeds.fun"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

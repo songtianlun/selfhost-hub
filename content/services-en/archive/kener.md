@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Status / Uptime pages"
 website: "https://kener.ing/"
-github: "https://github.com/rajnandan1/kener"
+repo: "https://github.com/rajnandan1/kener"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

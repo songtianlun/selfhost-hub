@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://zotregistry.dev"
-github: "https://github.com/project-zot/zot"
+repo: "https://github.com/project-zot/zot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

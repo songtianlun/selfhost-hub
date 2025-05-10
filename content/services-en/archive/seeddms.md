@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Document Management"
 website: "https://www.seeddms.org"
-github: "https://sourceforge.net/p/seeddms/code/ci/master/tree/"
+repo: "https://sourceforge.net/p/seeddms/code/ci/master/tree/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

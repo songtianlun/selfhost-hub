@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "DNS"
 website: "https://pi-hole.net/"
-github: "https://github.com/pi-hole/pi-hole"
+repo: "https://github.com/pi-hole/pi-hole"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

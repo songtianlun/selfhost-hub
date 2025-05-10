@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Calendar & Contacts"
 website: "https://sabre.io/baikal/"
-github: "https://github.com/sabre-io/Baikal"
+repo: "https://github.com/sabre-io/Baikal"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

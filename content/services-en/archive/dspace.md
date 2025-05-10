@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Document Management"
 website: "http://www.dspace.org/"
-github: "https://github.com/DSpace/DSpace"
+repo: "https://github.com/DSpace/DSpace"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

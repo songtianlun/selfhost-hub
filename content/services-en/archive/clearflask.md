@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://clearflask.com"
-github: "https://github.com/clearflask/clearflask"
+repo: "https://github.com/clearflask/clearflask"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

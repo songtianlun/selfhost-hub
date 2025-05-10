@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Office Suites"
 website: "https://helpcenter.onlyoffice.com/faq/server-opensource.aspx"
-github: "https://github.com/ONLYOFFICE/DocumentServer"
+repo: "https://github.com/ONLYOFFICE/DocumentServer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

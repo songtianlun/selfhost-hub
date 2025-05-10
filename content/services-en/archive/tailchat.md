@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://tailchat.msgbyte.com/"
-github: "https://github.com/msgbyte/tailchat"
+repo: "https://github.com/msgbyte/tailchat"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

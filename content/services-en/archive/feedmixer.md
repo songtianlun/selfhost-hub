@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Automation"
 website: "https://github.com/cristoper/feedmixer"
-github: "https://github.com/cristoper/feedmixer"
+repo: "https://github.com/cristoper/feedmixer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

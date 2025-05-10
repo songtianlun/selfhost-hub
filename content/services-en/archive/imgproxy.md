@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Proxy"
 website: "https://imgproxy.net/"
-github: "https://github.com/imgproxy/imgproxy"
+repo: "https://github.com/imgproxy/imgproxy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

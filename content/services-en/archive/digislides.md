@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Office Suites"
 website: "https://ladigitale.dev/digislides/"
-github: "https://codeberg.org/ladigitale/Digislides"
+repo: "https://codeberg.org/ladigitale/Digislides"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

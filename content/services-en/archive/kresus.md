@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Money, Budgeting & Management"
 website: "https://kresus.org/"
-github: "https://github.com/kresusapp/kresus"
+repo: "https://github.com/kresusapp/kresus"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

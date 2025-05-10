@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Personal Dashboards"
 website: "https://homarr.dev"
-github: "https://github.com/homarr-labs/homarr"
+repo: "https://github.com/homarr-labs/homarr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://static-web-server.net/"
-github: "https://github.com/static-web-server/static-web-server"
+repo: "https://github.com/static-web-server/static-web-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

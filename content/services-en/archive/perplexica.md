@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Generative Artificial Intelligence (GenAI)"
 website: "https://github.com/ItzCrazyKns/Perplexica"
-github: "https://github.com/ItzCrazyKns/Perplexica"
+repo: "https://github.com/ItzCrazyKns/Perplexica"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

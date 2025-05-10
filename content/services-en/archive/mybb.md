@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://mybb.com/"
-github: "https://github.com/mybb/mybb"
+repo: "https://github.com/mybb/mybb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

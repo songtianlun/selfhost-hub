@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/TobySuch/Shifter"
-github: "https://github.com/TobySuch/Shifter"
+repo: "https://github.com/TobySuch/Shifter"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

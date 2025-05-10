@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Games"
 website: "https://accessory.github.io/minus_games_user_guide"
-github: "https://github.com/Accessory/minus_games"
+repo: "https://github.com/Accessory/minus_games"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://gibbonedu.org/"
-github: "https://github.com/GibbonEdu/core"
+repo: "https://github.com/GibbonEdu/core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Automation"
 website: "https://github.com/zelon88/HRConvert2"
-github: "https://github.com/zelon88/HRConvert2"
+repo: "https://github.com/zelon88/HRConvert2"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

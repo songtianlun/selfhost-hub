@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Customer Relationship Management (CRM)"
 website: "https://docs.cortezaproject.org"
-github: "https://github.com/cortezaproject/corteza"
+repo: "https://github.com/cortezaproject/corteza"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

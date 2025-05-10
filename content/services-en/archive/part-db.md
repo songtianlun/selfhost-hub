@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Inventory Management"
 website: "https://docs.part-db.de/"
-github: "https://github.com/Part-DB/Part-DB-server"
+repo: "https://github.com/Part-DB/Part-DB-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

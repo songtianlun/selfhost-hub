@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://www.tagspaces.org/"
-github: "https://github.com/tagspaces/tagspaces"
+repo: "https://github.com/tagspaces/tagspaces"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

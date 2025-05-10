@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Task Management & To-do Lists"
 website: "https://github.com/apankrat/nullboard"
-github: "https://github.com/apankrat/nullboard"
+repo: "https://github.com/apankrat/nullboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

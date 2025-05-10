@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://samacloud.io"
-github: "https://github.com/SAMA-Communications/sama-server"
+repo: "https://github.com/SAMA-Communications/sama-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Communication"
 website: "https://kiwiirc.com/"
-github: "https://github.com/kiwiirc/kiwiirc"
+repo: "https://github.com/kiwiirc/kiwiirc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Generative Artificial Intelligence (GenAI)"
 website: "https://ollama.com/"
-github: "https://github.com/ollama/ollama"
+repo: "https://github.com/ollama/ollama"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

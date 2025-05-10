@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://drupalcommerce.org"
-github: "https://git.drupalcode.org/project/commerce"
+repo: "https://git.drupalcode.org/project/commerce"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

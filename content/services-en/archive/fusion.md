@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://github.com/0x2E/fusion"
-github: "https://github.com/0x2E/fusion"
+repo: "https://github.com/0x2E/fusion"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

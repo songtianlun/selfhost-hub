@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://simplelogin.io"
-github: "https://github.com/simple-login/app"
+repo: "https://github.com/simple-login/app"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

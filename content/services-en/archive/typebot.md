@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://typebot.io"
-github: "https://github.com/baptisteArno/typebot.io"
+repo: "https://github.com/baptisteArno/typebot.io"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

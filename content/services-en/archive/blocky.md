@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "DNS"
 website: "https://0xerr0r.github.io/blocky/latest/"
-github: "https://github.com/0xERR0R/blocky"
+repo: "https://github.com/0xERR0R/blocky"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

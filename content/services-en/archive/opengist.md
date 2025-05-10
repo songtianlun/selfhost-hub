@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Pastebins"
 website: "https://github.com/thomiceli/opengist"
-github: "https://github.com/thomiceli/opengist"
+repo: "https://github.com/thomiceli/opengist"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

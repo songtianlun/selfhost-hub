@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/root-gg/plik"
-github: "https://github.com/root-gg/plik"
+repo: "https://github.com/root-gg/plik"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

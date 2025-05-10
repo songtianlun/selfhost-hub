@@ -9,7 +9,7 @@ tags:
   - Go
 category: 容器编排
 website: 'https://keel.sh'
-github: 'https://github.com/keel-hq/keel'
+repo: 'https://github.com/keel-hq/keel'
 updatedAt: '2025-05-08T03:10:30.297Z'
 ---
 

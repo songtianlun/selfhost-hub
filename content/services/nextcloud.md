@@ -10,7 +10,7 @@ tags:
 rating: 3.5
 category: 文件存储
 website: 'https://nextcloud.com'
-github: 'https://github.com/nextcloud/server'
+repo: 'https://github.com/nextcloud/server'
 updatedAt: '2025-05-08T18:07:52.877Z'
 ---
 

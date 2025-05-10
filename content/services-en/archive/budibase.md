@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://www.budibase.com"
-github: "https://github.com/Budibase/budibase"
+repo: "https://github.com/Budibase/budibase"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

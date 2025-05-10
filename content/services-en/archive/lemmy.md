@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Communication"
 website: "https://join-lemmy.org/"
-github: "https://github.com/LemmyNet/lemmy"
+repo: "https://github.com/LemmyNet/lemmy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -10,7 +10,7 @@ tags:
   - "Python"
 category: "Web Servers"
 website: "https://www.bunkerweb.io"
-github: "https://github.com/bunkerity/bunkerweb"
+repo: "https://github.com/bunkerity/bunkerweb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Time Tracking"
 website: "https://github.com/daya0576/beaverhabits"
-github: "https://github.com/daya0576/beaverhabits"
+repo: "https://github.com/daya0576/beaverhabits"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

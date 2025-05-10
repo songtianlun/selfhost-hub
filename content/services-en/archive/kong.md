@@ -10,7 +10,7 @@ tags:
   - "deb"
 category: "Software Development"
 website: "https://konghq.com/kong/"
-github: "https://github.com/Kong/kong"
+repo: "https://github.com/Kong/kong"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

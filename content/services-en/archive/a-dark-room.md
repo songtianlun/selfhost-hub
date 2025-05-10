@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Games"
 website: "https://github.com/doublespeakgames/adarkroom"
-github: "https://github.com/doublespeakgames/adarkroom"
+repo: "https://github.com/doublespeakgames/adarkroom"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

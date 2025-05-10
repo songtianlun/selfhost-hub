@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://mailu.io/"
-github: "https://github.com/Mailu/Mailu"
+repo: "https://github.com/Mailu/Mailu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Web Servers"
 website: "https://www.pomerium.io"
-github: "https://github.com/pomerium/pomerium"
+repo: "https://github.com/pomerium/pomerium"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

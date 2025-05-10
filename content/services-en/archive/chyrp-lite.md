@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Blogging Platforms"
 website: "https://chyrplite.net"
-github: "https://github.com/xenocrat/chyrp-lite"
+repo: "https://github.com/xenocrat/chyrp-lite"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://moodle.org/"
-github: "https://git.moodle.org/gw"
+repo: "https://git.moodle.org/gw"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

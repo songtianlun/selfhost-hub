@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Miscellaneous"
 website: "https://digiboard.app/"
-github: "https://codeberg.org/ladigitale/digiboard"
+repo: "https://codeberg.org/ladigitale/digiboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

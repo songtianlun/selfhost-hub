@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Communication"
 website: "https://conversejs.org/"
-github: "https://github.com/conversejs/converse.js"
+repo: "https://github.com/conversejs/converse.js"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

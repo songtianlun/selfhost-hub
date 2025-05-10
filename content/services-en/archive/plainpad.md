@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Note-taking & Editors"
 website: "https://alextselegidis.com/get/plainpad/"
-github: "https://github.com/alextselegidis/plainpad"
+repo: "https://github.com/alextselegidis/plainpad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

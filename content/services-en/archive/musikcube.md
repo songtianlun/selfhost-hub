@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Media Streaming"
 website: "https://musikcube.com/"
-github: "https://github.com/clangen/musikcube"
+repo: "https://github.com/clangen/musikcube"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

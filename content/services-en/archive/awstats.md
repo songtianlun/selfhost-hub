@@ -7,7 +7,7 @@ tags:
   - "Perl"
 category: "Analytics"
 website: "http://www.awstats.org/"
-github: "https://github.com/eldy/awstats"
+repo: "https://github.com/eldy/awstats"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

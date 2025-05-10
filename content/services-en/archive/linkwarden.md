@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Bookmarks and Link Sharing"
 website: "https://linkwarden.app/"
-github: "https://github.com/linkwarden/linkwarden"
+repo: "https://github.com/linkwarden/linkwarden"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

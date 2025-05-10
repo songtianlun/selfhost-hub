@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Software Development"
 website: "https://kanbantool.com/kanban-tool-on-site"
-github: "https://kanbantool.com/kanban-tool-on-site"
+repo: "https://kanbantool.com/kanban-tool-on-site"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

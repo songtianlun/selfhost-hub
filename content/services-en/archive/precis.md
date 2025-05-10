@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://github.com/leozqin/precis"
-github: "https://github.com/leozqin/precis"
+repo: "https://github.com/leozqin/precis"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

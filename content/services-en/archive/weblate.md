@@ -9,7 +9,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://weblate.org"
-github: "https://github.com/WeblateOrg/weblate"
+repo: "https://github.com/WeblateOrg/weblate"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

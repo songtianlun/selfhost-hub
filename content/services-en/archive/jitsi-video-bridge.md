@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://jitsi.org/Projects/JitsiVideobridge"
-github: "https://github.com/jitsi/jitsi-videobridge"
+repo: "https://github.com/jitsi/jitsi-videobridge"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

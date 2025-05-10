@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://lidarr.audio/"
-github: "https://github.com/Lidarr/Lidarr"
+repo: "https://github.com/Lidarr/Lidarr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

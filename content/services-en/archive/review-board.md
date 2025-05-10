@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://www.reviewboard.org/"
-github: "https://github.com/reviewboard/reviewboard"
+repo: "https://github.com/reviewboard/reviewboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

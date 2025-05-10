@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Time Tracking"
 website: "https://traggo.net/"
-github: "https://github.com/traggo/server"
+repo: "https://github.com/traggo/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

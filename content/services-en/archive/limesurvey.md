@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Polls and Events"
 website: "https://www.limesurvey.org"
-github: "https://github.com/LimeSurvey/LimeSurvey"
+repo: "https://github.com/LimeSurvey/LimeSurvey"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

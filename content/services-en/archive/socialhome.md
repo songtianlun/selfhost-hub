@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Communication"
 website: "https://socialhome.network"
-github: "https://github.com/jaywink/socialhome"
+repo: "https://github.com/jaywink/socialhome"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

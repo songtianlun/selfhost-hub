@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://ipcheck.ing"
-github: "https://github.com/jason5ng32/MyIP"
+repo: "https://github.com/jason5ng32/MyIP"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

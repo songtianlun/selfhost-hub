@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://github.com/knrdl/hubleys-dashboard"
-github: "https://github.com/knrdl/hubleys-dashboard"
+repo: "https://github.com/knrdl/hubleys-dashboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Pastebins"
 website: "https://privatebin.info/"
-github: "https://github.com/PrivateBin/PrivateBin"
+repo: "https://github.com/PrivateBin/PrivateBin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

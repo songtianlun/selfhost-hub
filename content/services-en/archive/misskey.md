@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://misskey.io/"
-github: "https://github.com/misskey-dev/misskey"
+repo: "https://github.com/misskey-dev/misskey"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

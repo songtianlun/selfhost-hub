@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://www.keila.io"
-github: "https://github.com/pentacent/keila"
+repo: "https://github.com/pentacent/keila"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

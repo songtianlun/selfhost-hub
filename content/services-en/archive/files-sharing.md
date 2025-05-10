@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/axeloz/filesharing"
-github: "https://github.com/axeloz/filesharing"
+repo: "https://github.com/axeloz/filesharing"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

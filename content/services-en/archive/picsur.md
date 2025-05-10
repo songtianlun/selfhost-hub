@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "File Transfer"
 website: "https://github.com/CaramelFur/Picsur"
-github: "https://github.com/CaramelFur/Picsur"
+repo: "https://github.com/CaramelFur/Picsur"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

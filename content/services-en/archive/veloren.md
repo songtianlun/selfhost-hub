@@ -7,7 +7,7 @@ tags:
   - "Rust"
 category: "Games"
 website: "https://veloren.net/"
-github: "https://gitlab.com/veloren/veloren"
+repo: "https://gitlab.com/veloren/veloren"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

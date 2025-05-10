@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://stalw.art"
-github: "https://github.com/stalwartlabs/mail-server"
+repo: "https://github.com/stalwartlabs/mail-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

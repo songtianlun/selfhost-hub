@@ -9,7 +9,7 @@ tags:
   - Go
 category: 文件存储
 website: 'https://pydio.com'
-github: 'https://github.com/pydio/cells'
+repo: 'https://github.com/pydio/cells'
 updatedAt: '2025-05-08T22:15:37.527Z'
 ---
 

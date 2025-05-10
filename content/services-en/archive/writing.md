@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Note-taking & Editors"
 website: "https://josephernest.github.io/writing/"
-github: "https://github.com/josephernest/writing"
+repo: "https://github.com/josephernest/writing"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

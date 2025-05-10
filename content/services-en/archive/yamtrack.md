@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Miscellaneous"
 website: "https://github.com/FuzzyGrim/Yamtrack"
-github: "https://github.com/FuzzyGrim/Yamtrack"
+repo: "https://github.com/FuzzyGrim/Yamtrack"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Knowledge Management Tools"
 website: "https://ladigitale.dev/digimindmap/#/"
-github: "https://codeberg.org/ladigitale/digimindmap"
+repo: "https://codeberg.org/ladigitale/digimindmap"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Remote Access"
 website: "https://www.firezone.dev/"
-github: "https://github.com/firezone/firezone"
+repo: "https://github.com/firezone/firezone"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

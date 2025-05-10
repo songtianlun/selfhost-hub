@@ -10,7 +10,7 @@ tags:
   - Midjourney
 category: AI平台
 website: 'https://github.com/Dooy/chatgpt-web-midjourney-proxy'
-github: 'https://github.com/Dooy/chatgpt-web-midjourney-proxy'
+repo: 'https://github.com/Dooy/chatgpt-web-midjourney-proxy'
 updatedAt: '2025-05-10T22:00:00.000+08:00'
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "C"
 category: "Communication"
 website: "https://opensips.org/"
-github: "https://github.com/OpenSIPS/opensips"
+repo: "https://github.com/OpenSIPS/opensips"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

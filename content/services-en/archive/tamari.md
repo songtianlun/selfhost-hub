@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Recipe Management"
 website: "https://tamariapp.com"
-github: "https://github.com/alexbates/Tamari"
+repo: "https://github.com/alexbates/Tamari"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

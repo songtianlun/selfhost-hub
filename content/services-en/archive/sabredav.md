@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Calendar & Contacts"
 website: "https://sabre.io/"
-github: "https://github.com/sabre-io/dav"
+repo: "https://github.com/sabre-io/dav"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "deb"
 category: "Miscellaneous"
 website: "https://f-droid.org"
-github: "https://gitlab.com/fdroid/fdroidserver"
+repo: "https://gitlab.com/fdroid/fdroidserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

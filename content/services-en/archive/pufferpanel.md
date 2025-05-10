@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Games"
 website: "https://www.pufferpanel.com/"
-github: "https://github.com/pufferpanel/pufferpanel"
+repo: "https://github.com/pufferpanel/pufferpanel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

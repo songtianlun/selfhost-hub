@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Automation"
 website: "https://kibitzr.github.io"
-github: "https://github.com/kibitzr/kibitzr"
+repo: "https://github.com/kibitzr/kibitzr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

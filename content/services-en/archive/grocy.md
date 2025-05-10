@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Resource Planning"
 website: "https://grocy.info/"
-github: "https://github.com/grocy/grocy"
+repo: "https://github.com/grocy/grocy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

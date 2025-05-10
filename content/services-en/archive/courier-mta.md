@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://www.courier-mta.org/"
-github: "https://www.courier-mta.org/repo.html"
+repo: "https://www.courier-mta.org/repo.html"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

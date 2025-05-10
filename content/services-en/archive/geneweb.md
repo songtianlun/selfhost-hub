@@ -7,7 +7,7 @@ tags:
   - "OCaml"
 category: "Genealogy"
 website: "https://geneweb.tuxfamily.org/wiki/GeneWeb"
-github: "https://github.com/geneweb/geneweb"
+repo: "https://github.com/geneweb/geneweb"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

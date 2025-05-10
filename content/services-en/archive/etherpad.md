@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Office Suites"
 website: "https://etherpad.org/"
-github: "https://github.com/ether/etherpad-lite"
+repo: "https://github.com/ether/etherpad-lite"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

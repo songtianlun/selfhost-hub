@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Document Management"
 website: "https://inveniordm.docs.cern.ch/"
-github: "https://github.com/inveniosoftware/invenio-app-rdm"
+repo: "https://github.com/inveniosoftware/invenio-app-rdm"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

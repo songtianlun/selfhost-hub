@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Photo Galleries"
 website: "https://github.com/SmilyOrg/photofield"
-github: "https://github.com/SmilyOrg/photofield"
+repo: "https://github.com/SmilyOrg/photofield"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

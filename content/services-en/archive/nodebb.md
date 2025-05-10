@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://nodebb.org/"
-github: "https://github.com/NodeBB/NodeBB"
+repo: "https://github.com/NodeBB/NodeBB"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

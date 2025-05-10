@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Note-taking & Editors"
 website: "https://mixmark-io.github.io/turndown/"
-github: "https://github.com/mixmark-io/turndown"
+repo: "https://github.com/mixmark-io/turndown"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

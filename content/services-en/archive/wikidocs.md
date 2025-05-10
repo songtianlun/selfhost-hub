@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Wikis"
 website: "http://wikidocs.it"
-github: "https://github.com/Zavy86/WikiDocs"
+repo: "https://github.com/Zavy86/WikiDocs"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

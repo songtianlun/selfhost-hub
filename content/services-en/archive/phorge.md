@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Software Development"
 website: "https://we.phorge.it/"
-github: "https://we.phorge.it/source/phorge/"
+repo: "https://we.phorge.it/source/phorge/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

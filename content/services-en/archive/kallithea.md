@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Software Development"
 website: "https://kallithea-scm.org/"
-github: "https://kallithea-scm.org/repos/kallithea"
+repo: "https://kallithea-scm.org/repos/kallithea"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

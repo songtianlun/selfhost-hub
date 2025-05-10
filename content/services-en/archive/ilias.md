@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://www.ilias.de"
-github: "https://github.com/ILIAS-eLearning/ILIAS"
+repo: "https://github.com/ILIAS-eLearning/ILIAS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Communication"
 website: "https://elgg.org/"
-github: "https://github.com/Elgg/Elgg"
+repo: "https://github.com/Elgg/Elgg"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

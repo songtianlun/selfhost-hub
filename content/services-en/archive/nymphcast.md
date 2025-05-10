@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Media Streaming"
 website: "http://nyanko.ws/nymphcast.php"
-github: "https://github.com/MayaPosch/NymphCast"
+repo: "https://github.com/MayaPosch/NymphCast"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

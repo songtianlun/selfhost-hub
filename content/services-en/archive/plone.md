@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Content Management Systems (CMS)"
 website: "https://plone.org/"
-github: "https://github.com/plone"
+repo: "https://github.com/plone"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

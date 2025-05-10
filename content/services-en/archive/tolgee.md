@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Software Development"
 website: "https://tolgee.io"
-github: "https://github.com/tolgee/tolgee-platform"
+repo: "https://github.com/tolgee/tolgee-platform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

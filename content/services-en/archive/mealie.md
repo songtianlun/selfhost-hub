@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Recipe Management"
 website: "https://nightly.mealie.io/"
-github: "https://github.com/mealie-recipes/mealie"
+repo: "https://github.com/mealie-recipes/mealie"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

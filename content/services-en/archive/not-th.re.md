@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://not-th.re"
-github: "https://github.com/not-three/main"
+repo: "https://github.com/not-three/main"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

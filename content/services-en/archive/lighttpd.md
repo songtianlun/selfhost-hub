@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Web Servers"
 website: "https://www.lighttpd.net/"
-github: "https://git.lighttpd.net/lighttpd/lighttpd1.4"
+repo: "https://git.lighttpd.net/lighttpd/lighttpd1.4"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Ruby"
 category: "Learning and Courses"
 website: "https://www.instructure.com/canvas/"
-github: "https://github.com/instructure/canvas-lms"
+repo: "https://github.com/instructure/canvas-lms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

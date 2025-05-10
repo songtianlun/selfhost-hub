@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://databunker.org/"
-github: "https://github.com/securitybunker/databunker"
+repo: "https://github.com/securitybunker/databunker"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "PHP"
 category: "Pastebins"
 website: "https://github.com/AndrewPaglusch/FlashPaper"
-github: "https://github.com/AndrewPaglusch/FlashPaper"
+repo: "https://github.com/AndrewPaglusch/FlashPaper"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

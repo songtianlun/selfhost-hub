@@ -8,7 +8,7 @@ tags:
   - "Rust"
 category: "Communication"
 website: "https://hatsu.cli.rs/"
-github: "https://github.com/importantimport/hatsu"
+repo: "https://github.com/importantimport/hatsu"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

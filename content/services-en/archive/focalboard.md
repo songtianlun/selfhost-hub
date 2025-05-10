@@ -11,7 +11,7 @@ tags:
   - "Docker"
 category: "Task Management & To-do Lists"
 website: "https://www.focalboard.com/"
-github: "https://github.com/mattermost/focalboard"
+repo: "https://github.com/mattermost/focalboard"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

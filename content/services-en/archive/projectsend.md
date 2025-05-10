@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "File Transfer"
 website: "https://www.projectsend.org/"
-github: "https://github.com/projectsend/projectsend"
+repo: "https://github.com/projectsend/projectsend"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

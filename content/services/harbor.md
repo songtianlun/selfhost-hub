@@ -9,7 +9,7 @@ tags:
   - Docker
 category: 容器平台
 website: 'https://goharbor.io'
-github: 'https://github.com/goharbor/harbor'
+repo: 'https://github.com/goharbor/harbor'
 updatedAt: '2025-05-10T09:15:04.027Z'
 ---
 

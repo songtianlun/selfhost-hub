@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Blogging Platforms"
 website: "https://withknown.com/"
-github: "https://github.com/idno/known"
+repo: "https://github.com/idno/known"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

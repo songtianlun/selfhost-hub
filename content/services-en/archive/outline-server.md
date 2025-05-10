@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "Proxy"
 website: "https://getoutline.org/"
-github: "https://github.com/Jigsaw-Code/outline-server"
+repo: "https://github.com/Jigsaw-Code/outline-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

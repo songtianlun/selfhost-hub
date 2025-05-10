@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Task Management & To-do Lists"
 website: "https://github.com/nanawel/our-shopping-list"
-github: "https://github.com/nanawel/our-shopping-list"
+repo: "https://github.com/nanawel/our-shopping-list"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

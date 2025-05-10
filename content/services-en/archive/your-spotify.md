@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://github.com/Yooooomi/your_spotify"
-github: "https://github.com/Yooooomi/your_spotify"
+repo: "https://github.com/Yooooomi/your_spotify"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

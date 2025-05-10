@@ -7,7 +7,7 @@ tags:
   - "Unknown"
 category: "Automation"
 website: "https://ctfreak.com"
-github: "https://ctfreak.com"
+repo: "https://ctfreak.com"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

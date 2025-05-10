@@ -7,7 +7,7 @@ tags:
   - "Haskell"
 category: "File Transfer & Synchronization"
 website: "https://git-annex.branchable.com/"
-github: "https://git.joeyh.name/index.cgi/git-annex.git/"
+repo: "https://git.joeyh.name/index.cgi/git-annex.git/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

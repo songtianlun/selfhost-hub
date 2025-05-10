@@ -7,7 +7,7 @@ tags:
   - "Javascript"
 category: "Games"
 website: "https://github.com/Kshitij-Banerjee/Cubiks-2048"
-github: "https://github.com/Kshitij-Banerjee/Cubiks-2048"
+repo: "https://github.com/Kshitij-Banerjee/Cubiks-2048"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

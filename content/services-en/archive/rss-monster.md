@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Feed Readers"
 website: "https://github.com/pietheinstrengholt/rssmonster"
-github: "https://github.com/pietheinstrengholt/rssmonster"
+repo: "https://github.com/pietheinstrengholt/rssmonster"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

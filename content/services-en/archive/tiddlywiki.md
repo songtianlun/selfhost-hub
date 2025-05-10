@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Wikis"
 website: "https://tiddlywiki.com/"
-github: "https://github.com/Jermolene/TiddlyWiki5"
+repo: "https://github.com/Jermolene/TiddlyWiki5"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "C++"
 category: "Software Development"
 website: "https://www.rstudio.com/products/rstudio/#Server"
-github: "https://github.com/rstudio/rstudio"
+repo: "https://github.com/rstudio/rstudio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

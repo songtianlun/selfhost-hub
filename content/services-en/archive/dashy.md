@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Personal Dashboards"
 website: "https://dashy.to/"
-github: "https://github.com/lissy93/dashy"
+repo: "https://github.com/lissy93/dashy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Human Resources Management (HRM)"
 website: "https://frappe.io/hr"
-github: "https://github.com/frappe/hrms"
+repo: "https://github.com/frappe/hrms"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

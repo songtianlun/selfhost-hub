@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Communication"
 website: "https://github.com/LukeSmithxyz/emailwiz"
-github: "https://github.com/LukeSmithxyz/emailwiz"
+repo: "https://github.com/LukeSmithxyz/emailwiz"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

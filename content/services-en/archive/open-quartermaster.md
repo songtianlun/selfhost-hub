@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Inventory Management"
 website: "https://openquartermaster.com/"
-github: "https://github.com/Epic-Breakfast-Productions/OpenQuarterMaster"
+repo: "https://github.com/Epic-Breakfast-Productions/OpenQuarterMaster"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

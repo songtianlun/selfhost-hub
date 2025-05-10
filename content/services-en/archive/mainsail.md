@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Manufacturing"
 website: "https://docs.mainsail.xyz/"
-github: "https://github.com/mainsail-crew/mainsail"
+repo: "https://github.com/mainsail-crew/mainsail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

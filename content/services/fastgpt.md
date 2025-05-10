@@ -9,7 +9,7 @@ tags:
   - TypeScript
 category: AI平台
 website: 'https://fastgpt.run'
-github: 'https://github.com/labring/FastGPT'
+repo: 'https://github.com/labring/FastGPT'
 updatedAt: '2025-05-10T22:00:00.000+08:00'
 ---
 

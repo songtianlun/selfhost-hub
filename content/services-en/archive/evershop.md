@@ -8,7 +8,7 @@ tags:
   - "Nodejs"
 category: "E-commerce"
 website: "https://evershop.io/"
-github: "https://github.com/evershopcommerce/evershop"
+repo: "https://github.com/evershopcommerce/evershop"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

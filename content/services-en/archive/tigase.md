@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Communication"
 website: "https://tigase.net/xmpp-server"
-github: "https://github.com/tigase/tigase-server"
+repo: "https://github.com/tigase/tigase-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

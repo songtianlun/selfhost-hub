@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "E-commerce"
 website: "https://woocommerce.com/"
-github: "https://github.com/woocommerce/woocommerce"
+repo: "https://github.com/woocommerce/woocommerce"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

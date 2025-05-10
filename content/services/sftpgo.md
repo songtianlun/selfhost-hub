@@ -13,7 +13,7 @@ tags:
   - 云存储
 category: 文件存储
 website: 'https://github.com/drakkan/sftpgo'
-github: 'https://github.com/drakkan/sftpgo'
+repo: 'https://github.com/drakkan/sftpgo'
 updatedAt: '2025-05-08T00:16:18.051Z'
 ---
 

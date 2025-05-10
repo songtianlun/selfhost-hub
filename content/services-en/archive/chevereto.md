@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Photo Galleries"
 website: "https://chevereto.com/"
-github: "https://github.com/chevereto/chevereto"
+repo: "https://github.com/chevereto/chevereto"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

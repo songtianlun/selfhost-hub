@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Communication"
 website: "https://www.exim.org/"
-github: "https://git.exim.org/exim.git"
+repo: "https://git.exim.org/exim.git"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

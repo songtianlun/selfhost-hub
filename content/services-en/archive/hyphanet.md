@@ -7,7 +7,7 @@ tags:
   - "Java"
 category: "Communication"
 website: "https://hyphanet.org/"
-github: "https://github.com/hyphanet/fred"
+repo: "https://github.com/hyphanet/fred"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

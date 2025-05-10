@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Recipe Management"
 website: "https://github.com/julianpoy/recipesage"
-github: "https://github.com/julianpoy/recipesage"
+repo: "https://github.com/julianpoy/recipesage"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

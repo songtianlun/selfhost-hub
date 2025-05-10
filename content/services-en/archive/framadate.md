@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Polls and Events"
 website: "https://framadate.org/abc/"
-github: "https://framagit.org/framasoft/framadate?"
+repo: "https://framagit.org/framasoft/framadate?"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -10,7 +10,7 @@ tags:
   - "K8S"
 category: "Software Development"
 website: "https://www.scm-manager.org/"
-github: "https://github.com/scm-manager/scm-manager"
+repo: "https://github.com/scm-manager/scm-manager"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Database Management"
 website: "https://dbeaver.com/"
-github: "https://github.com/dbeaver/cloudbeaver"
+repo: "https://github.com/dbeaver/cloudbeaver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

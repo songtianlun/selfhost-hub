@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Software Development"
 website: "https://gitbucket.github.io/"
-github: "https://github.com/gitbucket/gitbucket"
+repo: "https://github.com/gitbucket/gitbucket"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

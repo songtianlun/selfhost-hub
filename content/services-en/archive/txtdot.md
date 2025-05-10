@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Proxy"
 website: "https://tempoworks.github.io/documentation"
-github: "https://github.com/TxtDot/txtdot"
+repo: "https://github.com/TxtDot/txtdot"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

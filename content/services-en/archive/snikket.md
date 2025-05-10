@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Communication"
 website: "https://snikket.org/"
-github: "https://github.com/snikket-im/snikket-server"
+repo: "https://github.com/snikket-im/snikket-server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

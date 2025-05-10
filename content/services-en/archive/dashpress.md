@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://github.com/dashpresshq/dashpress"
-github: "https://github.com/dashpresshq/dashpress"
+repo: "https://github.com/dashpresshq/dashpress"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

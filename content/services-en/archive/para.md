@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Software Development"
 website: "https://paraio.org"
-github: "https://github.com/erudika/para"
+repo: "https://github.com/erudika/para"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Blogging Platforms"
 website: "https://ghost.org/"
-github: "https://github.com/TryGhost/Ghost"
+repo: "https://github.com/TryGhost/Ghost"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

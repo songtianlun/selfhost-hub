@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Self-hosting Solutions"
 website: "https://gitlab.com/cyber5k/mistborn"
-github: "https://gitlab.com/cyber5k/mistborn"
+repo: "https://gitlab.com/cyber5k/mistborn"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

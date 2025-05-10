@@ -7,7 +7,7 @@ tags:
   - "Shell"
 category: "Self-hosting Solutions"
 website: "https://libreserver.org/"
-github: "https://github.com/bashrc2/libreserver"
+repo: "https://github.com/bashrc2/libreserver"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

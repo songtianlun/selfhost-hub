@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Learning and Courses"
 website: "https://github.com/PhiTux/schoco"
-github: "https://github.com/PhiTux/schoco"
+repo: "https://github.com/PhiTux/schoco"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

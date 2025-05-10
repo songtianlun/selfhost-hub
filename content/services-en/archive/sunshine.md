@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Games"
 website: "https://app.lizardbyte.dev/Sunshine/"
-github: "https://github.com/LizardByte/Sunshine"
+repo: "https://github.com/LizardByte/Sunshine"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

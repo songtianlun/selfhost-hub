@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Feed Readers"
 website: "https://www.newsblur.com/"
-github: "https://github.com/samuelclay/NewsBlur"
+repo: "https://github.com/samuelclay/NewsBlur"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

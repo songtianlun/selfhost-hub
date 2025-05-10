@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Internet of Things (IoT)"
 website: "https://webthings.io/gateway/"
-github: "https://github.com/WebThingsIO/gateway"
+repo: "https://github.com/WebThingsIO/gateway"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

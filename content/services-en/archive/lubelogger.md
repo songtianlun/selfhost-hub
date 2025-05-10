@@ -9,7 +9,7 @@ tags:
   - "C#"
 category: "Miscellaneous"
 website: "https://lubelogger.com"
-github: "https://github.com/hargata/lubelog"
+repo: "https://github.com/hargata/lubelog"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

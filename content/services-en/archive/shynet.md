@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://github.com/milesmcc/shynet"
-github: "https://github.com/milesmcc/shynet"
+repo: "https://github.com/milesmcc/shynet"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

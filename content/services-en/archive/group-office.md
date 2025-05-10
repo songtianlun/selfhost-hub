@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Groupware"
 website: "https://www.group-office.com"
-github: "https://github.com/Intermesh/groupoffice/"
+repo: "https://github.com/Intermesh/groupoffice/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

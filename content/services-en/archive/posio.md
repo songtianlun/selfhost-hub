@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Games"
 website: "https://github.com/abrenaut/posio"
-github: "https://github.com/abrenaut/posio"
+repo: "https://github.com/abrenaut/posio"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

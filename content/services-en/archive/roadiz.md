@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://www.roadiz.io/"
-github: "https://github.com/roadiz/roadiz"
+repo: "https://github.com/roadiz/roadiz"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

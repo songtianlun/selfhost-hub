@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Search Engines"
 website: "https://fess.codelibs.org/"
-github: "https://github.com/codelibs/fess"
+repo: "https://github.com/codelibs/fess"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

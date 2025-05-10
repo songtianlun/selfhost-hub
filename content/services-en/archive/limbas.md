@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Database Management"
 website: "https://www.limbas.com/en/"
-github: "https://github.com/limbas/limbas"
+repo: "https://github.com/limbas/limbas"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

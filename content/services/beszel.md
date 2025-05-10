@@ -10,7 +10,7 @@ tags:
 rating: 4.5
 category: 监控工具
 website: 'https://beszel.dev'
-github: 'https://github.com/henrygd/beszel'
+repo: 'https://github.com/henrygd/beszel'
 updatedAt: '2025-04-29T22:30:14.935Z'
 ---
 

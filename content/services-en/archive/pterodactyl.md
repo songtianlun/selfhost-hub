@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Games"
 website: "https://pterodactyl.io/"
-github: "https://github.com/pterodactyl/panel"
+repo: "https://github.com/pterodactyl/panel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Ticketing"
 website: "https://www.bugsink.com/"
-github: "https://github.com/bugsink/bugsink/"
+repo: "https://github.com/bugsink/bugsink/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

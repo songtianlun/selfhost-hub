@@ -9,7 +9,7 @@ tags:
   - "Nodejs"
 category: "Analytics"
 website: "https://middlewarehq.com/"
-github: "https://github.com/middlewarehq/middleware"
+repo: "https://github.com/middlewarehq/middleware"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

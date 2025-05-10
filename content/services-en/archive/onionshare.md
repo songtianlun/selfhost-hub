@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "File Transfer"
 website: "https://github.com/onionshare/onionshare"
-github: "https://github.com/onionshare/onionshare"
+repo: "https://github.com/onionshare/onionshare"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

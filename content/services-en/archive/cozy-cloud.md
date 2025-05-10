@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Groupware"
 website: "https://cozy.io/"
-github: "https://github.com/cozy/"
+repo: "https://github.com/cozy/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

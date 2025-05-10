@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Games"
 website: "https://sbpp.github.io/"
-github: "https://github.com/sbpp/sourcebans-pp"
+repo: "https://github.com/sbpp/sourcebans-pp"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

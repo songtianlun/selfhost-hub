@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Photo Galleries"
 website: "https://photoview.github.io/"
-github: "https://github.com/photoview/photoview"
+repo: "https://github.com/photoview/photoview"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

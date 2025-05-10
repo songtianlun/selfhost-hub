@@ -7,7 +7,7 @@ tags:
   - "Go"
 category: "Pastebins"
 website: "https://github.com/algolia/sup3rS3cretMes5age"
-github: "https://github.com/algolia/sup3rS3cretMes5age"
+repo: "https://github.com/algolia/sup3rS3cretMes5age"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

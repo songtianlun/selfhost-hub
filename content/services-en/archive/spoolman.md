@@ -8,7 +8,7 @@ tags:
   - "Python"
 category: "Inventory Management"
 website: "https://github.com/Donkie/Spoolman"
-github: "https://github.com/Donkie/Spoolman"
+repo: "https://github.com/Donkie/Spoolman"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

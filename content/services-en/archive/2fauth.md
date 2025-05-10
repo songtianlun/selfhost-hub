@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Miscellaneous"
 website: "https://github.com/Bubka/2FAuth"
-github: "https://github.com/Bubka/2FAuth"
+repo: "https://github.com/Bubka/2FAuth"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

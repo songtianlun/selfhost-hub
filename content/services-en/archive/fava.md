@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Money, Budgeting & Management"
 website: "https://beancount.github.io/fava/"
-github: "https://github.com/beancount/fava"
+repo: "https://github.com/beancount/fava"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

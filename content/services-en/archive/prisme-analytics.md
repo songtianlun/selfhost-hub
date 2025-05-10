@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://www.prismeanalytics.com"
-github: "https://github.com/prismelabs/analytics"
+repo: "https://github.com/prismelabs/analytics"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Media Management"
 website: "https://sonarr.tv/"
-github: "https://github.com/Sonarr/Sonarr"
+repo: "https://github.com/Sonarr/Sonarr"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "File Transfer"
 website: "https://git.cloudron.io/cloudron/surfer"
-github: "https://git.cloudron.io/cloudron/surfer"
+repo: "https://git.cloudron.io/cloudron/surfer"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

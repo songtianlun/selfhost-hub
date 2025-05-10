@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Manufacturing"
 website: "https://manyfold.app"
-github: "https://github.com/manyfold3d/manyfold"
+repo: "https://github.com/manyfold3d/manyfold"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

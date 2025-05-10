@@ -7,7 +7,7 @@ tags:
   - "C++"
 category: "Communication"
 website: "https://quassel-irc.org/"
-github: "https://github.com/quassel/quassel"
+repo: "https://github.com/quassel/quassel"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Document Management"
 website: "https://www.opensignlabs.com"
-github: "https://github.com/opensignlabs/opensign"
+repo: "https://github.com/opensignlabs/opensign"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

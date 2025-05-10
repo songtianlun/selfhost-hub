@@ -7,7 +7,7 @@ tags:
   - "Python"
 category: "Content Management Systems (CMS)"
 website: "https://wagtail.io/"
-github: "https://github.com/wagtail/wagtail"
+repo: "https://github.com/wagtail/wagtail"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

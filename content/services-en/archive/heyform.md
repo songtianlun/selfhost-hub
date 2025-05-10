@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Polls and Events"
 website: "https://heyform.net"
-github: "https://github.com/heyform/heyform"
+repo: "https://github.com/heyform/heyform"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

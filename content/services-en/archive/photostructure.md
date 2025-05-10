@@ -7,7 +7,7 @@ tags:
   - "Nodejs"
 category: "Photo Galleries"
 website: "https://photostructure.com/"
-github: "https://photostructure.com/"
+repo: "https://photostructure.com/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

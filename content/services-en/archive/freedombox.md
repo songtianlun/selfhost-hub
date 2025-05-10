@@ -8,7 +8,7 @@ tags:
   - "deb"
 category: "Self-hosting Solutions"
 website: "https://freedombox.org/"
-github: "https://salsa.debian.org/freedombox-team/freedombox"
+repo: "https://salsa.debian.org/freedombox-team/freedombox"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

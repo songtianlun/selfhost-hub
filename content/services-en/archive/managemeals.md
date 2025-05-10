@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Recipe Management"
 website: "https://managemeals.com/"
-github: "https://github.com/managemeals/manage-meals-web"
+repo: "https://github.com/managemeals/manage-meals-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

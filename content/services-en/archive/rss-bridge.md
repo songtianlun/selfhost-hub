@@ -8,7 +8,7 @@ tags:
   - "Docker"
 category: "Feed Readers"
 website: "https://github.com/RSS-Bridge/rss-bridge"
-github: "https://github.com/RSS-Bridge/rss-bridge"
+repo: "https://github.com/RSS-Bridge/rss-bridge"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

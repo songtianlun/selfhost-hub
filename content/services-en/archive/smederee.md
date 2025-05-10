@@ -7,7 +7,7 @@ tags:
   - "Scala"
 category: "Software Development"
 website: "https://smeder.ee"
-github: "https://smeder.ee/~jan0sch/smederee"
+repo: "https://smeder.ee/~jan0sch/smederee"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Photo Galleries"
 website: "https://reservo.co"
-github: "https://reservo.co"
+repo: "https://reservo.co"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

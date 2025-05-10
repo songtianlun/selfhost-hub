@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Content Management Systems (CMS)"
 website: "https://typo3.org/"
-github: "https://github.com/TYPO3/typo3"
+repo: "https://github.com/TYPO3/typo3"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

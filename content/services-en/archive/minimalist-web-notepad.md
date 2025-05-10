@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Note-taking & Editors"
 website: "https://github.com/pereorga/minimalist-web-notepad"
-github: "https://github.com/pereorga/minimalist-web-notepad"
+repo: "https://github.com/pereorga/minimalist-web-notepad"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

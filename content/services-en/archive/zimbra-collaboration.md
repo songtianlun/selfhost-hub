@@ -8,7 +8,7 @@ tags:
   - "Java"
 category: "Groupware"
 website: "https://www.zimbra.com/"
-github: "https://github.com/zimbra"
+repo: "https://github.com/zimbra"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

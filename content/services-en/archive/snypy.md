@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Pastebins"
 website: "https://snypy.com"
-github: "https://github.com/snypy"
+repo: "https://github.com/snypy"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

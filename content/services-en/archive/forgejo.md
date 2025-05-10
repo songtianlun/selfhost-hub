@@ -8,7 +8,7 @@ tags:
   - "Go"
 category: "Software Development"
 website: "https://forgejo.org"
-github: "https://codeberg.org/forgejo/forgejo/"
+repo: "https://codeberg.org/forgejo/forgejo/"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

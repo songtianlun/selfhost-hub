@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://swetrix.com/"
-github: "https://github.com/Swetrix/selfhosting"
+repo: "https://github.com/Swetrix/selfhosting"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

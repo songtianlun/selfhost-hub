@@ -9,7 +9,7 @@ tags:
   - "Go"
 category: "Photo Galleries"
 website: "https://ente.io/"
-github: "https://github.com/ente-io/ente"
+repo: "https://github.com/ente-io/ente"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

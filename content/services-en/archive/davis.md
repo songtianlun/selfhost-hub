@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Calendar & Contacts"
 website: "https://github.com/tchapi/davis"
-github: "https://github.com/tchapi/davis"
+repo: "https://github.com/tchapi/davis"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

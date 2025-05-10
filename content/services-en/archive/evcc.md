@@ -9,7 +9,7 @@ tags:
   - "Go"
 category: "Internet of Things (IoT)"
 website: "https://evcc.io/"
-github: "https://github.com/evcc-io/evcc"
+repo: "https://github.com/evcc-io/evcc"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

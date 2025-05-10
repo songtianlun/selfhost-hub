@@ -7,7 +7,7 @@ tags:
   - "PHP"
 category: "Learning and Courses"
 website: "https://www.openeclass.org/"
-github: "https://github.com/gunet/openeclass"
+repo: "https://github.com/gunet/openeclass"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 

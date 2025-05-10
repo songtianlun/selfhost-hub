@@ -7,7 +7,7 @@ tags:
   - "Docker"
 category: "Automation"
 website: "https://github.com/TheNickOfTime/handbrake-web"
-github: "https://github.com/TheNickOfTime/handbrake-web"
+repo: "https://github.com/TheNickOfTime/handbrake-web"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
