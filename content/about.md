@@ -45,6 +45,7 @@
 - [LinuxServer.io](https://www.linuxserver.io/) - 提供大量优质的自托管服务 Docker 镜像
 - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - 系统管理员工具和服务集合
 - [Awesome Privacy](https://github.com/pluja/awesome-privacy) - 注重隐私保护的服务和工具列表
+- [self-hostd - Github Topic](https://github.com/topics/self-hosted)
 - [AlternativeTo](https://alternativeto.net): 寻找替代软件的好去处。
 - [OpenAlternative](https://openalternative.co): 寻找开源替代软件的好去处。
 
