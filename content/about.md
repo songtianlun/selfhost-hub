@@ -38,13 +38,16 @@
 
 ## 参考项目
 
-本站的部分内容和分类方法参考了以下优秀的开源项目：
+本站的部分内容和分类方法参考了以下优秀的资源：
 
 - [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 一个全面的自托管服务列表，按类别组织
 - [HomelabOS](https://gitlab.com/NickBusey/HomelabOS) - 一个完整的自托管服务部署方案
 - [LinuxServer.io](https://www.linuxserver.io/) - 提供大量优质的自托管服务 Docker 镜像
 - [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - 系统管理员工具和服务集合
 - [Awesome Privacy](https://github.com/pluja/awesome-privacy) - 注重隐私保护的服务和工具列表
+- [AlternativeTo](https://alternativeto.net): 寻找替代软件的好去处。
+- [OpenAlternative](https://openalternative.co): 寻找开源替代软件的好去处。
+
 
 
 ## 致谢
