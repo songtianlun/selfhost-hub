@@ -8,7 +8,7 @@ tags:
   - 网站构建
   - PHP
 rating: 3
-category: 网站系统
+category: 内容管理系统
 website: 'https://wordpress.org'
 repo: 'https://github.com/WordPress/WordPress'
 updatedAt: '2025-05-09T13:59:05.094Z'
