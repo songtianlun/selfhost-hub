@@ -8,7 +8,7 @@ tags:
   - 系统管理
   - Go
 rating: 4
-category: 监控工具
+category: 系统监控
 website: 'https://beszel.dev'
 repo: 'https://github.com/henrygd/beszel'
 updatedAt: '2025-04-29T22:30:14.935Z'
