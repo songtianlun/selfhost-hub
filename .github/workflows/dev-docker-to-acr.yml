@@ -1,0 +1,59 @@
+name: Build Dev Docker to Aliyun ACR
+
+on:
+  push:
+    branches:
+      - dev
+
+env:
+  REGISTRY: registry.cn-guangzhou.aliyuncs.com
+  IMAGE_NAME: frytea_hub/selfhost_hub
+  USERNAME: ${{ secrets.ACR_USERNAME }}
+  TOKEN: ${{ secrets.ACR_TOKEN }}
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整的 git history 以便生成正确的 tag
+      -
+        name: Get Version
+        id: get_version
+        run: |
+          echo "VERSION=$(git describe --dirty --always --tags --abbrev=7)" >> $GITHUB_OUTPUT
+      -
+        name: Login to ${{ env.REGISTRY }}
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ env.USERNAME }}
+          password: ${{ env.TOKEN }}
+      -
+        name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+      -
+        name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      -
+        name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev:${{ steps.get_version.outputs.VERSION }}
+            #${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+      -
+        name: Notify Keel
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: 'https://keel.skybyte.me/v1/webhooks/native'
+          method: 'POST'
+          contentType: 'application/json'
+          data: '{"name": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev", "tag": "${{ steps.get_version.outputs.VERSION }}"}' 
