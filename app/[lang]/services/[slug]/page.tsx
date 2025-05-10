@@ -8,9 +8,9 @@ import type { Metadata } from "next"
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string }
+  params: { lang: string; slug: string }
 }): Promise<Metadata> {
-  const service = await getServiceBySlug(params.slug, "zh")
+  const service = await getServiceBySlug(params.slug, params.lang as "zh" | "en")
   if (!service) return {}
 
   return {
@@ -25,12 +25,23 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const slugs = await getAllServiceSlugs("zh")
-  return slugs.map((slug) => ({ slug }))
+  const [zhSlugs, enSlugs] = await Promise.all([
+    getAllServiceSlugs("zh"),
+    getAllServiceSlugs("en")
+  ])
+
+  return [
+    ...zhSlugs.map((slug) => ({ lang: "zh", slug })),
+    ...enSlugs.map((slug) => ({ lang: "en", slug }))
+  ]
 }
 
-export default async function ServicePage({ params }: { params: { slug: string } }) {
-  const service = await getServiceBySlug(params.slug, "zh")
+export default async function ServicePage({ 
+  params: { lang, slug } 
+}: { 
+  params: { lang: string; slug: string } 
+}) {
+  const service = await getServiceBySlug(slug, lang as "zh" | "en")
 
   if (!service) {
     notFound()
@@ -40,8 +51,8 @@ export default async function ServicePage({ params }: { params: { slug: string }
     <div className="container py-10">
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-4">
-          <Link href="/" className="text-muted-foreground mb-2 hover:text-foreground">
-            &larr; 返回到所有服务
+          <Link href={`/${lang}`} className="text-muted-foreground mb-2 hover:text-foreground">
+            &larr; {lang === "zh" ? "返回到所有服务" : "Back to all services"}
           </Link>
 
           <div className="flex flex-col md:flex-row gap-8">
@@ -62,7 +73,7 @@ export default async function ServicePage({ params }: { params: { slug: string }
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow"
                 >
-                  访问官网
+                  {lang === "zh" ? "访问官网" : "Visit Website"}
                 </Link>
               )}
 
@@ -98,4 +109,4 @@ export default async function ServicePage({ params }: { params: { slug: string }
       </div>
     </div>
   )
-}
+} 

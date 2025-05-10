@@ -58,6 +58,17 @@ export default function Navbar() {
           >
             {translations.tags}
           </Link>
+          {language === "zh" && (
+            <Link
+              href="/changelog"
+              className={cn(
+                "text-sm font-medium transition-colors",
+                pathname.includes("/changelog") ? "text-foreground" : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              更新日志
+            </Link>
+          )}
           <Link
             href={language === "zh" ? "/about" : "/en/about"}
             className={cn(
@@ -141,6 +152,15 @@ export default function Navbar() {
             >
               {translations.tags}
             </Link>
+            {language === "zh" && (
+              <Link
+                href="/changelog"
+                className="text-xl font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                更新日志
+              </Link>
+            )}
             <Link
               href={language === "zh" ? "/about" : "/en/about"}
               className="text-xl font-medium"

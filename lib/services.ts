@@ -32,6 +32,7 @@ export type Service = {
   website?: string
   github?: string
   content?: string
+  updatedAt?: string
 }
 
 export type TagGroup = {
@@ -160,10 +161,14 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
         // Extract slug from filename
         const slug = fileName.replace(/\.md$/, "");
 
+        // 获取文件状态以获取最后修改时间
+        const lastModified = stat.mtime.toISOString();
+
         services.push({
           ...data,
           slug,
           content: contentHtml,
+          updatedAt: data.updatedAt || lastModified,
         } as Service);
       } catch (error) {
         // 记录错误但继续处理其他文件
