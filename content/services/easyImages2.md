@@ -7,7 +7,7 @@ tags:
   - 存储
   - PHP
   - 媒体
-rating: 4
+rating: 3.5
 category: 图像托管
 website: 'https://github.com/icret/EasyImages2.0'
 repo: 'https://github.com/icret/EasyImages2.0'

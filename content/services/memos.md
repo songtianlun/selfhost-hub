@@ -7,7 +7,7 @@ tags:
   - 知识管理
   - 生产力
   - Go
-rating: 4.5
+rating: 3.5
 category: 笔记应用
 website: 'https://usememos.com'
 repo: 'https://github.com/usememos/memos'

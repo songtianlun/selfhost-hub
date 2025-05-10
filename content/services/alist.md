@@ -7,7 +7,7 @@ tags:
   - "文件共享"
   - "Go"
 category: "文件存储"
-rating: 4
+rating: 3
 website: "https://alist.nn.ci"
 repo: "https://github.com/alist-org/alist"
 updatedAt: "2025-04-30T10:30:00Z"

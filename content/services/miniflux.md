@@ -7,7 +7,7 @@ tags:
   - 阅读
   - Go
   - 内容聚合
-rating: 3.5
+rating: 3
 category: 信息聚合
 website: 'https://miniflux.app'
 repo: 'https://github.com/miniflux/v2'

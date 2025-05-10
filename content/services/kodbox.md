@@ -6,7 +6,7 @@ tags:
   - 存储
   - 文件共享
   - PHP
-rating: 3
+rating: 2
 category: 文件存储
 website: 'https://kodcloud.com'
 repo: 'https://github.com/kalcaddle/kodbox'

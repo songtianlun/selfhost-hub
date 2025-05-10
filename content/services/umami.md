@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - MySQL
   - PostgreSQL
-rating: 4
+rating: 3.5
 category: 网站分析
 website: 'https://umami.is'
 repo: 'https://github.com/umami-software/umami'

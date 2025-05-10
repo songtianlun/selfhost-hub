@@ -6,7 +6,7 @@ tags:
   - 博客
   - 内容管理
   - PHP
-rating: 4.5
+rating: 3.5
 category: 内容管理系统
 website: 'https://typecho.org'
 repo: 'https://github.com/typecho/typecho'

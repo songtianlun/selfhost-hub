@@ -7,7 +7,7 @@ tags:
   - VPN
   - 穿透
   - Go
-rating: 4
+rating: 3
 category: 网络工具
 website: 'https://tailscale.com/kb/1118/custom-derp-servers'
 repo: 'https://github.com/tailscale/tailscale'

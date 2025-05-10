@@ -7,8 +7,8 @@ tags:
   - 安全
   - Rust
   - 隐私
-rating: 4.5
-category: 安全工具
+rating: 4
+category: 密码管理
 website: 'https://github.com/dani-garcia/vaultwarden'
 repo: 'https://github.com/dani-garcia/vaultwarden'
 updatedAt: '2025-05-08T09:40:05.703Z'

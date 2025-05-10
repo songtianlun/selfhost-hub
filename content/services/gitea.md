@@ -7,7 +7,7 @@ tags:
   - 开发工具
   - Go
   - Git
-rating: 4.5
+rating: 4
 category: 代码托管
 website: 'https://gitea.io'
 repo: 'https://github.com/go-gitea/gitea'

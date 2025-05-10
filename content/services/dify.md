@@ -7,7 +7,7 @@ tags:
   - 生产力
   - Python
   - LLM
-rating: 4
+rating: 3.5
 category: AI平台
 website: 'https://dify.ai'
 repo: 'https://github.com/langgenius/dify'

@@ -7,7 +7,7 @@ tags:
   - 协作
   - 生产力
   - 文件共享
-rating: 3.5
+rating: 3
 category: 文件存储
 website: 'https://nextcloud.com'
 repo: 'https://github.com/nextcloud/server'

@@ -7,7 +7,7 @@ tags:
   - 博客
   - 网站构建
   - PHP
-rating: 3
+rating: 2
 category: 内容管理系统
 website: 'https://wordpress.org'
 repo: 'https://github.com/WordPress/WordPress'

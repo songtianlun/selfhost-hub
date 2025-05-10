@@ -7,7 +7,7 @@ tags:
   - 监控
   - 隐私
   - Elixir
-rating: 4
+rating: 3.5
 category: 网站分析
 website: 'https://plausible.io'
 repo: 'https://github.com/plausible/analytics'

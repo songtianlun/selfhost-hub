@@ -7,7 +7,7 @@ tags:
   - 营销
   - 通讯
   - Go
-rating: 4
+rating: 3
 category: 邮件服务
 website: 'https://listmonk.app'
 repo: 'https://github.com/knadh/listmonk'

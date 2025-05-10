@@ -7,7 +7,7 @@ tags:
   - Docker
   - 系统管理
   - Go
-rating: 4.5
+rating: 4
 category: 监控工具
 website: 'https://beszel.dev'
 repo: 'https://github.com/henrygd/beszel'
