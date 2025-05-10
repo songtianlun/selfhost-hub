@@ -8,9 +8,9 @@ import type { Metadata } from "next"
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: string; slug: string }
+  params: { slug: string }
 }): Promise<Metadata> {
-  const service = await getServiceBySlug(params.slug, params.lang as "zh" | "en")
+  const service = await getServiceBySlug(params.slug, "zh")
   if (!service) return {}
 
   return {
@@ -25,23 +25,16 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const [zhSlugs, enSlugs] = await Promise.all([
-    getAllServiceSlugs("zh"),
-    getAllServiceSlugs("en")
-  ])
-
-  return [
-    ...zhSlugs.map((slug) => ({ lang: "zh", slug })),
-    ...enSlugs.map((slug) => ({ lang: "en", slug }))
-  ]
+  const slugs = await getAllServiceSlugs("zh")
+  return slugs.map((slug) => ({ slug }))
 }
 
 export default async function ServicePage({ 
-  params: { lang, slug } 
+  params: { slug } 
 }: { 
-  params: { lang: string; slug: string } 
+  params: { slug: string } 
 }) {
-  const service = await getServiceBySlug(slug, lang as "zh" | "en")
+  const service = await getServiceBySlug(slug, "zh")
 
   if (!service) {
     notFound()
@@ -51,8 +44,8 @@ export default async function ServicePage({
     <div className="container py-10">
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-4">
-          <Link href={`/${lang}`} className="text-muted-foreground mb-2 hover:text-foreground">
-            &larr; {lang === "zh" ? "返回到所有服务" : "Back to all services"}
+          <Link href="/" className="text-muted-foreground mb-2 hover:text-foreground">
+            &larr; 返回到所有服务
           </Link>
 
           <div className="flex flex-col md:flex-row gap-8">
@@ -73,7 +66,7 @@ export default async function ServicePage({
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow"
                 >
-                  {lang === "zh" ? "访问官网" : "Visit Website"}
+                  访问官网
                 </Link>
               )}
 
