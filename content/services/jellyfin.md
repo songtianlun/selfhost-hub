@@ -7,7 +7,7 @@ tags:
   - 流媒体
   - 视频
   - 音乐
-category: 媒体服务器
+category: 媒体串流
 website: 'https://jellyfin.org'
 repo: 'https://github.com/jellyfin/jellyfin'
 updatedAt: '2025-05-09T05:31:04.179Z'
