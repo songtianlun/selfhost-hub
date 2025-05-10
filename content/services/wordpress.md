@@ -1,15 +1,17 @@
 ---
-id: "wordpress"
-name: "WordPress"
-description: "世界上最流行的内容管理系统，提供强大的网站和博客构建功能"
+id: wordpress
+name: WordPress
+description: 世界上最流行的内容管理系统，提供强大的网站和博客构建功能
 tags:
-  - "CMS"
-  - "博客"
-  - "网站构建"
-  - "PHP"
-category: "网站系统"
-website: "https://wordpress.org"
-github: "https://github.com/WordPress/WordPress"
+  - CMS
+  - 博客
+  - 网站构建
+  - PHP
+rating: 3
+category: 网站系统
+website: 'https://wordpress.org'
+github: 'https://github.com/WordPress/WordPress'
+updatedAt: '2025-05-09T13:59:05.094Z'
 ---
 
 WordPress 是全球最流行的内容管理系统，驱动着超过 40% 的网站。它提供了丰富的功能和扩展性，从简单的博客到复杂的企业网站，WordPress 都能胜任。

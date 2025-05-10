@@ -1,15 +1,17 @@
 ---
-id: "gitea"
-name: "Gitea"
-description: "轻量级的自托管Git服务，类似于GitHub/GitLab但资源占用更低"
+id: gitea
+name: Gitea
+description: 轻量级的自托管Git服务，类似于GitHub/GitLab但资源占用更低
 tags:
-  - "协作"
-  - "开发工具"
-  - "Go"
-  - "Git"
-category: "代码托管"
-website: "https://gitea.io"
-github: "https://github.com/go-gitea/gitea"
+  - 协作
+  - 开发工具
+  - Go
+  - Git
+rating: 4.5
+category: 代码托管
+website: 'https://gitea.io'
+github: 'https://github.com/go-gitea/gitea'
+updatedAt: '2025-05-07T22:07:20.623Z'
 ---
 
 Gitea 是一个轻量级、开源的自托管 Git 服务解决方案，类似于 GitHub、GitLab 或 Bitbucket，但资源占用极低。它提供了代码托管、协作开发所需的全部核心功能。

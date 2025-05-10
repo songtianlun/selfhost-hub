@@ -1,15 +1,17 @@
 ---
-id: "plausible"
-name: "Plausible Analytics"
-description: "轻量级、开源的网站分析工具，注重隐私保护"
+id: plausible
+name: Plausible Analytics
+description: 轻量级、开源的网站分析工具，注重隐私保护
 tags:
-  - "分析"
-  - "监控"
-  - "隐私"
-  - "Elixir"
-category: "网站分析"
-website: "https://plausible.io"
-github: "https://github.com/plausible/analytics"
+  - 分析
+  - 监控
+  - 隐私
+  - Elixir
+rating: 4
+category: 网站分析
+website: 'https://plausible.io'
+github: 'https://github.com/plausible/analytics'
+updatedAt: '2025-05-07T14:08:12.222Z'
 ---
 
 Plausible Analytics 是一个开源、轻量级的网站访问统计分析工具，专注于简洁性和隐私保护。它提供了清晰直观的访问数据，无需使用 Cookie，也不会收集个人身份信息。

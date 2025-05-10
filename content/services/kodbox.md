@@ -1,14 +1,16 @@
 ---
-id: "kodbox"
-name: "KodBox"
-description: "开源的在线文件管理系统，支持文件预览、编辑和分享"
+id: kodbox
+name: KodBox
+description: 开源的在线文件管理系统，支持文件预览、编辑和分享
 tags:
-  - "存储"
-  - "文件共享"
-  - "PHP"
-category: "文件存储"
-website: "https://kodcloud.com"
-github: "https://github.com/kalcaddle/kodbox"
+  - 存储
+  - 文件共享
+  - PHP
+rating: 3
+category: 文件存储
+website: 'https://kodcloud.com'
+github: 'https://github.com/kalcaddle/kodbox'
+updatedAt: '2025-05-08T02:57:31.078Z'
 ---
 
 KodBox 是一个开源的在线文件管理系统，支持文件预览、编辑和分享。它提供了类似网盘的功能，但完全自托管，让您完全掌控数据。

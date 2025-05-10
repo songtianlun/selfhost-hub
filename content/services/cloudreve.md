@@ -1,15 +1,16 @@
 ---
-id: "cloudreve"
-name: "Cloudreve"
-description: "支持多种云存储的网盘系统，支持本地存储、对象存储和云存储"
+id: cloudreve
+name: Cloudreve
+description: 支持多种云存储的网盘系统，支持本地存储、对象存储和云存储
 tags:
-  - "存储"
-  - "文件共享"
-  - "Go"
-  - "云存储"
-category: "文件存储"
-website: "https://cloudreve.org"
-github: "https://github.com/cloudreve/Cloudreve"
+  - 存储
+  - 文件共享
+  - Go
+  - 云存储
+category: 文件存储
+website: 'https://cloudreve.org'
+github: 'https://github.com/cloudreve/Cloudreve'
+updatedAt: '2025-05-08T21:43:18.211Z'
 ---
 
 Cloudreve 是一个支持多种云存储的网盘系统，支持本地存储、对象存储和云存储。它提供了丰富的文件管理功能，支持多用户、多存储策略，是一个功能完整的自托管网盘解决方案。

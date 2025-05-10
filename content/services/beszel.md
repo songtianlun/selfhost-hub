@@ -1,15 +1,17 @@
 ---
-id: "beszel"
-name: "Beszel"
-description: "轻量级服务器监控平台，包含历史数据、Docker 统计和告警功能"
+id: beszel
+name: Beszel
+description: 轻量级服务器监控平台，包含历史数据、Docker 统计和告警功能
 tags:
-  - "监控"
-  - "Docker"
-  - "系统管理"
-  - "Go"
-category: "监控工具"
-website: "https://beszel.dev"
-github: "https://github.com/henrygd/beszel"
+  - 监控
+  - Docker
+  - 系统管理
+  - Go
+rating: 4.5
+category: 监控工具
+website: 'https://beszel.dev'
+github: 'https://github.com/henrygd/beszel'
+updatedAt: '2025-04-29T22:30:14.935Z'
 ---
 
 Beszel 是一个轻量级的服务器监控平台，包含 Docker 统计信息、历史数据和告警功能。它提供友好的 Web 界面、简单的配置，开箱即用。支持自动备份、多用户、OAuth 认证和 API 访问。

@@ -1,15 +1,17 @@
 ---
-id: "miniflux"
-name: "Miniflux"
-description: "简约的自托管RSS阅读器，注重速度和效率"
+id: miniflux
+name: Miniflux
+description: 简约的自托管RSS阅读器，注重速度和效率
 tags:
-  - "RSS"
-  - "阅读"
-  - "Go"
-  - "内容聚合"
-category: "新闻阅读"
-website: "https://miniflux.app"
-github: "https://github.com/miniflux/v2"
+  - RSS
+  - 阅读
+  - Go
+  - 内容聚合
+rating: 3.5
+category: 新闻阅读
+website: 'https://miniflux.app'
+github: 'https://github.com/miniflux/v2'
+updatedAt: '2025-05-09T04:17:26.766Z'
 ---
 
 Miniflux 是一个极简的自托管 RSS 阅读器，专注于简洁性、速度和效率。它提供了一个干净的阅读体验，没有杂乱的界面和不必要的功能，同时支持所有核心 RSS 阅读功能。

@@ -1,14 +1,16 @@
 ---
-id: "minio"
-name: "MinIO"
-description: "高性能的分布式对象存储系统，兼容 Amazon S3 API"
+id: minio
+name: MinIO
+description: 高性能的分布式对象存储系统，兼容 Amazon S3 API
 tags:
-  - "存储"
-  - "对象存储"
-  - "Go"
-category: "文件存储"
-website: "https://min.io"
-github: "https://github.com/minio/minio"
+  - 存储
+  - 对象存储
+  - Go
+rating: 4
+category: 文件存储
+website: 'https://min.io'
+github: 'https://github.com/minio/minio'
+updatedAt: '2025-05-10T12:19:25.648Z'
 ---
 
 MinIO 是一个高性能的分布式对象存储系统，兼容 Amazon S3 API。它专为云原生应用设计，支持容器化部署，是一个企业级的对象存储解决方案。

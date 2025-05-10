@@ -1,16 +1,17 @@
 ---
-id: "nextcloud"
-name: "Nextcloud"
-description: "一款开源的个人云存储平台，提供文件同步、共享和协作功能"
+id: nextcloud
+name: Nextcloud
+description: 一款开源的个人云存储平台，提供文件同步、共享和协作功能
 tags:
-  - "存储"
-  - "协作"
-  - "生产力"
-  - "文件共享"
-category: "文件存储"
-website: "https://nextcloud.com"
-github: "https://github.com/nextcloud/server"
-#image: "/placeholder.svg?height=300&width=400"
+  - 存储
+  - 协作
+  - 生产力
+  - 文件共享
+rating: 3.5
+category: 文件存储
+website: 'https://nextcloud.com'
+github: 'https://github.com/nextcloud/server'
+updatedAt: '2025-05-08T18:07:52.877Z'
 ---
 
 Nextcloud 是一套功能强大的个人云存储平台，支持文件同步、共享和协作。它完全开源，可以轻松部署在您自己的服务器上，让您完全掌控自己的数据。

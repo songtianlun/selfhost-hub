@@ -1,15 +1,17 @@
 ---
-id: "memos"
-name: "Memos"
-description: "轻量级、开源的自托管知识库和笔记服务"
+id: memos
+name: Memos
+description: 轻量级、开源的自托管知识库和笔记服务
 tags:
-  - "笔记"
-  - "知识管理"
-  - "生产力"
-  - "Go"
-category: "笔记应用"
-website: "https://usememos.com"
-github: "https://github.com/usememos/memos"
+  - 笔记
+  - 知识管理
+  - 生产力
+  - Go
+rating: 4.5
+category: 笔记应用
+website: 'https://usememos.com'
+github: 'https://github.com/usememos/memos'
+updatedAt: '2025-05-09T11:44:55.357Z'
 ---
 
 Memos 是一个开源、轻量级的自托管知识库和笔记服务，设计简洁高效。它专注于帮助用户快速记录想法、笔记和知识片段，并轻松组织和检索这些内容。

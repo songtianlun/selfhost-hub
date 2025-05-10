@@ -1,15 +1,16 @@
 ---
-id: "privatebin"
-name: "PrivateBin"
-description: "极简、开源的加密在线剪贴板，实现零知识分享"
+id: privatebin
+name: PrivateBin
+description: 极简、开源的加密在线剪贴板，实现零知识分享
 tags:
-  - "隐私"
-  - "分享"
-  - "安全"
-  - "PHP"
-category: "文本分享"
-website: "https://privatebin.info"
-github: "https://github.com/PrivateBin/PrivateBin"
+  - 隐私
+  - 分享
+  - 安全
+  - PHP
+category: 文本分享
+website: 'https://privatebin.info'
+github: 'https://github.com/PrivateBin/PrivateBin'
+updatedAt: '2025-05-09T04:29:37.214Z'
 ---
 
 PrivateBin 是一个极简的开源在线剪贴板，内容在浏览器中加密和解密，服务器对存储的数据一无所知。它实现了真正的零知识隐私，让用户能够安全地分享文本和文件。

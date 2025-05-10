@@ -1,15 +1,16 @@
 ---
-id: "searxng"
-name: "SearXNG"
-description: "尊重隐私的元搜索引擎，聚合多个搜索引擎结果"
+id: searxng
+name: SearXNG
+description: 尊重隐私的元搜索引擎，聚合多个搜索引擎结果
 tags:
-  - "搜索"
-  - "隐私"
-  - "Python"
-  - "自托管"
-category: "搜索工具"
-website: "https://docs.searxng.org"
-github: "https://github.com/searxng/searxng"
+  - 搜索
+  - 隐私
+  - Python
+  - 自托管
+category: 搜索工具
+website: 'https://docs.searxng.org'
+github: 'https://github.com/searxng/searxng'
+updatedAt: '2025-05-10T06:40:15.819Z'
 ---
 
 SearXNG 是一个免费、开源的元搜索引擎，允许用户从多个搜索引擎获取结果，同时保护隐私。它为用户提供一个统一的搜索界面，同时不会追踪用户的搜索行为。

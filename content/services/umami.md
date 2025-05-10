@@ -1,17 +1,19 @@
 ---
-id: "umami"
-name: "Umami"
-description: "简单、快速、注重隐私的 Google Analytics 替代品"
+id: umami
+name: Umami
+description: 简单、快速、注重隐私的 Google Analytics 替代品
 tags:
-  - "分析"
-  - "监控"
-  - "隐私"
-  - "JavaScript"
-  - "MySQL"
-  - "PostgreSQL"
-category: "网站分析"
-website: "https://umami.is"
-github: "https://github.com/umami-software/umami"
+  - 分析
+  - 监控
+  - 隐私
+  - JavaScript
+  - MySQL
+  - PostgreSQL
+rating: 4
+category: 网站分析
+website: 'https://umami.is'
+github: 'https://github.com/umami-software/umami'
+updatedAt: '2025-05-07T19:32:36.597Z'
 ---
 
 Umami 是一个简单、快速、注重隐私的网站分析工具，是 Google Analytics 的开源替代品。它提供了简洁的界面和必要的数据分析功能，同时确保用户隐私得到保护。

@@ -1,15 +1,16 @@
 ---
-id: "casdoor"
-name: "Casdoor"
-description: "开源的统一身份认证和单点登录平台，支持多种认证方式"
+id: casdoor
+name: Casdoor
+description: 开源的统一身份认证和单点登录平台，支持多种认证方式
 tags:
-  - "安全"
-  - "身份认证"
-  - "Go"
-  - "OAuth"
-category: "身份管理"
-website: "https://casdoor.org"
-github: "https://github.com/casdoor/casdoor"
+  - 安全
+  - 身份认证
+  - Go
+  - OAuth
+category: 身份管理
+website: 'https://casdoor.org'
+github: 'https://github.com/casdoor/casdoor'
+updatedAt: '2025-05-08T18:10:18.313Z'
 ---
 
 Casdoor 是一个强大的开源统一身份认证和单点登录平台，为您的应用提供集中的用户认证服务。它支持多种认证方式，让您能够轻松管理用户身份和访问权限。

@@ -1,14 +1,15 @@
 ---
-id: "h5ai"
-name: "h5ai"
-description: "现代化的 HTTP 文件索引器，提供美观的文件浏览界面"
+id: h5ai
+name: h5ai
+description: 现代化的 HTTP 文件索引器，提供美观的文件浏览界面
 tags:
-  - "存储"
-  - "文件共享"
-  - "PHP"
-category: "文件存储"
-website: "https://larsjung.de/h5ai"
-github: "https://github.com/lrsjng/h5ai"
+  - 存储
+  - 文件共享
+  - PHP
+category: 文件存储
+website: 'https://larsjung.de/h5ai'
+github: 'https://github.com/lrsjng/h5ai'
+updatedAt: '2025-05-08T08:24:17.849Z'
 ---
 
 h5ai 是一个现代化的 HTTP 文件索引器，提供美观的文件浏览界面。它不需要数据库，只需要 PHP 环境即可运行，是一个轻量级的文件浏览解决方案。

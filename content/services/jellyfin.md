@@ -1,16 +1,16 @@
 ---
-id: "jellyfin"
-name: "Jellyfin"
-description: "开源的媒体服务器，让您可以管理和流式播放您的媒体收藏"
+id: jellyfin
+name: Jellyfin
+description: 开源的媒体服务器，让您可以管理和流式播放您的媒体收藏
 tags:
-  - "媒体"
-  - "流媒体"
-  - "视频"
-  - "音乐"
-category: "媒体服务器"
-website: "https://jellyfin.org"
-github: "https://github.com/jellyfin/jellyfin"
-#image: "/placeholder.svg?height=300&width=400"
+  - 媒体
+  - 流媒体
+  - 视频
+  - 音乐
+category: 媒体服务器
+website: 'https://jellyfin.org'
+github: 'https://github.com/jellyfin/jellyfin'
+updatedAt: '2025-05-09T05:31:04.179Z'
 ---
 
 Jellyfin 是一个开源的媒体服务器解决方案，让您可以轻松管理和流式播放您的媒体收藏。它不含任何商业成分，完全免费使用。

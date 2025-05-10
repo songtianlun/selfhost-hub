@@ -1,15 +1,16 @@
 ---
-id: "harbor"
-name: "Harbor"
-description: "企业级容器镜像仓库，提供安全、审计和管理功能"
+id: harbor
+name: Harbor
+description: 企业级容器镜像仓库，提供安全、审计和管理功能
 tags:
-  - "容器"
-  - "DevOps"
-  - "Go"
-  - "Docker"
-category: "容器平台"
-website: "https://goharbor.io"
-github: "https://github.com/goharbor/harbor"
+  - 容器
+  - DevOps
+  - Go
+  - Docker
+category: 容器平台
+website: 'https://goharbor.io'
+github: 'https://github.com/goharbor/harbor'
+updatedAt: '2025-05-10T09:15:04.027Z'
 ---
 
 Harbor 是一个开源的企业级容器镜像仓库服务，提供了内容签名、漏洞扫描、RBAC 和审计等功能。它为 Docker 和 Kubernetes 环境提供安全可靠的镜像存储和分发服务。

@@ -1,15 +1,17 @@
 ---
-id: "vaultwarden"
-name: "Vaultwarden"
-description: "Bitwarden 密码管理器的非官方轻量级替代版本"
+id: vaultwarden
+name: Vaultwarden
+description: Bitwarden 密码管理器的非官方轻量级替代版本
 tags:
-  - "密码管理"
-  - "安全"
-  - "Rust"
-  - "隐私"
-category: "安全工具"
-website: "https://github.com/dani-garcia/vaultwarden"
-github: "https://github.com/dani-garcia/vaultwarden"
+  - 密码管理
+  - 安全
+  - Rust
+  - 隐私
+rating: 4.5
+category: 安全工具
+website: 'https://github.com/dani-garcia/vaultwarden'
+github: 'https://github.com/dani-garcia/vaultwarden'
+updatedAt: '2025-05-08T09:40:05.703Z'
 ---
 
 Vaultwarden 是一个非官方的 Bitwarden 密码管理器服务器实现，使用 Rust 语言编写。它的资源占用远低于官方版本，使其成为自托管密码管理解决方案的理想选择，尤其适合家庭和小型组织使用。

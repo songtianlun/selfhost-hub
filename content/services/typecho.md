@@ -1,14 +1,16 @@
 ---
-id: "typecho"
-name: "Typecho"
-description: "轻量级博客程序，易于部署且性能出色"
+id: typecho
+name: Typecho
+description: 轻量级博客程序，易于部署且性能出色
 tags:
-  - "博客"
-  - "内容管理"
-  - "PHP"
-category: "博客系统"
-website: "https://typecho.org"
-github: "https://github.com/typecho/typecho"
+  - 博客
+  - 内容管理
+  - PHP
+rating: 4.5
+category: 博客系统
+website: 'https://typecho.org'
+github: 'https://github.com/typecho/typecho'
+updatedAt: '2025-05-09T18:01:29.841Z'
 ---
 
 Typecho 是一个简洁的博客程序，基于 PHP 开发，专注于为个人用户提供简单、高效、稳定的发布工具。其精简而强大的功能和出色的性能使其成为个人博客的理想选择。

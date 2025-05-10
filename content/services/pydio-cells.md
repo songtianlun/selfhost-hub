@@ -1,15 +1,16 @@
 ---
-id: "pydio-cells"
-name: "Pydio Cells"
-description: "企业级文件共享和协作平台，支持团队协作和文件同步"
+id: pydio-cells
+name: Pydio Cells
+description: 企业级文件共享和协作平台，支持团队协作和文件同步
 tags:
-  - "存储"
-  - "文件共享"
-  - "协作"
-  - "Go"
-category: "文件存储"
-website: "https://pydio.com"
-github: "https://github.com/pydio/cells"
+  - 存储
+  - 文件共享
+  - 协作
+  - Go
+category: 文件存储
+website: 'https://pydio.com'
+github: 'https://github.com/pydio/cells'
+updatedAt: '2025-05-08T22:15:37.527Z'
 ---
 
 Pydio Cells 是一个企业级文件共享和协作平台，支持团队协作和文件同步。它提供了丰富的企业级功能，包括权限管理、审计日志、文件版本控制等。

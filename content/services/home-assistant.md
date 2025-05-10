@@ -1,15 +1,15 @@
 ---
-id: "homeassistant"
-name: "Home Assistant"
-description: "开源的智能家居自动化平台，支持众多设备和服务的集成"
+id: homeassistant
+name: Home Assistant
+description: 开源的智能家居自动化平台，支持众多设备和服务的集成
 tags:
-  - "智能家居"
-  - "自动化"
-  - "物联网"
-category: "智能家居"
-website: "https://www.home-assistant.io"
-github: "https://github.com/home-assistant/core"
-#image: "/placeholder.svg?height=300&width=400"
+  - 智能家居
+  - 自动化
+  - 物联网
+category: 智能家居
+website: 'https://www.home-assistant.io'
+github: 'https://github.com/home-assistant/core'
+updatedAt: '2025-05-08T19:55:24.628Z'
 ---
 
 Home Assistant 是一个开源的智能家居自动化平台，旨在将您的所有智能设备集成到一个易于使用的系统中。它注重隐私保护，所有数据都存储在本地，不依赖云服务。

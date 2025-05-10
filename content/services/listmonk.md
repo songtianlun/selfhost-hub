@@ -1,15 +1,17 @@
 ---
-id: "listmonk"
-name: "Listmonk"
-description: "功能强大、自托管的电子邮件通讯和邮件列表管理工具"
+id: listmonk
+name: Listmonk
+description: 功能强大、自托管的电子邮件通讯和邮件列表管理工具
 tags:
-  - "电子邮件"
-  - "营销"
-  - "通讯"
-  - "Go"
-category: "邮件服务"
-website: "https://listmonk.app"
-github: "https://github.com/knadh/listmonk"
+  - 电子邮件
+  - 营销
+  - 通讯
+  - Go
+rating: 4
+category: 邮件服务
+website: 'https://listmonk.app'
+github: 'https://github.com/knadh/listmonk'
+updatedAt: '2025-05-09T23:40:04.783Z'
 ---
 
 Listmonk 是一个自托管的电子邮件通讯和邮件列表管理工具，提供了现代化的用户界面和强大的功能集。它让您能够完全控制您的电子邮件营销活动，无需依赖第三方服务。

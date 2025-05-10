@@ -1,15 +1,16 @@
 ---
-id: "wewerss"
-name: "WeweRSS"
-description: "一个简单的RSS阅读器和生成器，支持多种数据源抓取"
+id: wewerss
+name: WeweRSS
+description: 一个简单的RSS阅读器和生成器，支持多种数据源抓取
 tags:
-  - "RSS"
-  - "阅读"
-  - "内容聚合"
-  - "PHP"
-category: "信息聚合"
-website: "https://github.com/YieldRay/wewe-rss"
-github: "https://github.com/YieldRay/wewe-rss"
+  - RSS
+  - 阅读
+  - 内容聚合
+  - PHP
+category: 信息聚合
+website: 'https://github.com/YieldRay/wewe-rss'
+github: 'https://github.com/YieldRay/wewe-rss'
+updatedAt: '2025-05-09T11:05:11.852Z'
 ---
 
 WeweRSS 是一个轻量级的 RSS 阅读器和生成器，可以从多种数据源抓取内容并生成 RSS 订阅源。它提供了简洁的界面和灵活的配置选项，让您能够将各种网络内容转换为标准的 RSS 格式。

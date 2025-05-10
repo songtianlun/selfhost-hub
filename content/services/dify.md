@@ -1,15 +1,17 @@
 ---
-id: "dify"
-name: "Dify"
-description: "开源的LLMs应用开发平台，快速构建生成式AI应用"
+id: dify
+name: Dify
+description: 开源的LLMs应用开发平台，快速构建生成式AI应用
 tags:
-  - "AI"
-  - "生产力"
-  - "Python"
-  - "LLM"
-category: "AI平台"
-website: "https://dify.ai"
-github: "https://github.com/langgenius/dify"
+  - AI
+  - 生产力
+  - Python
+  - LLM
+rating: 4
+category: AI平台
+website: 'https://dify.ai'
+github: 'https://github.com/langgenius/dify'
+updatedAt: '2025-05-10T00:09:18.332Z'
 ---
 
 Dify 是一个开源的大型语言模型（LLMs）应用开发平台，帮助开发者和企业快速构建生成式 AI 应用。它提供了从数据处理、模型训练到应用部署的完整工具链。

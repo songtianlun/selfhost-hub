@@ -1,15 +1,17 @@
 ---
-id: "easyImages2"
-name: "EasyImages2"
-description: "简单易用的图床程序，支持多种存储和上传方式"
+id: easyImages2
+name: EasyImages2
+description: 简单易用的图床程序，支持多种存储和上传方式
 tags:
-  - "图床"
-  - "存储"
-  - "PHP"
-  - "媒体"
-category: "图像服务"
-website: "https://github.com/icret/EasyImages2.0"
-github: "https://github.com/icret/EasyImages2.0"
+  - 图床
+  - 存储
+  - PHP
+  - 媒体
+rating: 4
+category: 图像服务
+website: 'https://github.com/icret/EasyImages2.0'
+github: 'https://github.com/icret/EasyImages2.0'
+updatedAt: '2025-05-07T22:03:37.794Z'
 ---
 
 EasyImages2 是一个简单易用的 PHP 图床程序，让您能够轻松上传、管理和分享图片。它支持多种存储方式和上传方法，提供了友好的用户界面和丰富的管理功能。

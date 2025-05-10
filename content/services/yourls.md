@@ -1,15 +1,16 @@
 ---
-id: "yourls"
-name: "YOURLS"
-description: "自托管的短链接服务，提供链接管理和点击统计"
+id: yourls
+name: YOURLS
+description: 自托管的短链接服务，提供链接管理和点击统计
 tags:
-  - "短链接"
-  - "URL缩短"
-  - "统计"
-  - "PHP"
-category: "URL工具"
-website: "https://yourls.org"
-github: "https://github.com/YOURLS/YOURLS"
+  - 短链接
+  - URL缩短
+  - 统计
+  - PHP
+category: URL工具
+website: 'https://yourls.org'
+github: 'https://github.com/YOURLS/YOURLS'
+updatedAt: '2025-05-07T19:04:06.604Z'
 ---
 
 YOURLS (Your Own URL Shortener) 是一个强大的、开源的URL缩短工具，允许您创建自己的短链接服务。它提供了完整的链接管理系统和点击分析功能，适合个人、企业或团队使用。

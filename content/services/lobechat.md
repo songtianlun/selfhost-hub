@@ -1,15 +1,17 @@
 ---
-id: "lobechat"
-name: "LobeChat"
-description: "开源的高性能聊天机器人框架，支持多种大型语言模型"
+id: lobechat
+name: LobeChat
+description: 开源的高性能聊天机器人框架，支持多种大型语言模型
 tags:
-  - "AI"
-  - "聊天机器人"
-  - "LLM"
-  - "TypeScript"
-category: "AI平台"
-website: "https://chat-preview.lobehub.com"
-github: "https://github.com/lobehub/lobe-chat"
+  - AI
+  - 聊天机器人
+  - LLM
+  - TypeScript
+rating: 4.5
+category: AI平台
+website: 'https://chat-preview.lobehub.com'
+github: 'https://github.com/lobehub/lobe-chat'
+updatedAt: '2025-05-07T22:32:29.423Z'
 ---
 
 LobeChat 是一个开源的高性能聊天机器人框架，支持语音合成、多模态、代码高亮等功能，可以无缝集成多种主流大型语言模型。它提供了一个类似于 ChatGPT 的界面，但可以自托管并自定义。

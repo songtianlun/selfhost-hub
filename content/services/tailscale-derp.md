@@ -1,15 +1,17 @@
 ---
-id: "tailscale-derp"
-name: "Tailscale DERP"
-description: "Tailscale的中继服务器，用于帮助设备穿越NAT建立连接"
+id: tailscale-derp
+name: Tailscale DERP
+description: Tailscale的中继服务器，用于帮助设备穿越NAT建立连接
 tags:
-  - "网络"
-  - "VPN"
-  - "穿透"
-  - "Go"
-category: "网络工具"
-website: "https://tailscale.com/kb/1118/custom-derp-servers"
-github: "https://github.com/tailscale/tailscale"
+  - 网络
+  - VPN
+  - 穿透
+  - Go
+rating: 4
+category: 网络工具
+website: 'https://tailscale.com/kb/1118/custom-derp-servers'
+github: 'https://github.com/tailscale/tailscale'
+updatedAt: '2025-05-09T21:40:13.578Z'
 ---
 
 Tailscale DERP（Designated Encrypted Relay for Packets）是 Tailscale 网络使用的中继服务器，用于在直接连接不可用时（如双重 NAT）帮助设备建立连接。自托管 DERP 服务器可以提高网络性能并减少对公共中继的依赖。

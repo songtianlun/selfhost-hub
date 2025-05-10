@@ -10,6 +10,7 @@ category: "文件存储"
 rating: 4
 website: "https://alist.nn.ci"
 github: "https://github.com/alist-org/alist"
+updatedAt: "2025-04-30T10:30:00Z"
 ---
 
 AList 是一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs 构建。它可以帮助您轻松管理和访问存储在各种网盘和本地存储中的文件。

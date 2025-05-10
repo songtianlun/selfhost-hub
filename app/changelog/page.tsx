@@ -11,21 +11,23 @@ export default async function ChangelogPage() {
   
   // 按更新时间排序
   const sortedServices = [...services].sort((a, b) => {
-    const dateA = new Date(a.updatedAt || "").getTime()
-    const dateB = new Date(b.updatedAt || "").getTime()
-    return dateB - dateA
+    if (!a.updatedAt || !b.updatedAt) return 0;
+    const dateA = new Date(a.updatedAt).getTime();
+    const dateB = new Date(b.updatedAt).getTime();
+    return dateB - dateA;
   })
 
   // 按月份分组
   const groupedServices = sortedServices.reduce((groups, service) => {
-    const date = new Date(service.updatedAt || "")
-    const monthKey = format(date, "yyyy-MM")
+    if (!service.updatedAt) return groups;
+    const date = new Date(service.updatedAt);
+    const monthKey = format(date, "yyyy-MM");
     if (!groups[monthKey]) {
-      groups[monthKey] = []
+      groups[monthKey] = [];
     }
-    groups[monthKey].push(service)
-    return groups
-  }, {} as Record<string, Service[]>)
+    groups[monthKey].push(service);
+    return groups;
+  }, {} as Record<string, Service[]>);
 
   return (
     <div className="container mx-auto py-8">

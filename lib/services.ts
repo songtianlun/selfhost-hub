@@ -165,12 +165,22 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
         // 获取文件状态以获取最后修改时间
         const lastModified = stat.mtime.toISOString();
 
-        services.push({
-          ...data,
+        const service: Service = {
+          id: data.id,
           slug,
+          name: data.name,
+          description: data.description,
+          image: data.image,
+          tags: data.tags,
+          category: data.category,
+          website: data.website,
+          github: data.github,
           content: contentHtml,
           updatedAt: data.updatedAt || lastModified,
-        } as Service);
+          rating: data.rating,
+        };
+
+        services.push(service);
       } catch (error) {
         // 记录错误但继续处理其他文件
         console.error(`Error processing [${fileName}]: ${error instanceof Error ? error.message : String(error)}`);

@@ -1,15 +1,16 @@
 ---
-id: "n8n"
-name: "n8n"
-description: "强大的工作流自动化工具，可连接各种服务和API"
+id: n8n
+name: n8n
+description: 强大的工作流自动化工具，可连接各种服务和API
 tags:
-  - "自动化"
-  - "工作流"
-  - "集成"
-  - "JavaScript"
-category: "自动化工具"
-website: "https://n8n.io"
-github: "https://github.com/n8n-io/n8n"
+  - 自动化
+  - 工作流
+  - 集成
+  - JavaScript
+category: 自动化工具
+website: 'https://n8n.io'
+github: 'https://github.com/n8n-io/n8n'
+updatedAt: '2025-05-08T01:24:51.131Z'
 ---
 
 n8n 是一个开源的工作流自动化平台，允许您连接不同的服务和 API，以创建自动化的工作流程。它提供了直观的可视化界面，让用户无需编程知识也能构建复杂的自动化流程。

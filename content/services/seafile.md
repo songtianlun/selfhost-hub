@@ -1,15 +1,16 @@
 ---
-id: "seafile"
-name: "Seafile"
-description: "高性能的企业级文件同步和共享系统，支持文件版本控制和团队协作"
+id: seafile
+name: Seafile
+description: 高性能的企业级文件同步和共享系统，支持文件版本控制和团队协作
 tags:
-  - "存储"
-  - "文件共享"
-  - "协作"
-  - "Python"
-category: "文件存储"
-website: "https://www.seafile.com"
-github: "https://github.com/haiwen/seafile"
+  - 存储
+  - 文件共享
+  - 协作
+  - Python
+category: 文件存储
+website: 'https://www.seafile.com'
+github: 'https://github.com/haiwen/seafile'
+updatedAt: '2025-05-08T14:29:37.125Z'
 ---
 
 Seafile 是一个高性能的企业级文件同步和共享系统，支持文件版本控制和团队协作。它提供了类似 Dropbox 的功能，但完全自托管，让您完全掌控数据。

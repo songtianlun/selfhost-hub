@@ -1,16 +1,17 @@
 ---
-id: "uptime-kuma"
-name: "Uptime Kuma"
-description: "现代化的自托管监控工具，用于网站和服务可用性监测"
+id: uptime-kuma
+name: Uptime Kuma
+description: 现代化的自托管监控工具，用于网站和服务可用性监测
 tags:
-  - "监控"
-  - "可用性"
-  - "JavaScript"
-  - "告警"
-category: "系统监控"
+  - 监控
+  - 可用性
+  - JavaScript
+  - 告警
+category: 系统监控
 rating: 4.5
-website: "https://uptime.kuma.pet"
-github: "https://github.com/louislam/uptime-kuma"
+website: 'https://uptime.kuma.pet'
+github: 'https://github.com/louislam/uptime-kuma'
+updatedAt: '2025-05-08T19:24:54.151Z'
 ---
 
 Uptime Kuma 是一个现代化、易用的自托管监控工具，用于监控网站、API、端口和其他服务的可用性。它提供了丰富的告警选项和精美的界面，让您能够实时了解服务状态。
