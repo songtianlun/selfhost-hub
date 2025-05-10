@@ -1,4 +1,4 @@
-# 关于本站
+# Selfhost Hub
 
 自托管服务和工具目录是一个致力于收集和展示各种高质量自托管服务的项目。我们的目标是帮助用户发现、探索并部署适合自己需求的自托管解决方案。
 
@@ -12,13 +12,21 @@
 - **学习机会**：通过部署和维护服务，提升技术能力
 - **社区支持**：活跃的开源社区提供持续的支持和更新
 
-## 本站特点
+## 项目特点
 
 - **精选服务**：每个收录的服务都经过精心筛选和验证
 - **详细文档**：提供完整的部署指南和使用说明
 - **分类标签**：通过分类和标签系统，方便快速找到所需服务
 - **持续更新**：定期更新服务信息和新增服务
 - **开源透明**：本站完全开源，欢迎社区贡献
+
+## 技术栈
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- MDX
+- Shadcn UI
 
 ## 如何贡献
 
@@ -31,24 +39,22 @@
 5. 参与代码开发
 
 ## 联系方式
-- GitHub：[项目仓库](https://github.com/songtianlun/selfhost-hub)
+
 - 邮箱：tianlun.song@foxmail.com
+- GitHub：[项目仓库](https://github.com/songtianlun/selfhost-hub)
 - 讨论区：[GitHub Discussions](https://github.com/songtianlun/selfhost-hub/discussions)
 
 ## 参考项目
 
 本站的部分内容和分类方法参考了以下优秀的资源：
 
-- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 一个全面的自托管服务列表，按类别组织
-- [HomelabOS](https://gitlab.com/NickBusey/HomelabOS) - 一个完整的自托管服务部署方案
-- [LinuxServer.io](https://www.linuxserver.io/) - 提供大量优质的自托管服务 Docker 镜像
-- [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) - 系统管理员工具和服务集合
-- [Awesome Privacy](https://github.com/pluja/awesome-privacy) - 注重隐私保护的服务和工具列表
-- [self-hostd - Github Topic](https://github.com/topics/self-hosted)
-- [AlternativeTo](https://alternativeto.net): 寻找替代软件的好去处。
-- [OpenAlternative](https://openalternative.co): 寻找开源替代软件的好去处。
-
-
+- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- [HomelabOS](https://gitlab.com/NickBusey/HomelabOS)
+- [LinuxServer.io](https://www.linuxserver.io/)
+- [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
+- [Awesome Privacy](https://github.com/pluja/awesome-privacy)
+- [AlternativeTo](https://alternativeto.net)
+- [OpenAlternative](https://openalternative.co)
 
 ## 致谢
 
@@ -56,4 +62,8 @@
 
 - 所有开源项目的维护者
 - 提供反馈和建议的用户
-- 参与文档编写的贡献者 
+- 参与文档编写的贡献者
+
+## License
+
+MIT License 

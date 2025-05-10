@@ -105,7 +105,7 @@ export default function Navbar() {
           </Button>
 
           <Button asChild variant="ghost" size="icon" aria-label="GitHub">
-            <Link href="https://github.com/songtianlun" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/songtianlun/selfhost-hub" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5" />
             </Link>
           </Button>
