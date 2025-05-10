@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Tag } from "@/components/service-card"
 import { Rating } from "@/components/rating"
+import { Badge } from "@/components/ui/badge"
 import type { Metadata } from "next"
 
 export async function generateMetadata({
@@ -55,9 +56,16 @@ export default async function ServicePage({ params }: { params: { slug: string }
               </div>
               <p className="text-xl text-muted-foreground mb-6">{service.description}</p>
 
-              <div className="flex flex-wrap gap-2 mb-6">
+              <div className="flex flex-wrap items-center gap-2 mb-6">
+                <Link href={`/?category=${encodeURIComponent(service.category)}`}>
+                  <Badge variant="outline" className="hover:bg-muted cursor-pointer">
+                    {service.category}
+                  </Badge>
+                </Link>
                 {service.tags.map((tag) => (
-                  <Tag key={tag} tag={tag} />
+                  <Link key={tag} href={`/?tags=${encodeURIComponent(tag)}`}>
+                    <Tag tag={tag} />
+                  </Link>
                 ))}
               </div>
 
