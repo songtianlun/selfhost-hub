@@ -33,6 +33,7 @@ export type Service = {
   github?: string
   content?: string
   updatedAt?: string
+  rating?: number // 0-5 的评分，支持 0.5 分
 }
 
 export type TagGroup = {

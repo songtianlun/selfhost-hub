@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 import { Tag } from "@/components/service-card"
+import { Rating } from "@/components/rating"
 import type { Metadata } from "next"
 
 export async function generateMetadata({
@@ -10,7 +11,8 @@ export async function generateMetadata({
 }: {
   params: { slug: string }
 }): Promise<Metadata> {
-  const service = await getServiceBySlug(params.slug, "en")
+  const resolvedParams = await params
+  const service = await getServiceBySlug(resolvedParams.slug, "en")
   if (!service) return {}
 
   return {
@@ -29,12 +31,9 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }))
 }
 
-export default async function ServicePage({ 
-  params: { slug } 
-}: { 
-  params: { slug: string } 
-}) {
-  const service = await getServiceBySlug(slug, "en")
+export default async function ServicePage({ params }: { params: { slug: string } }) {
+  const resolvedParams = await params
+  const service = await getServiceBySlug(resolvedParams.slug, "en")
 
   if (!service) {
     notFound()
@@ -50,7 +49,10 @@ export default async function ServicePage({
 
           <div className="flex flex-col md:flex-row gap-8">
             <div className="flex-1">
-              <h1 className="text-4xl font-bold mb-4">{service.name}</h1>
+              <div className="flex items-center gap-4 mb-4">
+                <h1 className="text-4xl font-bold">{service.name}</h1>
+                {service.rating && <Rating rating={service.rating} />}
+              </div>
               <p className="text-xl text-muted-foreground mb-6">{service.description}</p>
 
               <div className="flex flex-wrap gap-2 mb-6">
