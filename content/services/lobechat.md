@@ -12,8 +12,6 @@ website: "https://chat-preview.lobehub.com"
 github: "https://github.com/lobehub/lobe-chat"
 ---
 
-# LobeChat
-
 LobeChat 是一个开源的高性能聊天机器人框架，支持语音合成、多模态、代码高亮等功能，可以无缝集成多种主流大型语言模型。它提供了一个类似于 ChatGPT 的界面，但可以自托管并自定义。
 
 ## 主要功能

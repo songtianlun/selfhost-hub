@@ -12,8 +12,6 @@ website: "https://github.com/YieldRay/wewe-rss"
 github: "https://github.com/YieldRay/wewe-rss"
 ---
 
-# WeweRSS
-
 WeweRSS 是一个轻量级的 RSS 阅读器和生成器，可以从多种数据源抓取内容并生成 RSS 订阅源。它提供了简洁的界面和灵活的配置选项，让您能够将各种网络内容转换为标准的 RSS 格式。
 
 ## 主要功能

@@ -12,8 +12,6 @@ website: "https://goharbor.io"
 github: "https://github.com/goharbor/harbor"
 ---
 
-# Harbor
-
 Harbor 是一个开源的企业级容器镜像仓库服务，提供了内容签名、漏洞扫描、RBAC 和审计等功能。它为 Docker 和 Kubernetes 环境提供安全可靠的镜像存储和分发服务。
 
 ## 主要功能

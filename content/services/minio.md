@@ -11,8 +11,6 @@ website: "https://min.io"
 github: "https://github.com/minio/minio"
 ---
 
-# MinIO
-
 MinIO 是一个高性能的分布式对象存储系统，兼容 Amazon S3 API。它专为云原生应用设计，支持容器化部署，是一个企业级的对象存储解决方案。
 
 ## 主要功能

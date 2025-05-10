@@ -12,8 +12,6 @@ website: "https://dify.ai"
 github: "https://github.com/langgenius/dify"
 ---
 
-# Dify
-
 Dify 是一个开源的大型语言模型（LLMs）应用开发平台，帮助开发者和企业快速构建生成式 AI 应用。它提供了从数据处理、模型训练到应用部署的完整工具链。
 
 ## 主要功能

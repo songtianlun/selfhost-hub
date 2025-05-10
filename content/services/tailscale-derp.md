@@ -12,8 +12,6 @@ website: "https://tailscale.com/kb/1118/custom-derp-servers"
 github: "https://github.com/tailscale/tailscale"
 ---
 
-# Tailscale DERP
-
 Tailscale DERP（Designated Encrypted Relay for Packets）是 Tailscale 网络使用的中继服务器，用于在直接连接不可用时（如双重 NAT）帮助设备建立连接。自托管 DERP 服务器可以提高网络性能并减少对公共中继的依赖。
 
 ## 主要功能

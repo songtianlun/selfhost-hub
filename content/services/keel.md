@@ -12,8 +12,6 @@ website: "https://keel.sh"
 github: "https://github.com/keel-hq/keel"
 ---
 
-# Keel
-
 Keel 是一个专为 Kubernetes 设计的自动化部署工具，可以自动检测镜像更新并相应地更新 Kubernetes 工作负载。它让持续部署变得更简单，减少了手动干预的需求。
 
 ## 主要功能

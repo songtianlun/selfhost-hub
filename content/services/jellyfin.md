@@ -13,8 +13,6 @@ github: "https://github.com/jellyfin/jellyfin"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Jellyfin
-
 Jellyfin 是一个开源的媒体服务器解决方案，让您可以轻松管理和流式播放您的媒体收藏。它不含任何商业成分，完全免费使用。
 
 ## 主要功能

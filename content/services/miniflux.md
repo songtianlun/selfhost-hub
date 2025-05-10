@@ -12,8 +12,6 @@ website: "https://miniflux.app"
 github: "https://github.com/miniflux/v2"
 ---
 
-# Miniflux
-
 Miniflux 是一个极简的自托管 RSS 阅读器，专注于简洁性、速度和效率。它提供了一个干净的阅读体验，没有杂乱的界面和不必要的功能，同时支持所有核心 RSS 阅读功能。
 
 ## 主要功能

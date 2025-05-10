@@ -16,8 +16,6 @@ website: "https://github.com/drakkan/sftpgo"
 github: "https://github.com/drakkan/sftpgo"
 ---
 
-# SFTPGo
-
 SFTPGo 是一个功能完整的 SFTP 服务器，支持多种认证方式和存储后端。它提供了丰富的功能和灵活的配置选项，是一个企业级的 SFTP 解决方案。
 
 ## 主要功能

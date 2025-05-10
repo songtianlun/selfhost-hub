@@ -11,8 +11,6 @@ website: "https://filebrowser.org"
 github: "https://github.com/filebrowser/filebrowser"
 ---
 
-# File Browser
-
 File Browser 是一个轻量级的文件管理系统，提供简洁的 Web 界面来管理文件。它支持多用户、权限管理，并且可以轻松部署在任何支持 Go 的环境中。
 
 ## 主要功能

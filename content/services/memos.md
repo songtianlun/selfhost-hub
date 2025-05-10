@@ -12,8 +12,6 @@ website: "https://usememos.com"
 github: "https://github.com/usememos/memos"
 ---
 
-# Memos
-
 Memos 是一个开源、轻量级的自托管知识库和笔记服务，设计简洁高效。它专注于帮助用户快速记录想法、笔记和知识片段，并轻松组织和检索这些内容。
 
 ## 主要功能

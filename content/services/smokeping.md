@@ -12,8 +12,6 @@ website: "https://oss.oetiker.ch/smokeping"
 github: "https://github.com/oetiker/SmokePing"
 ---
 
-# SmokePing
-
 SmokePing 是一个功能强大的网络延迟测量工具，它发送测试数据包并记录响应时间，同时还能精确记录延迟波动情况。通过精美的图表，它让您能够直观地了解网络的延迟和质量。
 
 ## 主要功能

@@ -12,8 +12,6 @@ website: "https://listmonk.app"
 github: "https://github.com/knadh/listmonk"
 ---
 
-# Listmonk
-
 Listmonk 是一个自托管的电子邮件通讯和邮件列表管理工具，提供了现代化的用户界面和强大的功能集。它让您能够完全控制您的电子邮件营销活动，无需依赖第三方服务。
 
 ## 主要功能

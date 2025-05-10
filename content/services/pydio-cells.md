@@ -12,8 +12,6 @@ website: "https://pydio.com"
 github: "https://github.com/pydio/cells"
 ---
 
-# Pydio Cells
-
 Pydio Cells 是一个企业级文件共享和协作平台，支持团队协作和文件同步。它提供了丰富的企业级功能，包括权限管理、审计日志、文件版本控制等。
 
 ## 主要功能

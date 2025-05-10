@@ -12,8 +12,6 @@ website: "https://plausible.io"
 github: "https://github.com/plausible/analytics"
 ---
 
-# Plausible Analytics
-
 Plausible Analytics 是一个开源、轻量级的网站访问统计分析工具，专注于简洁性和隐私保护。它提供了清晰直观的访问数据，无需使用 Cookie，也不会收集个人身份信息。
 
 ## 主要功能

@@ -12,8 +12,6 @@ website: "https://yourls.org"
 github: "https://github.com/YOURLS/YOURLS"
 ---
 
-# YOURLS
-
 YOURLS (Your Own URL Shortener) 是一个强大的、开源的URL缩短工具，允许您创建自己的短链接服务。它提供了完整的链接管理系统和点击分析功能，适合个人、企业或团队使用。
 
 ## 主要功能

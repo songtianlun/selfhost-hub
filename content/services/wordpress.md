@@ -12,8 +12,6 @@ website: "https://wordpress.org"
 github: "https://github.com/WordPress/WordPress"
 ---
 
-# WordPress
-
 WordPress 是全球最流行的内容管理系统，驱动着超过 40% 的网站。它提供了丰富的功能和扩展性，从简单的博客到复杂的企业网站，WordPress 都能胜任。
 
 ## 主要功能

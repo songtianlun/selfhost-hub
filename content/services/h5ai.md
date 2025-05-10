@@ -11,8 +11,6 @@ website: "https://larsjung.de/h5ai"
 github: "https://github.com/lrsjng/h5ai"
 ---
 
-# h5ai
-
 h5ai 是一个现代化的 HTTP 文件索引器，提供美观的文件浏览界面。它不需要数据库，只需要 PHP 环境即可运行，是一个轻量级的文件浏览解决方案。
 
 ## 主要功能

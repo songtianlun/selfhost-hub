@@ -12,8 +12,6 @@ website: "https://beszel.dev"
 github: "https://github.com/henrygd/beszel"
 ---
 
-# Beszel
-
 Beszel 是一个轻量级的服务器监控平台，包含 Docker 统计信息、历史数据和告警功能。它提供友好的 Web 界面、简单的配置，开箱即用。支持自动备份、多用户、OAuth 认证和 API 访问。
 
 ## 主要功能

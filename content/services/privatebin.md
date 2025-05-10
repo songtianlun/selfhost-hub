@@ -12,8 +12,6 @@ website: "https://privatebin.info"
 github: "https://github.com/PrivateBin/PrivateBin"
 ---
 
-# PrivateBin
-
 PrivateBin 是一个极简的开源在线剪贴板，内容在浏览器中加密和解密，服务器对存储的数据一无所知。它实现了真正的零知识隐私，让用户能够安全地分享文本和文件。
 
 ## 主要功能

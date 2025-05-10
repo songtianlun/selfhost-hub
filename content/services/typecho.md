@@ -11,8 +11,6 @@ website: "https://typecho.org"
 github: "https://github.com/typecho/typecho"
 ---
 
-# Typecho
-
 Typecho 是一个简洁的博客程序，基于 PHP 开发，专注于为个人用户提供简单、高效、稳定的发布工具。其精简而强大的功能和出色的性能使其成为个人博客的理想选择。
 
 ## 主要功能

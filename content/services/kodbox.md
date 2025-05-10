@@ -11,8 +11,6 @@ website: "https://kodcloud.com"
 github: "https://github.com/kalcaddle/kodbox"
 ---
 
-# KodBox
-
 KodBox 是一个开源的在线文件管理系统，支持文件预览、编辑和分享。它提供了类似网盘的功能，但完全自托管，让您完全掌控数据。
 
 ## 主要功能

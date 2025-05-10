@@ -12,8 +12,6 @@ website: "https://docs.searxng.org"
 github: "https://github.com/searxng/searxng"
 ---
 
-# SearXNG
-
 SearXNG 是一个免费、开源的元搜索引擎，允许用户从多个搜索引擎获取结果，同时保护隐私。它为用户提供一个统一的搜索界面，同时不会追踪用户的搜索行为。
 
 ## 主要功能

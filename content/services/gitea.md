@@ -12,8 +12,6 @@ website: "https://gitea.io"
 github: "https://github.com/go-gitea/gitea"
 ---
 
-# Gitea
-
 Gitea 是一个轻量级、开源的自托管 Git 服务解决方案，类似于 GitHub、GitLab 或 Bitbucket，但资源占用极低。它提供了代码托管、协作开发所需的全部核心功能。
 
 ## 主要功能

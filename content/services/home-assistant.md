@@ -12,8 +12,6 @@ github: "https://github.com/home-assistant/core"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Home Assistant
-
 Home Assistant 是一个开源的智能家居自动化平台，旨在将您的所有智能设备集成到一个易于使用的系统中。它注重隐私保护，所有数据都存储在本地，不依赖云服务。
 
 ## 主要功能

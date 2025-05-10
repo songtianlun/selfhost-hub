@@ -12,8 +12,6 @@ website: "https://github.com/dani-garcia/vaultwarden"
 github: "https://github.com/dani-garcia/vaultwarden"
 ---
 
-# Vaultwarden
-
 Vaultwarden 是一个非官方的 Bitwarden 密码管理器服务器实现，使用 Rust 语言编写。它的资源占用远低于官方版本，使其成为自托管密码管理解决方案的理想选择，尤其适合家庭和小型组织使用。
 
 ## 主要功能

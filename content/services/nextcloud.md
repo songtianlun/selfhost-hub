@@ -13,8 +13,6 @@ github: "https://github.com/nextcloud/server"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-# Nextcloud
-
 Nextcloud 是一套功能强大的个人云存储平台，支持文件同步、共享和协作。它完全开源，可以轻松部署在您自己的服务器上，让您完全掌控自己的数据。
 
 ## 主要功能

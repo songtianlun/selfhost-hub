@@ -12,8 +12,6 @@ website: "https://github.com/icret/EasyImages2.0"
 github: "https://github.com/icret/EasyImages2.0"
 ---
 
-# EasyImages2
-
 EasyImages2 是一个简单易用的 PHP 图床程序，让您能够轻松上传、管理和分享图片。它支持多种存储方式和上传方法，提供了友好的用户界面和丰富的管理功能。
 
 ## 主要功能
