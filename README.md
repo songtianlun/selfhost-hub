@@ -41,20 +41,6 @@
 ## 联系方式
 
 - 邮箱：tianlun.song@foxmail.com
-- GitHub：[项目仓库](https://github.com/songtianlun/selfhost-hub)
-- 讨论区：[GitHub Discussions](https://github.com/songtianlun/selfhost-hub/discussions)
-
-## 参考项目
-
-本站的部分内容和分类方法参考了以下优秀的资源：
-
-- [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-- [HomelabOS](https://gitlab.com/NickBusey/HomelabOS)
-- [LinuxServer.io](https://www.linuxserver.io/)
-- [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
-- [Awesome Privacy](https://github.com/pluja/awesome-privacy)
-- [AlternativeTo](https://alternativeto.net)
-- [OpenAlternative](https://openalternative.co)
 
 ## 致谢
 
