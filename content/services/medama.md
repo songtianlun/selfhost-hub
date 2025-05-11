@@ -37,3 +37,6 @@ Medama 是一个注重隐私的网站分析平台，提供了现代化的用户�
 - 支持反向代理
 - 建议使用 HTTPS
 - 支持云服务部署 
+
+## References
+- [Medama：开源轻量级网站统计（分析）系统](https://lala.im/9173.html)
