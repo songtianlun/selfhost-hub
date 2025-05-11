@@ -10,7 +10,7 @@ tags:
 category: 云剪贴板
 website: 'https://github.com/Jeric-X/SyncClipboard'
 repo: 'https://github.com/Jeric-X/SyncClipboard'
-updatedAt: '2025-05-10T15:00:00.000Z'
+updatedAt: '2025-05-11T07:00:00.000Z'
 ---
 
 SyncClipboard 是一个跨平台的剪贴板同步解决方案，支持在 Windows、Linux、macOS、iOS 和 Android 设备之间安全同步文本、图片和文件。
