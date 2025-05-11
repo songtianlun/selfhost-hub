@@ -31,6 +31,13 @@ export default function ServiceCard({ service }: { service: Service }) {
           <Badge variant="outline" className="ml-2">{service.category}</Badge>
         </div>
         <p className="text-muted-foreground line-clamp-3 mb-4 flex-1">{service.description}</p>
+        {service.rating && (
+          <div className="flex items-center gap-1 text-sm text-muted-foreground mb-4">
+            <span>评分：</span>
+            <span className="font-medium">{service.rating.toFixed(1)}</span>
+            <span className="text-yellow-500">★</span>
+          </div>
+        )}
         <div className="flex flex-wrap gap-2 mt-auto">
           {service.tags.slice(0, 3).map((tag) => (
             <Tag key={tag} tag={tag} />

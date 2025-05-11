@@ -10,7 +10,7 @@ tags:
 category: 服务器虚拟化
 website: 'https://pve.proxmox.com/wiki/Proxmox_Datacenter_Manager_Roadmap'
 repo: 'https://git.proxmox.com/?p=pdm.git;a=summary'
-updatedAt: '2025-05-11T08:00:00.000Z'
+updatedAt: '2025-05-11T09:00:00.000Z'
 ---
 
 Proxmox Datacenter Manager 是一个基于 Rust 构建的现代化数据中心管理工具，旨在提供集中化的节点和集群管理界面，让您能够更好地管理分布式的 Proxmox VE 环境。
