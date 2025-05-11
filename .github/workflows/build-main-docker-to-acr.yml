@@ -12,7 +12,6 @@ env:
   IMAGE_NAME: frytea_hub/selfhost_hub
   USERNAME: ${{ secrets.ACR_USERNAME }}
   TOKEN: ${{ secrets.ACR_TOKEN }}
-  PUSH_ALL: 1
 
 jobs:
   docker:
@@ -48,6 +47,8 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
+          build-args: |
+            PUSH_RECENT=1
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.get_version.outputs.VERSION }}
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
