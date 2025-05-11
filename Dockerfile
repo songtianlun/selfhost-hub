@@ -20,9 +20,9 @@ ARG PUSH_ALL=0
 ARG PUSH_RECENT=0
 
 RUN if [ "$PUSH_ALL" = "1" ]; then \
-        pnpm build && pnpm push:all; \
+        pnpm build && pnpm push:all || true; \
     elif [ "$PUSH_RECENT" = "1" ]; then \
-        pnpm build && pnpm push:recent; \
+        pnpm build && pnpm push:recent || true; \
     else \
         pnpm build; \
     fi
