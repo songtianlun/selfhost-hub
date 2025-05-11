@@ -72,6 +72,8 @@ async function submitToIndexNow(urls: string[], key: string) {
   }
   
   try {
+    console.log('Submitting to IndexNow...')
+    console.log('payload', payload)
     const response = await fetch(INDEXNOW_API_URL, {
       method: 'POST',
       headers: {
