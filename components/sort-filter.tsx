@@ -44,7 +44,7 @@ export function SortFilter() {
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
-  const [expanded, setExpanded] = useState<boolean>(true)
+  const [expanded, setExpanded] = useState<boolean>(false)
 
   // 从 URL 参数中获取当前排序选项
   const currentSorts = searchParams.getAll("sort")
@@ -78,7 +78,6 @@ export function SortFilter() {
         className="w-full"
         value={expanded ? "sorts" : ""}
         onValueChange={(value) => setExpanded(!!value)}
-        defaultValue="sorts"
       >
         <AccordionItem value="sorts">
           <AccordionTrigger className="text-sm">{translations.sortOptions || "排序选项"}</AccordionTrigger>

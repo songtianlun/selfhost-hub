@@ -62,7 +62,7 @@ function CategoryFilterContent({ categories, selectedCategory }: { categories: s
 // 主组件使用 Suspense 包裹内部组件
 export function CategoryFilter({ categories, selectedCategory }: { categories: string[], selectedCategory?: string }) {
     const { translations } = useLanguage()
-    const [expanded, setExpanded] = useState<boolean>(true)
+    const [expanded, setExpanded] = useState<boolean>(false)
 
     return (
         <div className="space-y-4">
@@ -76,7 +76,6 @@ export function CategoryFilter({ categories, selectedCategory }: { categories: s
                 className="w-full"
                 value={expanded ? "categories" : ""}
                 onValueChange={(value) => setExpanded(!!value)}
-                defaultValue="categories"
             >
                 <AccordionItem value="categories">
                     <AccordionTrigger className="text-sm">{translations.categories || "分类"}</AccordionTrigger>
