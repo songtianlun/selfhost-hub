@@ -2,8 +2,11 @@ import fs from "fs/promises"
 import path from "path"
 import yaml from "js-yaml"
 import { remark } from "remark"
-import html from "remark-html"
+import remarkRehype from "remark-rehype"
+import rehypeStringify from "rehype-stringify"
+import rehypeExternalLinks from "rehype-external-links"
 import matter from "gray-matter"
+import remarkExternalLinks from "@/lib/remark-external-links"
 
 // 缓存机制
 const cache = {
@@ -156,7 +159,14 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
         }
 
         // Process content with remark to convert markdown into HTML string
-        const processedContent = await remark().use(html).process(content);
+        const processedContent = await remark()
+          .use(remarkRehype)
+          .use(rehypeExternalLinks, {
+            target: '_blank',
+            rel: ['noopener', 'noreferrer']
+          })
+          .use(rehypeStringify)
+          .process(content);
         const contentHtml = processedContent.toString();
 
         // Extract slug from filename

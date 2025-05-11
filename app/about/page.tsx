@@ -1,7 +1,9 @@
 import fs from "fs/promises"
 import path from "path"
 import { remark } from "remark"
-import html from "remark-html"
+import remarkRehype from "remark-rehype"
+import rehypeStringify from "rehype-stringify"
+import rehypeExternalLinks from "rehype-external-links"
 import matter from "gray-matter"
 import type { Metadata } from "next"
 
@@ -15,7 +17,12 @@ async function getAboutContent() {
   const fileContents = await fs.readFile(filePath, "utf8")
   const { content } = matter(fileContents)
   const processedContent = await remark()
-    .use(html)
+    .use(remarkRehype)
+    .use(rehypeExternalLinks, {
+      target: '_blank',
+      rel: ['noopener', 'noreferrer']
+    })
+    .use(rehypeStringify)
     .process(content)
   return processedContent.toString()
 }
