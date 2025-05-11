@@ -15,8 +15,17 @@ RUN pnpm install --frozen-lockfile
 # Copy source code
 COPY . .
 
-# Build application
-RUN pnpm build
+# Build application with optional IndexNow push
+ARG PUSH_ALL=0
+ARG PUSH_RECENT=0
+
+RUN if [ "$PUSH_ALL" = "1" ]; then \
+        pnpm build && pnpm push:all; \
+    elif [ "$PUSH_RECENT" = "1" ]; then \
+        pnpm build && pnpm push:recent; \
+    else \
+        pnpm build; \
+    fi
 
 # Production stage
 FROM node:20-alpine AS runner
