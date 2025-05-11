@@ -231,13 +231,24 @@ function generateTagGroupsFromServices(services: Service[], language: "zh" | "en
   });
 
   // 创建最终的标签组数组，仅包含非空标签组
-  return Object.entries(groupedTags)
+  const tagGroups = Object.entries(groupedTags)
     .filter(([_, tags]) => tags.length > 0) // 过滤掉没有标签的组
     .map(([groupId, tags]) => ({
       id: groupId,
       name: defaultTagGroups[groupId]?.[language] || (language === "zh" ? "其他" : "Others"),
       tags: tags.sort() // 按字母排序标签
     }));
+
+  // 确保"其他"组始终存在，即使为空
+  if (!tagGroups.some(group => group.id === "others")) {
+    tagGroups.push({
+      id: "others",
+      name: language === "zh" ? "其他" : "Others",
+      tags: []
+    });
+  }
+
+  return tagGroups;
 }
 
 // 加载标签组
@@ -264,11 +275,29 @@ async function loadTagGroups(language: "zh" | "en"): Promise<TagGroup[]> {
         service.tags.forEach(tag => usedTags.add(tag));
       });
 
+      // 获取所有已分组的标签
+      const groupedTags = new Set<string>();
+      content.tagGroups.forEach(group => {
+        group.tags.forEach(tag => groupedTags.add(tag));
+      });
+
+      // 找出未分组的标签
+      const ungroupedTags = Array.from(usedTags).filter(tag => !groupedTags.has(tag));
+
       // 过滤标签组，只保留实际使用的标签
       tagGroups = content.tagGroups.map(group => ({
         ...group,
         tags: group.tags.filter(tag => usedTags.has(tag))
       })).filter(group => group.tags.length > 0); // 只保留非空标签组
+
+      // 如果有未分组的标签，添加到"其他"分类
+      if (ungroupedTags.length > 0) {
+        tagGroups.push({
+          id: "others",
+          name: language === "zh" ? "其他" : "Others",
+          tags: ungroupedTags.sort()
+        });
+      }
     } else {
       // 如果文件不存在，从 Markdown 服务数据生成标签组
       const services = await loadServicesFromMarkdown(language);
