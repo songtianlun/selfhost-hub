@@ -6,6 +6,7 @@ import type { Service, TagGroup } from "@/lib/services"
 import ServiceGrid from "@/components/service-grid"
 import { TagFilter } from "@/components/tag-filter"
 import { CategoryFilter } from "@/components/category-filter"
+import { SortFilter } from "@/components/sort-filter"
 import { useRouter, usePathname } from "next/navigation"
 import { useLanguage } from "@/components/language-provider"
 import { Badge } from "@/components/ui/badge"
@@ -169,6 +170,40 @@ function ServiceFilterInner({
             );
         }
 
+        // 获取排序参数
+        const sortParams = searchParams.getAll('sort');
+
+        // 应用排序
+        if (sortParams.length > 0) {
+            filtered.sort((a, b) => {
+                for (const sortParam of sortParams) {
+                    let comparison = 0;
+                    switch (sortParam) {
+                        case 'rating':
+                            comparison = (b.rating || 0) - (a.rating || 0);
+                            break;
+                        case 'name':
+                            comparison = a.name.localeCompare(b.name);
+                            break;
+                        case 'updatedAt':
+                            const dateA = a.updatedAt ? new Date(a.updatedAt).getTime() : 0;
+                            const dateB = b.updatedAt ? new Date(b.updatedAt).getTime() : 0;
+                            comparison = dateB - dateA;
+                            break;
+                    }
+                    if (comparison !== 0) return comparison;
+                }
+                return 0;
+            });
+        } else {
+            // 默认排序：优先评分，其次名称
+            filtered.sort((a, b) => {
+                const ratingComparison = (b.rating || 0) - (a.rating || 0);
+                if (ratingComparison !== 0) return ratingComparison;
+                return a.name.localeCompare(b.name);
+            });
+        }
+
         setFilteredServices(filtered);
     }, [allServices, selectedTags, selectedCategory, searchParams]);
 
@@ -187,6 +222,7 @@ function ServiceFilterInner({
 
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
                 <div className="lg:col-span-1 space-y-6">
+                    <SortFilter />
                     <CategoryFilter categories={categories} selectedCategory={selectedCategory} />
                     <TagFilter tagGroups={tagGroups} selectedTags={selectedTags} />
                 </div>

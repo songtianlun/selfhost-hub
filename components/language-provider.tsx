@@ -26,6 +26,8 @@ type Translations = {
   clearFilter: string
   filterByCategory: string
   selectedFilters: string
+  sortBy: string
+  sortOptions: string
 }
 
 const translations: Record<Language, Translations> = {
@@ -47,7 +49,9 @@ const translations: Record<Language, Translations> = {
     categories: "分类",
     clearFilter: "清除筛选",
     filterByCategory: "按分类筛选",
-    selectedFilters: "已选择筛选"
+    selectedFilters: "已选择筛选",
+    sortBy: "排序方式",
+    sortOptions: "排序选项"
   },
   en: {
     home: "Home",
@@ -67,7 +71,9 @@ const translations: Record<Language, Translations> = {
     categories: "Categories",
     clearFilter: "Clear Filter",
     filterByCategory: "Filter by Category",
-    selectedFilters: "Selected Filters"
+    selectedFilters: "Selected Filters",
+    sortBy: "Sort By",
+    sortOptions: "Sort Options"
   },
 }
 
