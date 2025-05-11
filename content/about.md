@@ -47,6 +47,7 @@
 - [self-hostd - Github Topic](https://github.com/topics/self-hosted)
 - [AlternativeTo](https://alternativeto.net): 寻找替代软件的好去处。
 - [OpenAlternative](https://openalternative.co): 寻找开源替代软件的好去处。
+- [selfh.st](https://selfh.st/apps/):  Weekly self-hosted content + news delivered straight to your inbox 
 
 
 
