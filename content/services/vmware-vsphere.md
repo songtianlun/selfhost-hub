@@ -7,6 +7,8 @@ tags:
   - 服务器
   - 企业级
   - 云计算
+  - 闭源
+  - 付费
 category: 服务器虚拟化
 website: 'https://www.vmware.com/products/cloud-infrastructure/vsphere'
 updatedAt: '2025-05-11T16:00:00+08:00'
