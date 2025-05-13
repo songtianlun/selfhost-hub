@@ -46,6 +46,8 @@ export default function RootLayout({
   return (
     <html lang="zh" suppressHydrationWarning>
       <body className={inter.className}>
+        {/* 不蒜子计数器 */}
+        <Script defer src="https://busuanzi.frytea.com/js" strategy="afterInteractive" />
         {/* Plausible Analytics */}
         <Script
           defer
