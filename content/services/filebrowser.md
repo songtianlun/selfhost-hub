@@ -7,10 +7,13 @@ tags:
   - 文件共享
   - Go
 category: 文件存储
+rating: 4
 website: 'https://filebrowser.org'
 repo: 'https://github.com/filebrowser/filebrowser'
 updatedAt: '2025-05-07T23:41:16.078Z'
 ---
+
+> 用了一下，非常稳定，各个论坛评价反馈都很好，特别是性能不错，就是需要这种目标明确，简单稳定的项目。
 
 File Browser 是一个轻量级的文件管理系统，提供简洁的 Web 界面来管理文件。它支持多用户、权限管理，并且可以轻松部署在任何支持 Go 的环境中。
 
