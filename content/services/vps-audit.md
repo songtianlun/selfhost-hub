@@ -8,7 +8,7 @@ tags:
   - 服务器
   - 自托管
   - 系统管理
-category: 系统安全
+category: 实用工具
 website: 'https://github.com/vernu/vps-audit'
 repo: 'https://github.com/vernu/vps-audit'
 updatedAt: '2025-05-11T16:00:00+08:00'

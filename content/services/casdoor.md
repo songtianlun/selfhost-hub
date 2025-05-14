@@ -7,7 +7,7 @@ tags:
   - 身份认证
   - Go
   - OAuth
-category: 身份管理
+category: 低代码开发
 website: 'https://casdoor.org'
 repo: 'https://github.com/casdoor/casdoor'
 updatedAt: '2025-05-08T18:10:18.313Z'

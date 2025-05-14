@@ -8,7 +8,7 @@ tags:
   - MariaDB
   - 管理
 rating: 
-category: 数据库管理
+category: 实用工具
 website: 'https://www.phpmyadmin.net'
 repo: 'https://github.com/phpmyadmin/phpmyadmin'
 updatedAt: '2025-05-11T16:00:00+08:00'

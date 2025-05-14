@@ -7,7 +7,7 @@ tags:
   - Web应用
   - 部署
   - 自动化
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://manifest.dev'
 repo: 'https://github.com/mnfst/manifest'
 updatedAt: '2025-05-11T08:00:00.000Z'

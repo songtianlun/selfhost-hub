@@ -7,7 +7,7 @@ tags:
   - 隐私
   - Python
   - 自托管
-category: 搜索工具
+category: 实用工具
 website: 'https://docs.searxng.org'
 repo: 'https://github.com/searxng/searxng'
 updatedAt: '2025-05-10T06:40:15.819Z'

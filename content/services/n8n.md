@@ -7,7 +7,7 @@ tags:
   - 工作流
   - 集成
   - JavaScript
-category: 自动化工具
+category: 实用工具
 website: 'https://n8n.io'
 repo: 'https://github.com/n8n-io/n8n'
 updatedAt: '2025-05-08T01:24:51.131Z'

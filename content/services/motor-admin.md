@@ -7,7 +7,7 @@ tags:
   - 数据库
   - CRUD
   - 自动化
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://www.motor-admin.com'
 repo: 'https://github.com/motor-admin/motor-admin'
 updatedAt: '2025-05-11T08:00:00.000Z'

@@ -8,7 +8,7 @@ tags:
   - 仪表板
   - 表单
   - 数据库
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://www.appsmith.com'
 repo: 'https://github.com/appsmithorg/appsmith'
 updatedAt: '2025-05-11T08:00:00.000Z'

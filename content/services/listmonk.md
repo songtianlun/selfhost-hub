@@ -8,7 +8,7 @@ tags:
   - 通讯
   - Go
 rating: 3
-category: 邮件服务
+category: 实用工具
 website: 'https://listmonk.app'
 repo: 'https://github.com/knadh/listmonk'
 updatedAt: '2025-05-09T23:40:04.783Z'

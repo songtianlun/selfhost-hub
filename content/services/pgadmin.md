@@ -8,7 +8,7 @@ tags:
   - 管理
   - 可视化
 rating: 
-category: 数据库管理
+category: 实用工具
 website: 'https://www.pgadmin.org'
 repo: 'https://github.com/pgadmin-org/pgadmin4'
 updatedAt: '2025-05-11T16:00:00+08:00'

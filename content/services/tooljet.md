@@ -7,7 +7,7 @@ tags:
   - 内部工具
   - 业务应用
   - 可视化
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://www.tooljet.com'
 repo: 'https://github.com/ToolJet/ToolJet'
 updatedAt: '2025-05-11T08:00:00.000Z'

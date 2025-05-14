@@ -7,7 +7,7 @@ tags:
   - 可视化
   - 仪表板
   - 报表
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://trailbase.io'
 repo: 'https://github.com/trailbaseio/trailbase'
 updatedAt: '2025-05-11T08:00:00.000Z'

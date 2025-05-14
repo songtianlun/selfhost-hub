@@ -6,7 +6,7 @@ tags:
   - 智能家居
   - 自动化
   - 物联网
-category: 智能家居
+category: 实用工具
 website: 'https://www.home-assistant.io'
 repo: 'https://github.com/home-assistant/core'
 updatedAt: '2025-05-08T19:55:24.628Z'

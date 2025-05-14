@@ -7,7 +7,7 @@ tags:
   - 恢复
   - 企业级
   - 存储
-category: 系统备份
+category: 实用工具
 website: 'https://www.proxmox.com/en/products/proxmox-backup-server/overview'
 updatedAt: '2025-05-11T17:00:00+08:00'
 ---

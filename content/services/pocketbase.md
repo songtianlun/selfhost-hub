@@ -8,7 +8,7 @@ tags:
   - 实时
   - 认证
   - 文件存储
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://pocketbase.io'
 repo: 'https://github.com/pocketbase/pocketbase'
 updatedAt: '2025-05-11T08:00:00.000Z'

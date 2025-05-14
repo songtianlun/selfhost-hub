@@ -8,7 +8,7 @@ tags:
   - 数据库
   - 认证
   - 存储
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://appwrite.io'
 repo: 'https://github.com/appwrite/appwrite'
 updatedAt: '2025-05-11T08:00:00.000Z'

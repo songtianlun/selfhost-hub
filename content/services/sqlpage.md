@@ -7,7 +7,7 @@ tags:
   - Web界面
   - 数据库
   - 低代码
-category: 低代码开发平台
+category: 低代码开发
 website: 'https://sql.ophir.dev'
 repo: 'https://github.com/sqlpage/SQLPage'
 updatedAt: '2025-05-11T08:00:00.000Z'

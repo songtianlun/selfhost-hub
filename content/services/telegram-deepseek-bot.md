@@ -2,7 +2,7 @@
 id: telegram-deepseek-bot
 name: Telegram DeepSeek Bot
 description: 一个基于 DeepSeek 的 Telegram 聊天机器人，支持多种智能对话和自动化功能
-category: 机器人
+category: 实用工具
 tags:
   - Telegram
   - 聊天机器人

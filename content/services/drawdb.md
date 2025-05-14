@@ -8,7 +8,7 @@ tags:
   - SQL
   - 可视化
 rating: 
-category: 数据库管理
+category: 实用工具
 website: 'https://drawdb.app'
 repo: 'https://github.com/drawdb-io/drawdb'
 updatedAt: '2025-05-11T16:00:00+08:00'
