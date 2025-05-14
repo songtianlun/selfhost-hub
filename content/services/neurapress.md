@@ -8,7 +8,7 @@ tags:
   - "微信公众号"
 category: "实用工具"
 rating: 
-website: "https://github.com/tianyaxiang/neurapress"
+website: "https://md.leti.ltd"
 repo: "https://github.com/tianyaxiang/neurapress"
 updatedAt: "2025-05-14T22:00:00+08:00"
 ---
