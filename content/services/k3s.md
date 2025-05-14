@@ -7,7 +7,7 @@ tags:
   - 容器编排
   - DevOps
   - 边缘计算
-rating: 4.5
+rating: 4.0
 category: 容器编排
 website: 'https://k3s.io'
 repo: 'https://github.com/k3s-io/k3s'
