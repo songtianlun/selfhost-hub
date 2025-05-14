@@ -62,7 +62,7 @@ function CategoryFilterContent({ categories, selectedCategory }: { categories: s
 // 主组件使用 Suspense 包裹内部组件
 export function CategoryFilter({ categories, selectedCategory }: { categories: string[], selectedCategory?: string }) {
     const { translations } = useLanguage()
-    const [expanded, setExpanded] = useState<boolean>(false)
+    const [expanded, setExpanded] = useState<boolean>(true)
 
     return (
         <div className="space-y-4">

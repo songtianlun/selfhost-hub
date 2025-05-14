@@ -8,7 +8,7 @@ tags:
   - 生产力
   - Go
 rating: 3.5
-category: 笔记应用
+category: 笔记管理
 website: 'https://usememos.com'
 repo: 'https://github.com/usememos/memos'
 updatedAt: '2025-05-09T11:44:55.357Z'
