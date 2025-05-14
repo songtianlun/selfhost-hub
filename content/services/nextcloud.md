@@ -8,7 +8,7 @@ tags:
   - 生产力
   - 文件共享
 rating: 3
-category: 文件存储
+category: 文件管理
 website: 'https://nextcloud.com'
 repo: 'https://github.com/nextcloud/server'
 updatedAt: '2025-05-08T18:07:52.877Z'

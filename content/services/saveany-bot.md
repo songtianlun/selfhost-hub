@@ -2,7 +2,7 @@
 id: saveany-bot
 name: SaveAny-Bot
 description: 一个支持多平台的文件存储机器人，便捷保存和管理各类文件
-category: 文件存储
+category: 文件管理
 tags:
   - 文件存储
   - 机器人

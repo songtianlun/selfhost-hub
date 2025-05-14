@@ -6,7 +6,7 @@ tags:
   - 存储
   - 文件共享
   - Go
-category: 文件存储
+category: 文件管理
 rating: 4
 website: 'https://filebrowser.org'
 repo: 'https://github.com/filebrowser/filebrowser'

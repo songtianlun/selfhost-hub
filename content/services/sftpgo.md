@@ -11,7 +11,7 @@ tags:
   - WebDAV
   - 对象存储
   - 云存储
-category: 文件存储
+category: 文件管理
 website: 'https://github.com/drakkan/sftpgo'
 repo: 'https://github.com/drakkan/sftpgo'
 updatedAt: '2025-05-08T00:16:18.051Z'

@@ -9,7 +9,7 @@ tags:
   - WebDAV
   - 文件服务器
   - 静态文件服务
-category: 文件存储
+category: 文件管理
 website: 'https://github.com/sigoden/dufs'
 repo: 'https://github.com/sigoden/dufs'
 updatedAt: '2025-05-11T08:00:00.000Z'

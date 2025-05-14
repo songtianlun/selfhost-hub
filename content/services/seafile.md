@@ -7,7 +7,7 @@ tags:
   - 文件共享
   - 协作
   - Python
-category: 文件存储
+category: 文件管理
 website: 'https://www.seafile.com'
 repo: 'https://github.com/haiwen/seafile'
 updatedAt: '2025-05-08T14:29:37.125Z'

@@ -2,7 +2,7 @@
 id: netmount
 name: NetMount
 description: 一个支持多种协议的网络存储挂载工具，便于统一管理和访问远程文件
-category: 文件存储
+category: 文件管理
 tags:
   - 网络存储
   - 文件管理

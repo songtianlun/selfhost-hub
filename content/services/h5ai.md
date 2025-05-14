@@ -6,7 +6,7 @@ tags:
   - 存储
   - 文件共享
   - PHP
-category: 文件存储
+category: 文件管理
 website: 'https://larsjung.de/h5ai'
 repo: 'https://github.com/lrsjng/h5ai'
 updatedAt: '2025-05-08T08:24:17.849Z'

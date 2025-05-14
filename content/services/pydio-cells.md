@@ -7,7 +7,7 @@ tags:
   - 文件共享
   - 协作
   - Go
-category: 文件存储
+category: 文件管理
 website: 'https://pydio.com'
 repo: 'https://github.com/pydio/cells'
 updatedAt: '2025-05-08T22:15:37.527Z'

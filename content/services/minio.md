@@ -7,7 +7,7 @@ tags:
   - 对象存储
   - Go
 rating: 3
-category: 文件存储
+category: 文件管理
 website: 'https://min.io'
 repo: 'https://github.com/minio/minio'
 updatedAt: '2025-05-10T12:19:25.648Z'

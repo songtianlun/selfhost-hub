@@ -8,7 +8,7 @@ tags:
   - 自托管
   - Docker
   - 数据管理
-category: 文件存储
+category: 文件管理
 website: 'https://www.cloudbak.org'
 repo: 'https://github.com/likeflyme/cloudbak'
 updatedAt: '2025-05-11T16:00:00+08:00'

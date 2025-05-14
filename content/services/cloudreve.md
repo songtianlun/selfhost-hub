@@ -7,7 +7,7 @@ tags:
   - 文件共享
   - Go
   - 云存储
-category: 文件存储
+category: 文件管理
 website: 'https://cloudreve.org'
 repo: 'https://github.com/cloudreve/Cloudreve'
 updatedAt: '2025-05-08T21:43:18.211Z'

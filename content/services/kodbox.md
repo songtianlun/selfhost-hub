@@ -7,7 +7,7 @@ tags:
   - 文件共享
   - PHP
 rating: 2
-category: 文件存储
+category: 文件管理
 website: 'https://kodcloud.com'
 repo: 'https://github.com/kalcaddle/kodbox'
 updatedAt: '2025-05-08T02:57:31.078Z'
