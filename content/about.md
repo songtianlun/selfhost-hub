@@ -67,6 +67,7 @@
 - [AlternativeTo](https://alternativeto.net): 寻找替代软件的好去处。
 - [OpenAlternative](https://openalternative.co): 寻找开源替代软件的好去处。
 - [selfh.st](https://selfh.st/apps/):  Weekly self-hosted content + news delivered straight to your inbox 
+- [Awesome Ops](https://github.com/opsre/awesome-ops): 运维相关的优秀项目
 - [Docker系列 - 咕咕博客](https://blog.laoda.de/categories/docker-series): 咕咕博客, 好玩儿的Docker项目系列文章
 
 
