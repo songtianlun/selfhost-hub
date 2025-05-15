@@ -56,6 +56,14 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
+        {/* Rybbit Analytics */}
+        <Script
+          defer
+          data-site-id="2"
+          src="https://rybbit.frytea.com/api/script.js"
+          strategy="afterInteractive"
+        />
+
         {/* Google Analytics */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-CBY95S9GJ1" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
