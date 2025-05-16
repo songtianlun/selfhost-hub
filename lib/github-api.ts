@@ -93,6 +93,7 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
 function getAuthHeaders(): HeadersInit {
     const token = process.env.GH_TOKEN;
     if (token) {
+        console.log(`request GitHub API with token: ${token}`);
         return {
             'Authorization': `token ${token}`
         };
