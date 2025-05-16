@@ -1,5 +1,9 @@
 // GitHub API 工具类 - 用于获取仓库信息
 
+// 设置常量
+const MAX_RETRY_COUNT = 3; // 最大重试次数
+const RETRY_DELAY_MS = 1000; // 重试延迟，单位毫秒
+
 // 定义GitHub仓库信息的类型
 export interface GithubRepoInfo {
     stars: number;
@@ -9,6 +13,34 @@ export interface GithubRepoInfo {
     isLoading: boolean;
     error?: string;
     fetchTime?: string; // 更改为字符串类型，便于序列化
+}
+
+// 通用的重试函数
+async function withRetry<T>(
+    fn: () => Promise<T>,
+    maxRetries: number = MAX_RETRY_COUNT,
+    delayMs: number = RETRY_DELAY_MS
+): Promise<T> {
+    let lastError: any;
+
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            return await fn();
+        } catch (error) {
+            lastError = error;
+            console.error(`尝试 ${attempt}/${maxRetries} 失败:`, error instanceof Error ? error.message : error);
+
+            // 最后一次尝试失败直接抛出错误
+            if (attempt === maxRetries) {
+                throw lastError;
+            }
+
+            // 延迟一段时间后重试
+            await new Promise(resolve => setTimeout(resolve, delayMs));
+        }
+    }
+
+    throw lastError; // 理论上不会到达这里，但为了类型安全
 }
 
 // 检查URL是否为GitHub仓库链接
@@ -77,7 +109,8 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
     lastUpdated: string;
 }> {
     const headers = getAuthHeaders();
-    try {
+
+    return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
             headers,
             // 增加缓存时间到6小时
@@ -93,20 +126,21 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
             stars: data.stargazers_count,
             lastUpdated: data.updated_at,
         };
-    } catch (error) {
-        console.error("Error fetching repo info:", error);
-        // 出错时返回默认值
+    }).catch(error => {
+        console.error("Error fetching repo info after all retries:", error);
+        // 所有重试都失败时返回默认值
         return {
             stars: 0,
             lastUpdated: '',
         };
-    }
+    });
 }
 
 // 获取最新版本号
 export async function fetchLatestVersion(owner: string, repo: string): Promise<string | undefined> {
-    try {
-        const headers = getAuthHeaders();
+    const headers = getAuthHeaders();
+
+    return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
             headers,
             next: { revalidate: CACHE_REVALIDATION_TIME }
@@ -122,17 +156,18 @@ export async function fetchLatestVersion(owner: string, repo: string): Promise<s
 
         const data = await response.json();
         return data.tag_name;
-    } catch (e) {
+    }).catch(e => {
         // 出错时返回undefined，不阻止其他信息的获取
-        console.error("Error fetching latest release:", e);
+        console.error("Error fetching latest release after all retries:", e);
         return undefined;
-    }
+    });
 }
 
 // 获取README内容
 export async function fetchReadme(owner: string, repo: string): Promise<string | undefined> {
-    try {
-        const headers = getAuthHeaders();
+    const headers = getAuthHeaders();
+
+    return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
             headers,
             next: { revalidate: CACHE_REVALIDATION_TIME }
@@ -146,15 +181,16 @@ export async function fetchReadme(owner: string, repo: string): Promise<string |
         // 内容是Base64编码的
         const content = Buffer.from(data.content, 'base64').toString('utf-8');
         return content;
-    } catch (e) {
-        console.error("Error fetching readme:", e);
+    }).catch(e => {
+        console.error("Error fetching readme after all retries:", e);
         return undefined;
-    }
+    });
 }
 
 // 完整的获取GitHub仓库信息的函数 - 供服务端组件调用
 export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo> {
     try {
+        console.log(`开始获取仓库信息: ${repoUrl}`);
         const repoData = extractRepoInfoFromUrl(repoUrl);
         if (!repoData) {
             return {
@@ -167,13 +203,15 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
         }
 
         const { owner, repo } = repoData;
+        console.log(`解析仓库路径: owner=${owner}, repo=${repo}`);
 
         // 设置超时
         const timeoutPromise = new Promise<never>((_, reject) => {
-            setTimeout(() => reject(new Error('请求超时')), 5000); // 5秒超时
+            setTimeout(() => reject(new Error('请求超时')), 10000); // 增加到10秒超时
         });
 
         // 添加超时机制
+        console.log(`开始并行请求仓库信息...`);
         const basicInfoPromise = fetchRepoInfo(owner, repo);
         const latestVersionPromise = fetchLatestVersion(owner, repo);
         const readmePromise = fetchReadme(owner, repo);
@@ -187,18 +225,34 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
 
         // 处理结果
         const [basicInfoResult, latestVersionResult, readmeResult] = results;
+        console.log(`所有请求已完成，开始处理结果`);
 
         const basicInfo = basicInfoResult.status === 'fulfilled' ? basicInfoResult.value : { stars: 0, lastUpdated: '' };
         const latestVersion = latestVersionResult.status === 'fulfilled' ? latestVersionResult.value : undefined;
         const readme = readmeResult.status === 'fulfilled' ? readmeResult.value : undefined;
 
+        // 打印获取结果摘要
+        console.log(`仓库信息获取摘要: 
+          stars: ${basicInfo.stars}
+          lastUpdated: ${basicInfo.lastUpdated ? '有' : '无'}
+          latestVersion: ${latestVersion ? '有' : '无'}
+          readme: ${readme ? '有 (' + readme.substring(0, 50).replace(/\n/g, ' ') + '...)' : '无'}`);
+
         // 如果所有请求都失败，则返回错误
         if (results.every(result => result.status === 'rejected')) {
+            const errors = results
+                .filter(r => r.status === 'rejected')
+                .map(r => r.status === 'rejected' ? r.reason : null)
+                .filter(Boolean)
+                .map(e => e instanceof Error ? e.message : String(e))
+                .join(', ');
+
+            console.error(`获取仓库信息全部失败: ${errors}`);
             return {
                 stars: 0,
                 lastUpdated: '',
                 isLoading: false,
-                error: '无法加载仓库信息，请稍后再试',
+                error: `无法加载仓库信息，多次尝试后失败: ${errors}`,
                 fetchTime: new Date().toISOString()
             };
         }
@@ -211,6 +265,7 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
             fetchTime: new Date().toISOString()
         };
     } catch (error) {
+        console.error(`获取仓库信息出现异常:`, error);
         return {
             stars: 0,
             lastUpdated: '',

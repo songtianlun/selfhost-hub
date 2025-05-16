@@ -23,19 +23,6 @@ export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
     const [isReadmeOpen, setIsReadmeOpen] = useState(false);
     const mountedRef = useRef(false);
 
-    // 检查是否有有效的仓库信息
-    const hasValidRepoInfo = !(
-        repoInfo.stars === 0 &&
-        !repoInfo.lastUpdated &&
-        !repoInfo.latestVersion &&
-        !repoInfo.readme
-    );
-
-    // 若无有效仓库信息，则不渲染组件
-    if (!hasValidRepoInfo && !repoInfo.error) {
-        return null;
-    }
-
     // 组件挂载后添加淡入效果
     useEffect(() => {
         mountedRef.current = true;

@@ -87,22 +87,53 @@ function EnhancedGithubInfoLoader({ repoUrl }: { repoUrl: string }) {
 
 // GitHub信息加载器组件
 async function GithubInfoLoader({ repoUrl }: { repoUrl: string }) {
-  const githubRepoInfo = await getGithubRepoInfo(repoUrl);
+  try {
+    console.log(`开始获取GitHub信息: ${repoUrl}`);
+    const githubRepoInfo = await getGithubRepoInfo(repoUrl);
 
-  // 检查是否有有效的GitHub仓库信息
-  const hasValidRepoInfo = !(
-    githubRepoInfo.stars === 0 &&
-    !githubRepoInfo.lastUpdated &&
-    !githubRepoInfo.latestVersion &&
-    !githubRepoInfo.readme
-  );
+    // 添加一些调试信息，方便排查
+    console.log(`GitHub信息获取结果:`, {
+      stars: githubRepoInfo.stars,
+      hasLastUpdated: !!githubRepoInfo.lastUpdated,
+      hasLatestVersion: !!githubRepoInfo.latestVersion,
+      hasReadme: !!githubRepoInfo.readme,
+      hasError: !!githubRepoInfo.error,
+      error: githubRepoInfo.error
+    });
 
-  // 如果没有有效的仓库信息，并且没有错误，则直接返回null
-  if (!hasValidRepoInfo && !githubRepoInfo.error) {
-    return null;
+    // 检查是否有任何有效信息或错误信息
+    const hasAnyValidInfo =
+      githubRepoInfo.stars > 0 ||
+      !!githubRepoInfo.lastUpdated ||
+      !!githubRepoInfo.latestVersion ||
+      !!githubRepoInfo.readme ||
+      !!githubRepoInfo.error;
+
+    // 只有当完全没有任何信息和错误时才不显示组件
+    if (!hasAnyValidInfo) {
+      console.log('没有任何有效的GitHub信息，不渲染组件');
+      return null;
+    }
+
+    // 如果有错误信息，也要显示组件
+    if (githubRepoInfo.error) {
+      console.log(`有错误信息，显示错误: ${githubRepoInfo.error}`);
+    }
+
+    return <GithubRepoInfoCard repoInfo={githubRepoInfo} />;
+  } catch (error) {
+    // 捕获任何未处理的异常
+    console.error("加载GitHub信息时发生未捕获的错误:", error);
+
+    // 返回带有错误信息的组件，而不是不显示
+    return <GithubRepoInfoCard repoInfo={{
+      stars: 0,
+      lastUpdated: '',
+      isLoading: false,
+      error: `加载仓库信息时发生错误: ${error instanceof Error ? error.message : '未知错误'}`,
+      fetchTime: new Date().toISOString()
+    }} />;
   }
-
-  return <GithubRepoInfoCard repoInfo={githubRepoInfo} />;
 }
 
 // 相似服务卡片
