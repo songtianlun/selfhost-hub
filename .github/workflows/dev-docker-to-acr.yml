@@ -47,7 +47,6 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           build-args: |
             PUSH_ALL=0
-          secrets: |
             GH_TOKEN=${{ secrets.GH_TOKEN }}
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev:${{ steps.get_version.outputs.VERSION }}
