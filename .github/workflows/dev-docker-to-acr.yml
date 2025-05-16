@@ -23,10 +23,12 @@ jobs:
         with:
           fetch-depth: 0  # 获取完整的 git history 以便生成正确的 tag
       -
-        name: Get Version
+        name: Get Version and GH_TOKEN
         id: get_version
         run: |
           echo "VERSION=$(git describe --dirty --always --tags --abbrev=7)" >> $GITHUB_OUTPUT
+          touch .env
+          echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
       -
         name: Login to ${{ env.REGISTRY }}
         if: github.event_name != 'pull_request'
