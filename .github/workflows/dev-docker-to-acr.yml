@@ -10,8 +10,6 @@ env:
   IMAGE_NAME: frytea_hub/selfhost_hub
   USERNAME: ${{ secrets.ACR_USERNAME }}
   TOKEN: ${{ secrets.ACR_TOKEN }}
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
 
 jobs:
   docker:
@@ -23,11 +21,10 @@ jobs:
         with:
           fetch-depth: 0  # 获取完整的 git history 以便生成正确的 tag
       -
-        name: Get Version and GH_TOKEN
+        name: Get Version
         id: get_version
         run: |
           echo "VERSION=$(git describe --dirty --always --tags --abbrev=7)" >> $GITHUB_OUTPUT
-          echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> $GITHUB_OUTPUT
       -
         name: Login to ${{ env.REGISTRY }}
         if: github.event_name != 'pull_request'
@@ -50,6 +47,8 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           build-args: |
             PUSH_ALL=0
+          secrets: |
+            GH_TOKEN=${{ secrets.GH_TOKEN }}
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev:${{ steps.get_version.outputs.VERSION }}
       -
