@@ -68,27 +68,39 @@ function getAuthHeaders(): HeadersInit {
     return {};
 }
 
+// 设置缓存时间常量 - 6小时
+const CACHE_REVALIDATION_TIME = 6 * 60 * 60; // 秒
+
 // 获取仓库基本信息
 export async function fetchRepoInfo(owner: string, repo: string): Promise<{
     stars: number;
     lastUpdated: string;
 }> {
     const headers = getAuthHeaders();
-    const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-        headers,
-        // 添加缓存选项 - 默认缓存60秒
-        next: { revalidate: 60 }
-    });
+    try {
+        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+            headers,
+            // 增加缓存时间到6小时
+            next: { revalidate: CACHE_REVALIDATION_TIME }
+        });
 
-    if (!response.ok) {
-        throw new Error(`GitHub API error: ${response.status}`);
+        if (!response.ok) {
+            throw new Error(`GitHub API error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        return {
+            stars: data.stargazers_count,
+            lastUpdated: data.updated_at,
+        };
+    } catch (error) {
+        console.error("Error fetching repo info:", error);
+        // 出错时返回默认值
+        return {
+            stars: 0,
+            lastUpdated: '',
+        };
     }
-
-    const data = await response.json();
-    return {
-        stars: data.stargazers_count,
-        lastUpdated: data.updated_at,
-    };
 }
 
 // 获取最新版本号
@@ -97,7 +109,7 @@ export async function fetchLatestVersion(owner: string, repo: string): Promise<s
         const headers = getAuthHeaders();
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
             headers,
-            next: { revalidate: 60 }
+            next: { revalidate: CACHE_REVALIDATION_TIME }
         });
 
         if (!response.ok) {
@@ -123,7 +135,7 @@ export async function fetchReadme(owner: string, repo: string): Promise<string |
         const headers = getAuthHeaders();
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
             headers,
-            next: { revalidate: 60 }
+            next: { revalidate: CACHE_REVALIDATION_TIME }
         });
 
         if (!response.ok) {
@@ -156,12 +168,40 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
 
         const { owner, repo } = repoData;
 
-        // 并行请求所有数据
-        const [basicInfo, latestVersion, readme] = await Promise.all([
-            fetchRepoInfo(owner, repo),
-            fetchLatestVersion(owner, repo),
-            fetchReadme(owner, repo)
+        // 设置超时
+        const timeoutPromise = new Promise<never>((_, reject) => {
+            setTimeout(() => reject(new Error('请求超时')), 5000); // 5秒超时
+        });
+
+        // 添加超时机制
+        const basicInfoPromise = fetchRepoInfo(owner, repo);
+        const latestVersionPromise = fetchLatestVersion(owner, repo);
+        const readmePromise = fetchReadme(owner, repo);
+
+        // 使用Promise.allSettled而不是Promise.all，确保部分失败不会导致整个请求失败
+        const results = await Promise.allSettled([
+            Promise.race([basicInfoPromise, timeoutPromise]),
+            Promise.race([latestVersionPromise, timeoutPromise]),
+            Promise.race([readmePromise, timeoutPromise])
         ]);
+
+        // 处理结果
+        const [basicInfoResult, latestVersionResult, readmeResult] = results;
+
+        const basicInfo = basicInfoResult.status === 'fulfilled' ? basicInfoResult.value : { stars: 0, lastUpdated: '' };
+        const latestVersion = latestVersionResult.status === 'fulfilled' ? latestVersionResult.value : undefined;
+        const readme = readmeResult.status === 'fulfilled' ? readmeResult.value : undefined;
+
+        // 如果所有请求都失败，则返回错误
+        if (results.every(result => result.status === 'rejected')) {
+            return {
+                stars: 0,
+                lastUpdated: '',
+                isLoading: false,
+                error: '无法加载仓库信息，请稍后再试',
+                fetchTime: new Date().toISOString()
+            };
+        }
 
         return {
             ...basicInfo,

@@ -68,10 +68,24 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fadeIn": {
+          "0%": { opacity: "0", transform: "translateY(10px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "progressBar": {
+          "0%": { width: "0%" },
+          "30%": { width: "60%" },
+          "50%": { width: "80%" },
+          "70%": { width: "90%" },
+          "90%": { width: "95%" },
+          "100%": { width: "100%" },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fadeIn": "fadeIn 0.5s ease-out forwards",
+        "progressBar": "progressBar 1.5s ease-in-out",
       },
     },
   },

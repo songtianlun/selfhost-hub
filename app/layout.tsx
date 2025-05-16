@@ -8,6 +8,7 @@ import Footer from "@/components/footer"
 import { LanguageProvider } from "@/components/language-provider"
 import { preloadAllData } from "@/lib/services"
 import Script from "next/script"
+import PageTransition from "@/components/page-transition"
 
 // 预加载所有语言数据
 preloadAllData()
@@ -79,7 +80,9 @@ export default function RootLayout({
           <LanguageProvider>
             <div className="flex min-h-screen flex-col">
               <Navbar />
-              <main className="flex-1">{children}</main>
+              <PageTransition>
+                <main className="flex-1">{children}</main>
+              </PageTransition>
               <Footer />
             </div>
           </LanguageProvider>
