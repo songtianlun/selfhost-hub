@@ -10,6 +10,7 @@ env:
   IMAGE_NAME: frytea_hub/selfhost_hub
   USERNAME: ${{ secrets.ACR_USERNAME }}
   TOKEN: ${{ secrets.ACR_TOKEN }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
 
 jobs:
