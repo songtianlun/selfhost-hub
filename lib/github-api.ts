@@ -98,6 +98,7 @@ function getAuthHeaders(): HeadersInit {
             'Authorization': `token ${token}`
         };
     }
+    console.log(`request GitHub API without token`);
     return {};
 }
 
