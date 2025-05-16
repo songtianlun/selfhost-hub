@@ -8,8 +8,8 @@ tags:
   - 内容聚合
   - PHP
 category: 信息聚合
-website: 'https://github.com/YieldRay/wewe-rss'
-repo: 'https://github.com/YieldRay/wewe-rss'
+website: 'https://github.com/cooderl/wewe-rss'
+repo: 'https://github.com/cooderl/wewe-rss'
 updatedAt: '2025-05-09T11:05:11.852Z'
 ---
 

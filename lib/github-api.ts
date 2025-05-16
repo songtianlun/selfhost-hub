@@ -118,7 +118,7 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
         });
 
         if (!response.ok) {
-            throw new Error(`GitHub API error: ${response.status}`);
+            throw new Error(`GitHub API with [${owner}/${repo}] error: ${response.status}`);
         }
 
         const data = await response.json();
@@ -151,7 +151,7 @@ export async function fetchLatestVersion(owner: string, repo: string): Promise<s
             if (response.status === 404) {
                 return undefined;
             }
-            throw new Error(`GitHub API error: ${response.status}`);
+            throw new Error(`GitHub API with [${owner}/${repo}] error: ${response.status}`);
         }
 
         const data = await response.json();
@@ -174,7 +174,7 @@ export async function fetchReadme(owner: string, repo: string): Promise<string |
         });
 
         if (!response.ok) {
-            throw new Error(`GitHub API error: ${response.status}`);
+            throw new Error(`GitHub API with [${owner}/${repo}] error: ${response.status}`);
         }
 
         const data = await response.json();
