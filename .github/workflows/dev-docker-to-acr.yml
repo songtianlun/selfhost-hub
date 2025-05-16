@@ -27,8 +27,7 @@ jobs:
         id: get_version
         run: |
           echo "VERSION=$(git describe --dirty --always --tags --abbrev=7)" >> $GITHUB_OUTPUT
-          touch .env
-          echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> .env
+          echo GH_TOKEN=${{ secrets.GH_TOKEN }} >> $GITHUB_OUTPUT
       -
         name: Login to ${{ env.REGISTRY }}
         if: github.event_name != 'pull_request'
