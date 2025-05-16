@@ -5,8 +5,15 @@ import { Badge } from './ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { GithubRepoInfo } from '@/lib/github-api';
 import ReactMarkdown from 'react-markdown';
-// 引入rehype-raw插件用于解析HTML标签
+// 引入rehype和remark插件
 import rehypeRaw from 'rehype-raw';
+import rehypeExternalLinks from 'rehype-external-links';
+import remarkGfm from 'remark-gfm';
+import rehypeSanitize from 'rehype-sanitize';
+import { cn } from '@/lib/utils';
+
+// 添加GitHub风格Markdown的CSS
+import './github-markdown.css';
 
 // 组件直接接收服务端获取的数据
 export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
@@ -59,33 +66,111 @@ export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
                                     <TabsTrigger value="readme" className="text-base">README</TabsTrigger>
                                 </TabsList>
                                 <TabsContent value="readme" className="mt-4">
-                                    <div className="max-h-[600px] overflow-y-auto border rounded-md p-6 prose prose-sm md:prose-base dark:prose-invert w-full max-w-none">
-                                        {/* 使用rehypeRaw插件解析HTML内容 */}
-                                        <ReactMarkdown
-                                            rehypePlugins={[rehypeRaw]}
-                                            components={{
-                                                // 确保图片能够正确显示
-                                                img: ({ node, ...props }) => (
-                                                    <img
-                                                        {...props}
-                                                        className="max-w-full h-auto"
-                                                        loading="lazy"
-                                                        alt={props.alt || ''}
-                                                    />
-                                                ),
-                                                // 修复链接在新窗口打开
-                                                a: ({ node, ...props }) => (
-                                                    <a
-                                                        {...props}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        className="text-primary hover:underline"
-                                                    />
-                                                )
-                                            }}
-                                        >
-                                            {repoInfo.readme}
-                                        </ReactMarkdown>
+                                    <div className="max-h-[600px] overflow-y-auto border rounded-md p-6 w-full max-w-none github-markdown">
+                                        {/* 使用更多插件来模拟GitHub风格 */}
+                                        <div className="markdown-body">
+                                            <ReactMarkdown
+                                                remarkPlugins={[remarkGfm]} // GitHub风格Markdown支持
+                                                rehypePlugins={[
+                                                    rehypeRaw, // 解析HTML标签
+                                                    rehypeSanitize, // 净化HTML内容
+                                                    [rehypeExternalLinks, { target: '_blank', rel: ['nofollow', 'noopener', 'noreferrer'] }] // 外部链接处理
+                                                ]}
+                                                components={{
+                                                    // 自定义图片渲染
+                                                    img: ({ node, ...props }) => (
+                                                        <img
+                                                            {...props}
+                                                            className="max-w-full h-auto rounded-md my-4"
+                                                            loading="lazy"
+                                                            alt={props.alt || ''}
+                                                        />
+                                                    ),
+                                                    // 自定义链接渲染
+                                                    a: ({ node, ...props }) => (
+                                                        <a
+                                                            {...props}
+                                                            className="text-blue-600 hover:underline"
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                        />
+                                                    ),
+                                                    // 代码块样式
+                                                    code: ({ node, className, children, ...props }) => {
+                                                        const match = /language-(\w+)/.exec(className || '');
+                                                        return match ? (
+                                                            <div className="relative mb-4">
+                                                                <div className="absolute top-0 right-0 bg-gray-200 dark:bg-gray-700 px-2 py-0.5 text-xs rounded-bl-md rounded-tr-md font-mono">
+                                                                    {match[1]}
+                                                                </div>
+                                                                <pre className="rounded-md bg-gray-100 dark:bg-gray-800 p-4 overflow-x-auto mt-2">
+                                                                    <code
+                                                                        className={cn("text-sm", className)}
+                                                                    >
+                                                                        {children}
+                                                                    </code>
+                                                                </pre>
+                                                            </div>
+                                                        ) : (
+                                                            <code
+                                                                className="bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded-md text-sm font-mono"
+                                                            >
+                                                                {children}
+                                                            </code>
+                                                        );
+                                                    },
+                                                    // 标题样式
+                                                    h1: ({ node, ...props }) => (
+                                                        <h1 className="text-2xl font-bold mt-6 mb-4 pb-2 border-b" {...props} />
+                                                    ),
+                                                    h2: ({ node, ...props }) => (
+                                                        <h2 className="text-xl font-bold mt-6 mb-3 pb-1 border-b" {...props} />
+                                                    ),
+                                                    h3: ({ node, ...props }) => (
+                                                        <h3 className="text-lg font-bold mt-5 mb-2" {...props} />
+                                                    ),
+                                                    // 表格样式
+                                                    table: ({ node, ...props }) => (
+                                                        <div className="overflow-x-auto my-4">
+                                                            <table className="border-collapse w-full" {...props} />
+                                                        </div>
+                                                    ),
+                                                    tr: ({ node, ...props }) => (
+                                                        <tr className="border-t dark:border-gray-700" {...props} />
+                                                    ),
+                                                    th: ({ node, ...props }) => (
+                                                        <th className="px-4 py-2 border dark:border-gray-700 bg-gray-100 dark:bg-gray-800 font-semibold text-left" {...props} />
+                                                    ),
+                                                    td: ({ node, ...props }) => (
+                                                        <td className="px-4 py-2 border dark:border-gray-700" {...props} />
+                                                    ),
+                                                    // 列表样式
+                                                    ul: ({ node, ...props }) => (
+                                                        <ul className="list-disc pl-8 my-4" {...props} />
+                                                    ),
+                                                    ol: ({ node, ...props }) => (
+                                                        <ol className="list-decimal pl-8 my-4" {...props} />
+                                                    ),
+                                                    li: ({ node, ...props }) => (
+                                                        <li className="my-1" {...props} />
+                                                    ),
+                                                    // 引用块样式
+                                                    blockquote: ({ node, ...props }) => (
+                                                        <blockquote className="border-l-4 border-gray-300 dark:border-gray-700 pl-4 py-1 my-4 text-gray-700 dark:text-gray-300" {...props} />
+                                                    ),
+                                                    // 段落样式
+                                                    p: ({ node, ...props }) => (
+                                                        <p className="my-4 leading-relaxed" {...props} />
+                                                    ),
+                                                    // 水平线
+                                                    hr: ({ node, ...props }) => (
+                                                        <hr className="my-6 border-gray-300 dark:border-gray-700" {...props} />
+                                                    ),
+                                                }}
+                                            >
+                                                {repoInfo.readme}
+                                            </ReactMarkdown>
+                                        </div>
                                     </div>
                                 </TabsContent>
                             </Tabs>
