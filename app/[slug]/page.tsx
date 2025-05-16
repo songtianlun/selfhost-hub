@@ -7,6 +7,7 @@ import { Rating } from "@/components/rating"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import type { Metadata } from "next"
+import { GithubRepoInfoClient } from "./repo-info-client"
 
 export async function generateMetadata({
   params,
@@ -33,6 +34,19 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }))
 }
 
+// 检查URL是否为GitHub仓库链接
+function isGithubRepoUrl(url: string | undefined): boolean {
+  if (!url) return false;
+
+  try {
+    const parsedUrl = new URL(url);
+    return parsedUrl.hostname === 'github.com' &&
+      parsedUrl.pathname.split('/').filter(Boolean).length >= 2;
+  } catch {
+    return false;
+  }
+}
+
 export default async function ServicePage({ params }: { params: { slug: string } }) {
   const resolvedParams = await params
   const service = await getServiceBySlug(resolvedParams.slug, "zh")
@@ -53,7 +67,10 @@ export default async function ServicePage({ params }: { params: { slug: string }
     }))
     .filter(s => s.similarityScore > 0) // 只保留有相似度的服务
     .sort((a, b) => b.similarityScore - a.similarityScore) // 按相似度排序
-    .slice(0, 6) // 只取前5个
+    .slice(0, 6) // 只取前6个
+
+  // 判断是否为GitHub仓库链接
+  const showGithubInfo = isGithubRepoUrl(service.repo);
 
   return (
     <div className="container py-10">
@@ -124,6 +141,11 @@ export default async function ServicePage({ params }: { params: { slug: string }
         <div className="prose dark:prose-invert max-w-none">
           <div dangerouslySetInnerHTML={{ __html: service.content || "" }} />
         </div>
+
+        {/* GitHub仓库信息 */}
+        {showGithubInfo && (
+          <GithubRepoInfoClient repoUrl={service.repo!} />
+        )}
 
         {/* 相似服务推荐 */}
         {similarServices.length > 0 && (
