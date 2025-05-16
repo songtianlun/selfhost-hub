@@ -103,6 +103,8 @@ function getAuthHeaders(): HeadersInit {
 // 设置缓存时间常量 - 6小时
 const CACHE_REVALIDATION_TIME = 6 * 60 * 60; // 秒
 
+// 以下是保留的旧方法，可能在某些场景下单独使用
+
 // 获取仓库基本信息
 export async function fetchRepoInfo(owner: string, repo: string): Promise<{
     stars: number;
@@ -187,6 +189,79 @@ export async function fetchReadme(owner: string, repo: string): Promise<string |
     });
 }
 
+// 新增：使用REST API一次性获取所有仓库信息
+async function fetchAllRepoData(owner: string, repo: string): Promise<{
+    stars: number;
+    lastUpdated: string;
+    latestVersion?: string;
+    readme?: string;
+}> {
+    const headers = getAuthHeaders();
+
+    // 创建基本信息、最新版本和README的获取Promise
+    const repoPromise = fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+        headers,
+        next: { revalidate: CACHE_REVALIDATION_TIME }
+    });
+
+    const releasesPromise = fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
+        headers,
+        next: { revalidate: CACHE_REVALIDATION_TIME }
+    });
+
+    const readmePromise = fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
+        headers,
+        next: { revalidate: CACHE_REVALIDATION_TIME }
+    });
+
+    return withRetry(async () => {
+        // 并行执行所有请求
+        const [repoResponse, releaseResponse, readmeResponse] = await Promise.all([
+            repoPromise,
+            releasesPromise,
+            readmePromise
+        ]);
+
+        // 处理基本信息响应
+        if (!repoResponse.ok) {
+            throw new Error(`获取仓库基本信息失败: ${repoResponse.status}`);
+        }
+        const repoData = await repoResponse.json();
+
+        // 处理最新版本响应 (如果404则视为没有最新版本，不是错误)
+        let latestVersion = undefined;
+        if (releaseResponse.ok) {
+            const releaseData = await releaseResponse.json();
+            latestVersion = releaseData.tag_name;
+        } else if (releaseResponse.status !== 404) {
+            console.warn(`获取最新版本失败: ${releaseResponse.status}`);
+        }
+
+        // 处理README响应
+        let readme = undefined;
+        if (readmeResponse.ok) {
+            const readmeData = await readmeResponse.json();
+            readme = Buffer.from(readmeData.content, 'base64').toString('utf-8');
+        } else {
+            console.warn(`获取README失败: ${readmeResponse.status}`);
+        }
+
+        return {
+            stars: repoData.stargazers_count,
+            lastUpdated: repoData.updated_at,
+            latestVersion,
+            readme
+        };
+    }).catch(error => {
+        console.error("获取仓库信息失败:", error);
+        // 出错时返回最小信息集
+        return {
+            stars: 0,
+            lastUpdated: '',
+        };
+    });
+}
+
 // 完整的获取GitHub仓库信息的函数 - 供服务端组件调用
 export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo> {
     try {
@@ -207,60 +282,25 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
 
         // 设置超时
         const timeoutPromise = new Promise<never>((_, reject) => {
-            setTimeout(() => reject(new Error('请求超时')), 10000); // 增加到10秒超时
+            setTimeout(() => reject(new Error('请求超时')), 10000); // 10秒超时
         });
 
-        // 添加超时机制
-        console.log(`开始并行请求仓库信息...`);
-        const basicInfoPromise = fetchRepoInfo(owner, repo);
-        const latestVersionPromise = fetchLatestVersion(owner, repo);
-        const readmePromise = fetchReadme(owner, repo);
+        // 使用新的一次性API调用方法
+        console.log(`开始获取仓库信息...`);
+        const repoInfoPromise = fetchAllRepoData(owner, repo);
 
-        // 使用Promise.allSettled而不是Promise.all，确保部分失败不会导致整个请求失败
-        const results = await Promise.allSettled([
-            Promise.race([basicInfoPromise, timeoutPromise]),
-            Promise.race([latestVersionPromise, timeoutPromise]),
-            Promise.race([readmePromise, timeoutPromise])
-        ]);
-
-        // 处理结果
-        const [basicInfoResult, latestVersionResult, readmeResult] = results;
-        console.log(`所有请求已完成，开始处理结果`);
-
-        const basicInfo = basicInfoResult.status === 'fulfilled' ? basicInfoResult.value : { stars: 0, lastUpdated: '' };
-        const latestVersion = latestVersionResult.status === 'fulfilled' ? latestVersionResult.value : undefined;
-        const readme = readmeResult.status === 'fulfilled' ? readmeResult.value : undefined;
+        const result = await Promise.race([repoInfoPromise, timeoutPromise]);
+        console.log(`请求已完成，开始处理结果`);
 
         // 打印获取结果摘要
         console.log(`仓库信息获取摘要: 
-          stars: ${basicInfo.stars}
-          lastUpdated: ${basicInfo.lastUpdated ? '有' : '无'}
-          latestVersion: ${latestVersion ? '有' : '无'}
-          readme: ${readme ? '有 (' + readme.substring(0, 50).replace(/\n/g, ' ') + '...)' : '无'}`);
-
-        // 如果所有请求都失败，则返回错误
-        if (results.every(result => result.status === 'rejected')) {
-            const errors = results
-                .filter(r => r.status === 'rejected')
-                .map(r => r.status === 'rejected' ? r.reason : null)
-                .filter(Boolean)
-                .map(e => e instanceof Error ? e.message : String(e))
-                .join(', ');
-
-            console.error(`获取仓库信息全部失败: ${errors}`);
-            return {
-                stars: 0,
-                lastUpdated: '',
-                isLoading: false,
-                error: `无法加载仓库信息，多次尝试后失败: ${errors}`,
-                fetchTime: new Date().toISOString()
-            };
-        }
+          stars: ${result.stars}
+          lastUpdated: ${result.lastUpdated ? '有' : '无'}
+          latestVersion: ${result.latestVersion ? '有' : '无'}
+          readme: ${result.readme ? '有 (' + result.readme.substring(0, 50).replace(/\n/g, ' ') + '...)' : '无'}`);
 
         return {
-            ...basicInfo,
-            latestVersion,
-            readme,
+            ...result,
             isLoading: false,
             fetchTime: new Date().toISOString()
         };
