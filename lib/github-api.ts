@@ -8,6 +8,20 @@ export interface GithubRepoInfo {
     readme?: string;
     isLoading: boolean;
     error?: string;
+    fetchTime?: string; // 更改为字符串类型，便于序列化
+}
+
+// 检查URL是否为GitHub仓库链接
+export function isGithubRepoUrl(url: string | undefined): boolean {
+    if (!url) return false;
+
+    try {
+        const parsedUrl = new URL(url);
+        return parsedUrl.hostname === 'github.com' &&
+            parsedUrl.pathname.split('/').filter(Boolean).length >= 2;
+    } catch {
+        return false;
+    }
 }
 
 // 从GitHub URL提取仓库所有者和名称
@@ -48,7 +62,10 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
     stars: number;
     lastUpdated: string;
 }> {
-    const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
+    const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+        // 添加缓存选项 - 默认缓存60秒
+        next: { revalidate: 60 }
+    });
 
     if (!response.ok) {
         throw new Error(`GitHub API error: ${response.status}`);
@@ -64,7 +81,9 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
 // 获取最新版本号
 export async function fetchLatestVersion(owner: string, repo: string): Promise<string | undefined> {
     try {
-        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`);
+        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
+            next: { revalidate: 60 }
+        });
 
         if (!response.ok) {
             // 如果没有发布版本，不报错，只返回undefined
@@ -86,7 +105,9 @@ export async function fetchLatestVersion(owner: string, repo: string): Promise<s
 // 获取README内容
 export async function fetchReadme(owner: string, repo: string): Promise<string | undefined> {
     try {
-        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`);
+        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
+            next: { revalidate: 60 }
+        });
 
         if (!response.ok) {
             throw new Error(`GitHub API error: ${response.status}`);
@@ -94,10 +115,51 @@ export async function fetchReadme(owner: string, repo: string): Promise<string |
 
         const data = await response.json();
         // 内容是Base64编码的
-        const content = atob(data.content);
+        const content = Buffer.from(data.content, 'base64').toString('utf-8');
         return content;
     } catch (e) {
         console.error("Error fetching readme:", e);
         return undefined;
+    }
+}
+
+// 完整的获取GitHub仓库信息的函数 - 供服务端组件调用
+export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo> {
+    try {
+        const repoData = extractRepoInfoFromUrl(repoUrl);
+        if (!repoData) {
+            return {
+                stars: 0,
+                lastUpdated: '',
+                isLoading: false,
+                error: '无效的GitHub仓库链接',
+                fetchTime: new Date().toISOString()
+            };
+        }
+
+        const { owner, repo } = repoData;
+
+        // 并行请求所有数据
+        const [basicInfo, latestVersion, readme] = await Promise.all([
+            fetchRepoInfo(owner, repo),
+            fetchLatestVersion(owner, repo),
+            fetchReadme(owner, repo)
+        ]);
+
+        return {
+            ...basicInfo,
+            latestVersion,
+            readme,
+            isLoading: false,
+            fetchTime: new Date().toISOString()
+        };
+    } catch (error) {
+        return {
+            stars: 0,
+            lastUpdated: '',
+            isLoading: false,
+            error: `无法加载仓库信息: ${error instanceof Error ? error.message : '未知错误'}`,
+            fetchTime: new Date().toISOString()
+        };
     }
 } 
