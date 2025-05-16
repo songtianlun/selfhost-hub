@@ -57,12 +57,25 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
     }
 }
 
+// 获取带有 GitHub token 的请求头
+function getAuthHeaders(): HeadersInit {
+    const token = process.env.GH_TOKEN;
+    if (token) {
+        return {
+            'Authorization': `token ${token}`
+        };
+    }
+    return {};
+}
+
 // 获取仓库基本信息
 export async function fetchRepoInfo(owner: string, repo: string): Promise<{
     stars: number;
     lastUpdated: string;
 }> {
+    const headers = getAuthHeaders();
     const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+        headers,
         // 添加缓存选项 - 默认缓存60秒
         next: { revalidate: 60 }
     });
@@ -81,7 +94,9 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
 // 获取最新版本号
 export async function fetchLatestVersion(owner: string, repo: string): Promise<string | undefined> {
     try {
+        const headers = getAuthHeaders();
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
+            headers,
             next: { revalidate: 60 }
         });
 
@@ -105,7 +120,9 @@ export async function fetchLatestVersion(owner: string, repo: string): Promise<s
 // 获取README内容
 export async function fetchReadme(owner: string, repo: string): Promise<string | undefined> {
     try {
+        const headers = getAuthHeaders();
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
+            headers,
             next: { revalidate: 60 }
         });
 
