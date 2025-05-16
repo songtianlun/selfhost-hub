@@ -7,12 +7,14 @@ tags:
   - 监控
   - 隐私
   - JavaScript
-rating: 
+rating: 3.0
 category: 网站分析
 website: 'https://rybbit.io'
 repo: 'https://github.com/rybbit-io/rybbit'
 updatedAt: '2025-05-10T15:00:00.000Z'
 ---
+
+> 来自欧洲的注重隐私的 Google Analytics 替代产品，界面酷炫，功能强大。部署了一下体验很好，当前处于积极开发阶段，暂定 3.0 分，期待逐步稳定。
 
 Rybbit 是一个轻量级的网站分析工具，专注于提供简单而有效的网站访问统计功能，同时保护用户隐私。
 
