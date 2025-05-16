@@ -91,7 +91,7 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
 
 // 获取带有 GitHub token 的请求头
 function getAuthHeaders(): HeadersInit {
-    const token = process.env.GH_TOKEN;
+    const token = process.env.GITHUB_TOKEN;
     if (token) {
         return {
             'Authorization': `token ${token}`
