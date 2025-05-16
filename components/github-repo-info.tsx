@@ -5,6 +5,8 @@ import { Badge } from './ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { GithubRepoInfo } from '@/lib/github-api';
 import ReactMarkdown from 'react-markdown';
+// 引入rehype-raw插件用于解析HTML标签
+import rehypeRaw from 'rehype-raw';
 
 // 组件直接接收服务端获取的数据
 export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
@@ -58,7 +60,32 @@ export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
                                 </TabsList>
                                 <TabsContent value="readme" className="mt-4">
                                     <div className="max-h-[600px] overflow-y-auto border rounded-md p-6 prose prose-sm md:prose-base dark:prose-invert w-full max-w-none">
-                                        <ReactMarkdown>{repoInfo.readme}</ReactMarkdown>
+                                        {/* 使用rehypeRaw插件解析HTML内容 */}
+                                        <ReactMarkdown
+                                            rehypePlugins={[rehypeRaw]}
+                                            components={{
+                                                // 确保图片能够正确显示
+                                                img: ({ node, ...props }) => (
+                                                    <img
+                                                        {...props}
+                                                        className="max-w-full h-auto"
+                                                        loading="lazy"
+                                                        alt={props.alt || ''}
+                                                    />
+                                                ),
+                                                // 修复链接在新窗口打开
+                                                a: ({ node, ...props }) => (
+                                                    <a
+                                                        {...props}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-primary hover:underline"
+                                                    />
+                                                )
+                                            }}
+                                        >
+                                            {repoInfo.readme}
+                                        </ReactMarkdown>
                                     </div>
                                 </TabsContent>
                             </Tabs>
