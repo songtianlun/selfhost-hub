@@ -76,22 +76,32 @@ function ServiceDetailSkeleton() {
   )
 }
 
-// GitHub信息加载器组件 - 添加更加平滑的加载过渡
+// GitHubu4fe1u606fu52a0u8f7du5668u7ec4u4ef6 - u6dfbu52a0u66f4u52a0u5e73u6ed1u7684u52a0u8f7du8fc7u6e21
 function EnhancedGithubInfoLoader({ repoUrl }: { repoUrl: string }) {
   return (
-    <div className="w-full">
-      <div className="opacity-0 animate-fadeIn" style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}>
-        <Suspense fallback={<GithubRepoInfoSkeleton />}>
-          <GithubInfoLoader repoUrl={repoUrl} />
-        </Suspense>
-      </div>
-    </div>
+    <Suspense fallback={<GithubRepoInfoSkeleton />}>
+      <GithubInfoLoader repoUrl={repoUrl} />
+    </Suspense>
   );
 }
 
 // GitHub信息加载器组件
 async function GithubInfoLoader({ repoUrl }: { repoUrl: string }) {
   const githubRepoInfo = await getGithubRepoInfo(repoUrl);
+
+  // 检查是否有有效的GitHub仓库信息
+  const hasValidRepoInfo = !(
+    githubRepoInfo.stars === 0 &&
+    !githubRepoInfo.lastUpdated &&
+    !githubRepoInfo.latestVersion &&
+    !githubRepoInfo.readme
+  );
+
+  // 如果没有有效的仓库信息，并且没有错误，则直接返回null
+  if (!hasValidRepoInfo && !githubRepoInfo.error) {
+    return null;
+  }
+
   return <GithubRepoInfoCard repoInfo={githubRepoInfo} />;
 }
 
