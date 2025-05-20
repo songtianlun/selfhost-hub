@@ -9,6 +9,7 @@ import { LanguageProvider } from "@/components/language-provider"
 import { preloadAllData } from "@/lib/services"
 import Script from "next/script"
 import PageTransition from "@/components/page-transition"
+import AdSenseScript from "@/components/adsense-script"
 
 // 预加载所有语言数据
 preloadAllData()
@@ -76,13 +77,8 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        {/* Google AdSense - 使用客户端组件动态加载 */}
+        <AdSenseScript />
 
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <LanguageProvider>
