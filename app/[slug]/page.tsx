@@ -12,6 +12,7 @@ import { getGithubRepoInfo, isGithubRepoUrl } from "@/lib/github-api"
 import { Suspense, useEffect } from "react"
 import { Skeleton } from "@/components/ui/skeleton"
 import type { Service } from "@/lib/services"
+import AdSenseAd from "@/components/adsense-ad"
 
 export async function generateMetadata({
   params,
@@ -277,7 +278,11 @@ export default async function ServicePage({ params }: { params: { slug: string }
 
         {/* GitHub仓库信息 - 使用增强的加载器组件 */}
         {hasGithubRepo && (
-          <EnhancedGithubInfoLoader repoUrl={service.repo!} />
+          <>
+            {/* Google AdSense广告 */}
+            <AdSenseAd className="w-full overflow-hidden mb-6" />
+            <EnhancedGithubInfoLoader repoUrl={service.repo!} />
+          </>
         )}
 
         <div className="prose dark:prose-invert max-w-none">
