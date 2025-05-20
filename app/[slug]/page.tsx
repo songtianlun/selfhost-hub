@@ -276,13 +276,12 @@ export default async function ServicePage({ params }: { params: { slug: string }
           </div>
         </div>
 
+        {/* Google AdSense广告 */}
+        <AdSenseAd className="w-full overflow-hidden mb-6" />
+
         {/* GitHub仓库信息 - 使用增强的加载器组件 */}
         {hasGithubRepo && (
-          <>
-            {/* Google AdSense广告 */}
-            <AdSenseAd className="w-full overflow-hidden mb-6" />
-            <EnhancedGithubInfoLoader repoUrl={service.repo!} />
-          </>
+          <EnhancedGithubInfoLoader repoUrl={service.repo!} />
         )}
 
         <div className="prose dark:prose-invert max-w-none">
