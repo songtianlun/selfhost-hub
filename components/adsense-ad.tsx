@@ -16,8 +16,6 @@ export default function AdSenseAd({
             <div
                 dangerouslySetInnerHTML={{
                     __html: `
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358"
-               crossorigin="anonymous"></script>
           <!-- selfhost-hub-horizon -->
           <ins class="adsbygoogle"
                style="display:block"

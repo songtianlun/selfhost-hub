@@ -76,6 +76,14 @@ export default function RootLayout({
           `}
         </Script>
 
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7296634171837358"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <LanguageProvider>
             <div className="flex min-h-screen flex-col">
