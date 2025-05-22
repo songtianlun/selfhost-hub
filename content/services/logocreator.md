@@ -8,7 +8,7 @@ tags:
   - 图像生成
   - 自托管
   - 开源
-category: AI平台
+category: AI工具
 website: 'https://www.logo-creator.io'
 repo: 'https://github.com/Nutlope/logocreator'
 updatedAt: '2025-05-14T14:00:00.000Z'

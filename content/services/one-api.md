@@ -7,7 +7,7 @@ tags:
   - "API"
   - "管理平台"
   - "统一接口"
-category: "AI平台"
+category: "AI工具"
 rating: 
 website: "https://github.com/songquanpeng/one-api"
 repo: "https://github.com/songquanpeng/one-api"

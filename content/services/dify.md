@@ -8,7 +8,7 @@ tags:
   - Python
   - LLM
 rating: 3.5
-category: AI平台
+category: AI工具
 website: 'https://dify.ai'
 repo: 'https://github.com/langgenius/dify'
 updatedAt: '2025-05-10T00:09:18.332Z'

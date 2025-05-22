@@ -7,7 +7,7 @@ tags:
   - 聊天机器人
   - LLM
   - TypeScript
-category: AI平台
+category: AI工具
 website: 'https://librechat.ai'
 repo: 'https://github.com/danny-avila/LibreChat'
 updatedAt: '2025-05-10T22:00:00.000+08:00'

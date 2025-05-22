@@ -7,7 +7,7 @@ tags:
   - "播客"
   - "自动化"
   - "内容生成"
-category: "AI平台"
+category: "AI工具"
 rating: 
 website: "https://hacker-news.agi.li"
 repo: "https://github.com/ccbikai/hacker-news"

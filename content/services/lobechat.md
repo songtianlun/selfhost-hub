@@ -8,7 +8,7 @@ tags:
   - LLM
   - TypeScript
 rating: 3.5
-category: AI平台
+category: AI工具
 website: 'https://chat-preview.lobehub.com'
 repo: 'https://github.com/lobehub/lobe-chat'
 updatedAt: '2025-05-07T22:32:29.423Z'

@@ -7,7 +7,7 @@ tags:
   - "API"
   - "管理平台"
   - "接口分发"
-category: "AI平台"
+category: "AI工具"
 rating: 
 website: "https://github.com/QuantumNous/new-api"
 repo: "https://github.com/QuantumNous/new-api"

@@ -1,19 +1,19 @@
 ---
 id: "deepclaude"
 name: "DeepClaude"
-description: "一个强大的AI平台，结合DeepSeek R1和Claude 3.7 Sonnet/Gemini Pro，提供卓越的代码生成和内容创作能力"
+description: "一个强大的AI工具，结合DeepSeek R1和Claude 3.7 Sonnet/Gemini Pro，提供卓越的代码生成和内容创作能力"
 tags:
   - "AI"
   - "代码生成"
   - "内容创作"
-category: "AI平台"
+category: "AI工具"
 rating: 
 website: "https://erlich.fun/deepclaude-pricing"
 repo: "https://github.com/ErlichLiu/DeepClaude"
 updatedAt: "2025-05-14T14:00:00Z"
 ---
 
-DeepClaude 是一个创新的AI平台，通过结合DeepSeek R1和Claude 3.7 Sonnet/Gemini Pro的优势，提供卓越的代码生成和内容创作能力。
+DeepClaude 是一个创新的AI工具，通过结合DeepSeek R1和Claude 3.7 Sonnet/Gemini Pro的优势，提供卓越的代码生成和内容创作能力。
 
 ## 主要功能
 

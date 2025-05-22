@@ -8,7 +8,7 @@ tags:
   - 图像生成
   - TypeScript
   - Midjourney
-category: AI平台
+category: AI工具
 website: 'https://github.com/Dooy/chatgpt-web-midjourney-proxy'
 repo: 'https://github.com/Dooy/chatgpt-web-midjourney-proxy'
 updatedAt: '2025-05-10T22:00:00.000+08:00'

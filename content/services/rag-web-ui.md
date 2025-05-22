@@ -7,7 +7,7 @@ tags:
   - "RAG"
   - "知识库"
   - "问答系统"
-category: "AI平台"
+category: "AI工具"
 rating: 
 website: "https://github.com/rag-web-ui/rag-web-ui"
 repo: "https://github.com/rag-web-ui/rag-web-ui"

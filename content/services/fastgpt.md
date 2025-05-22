@@ -7,7 +7,7 @@ tags:
   - 知识库
   - LLM
   - TypeScript
-category: AI平台
+category: AI工具
 website: 'https://fastgpt.run'
 repo: 'https://github.com/labring/FastGPT'
 updatedAt: '2025-05-10T22:00:00.000+08:00'
