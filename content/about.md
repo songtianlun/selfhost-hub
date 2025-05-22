@@ -69,7 +69,8 @@
 - [selfh.st](https://selfh.st/apps/):  Weekly self-hosted content + news delivered straight to your inbox 
 - [Awesome Ops](https://github.com/opsre/awesome-ops): 运维相关的优秀项目
 - [Docker系列 - 咕咕博客](https://blog.laoda.de/categories/docker-series): 咕咕博客, 好玩儿的Docker项目系列文章
-
+- [Self Hosted - OpenBestof](https://sh.openbestof.com/): Discover curated opensource self-hosted apps, softwares and resources.
+- [OpenBestof](https://openbestof.com/): The best of opensource AI tools, self-hosted apps, llms and resources.
 
 
 ## 致谢
