@@ -187,7 +187,7 @@ export default function Navbar() {
 
             <Button asChild variant="outline" className="w-full justify-start">
               <Link
-                href="https://github.com/yourusername/selfhost-hub"
+                href="https://github.com/songtianlun/selfhost-hub"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}

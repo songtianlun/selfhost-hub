@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/yourusername/selfhost-hub"
+            href="https://github.com/songtianlun/selfhost-hub"
             target="_blank"
             rel="noreferrer"
             className="text-muted-foreground hover:text-foreground"
