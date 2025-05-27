@@ -66,6 +66,14 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
+        {/* Umami Analytics */}
+        <Script
+          defer
+          data-website-id="655742d4-4bc2-4e52-aea0-71a8a4c2a1c0"
+          src="https://umami.frytea.com/script.js"
+          strategy="afterInteractive"
+        />
+
         {/* Google Analytics */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-CBY95S9GJ1" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
