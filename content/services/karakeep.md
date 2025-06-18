@@ -9,7 +9,7 @@ tags:
   - 笔记
   - 图片存储
   - 全文搜索
-category: 书签管理
+category: 信息聚合
 website: 'https://karakeep.app'
 repo: 'https://github.com/karakeep-app/karakeep'
 updatedAt: '2025-05-11T16:00:00+08:00'

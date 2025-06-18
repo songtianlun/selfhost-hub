@@ -7,7 +7,7 @@ tags:
   - 网络
   - 延迟
   - Perl
-category: 网络监控
+category: 网络工具
 website: 'https://oss.oetiker.ch/smokeping'
 repo: 'https://github.com/oetiker/SmokePing'
 updatedAt: '2025-05-10T01:03:50.100Z'

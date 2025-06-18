@@ -9,7 +9,7 @@ tags:
   - Docker
   - 监控
   - 管理
-category: 仪表板
+category: 信息聚合
 website: 'https://homarr.dev'
 repo: 'https://github.com/ajnart/homarr'
 updatedAt: '2025-05-11T08:00:00.000Z'

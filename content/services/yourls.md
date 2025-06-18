@@ -7,7 +7,7 @@ tags:
   - URL缩短
   - 统计
   - PHP
-category: URL工具
+category: 实用工具
 website: 'https://yourls.org'
 repo: 'https://github.com/YOURLS/YOURLS'
 updatedAt: '2025-05-07T19:04:06.604Z'

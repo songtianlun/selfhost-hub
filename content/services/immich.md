@@ -12,7 +12,7 @@ tags:
   - 机器学习
   - TypeScript
   - Flutter
-category: 电子相册
+category: 图像托管
 website: 'https://immich.app'
 repo: 'https://github.com/immich-app/immich'
 updatedAt: '2025-05-11T08:00:00.000Z'

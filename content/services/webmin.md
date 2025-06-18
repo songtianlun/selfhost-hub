@@ -7,7 +7,7 @@ tags:
   - 服务器管理
   - 运维
   - Perl
-category: 运维管理面板
+category: 服务器管理
 website: 'https://www.webmin.com'
 repo: 'https://github.com/webmin/webmin'
 updatedAt: '2025-05-11T08:00:00.000Z'

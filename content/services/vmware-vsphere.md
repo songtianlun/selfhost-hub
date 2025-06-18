@@ -9,7 +9,7 @@ tags:
   - 云计算
   - 闭源
   - 付费
-category: 服务器虚拟化
+category: 服务器管理
 website: 'https://www.vmware.com/products/cloud-infrastructure/vsphere'
 updatedAt: '2025-05-11T16:00:00+08:00'
 ---

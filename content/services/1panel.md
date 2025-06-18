@@ -8,7 +8,7 @@ tags:
   - 运维
   - Go
   - Vue
-category: 运维管理面板
+category: 服务器管理
 website: 'https://1panel.pro'
 repo: 'https://github.com/1Panel-dev/1Panel'
 updatedAt: '2025-05-11T08:00:00.000Z'

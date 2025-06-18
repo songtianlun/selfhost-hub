@@ -8,7 +8,7 @@ tags:
   - 变更检测
   - 自托管
   - 通知
-category: 网络监控
+category: 网络工具
 website: 'https://github.com/dgtlmoon/changedetection.io'
 repo: 'https://github.com/dgtlmoon/changedetection.io'
 updatedAt: '2025-05-14T14:00:00.000Z'

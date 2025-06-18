@@ -8,7 +8,7 @@ tags:
   - 运维
   - Go
   - Vue
-category: 运维管理面板
+category: 服务器管理
 website: 'https://ratpanel.github.io'
 repo: 'https://github.com/tnb-labs/panel'
 updatedAt: '2025-05-11T08:00:00.000Z'

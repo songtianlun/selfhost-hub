@@ -8,7 +8,7 @@ tags:
   - Python
   - Django
   - 书签同步
-category: 书签管理
+category: 信息聚合
 website: 'https://github.com/sissbruecker/linkding'
 repo: 'https://github.com/sissbruecker/linkding'
 updatedAt: '2025-05-11T16:00:00+08:00'

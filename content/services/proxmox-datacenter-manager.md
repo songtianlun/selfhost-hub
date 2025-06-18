@@ -7,7 +7,7 @@ tags:
   - 管理工具
   - Rust
   - 数据中心
-category: 服务器虚拟化
+category: 服务器管理
 website: 'https://pve.proxmox.com/wiki/Proxmox_Datacenter_Manager_Roadmap'
 repo: 'https://git.proxmox.com/?p=pdm.git;a=summary'
 updatedAt: '2025-05-11T09:00:00.000Z'

@@ -7,7 +7,7 @@ tags:
   - 服务器
   - 容器
   - KVM
-category: 服务器虚拟化
+category: 服务器管理
 website: 'https://www.proxmox.com/en/products/proxmox-virtual-environment/overview'
 updatedAt: '2025-05-11T16:00:00+08:00'
 ---

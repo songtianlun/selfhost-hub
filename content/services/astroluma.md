@@ -9,7 +9,7 @@ tags:
   - MERN
   - 监控
   - 管理
-category: 仪表板
+category: 信息聚合
 website: 'https://getastroluma.com/'
 repo: 'https://github.com/Sanjeet990/Astroluma'
 updatedAt: '2025-05-14T14:00:00.000Z'
