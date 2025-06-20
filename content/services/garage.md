@@ -10,7 +10,7 @@ tags:
 category: "文件管理"
 website: "https://garagehq.deuxfleurs.fr"
 repo: "https://github.com/deuxfleurs-org/garage"
-updatedAt: "2025-06-18T00:00:00Z"
+updatedAt: "2025-06-20T00:00:00Z"
 ---
 
 Garage 是一个S3兼容的分布式对象存储服务，专为小到中等规模的自托管部署设计。它特别适合由运行在不同物理位置的节点组成的存储集群，能够轻松提供数据复制和高可用性的存储服务。
