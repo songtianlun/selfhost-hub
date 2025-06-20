@@ -231,7 +231,7 @@ export default async function ServicePage({ params }: { params: { slug: string }
                 </Link>
                 {service.tags.map((tag) => (
                   <Link key={tag} href={`/?tags=${encodeURIComponent(tag)}`}>
-                    <Tag tag={tag} />
+                    <Tag tag={tag} clickable={true} />
                   </Link>
                 ))}
               </div>

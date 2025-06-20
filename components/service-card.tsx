@@ -10,7 +10,21 @@ import { Badge } from "@/components/ui/badge"
 import { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 
-export function Tag({ tag }: { tag: string }) {
+export function Tag({ tag, clickable = false }: { tag: string, clickable?: boolean }) {
+  const { language } = useLanguage()
+
+  if (clickable) {
+    return (
+      <Link
+        href={language === "zh" ? `/?tags=${encodeURIComponent(tag)}` : `/en?tags=${encodeURIComponent(tag)}`}
+        onClick={(e) => e.stopPropagation()} // 防止冒泡到卡片点击事件
+        className="inline-flex items-center rounded-md bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground hover:bg-muted/80 cursor-pointer transition-colors duration-300"
+      >
+        {tag}
+      </Link>
+    )
+  }
+
   return (
     <span className="inline-flex items-center rounded-md bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground">
       {tag}
@@ -111,7 +125,14 @@ export default function ServiceCard({ service }: { service: Service }) {
       <CardContent className="flex-1 flex flex-col p-4">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-xl font-bold">{service.name}</h3>
-          <Badge variant="outline" className="ml-2">{service.category}</Badge>
+          <Link
+            href={language === "zh" ? `/?category=${encodeURIComponent(service.category)}` : `/en?category=${encodeURIComponent(service.category)}`}
+            onClick={(e) => e.stopPropagation()} // 防止冒泡到卡片点击事件
+          >
+            <Badge variant="outline" className="ml-2 hover:bg-muted cursor-pointer transition-colors duration-300">
+              {service.category}
+            </Badge>
+          </Link>
         </div>
         <p className="text-muted-foreground line-clamp-3 mb-4 flex-1">{service.description}</p>
         {service.rating && (
@@ -123,7 +144,7 @@ export default function ServiceCard({ service }: { service: Service }) {
         )}
         <div className="flex flex-wrap gap-2 mt-auto">
           {service.tags.slice(0, 3).map((tag) => (
-            <Tag key={tag} tag={tag} />
+            <Tag key={tag} tag={tag} clickable={true} />
           ))}
           {service.tags.length > 3 && <span className="text-xs text-muted-foreground">+{service.tags.length - 3}</span>}
         </div>
