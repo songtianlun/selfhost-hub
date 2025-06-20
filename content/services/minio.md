@@ -6,12 +6,13 @@ tags:
   - 存储
   - 对象存储
   - Go
-rating: 3
+rating: 1
 category: 文件管理
 website: 'https://min.io'
 repo: 'https://github.com/minio/minio'
 updatedAt: '2025-05-10T12:19:25.648Z'
 ---
+> Minio Console 2.0 移除社区版网页端用户/访问政策管理等功能；原因是安全及可维护性担忧。Minio 商业版费用 $96,000 起，远超普通人承受范围，故降低评分到 1 ，不建议使用。
 
 MinIO 是一个高性能的分布式对象存储系统，兼容 Amazon S3 API。它专为云原生应用设计，支持容器化部署，是一个企业级的对象存储解决方案。
 
