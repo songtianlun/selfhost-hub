@@ -57,4 +57,8 @@
 
 MIT License 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=songtianlun/selfhost-hub&type=Timeline)](https://www.star-history.com/#songtianlun/selfhost-hub&Timeline)
+
 
