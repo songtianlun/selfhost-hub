@@ -28,7 +28,7 @@ async function withRetry<T>(
             return await fn();
         } catch (error) {
             lastError = error;
-            console.error(`尝试 ${attempt}/${maxRetries} 失败:`, error instanceof Error ? error.message : error);
+            // console.error(`尝试 ${attempt}/${maxRetries} 失败:`, error instanceof Error ? error.message : error);
 
             // 最后一次尝试失败直接抛出错误
             if (attempt === maxRetries) {
@@ -93,7 +93,7 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
 function getAuthHeaders(): HeadersInit {
     const token = process.env.GH_TOKEN;
     if (token) {
-        console.log(`request GitHub API with token: ${token}`);
+        // console.log(`request GitHub API with token: ${token}`);
         return {
             'Authorization': `token ${token}`
         };
@@ -227,7 +227,7 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
 
         // 处理基本信息响应
         if (!repoResponse.ok) {
-            throw new Error(`获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`);
+            // throw new Error(`获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`);
         }
         const repoData = await repoResponse.json();
 
@@ -237,7 +237,7 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
             const releaseData = await releaseResponse.json();
             latestVersion = releaseData.tag_name;
         } else if (releaseResponse.status !== 404) {
-            console.warn(`获取仓库 [${owner}/${repo}] 的最新版本失败: HTTP ${releaseResponse.status} - ${releaseResponse.statusText}`);
+            // console.warn(`获取仓库 [${owner}/${repo}] 的最新版本失败: HTTP ${releaseResponse.status} - ${releaseResponse.statusText}`);
         }
 
         // 处理README响应
@@ -246,7 +246,7 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
             const readmeData = await readmeResponse.json();
             readme = Buffer.from(readmeData.content, 'base64').toString('utf-8');
         } else {
-            console.warn(`获取仓库 [${owner}/${repo}] 的README失败: HTTP ${readmeResponse.status} - ${readmeResponse.statusText}`);
+            // console.warn(`获取仓库 [${owner}/${repo}] 的README失败: HTTP ${readmeResponse.status} - ${readmeResponse.statusText}`);
         }
 
         return {
@@ -256,7 +256,7 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
             readme
         };
     }).catch(error => {
-        console.error(`获取仓库 [${owner}/${repo}] 信息失败:`, error);
+        // console.error(`获取仓库 [${owner}/${repo}] 信息失败:`, error);
         // 出错时返回最小信息集
         return {
             stars: 0,
@@ -269,7 +269,7 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
 // 完整的获取GitHub仓库信息的函数 - 供服务端组件调用
 export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo> {
     try {
-        console.log(`开始获取仓库信息: ${repoUrl}`);
+        // console.log(`开始获取仓库信息: ${repoUrl}`);
         const repoData = extractRepoInfoFromUrl(repoUrl);
         if (!repoData) {
             return {
@@ -282,7 +282,7 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
         }
 
         const { owner, repo } = repoData;
-        console.log(`解析仓库路径: owner=${owner}, repo=${repo}`);
+        // console.log(`解析仓库路径: owner=${owner}, repo=${repo}`);
 
         // 设置超时
         const timeoutPromise = new Promise<never>((_, reject) => {
@@ -290,18 +290,18 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
         });
 
         // 使用新的一次性API调用方法
-        console.log(`开始获取仓库信息...`);
+        // console.log(`开始获取仓库信息...`);
         const repoInfoPromise = fetchAllRepoData(owner, repo);
 
         const result = await Promise.race([repoInfoPromise, timeoutPromise]);
-        console.log(`请求已完成，开始处理结果`);
+        // console.log(`请求已完成，开始处理结果`);
 
         // 打印获取结果摘要
-        console.log(`仓库 [${owner}/${repo}] 信息获取摘要: 
-          stars: ${result.stars}
-          lastUpdated: ${result.lastUpdated ? '有' : '无'}
-          latestVersion: ${result.latestVersion ? '有' : '无'}
-          readme: ${result.readme ? '有 (' + result.readme.substring(0, 50).replace(/\n/g, ' ') + '...)' : '无'}`);
+        // console.log(`仓库 [${owner}/${repo}] 信息获取摘要: 
+        //   stars: ${result.stars}
+        //   lastUpdated: ${result.lastUpdated ? '有' : '无'}
+        //   latestVersion: ${result.latestVersion ? '有' : '无'}
+        //   readme: ${result.readme ? '有 (' + result.readme.substring(0, 50).replace(/\n/g, ' ') + '...)' : '无'}`);
 
         // 检查是否有错误信息
         if ('error' in result) {
@@ -319,7 +319,7 @@ export async function getGithubRepoInfo(repoUrl: string): Promise<GithubRepoInfo
         };
     } catch (error) {
         const errorMessage = error instanceof Error ? error.message : '未知错误';
-        console.error(`获取仓库信息出现异常:`, error);
+        // console.error(`获取仓库信息出现异常:`, error);
         return {
             stars: 0,
             lastUpdated: '',

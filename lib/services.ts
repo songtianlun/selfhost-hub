@@ -118,6 +118,11 @@ const tagToGroupMap: Record<string, string> = {
 
 // 预获取 GitHub 信息
 async function preloadGithubInfo(services: Service[]): Promise<void> {
+  if (process.env.SKIP_GITHUB_API === 'true') {
+    console.log('SKIP GitHub API, Because SKIP_GITHUB_API is true');
+    return;
+  }
+
   console.log(`开始预获取 ${services.length} 个服务的 GitHub 信息...`);
 
   const githubServices = services.filter(service =>
@@ -127,7 +132,7 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
   console.log(`找到 ${githubServices.length} 个包含 GitHub 仓库的服务`);
 
   // 批量获取 GitHub 信息，限制并发数量避免 API 限制
-  const batchSize = 5; // 每批处理 5 个
+  const batchSize = 10; // 每批处理 5 个
   const batches = [];
 
   for (let i = 0; i < githubServices.length; i += batchSize) {
@@ -135,7 +140,7 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
   }
 
   for (const [batchIndex, batch] of batches.entries()) {
-    console.log(`处理第 ${batchIndex + 1}/${batches.length} 批 GitHub 信息...`);
+    // console.log(`处理第 ${batchIndex + 1}/${batches.length} 批 GitHub 信息...`);
 
     const promises = batch.map(async (service) => {
       try {
@@ -152,9 +157,9 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
         cache.githubInfo.set(service.repo!, githubInfo);
         service.githubInfo = githubInfo;
 
-        console.log(`✓ ${service.name}: ${githubInfo.stars} stars`);
+        // console.log(`✓ ${service.name}: ${githubInfo.stars} stars`);
       } catch (error) {
-        console.error(`获取 ${service.name} GitHub 信息失败:`, error);
+        // console.error(`获取 ${service.name} GitHub 信息失败:`, error);
         // 设置默认的错误信息
         const errorInfo: GithubRepoInfo = {
           stars: 0,
@@ -262,8 +267,10 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
       }
     }
 
-    // 预获取 GitHub 信息
-    await preloadGithubInfo(services);
+    // 只对中文服务预获取 GitHub 信息
+    if (language === "zh") {
+      await preloadGithubInfo(services);
+    }
 
     // 保存到缓存
     cache.services[language] = services;
