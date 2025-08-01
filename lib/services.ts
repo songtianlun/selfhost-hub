@@ -123,11 +123,25 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
     return;
   }
 
-  console.log(`开始预获取 ${services.length} 个服务的 GitHub 信息...`);
-
-  const githubServices = services.filter(service =>
-    service.repo && isGithubRepoUrl(service.repo)
+  // 检查是否已经有缓存的 GitHub 信息，避免重复获取
+  const uncachedServices = services.filter(service =>
+    service.repo && isGithubRepoUrl(service.repo) && !cache.githubInfo.has(service.repo)
   );
+
+  if (uncachedServices.length === 0) {
+    console.log('所有 GitHub 信息已缓存，跳过获取');
+    // 为已缓存的服务设置 GitHub 信息
+    services.forEach(service => {
+      if (service.repo && cache.githubInfo.has(service.repo)) {
+        service.githubInfo = cache.githubInfo.get(service.repo);
+      }
+    });
+    return;
+  }
+
+  console.log(`开始预获取 ${uncachedServices.length} 个服务的 GitHub 信息...`);
+
+  const githubServices = uncachedServices;
 
   console.log(`找到 ${githubServices.length} 个包含 GitHub 仓库的服务`);
 
@@ -474,10 +488,14 @@ export async function getAllServiceSlugs(language: "zh" | "en"): Promise<string[
 
 // 预加载所有数据，可以在应用启动时调用
 export async function preloadAllData(): Promise<void> {
-  // 并行预加载中英文数据
+  // 先预加载服务数据（包含 GitHub 信息）
   await Promise.all([
     loadServicesFromMarkdown("zh"),
-    loadServicesFromMarkdown("en"),
+    loadServicesFromMarkdown("en")
+  ]);
+
+  // 然后预加载其他数据（这些会使用已缓存的服务数据）
+  await Promise.all([
     getTags("zh"),
     getTags("en"),
     getAllCategories("zh"),
