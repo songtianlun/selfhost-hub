@@ -1,6 +1,9 @@
 import { getAllServiceSlugs, getAllServices } from "@/lib/services"
 import type { MetadataRoute } from "next"
 
+// 强制静态生成
+export const dynamic = 'force-static'
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://selfhost-hub.com"
 

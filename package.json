@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "next build",
+    "export": "next build && next export",
     "push:all": "tsx scripts/indexnow.ts",
     "push:recent": "tsx scripts/indexnow.ts --recent",
     "start": "next start",
+    "serve": "npx serve out",
     "lint": "next lint"
   },
   "dependencies": {

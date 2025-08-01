@@ -7,10 +7,8 @@ import { Rating } from "@/components/rating"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import type { Metadata } from "next"
-import { GithubRepoInfoCard, GithubRepoInfoSkeleton } from "@/components/github-repo-info"
-import { getGithubRepoInfo, isGithubRepoUrl } from "@/lib/github-api"
-import { Suspense, useEffect } from "react"
-import { Skeleton } from "@/components/ui/skeleton"
+import { GithubRepoInfoCard } from "@/components/github-repo-info"
+import { isGithubRepoUrl } from "@/lib/github-api"
 import type { Service } from "@/lib/services"
 import AdSenseAd from "@/components/adsense-ad"
 
@@ -77,64 +75,14 @@ function ServiceDetailSkeleton() {
   )
 }
 
-// GitHubu4fe1u606fu52a0u8f7du5668u7ec4u4ef6 - u6dfbu52a0u66f4u52a0u5e73u6ed1u7684u52a0u8f7du8fc7u6e21
-function EnhancedGithubInfoLoader({ repoUrl }: { repoUrl: string }) {
-  return (
-    <Suspense fallback={<GithubRepoInfoSkeleton />}>
-      <GithubInfoLoader repoUrl={repoUrl} />
-    </Suspense>
-  );
-}
-
-// GitHub信息加载器组件
-async function GithubInfoLoader({ repoUrl }: { repoUrl: string }) {
-  try {
-    console.log(`开始获取GitHub信息: ${repoUrl}`);
-    const githubRepoInfo = await getGithubRepoInfo(repoUrl);
-
-    // 添加一些调试信息，方便排查
-    console.log(`GitHub信息获取结果:`, {
-      stars: githubRepoInfo.stars,
-      hasLastUpdated: !!githubRepoInfo.lastUpdated,
-      hasLatestVersion: !!githubRepoInfo.latestVersion,
-      hasReadme: !!githubRepoInfo.readme,
-      hasError: !!githubRepoInfo.error,
-      error: githubRepoInfo.error
-    });
-
-    // 检查是否有任何有效信息或错误信息
-    const hasAnyValidInfo =
-      githubRepoInfo.stars > 0 ||
-      !!githubRepoInfo.lastUpdated ||
-      !!githubRepoInfo.latestVersion ||
-      !!githubRepoInfo.readme ||
-      !!githubRepoInfo.error;
-
-    // 只有当完全没有任何信息和错误时才不显示组件
-    if (!hasAnyValidInfo) {
-      console.log('没有任何有效的GitHub信息，不渲染组件');
-      return null;
-    }
-
-    // 如果有错误信息，也要显示组件
-    if (githubRepoInfo.error) {
-      console.log(`有错误信息，显示错误: ${githubRepoInfo.error}`);
-    }
-
-    return <GithubRepoInfoCard repoInfo={githubRepoInfo} />;
-  } catch (error) {
-    // 捕获任何未处理的异常
-    console.error("加载GitHub信息时发生未捕获的错误:", error);
-
-    // 返回带有错误信息的组件，而不是不显示
-    return <GithubRepoInfoCard repoInfo={{
-      stars: 0,
-      lastUpdated: '',
-      isLoading: false,
-      error: `加载仓库信息时发生错误: ${error instanceof Error ? error.message : '未知错误'}`,
-      fetchTime: new Date().toISOString()
-    }} />;
+// 静态 GitHub 信息组件
+function StaticGithubInfo({ service }: { service: Service }) {
+  // 如果没有 GitHub 仓库或没有预获取的信息，不显示
+  if (!service.repo || !isGithubRepoUrl(service.repo) || !service.githubInfo) {
+    return null;
   }
+
+  return <GithubRepoInfoCard repoInfo={service.githubInfo} />;
 }
 
 // 相似服务卡片
@@ -202,8 +150,7 @@ export default async function ServicePage({ params }: { params: { slug: string }
     .sort((a, b) => b.similarityScore - a.similarityScore) // 按相似度排序
     .slice(0, 6) // 只取前6个
 
-  // 判断是否有GitHub仓库信息
-  const hasGithubRepo = service.repo && isGithubRepoUrl(service.repo);
+
 
   return (
     <div className="container py-10">
@@ -279,10 +226,8 @@ export default async function ServicePage({ params }: { params: { slug: string }
         {/* Google AdSense广告 */}
         <AdSenseAd className="w-full overflow-hidden mb-6" />
 
-        {/* GitHub仓库信息 - 使用增强的加载器组件 */}
-        {hasGithubRepo && (
-          <EnhancedGithubInfoLoader repoUrl={service.repo!} />
-        )}
+        {/* GitHub仓库信息 - 使用静态预获取的信息 */}
+        <StaticGithubInfo service={service} />
 
         <div className="prose dark:prose-invert max-w-none">
           <div dangerouslySetInnerHTML={{ __html: service.content || "" }} />

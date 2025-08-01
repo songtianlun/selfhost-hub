@@ -6,7 +6,7 @@ import remarkRehype from "remark-rehype"
 import rehypeStringify from "rehype-stringify"
 import rehypeExternalLinks from "rehype-external-links"
 import matter from "gray-matter"
-import remarkExternalLinks from "@/lib/remark-external-links"
+import { getGithubRepoInfo, isGithubRepoUrl, type GithubRepoInfo } from "@/lib/github-api"
 
 // 缓存机制
 const cache = {
@@ -22,6 +22,7 @@ const cache = {
     zh: null as string[] | null,
     en: null as string[] | null,
   },
+  githubInfo: new Map<string, GithubRepoInfo>(), // GitHub 信息缓存
 };
 
 export type Service = {
@@ -37,6 +38,7 @@ export type Service = {
   content?: string
   updatedAt?: string
   rating?: number // 0-5 的评分，支持 0.5 分
+  githubInfo?: GithubRepoInfo // 预获取的 GitHub 信息
 }
 
 export type TagGroup = {
@@ -113,6 +115,69 @@ const tagToGroupMap: Record<string, string> = {
 
   "IoT": "technology"
 };
+
+// 预获取 GitHub 信息
+async function preloadGithubInfo(services: Service[]): Promise<void> {
+  console.log(`开始预获取 ${services.length} 个服务的 GitHub 信息...`);
+
+  const githubServices = services.filter(service =>
+    service.repo && isGithubRepoUrl(service.repo)
+  );
+
+  console.log(`找到 ${githubServices.length} 个包含 GitHub 仓库的服务`);
+
+  // 批量获取 GitHub 信息，限制并发数量避免 API 限制
+  const batchSize = 5; // 每批处理 5 个
+  const batches = [];
+
+  for (let i = 0; i < githubServices.length; i += batchSize) {
+    batches.push(githubServices.slice(i, i + batchSize));
+  }
+
+  for (const [batchIndex, batch] of batches.entries()) {
+    console.log(`处理第 ${batchIndex + 1}/${batches.length} 批 GitHub 信息...`);
+
+    const promises = batch.map(async (service) => {
+      try {
+        // 检查缓存
+        if (cache.githubInfo.has(service.repo!)) {
+          service.githubInfo = cache.githubInfo.get(service.repo!);
+          return;
+        }
+
+        console.log(`获取 ${service.name} 的 GitHub 信息: ${service.repo}`);
+        const githubInfo = await getGithubRepoInfo(service.repo!);
+
+        // 缓存结果
+        cache.githubInfo.set(service.repo!, githubInfo);
+        service.githubInfo = githubInfo;
+
+        console.log(`✓ ${service.name}: ${githubInfo.stars} stars`);
+      } catch (error) {
+        console.error(`获取 ${service.name} GitHub 信息失败:`, error);
+        // 设置默认的错误信息
+        const errorInfo: GithubRepoInfo = {
+          stars: 0,
+          lastUpdated: '',
+          isLoading: false,
+          error: `获取 GitHub 信息失败: ${error instanceof Error ? error.message : String(error)}`,
+          fetchTime: new Date().toISOString()
+        };
+        cache.githubInfo.set(service.repo!, errorInfo);
+        service.githubInfo = errorInfo;
+      }
+    });
+
+    await Promise.all(promises);
+
+    // 批次间稍作延迟，避免 API 限制
+    if (batchIndex < batches.length - 1) {
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+  }
+
+  console.log(`GitHub 信息预获取完成`);
+}
 
 // Load services from Markdown files
 async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[]> {
@@ -196,6 +261,9 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
         console.error(`Error processing [${fileName}]: ${error instanceof Error ? error.message : String(error)}`);
       }
     }
+
+    // 预获取 GitHub 信息
+    await preloadGithubInfo(services);
 
     // 保存到缓存
     cache.services[language] = services;
