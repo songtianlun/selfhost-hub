@@ -93,12 +93,14 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
 function getAuthHeaders(): HeadersInit {
     const token = process.env.GH_TOKEN;
     if (token) {
-        // console.log(`request GitHub API with token: ${token}`);
+        const maskedToken = token.substring(0, 4) + '...' + token.substring(token.length - 4);
+        console.log(`✓ GitHub API 使用 Token: ${maskedToken} (长度: ${token.length})`);
         return {
             'Authorization': `token ${token}`
         };
     }
-    console.log(`request GitHub API without token`);
+    console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
+    console.warn(`   请设置环境变量: GH_TOKEN=your_github_token`);
     return {};
 }
 

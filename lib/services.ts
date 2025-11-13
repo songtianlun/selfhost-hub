@@ -149,7 +149,7 @@ async function loadGithubInfoFromFile(): Promise<boolean> {
     const fileExists = await fs.stat(GITHUB_INFO_CACHE_FILE).then(() => true).catch(() => false);
 
     if (!fileExists) {
-      console.log('GitHub 信息缓存文件不存在，跳过加载');
+      console.log('💾 GitHub 信息缓存文件不存在，将重新获取');
       return false;
     }
 
@@ -157,15 +157,41 @@ async function loadGithubInfoFromFile(): Promise<boolean> {
     const data = await fs.readFile(GITHUB_INFO_CACHE_FILE, 'utf8');
     const githubInfoArray = JSON.parse(data) as Array<{ repo: string; info: GithubRepoInfo }>;
 
-    // 恢复到 Map
+    // 统计信息
+    let successCount = 0;
+    let errorCount = 0;
+    let skippedCount = 0;
+
+    // 恢复到 Map，但如果运行时有 Token，跳过错误缓存项（让其重新获取）
     githubInfoArray.forEach(({ repo, info }) => {
+      // 如果缓存项有错误，并且当前有 Token，则跳过该缓存（让运行时重新获取）
+      if (info.error && process.env.GH_TOKEN) {
+        skippedCount++;
+        return; // 不加载这个错误缓存
+      }
+
+      if (info.error) {
+        errorCount++;
+      } else {
+        successCount++;
+      }
+
       cache.githubInfo.set(repo, info);
     });
 
-    console.log(`从文件加载了 ${githubInfoArray.length} 个 GitHub 信息`);
+    console.log(`📦 从文件加载了 ${githubInfoArray.length} 个 GitHub 信息 (成功: ${successCount}, 错误: ${errorCount}, 跳过: ${skippedCount})`);
+
+    if (skippedCount > 0) {
+      console.log(`✓ 跳过 ${skippedCount} 个错误缓存，将在运行时重新获取`);
+    }
+
+    if (errorCount > 0 && !process.env.GH_TOKEN) {
+      console.warn(`⚠️  发现 ${errorCount} 个错误缓存，但未配置 GH_TOKEN，无法重新获取`);
+    }
+
     return true;
   } catch (error) {
-    console.error('从文件加载 GitHub 信息失败:', error);
+    console.error('❌ 从文件加载 GitHub 信息失败:', error);
     return false;
   }
 }
@@ -173,9 +199,16 @@ async function loadGithubInfoFromFile(): Promise<boolean> {
 // 预获取 GitHub 信息
 async function preloadGithubInfo(services: Service[]): Promise<void> {
   if (process.env.SKIP_GITHUB_API === 'true') {
-    console.log('SKIP GitHub API, Because SKIP_GITHUB_API is true');
+    console.log('⏭️  跳过 GitHub API 调用 (SKIP_GITHUB_API=true)');
     return;
   }
+
+  // 显示环境信息
+  const hasToken = !!process.env.GH_TOKEN;
+  const tokenInfo = hasToken
+    ? `Token: ✓ (长度: ${process.env.GH_TOKEN!.length})`
+    : 'Token: ✗ (未配置)';
+  console.log(`🚀 开始预加载 GitHub 信息 - ${tokenInfo}`);
 
   // 检查是否已经有缓存的 GitHub 信息，避免重复获取
   const uncachedServices = services.filter(service =>
