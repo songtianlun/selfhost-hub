@@ -93,8 +93,15 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
 function getAuthHeaders(): HeadersInit {
     const token = process.env.GH_TOKEN;
     if (token) {
+        // 只打印 token 的前缀和后缀，隐藏中间部分
+        const maskedToken = token.length > 8
+            ? `${token.substring(0, 8)}...${token.substring(token.length - 4)}`
+            : '***';
+        console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
         return {
-            'Authorization': `token ${token}`
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28'
         };
     }
     console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
@@ -220,7 +227,18 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
 
         // 处理基本信息响应
         if (!repoResponse.ok) {
-            throw new Error(`获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`);
+            let errorDetail = '';
+            try {
+                const errorData = await repoResponse.json();
+                errorDetail = errorData.message || errorData.error || '';
+            } catch {
+                // 无法解析错误响应
+            }
+            const errorMsg = errorDetail
+                ? `获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText} (${errorDetail})`
+                : `获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`;
+            console.error(`❌ ${errorMsg}`);
+            throw new Error(errorMsg);
         }
         const repoData = await repoResponse.json();
 

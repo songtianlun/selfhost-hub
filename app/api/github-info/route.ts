@@ -89,14 +89,19 @@ async function getGithubInfoWithCache(repo: string): Promise<GithubRepoInfo> {
   console.log(`🔄 获取最新数据: ${repo}`);
   const info = await getGithubRepoInfo(repo);
 
-  // 4. 更新缓存
-  const cacheEntry = { info, timestamp: Date.now() };
-  memoryCache.set(repo, cacheEntry);
+  // 4. 只在成功获取数据时更新缓存（不缓存错误结果）
+  if (!info.error) {
+    const cacheEntry = { info, timestamp: Date.now() };
+    memoryCache.set(repo, cacheEntry);
 
-  // 5. 异步保存到文件（不阻塞响应）
-  saveCacheToFile(memoryCache).catch(err => {
-    console.error('异步保存缓存失败:', err);
-  });
+    // 5. 异步保存到文件（不阻塞响应）
+    saveCacheToFile(memoryCache).catch(err => {
+      console.error('异步保存缓存失败:', err);
+    });
+    console.log(`✅ 成功获取并缓存: ${repo}`);
+  } else {
+    console.error(`❌ 获取失败，不缓存错误结果: ${info.error}`);
+  }
 
   return info;
 }
