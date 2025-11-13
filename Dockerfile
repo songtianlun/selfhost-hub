@@ -15,9 +15,9 @@ RUN env && pnpm install --frozen-lockfile
 # Copy source code
 COPY . .
 
-# Set environment variables
+# Set environment variables for build time
 ARG GH_TOKEN
-RUN echo "GH_TOKEN=${GH_TOKEN}" >> .env
+ENV GH_TOKEN=${GH_TOKEN}
 
 # Build application with optional IndexNow push
 ARG PUSH_ALL=0
