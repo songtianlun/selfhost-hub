@@ -98,10 +98,14 @@ function getAuthHeaders(): HeadersInit {
             ? `${token.substring(0, 8)}...${token.substring(token.length - 4)}`
             : '***';
         console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
+
+        // 根据 token 类型使用不同的认证格式
+        // fine-grained tokens (github_pat_) 使用 Bearer
+        // classic tokens (ghp_) 使用 token
+        const authPrefix = token.startsWith('github_pat_') ? 'Bearer' : 'token';
+
         return {
-            'Authorization': `token ${token}`,
-            'Accept': 'application/vnd.github+json',
-            'X-GitHub-Api-Version': '2022-11-28'
+            'Authorization': "`${authPrefix} ${token}`"
         };
     }
     console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
