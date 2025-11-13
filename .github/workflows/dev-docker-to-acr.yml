@@ -7,7 +7,8 @@ on:
       - main
 
 env:
-  REGISTRY: registry.cn-guangzhou.aliyuncs.com
+  REGISTRY: registry.us-west-1.aliyuncs.com
+  #REGISTRY: registry.cn-guangzhou.aliyuncs.com
   IMAGE_NAME: frytea_hub/selfhost_hub
   USERNAME: ${{ secrets.ACR_USERNAME }}
   TOKEN: ${{ secrets.ACR_TOKEN }}
