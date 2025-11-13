@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dev
+      - main
 
 env:
   REGISTRY: registry.cn-guangzhou.aliyuncs.com
@@ -49,7 +50,7 @@ jobs:
             PUSH_ALL=0
             GH_TOKEN=${{ secrets.GH_TOKEN }}
           tags: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev:${{ steps.get_version.outputs.VERSION }}
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:devel
       -
         name: Notify Keel
         if: ${{ github.event_name != 'pull_request' }}
@@ -58,4 +59,4 @@ jobs:
           url: 'https://keel.skybyte.me/v1/webhooks/native'
           method: 'POST'
           contentType: 'application/json'
-          data: '{"name": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev", "tag": "${{ steps.get_version.outputs.VERSION }}"}' 
+          data: '{"name": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev", "tag": "devel"}' 

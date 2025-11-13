@@ -2,8 +2,8 @@ name: Build Main Docker to Aliyun ACR
 
 on:
   push:
-    branches:
-      - main
+    #branches:
+    #  - main
     tags:
       - v*
 
