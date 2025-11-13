@@ -93,8 +93,6 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
 function getAuthHeaders(): HeadersInit {
     const token = process.env.GH_TOKEN;
     if (token) {
-        const maskedToken = token.substring(0, 4) + '...' + token.substring(token.length - 4);
-        console.log(`✓ GitHub API 使用 Token: ${maskedToken} (长度: ${token.length})`);
         return {
             'Authorization': `token ${token}`
         };
@@ -201,30 +199,23 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
     readme?: string;
     error?: string;
 }> {
-    const headers = getAuthHeaders();
-
-    // 创建基本信息、最新版本和README的获取Promise
-    const repoPromise = fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-        headers,
-        next: { revalidate: CACHE_REVALIDATION_TIME }
-    });
-
-    const releasesPromise = fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
-        headers,
-        next: { revalidate: CACHE_REVALIDATION_TIME }
-    });
-
-    const readmePromise = fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
-        headers,
-        next: { revalidate: CACHE_REVALIDATION_TIME }
-    });
-
     return withRetry(async () => {
+        const headers = getAuthHeaders();
+
         // 并行执行所有请求
         const [repoResponse, releaseResponse, readmeResponse] = await Promise.all([
-            repoPromise,
-            releasesPromise,
-            readmePromise
+            fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+                headers,
+                next: { revalidate: CACHE_REVALIDATION_TIME }
+            }),
+            fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
+                headers,
+                next: { revalidate: CACHE_REVALIDATION_TIME }
+            }),
+            fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
+                headers,
+                next: { revalidate: CACHE_REVALIDATION_TIME }
+            })
         ]);
 
         // 处理基本信息响应

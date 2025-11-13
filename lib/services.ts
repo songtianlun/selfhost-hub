@@ -240,9 +240,10 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
     batches.push(githubServices.slice(i, i + batchSize));
   }
 
-  for (const [batchIndex, batch] of batches.entries()) {
-    // console.log(`处理第 ${batchIndex + 1}/${batches.length} 批 GitHub 信息...`);
+  let successCount = 0;
+  let errorCount = 0;
 
+  for (const [batchIndex, batch] of batches.entries()) {
     const promises = batch.map(async (service) => {
       try {
         // 检查缓存
@@ -251,16 +252,19 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
           return;
         }
 
-        console.log(`获取 ${service.name} 的 GitHub 信息: ${service.repo}`);
         const githubInfo = await getGithubRepoInfo(service.repo!);
 
         // 缓存结果
         cache.githubInfo.set(service.repo!, githubInfo);
         service.githubInfo = githubInfo;
 
-        // console.log(`✓ ${service.name}: ${githubInfo.stars} stars`);
+        if (githubInfo.error) {
+          errorCount++;
+        } else {
+          successCount++;
+        }
       } catch (error) {
-        // console.error(`获取 ${service.name} GitHub 信息失败:`, error);
+        errorCount++;
         // 设置默认的错误信息
         const errorInfo: GithubRepoInfo = {
           stars: 0,
@@ -282,7 +286,7 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
     }
   }
 
-  console.log(`GitHub 信息预获取完成`);
+  console.log(`✓ GitHub 信息预获取完成 (成功: ${successCount}, 失败: ${errorCount})`);
 
   // 保存 GitHub 信息到文件
   await saveGithubInfoToFile();
@@ -378,7 +382,11 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
 
     // 只对中文服务预获取 GitHub 信息
     if (language === "zh") {
-      await preloadGithubInfo(services);
+      try {
+        await preloadGithubInfo(services);
+      } catch (error) {
+        console.error(`预获取 GitHub 信息失败，但继续加载服务:`, error);
+      }
     }
 
     // 保存到缓存
