@@ -99,7 +99,7 @@ function getAuthHeaders(): HeadersInit {
             : '***';
         console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
         return {
-            'Authorization': `Bearer ${token}`,
+            'Authorization': `token ${token}`,
             'Accept': 'application/vnd.github+json',
             'X-GitHub-Api-Version': '2022-11-28'
         };
