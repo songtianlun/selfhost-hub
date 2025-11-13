@@ -50,21 +50,6 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* 不蒜子计数器 */}
         <Script defer src="https://busuanzi.frytea.com/js" strategy="afterInteractive" />
-        {/* Plausible Analytics */}
-        <Script
-          defer
-          data-domain="selfhost-hub.com"
-          src="https://plausible.frytea.com/js/script.js"
-          strategy="afterInteractive"
-        />
-
-        {/* Rybbit Analytics */}
-        <Script
-          defer
-          data-site-id="2"
-          src="https://rybbit.frytea.com/api/script.js"
-          strategy="afterInteractive"
-        />
 
         {/* Umami Analytics */}
         <Script

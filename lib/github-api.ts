@@ -227,7 +227,7 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
 
         // 处理基本信息响应
         if (!repoResponse.ok) {
-            // throw new Error(`获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`);
+            throw new Error(`获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`);
         }
         const repoData = await repoResponse.json();
 
