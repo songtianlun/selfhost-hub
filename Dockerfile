@@ -49,6 +49,7 @@ RUN pnpm install --prod --frozen-lockfile
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/next.config.mjs ./
+COPY --from=builder /app/content ./content
 
 # Set environment to production
 ENV NODE_ENV=production
