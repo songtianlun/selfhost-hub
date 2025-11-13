@@ -60,5 +60,5 @@ jobs:
           url: 'https://keel.skybyte.me/v1/webhooks/native'
           method: 'POST'
           contentType: 'application/json'
-          data: '{"name": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev", "tag": "devel"}' 
+          data: '{"name": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}", "tag": "devel"}' 
 
