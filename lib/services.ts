@@ -380,14 +380,13 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
       }
     }
 
-    // 只对中文服务预获取 GitHub 信息
-    if (language === "zh") {
-      try {
-        await preloadGithubInfo(services);
-      } catch (error) {
-        console.error(`预获取 GitHub 信息失败，但继续加载服务:`, error);
+    // 【改为运行时动态获取】不再在构建时预获取 GitHub 信息
+    // 只为已有缓存的服务注入 GitHub 信息
+    services.forEach(service => {
+      if (service.repo && cache.githubInfo.has(service.repo)) {
+        service.githubInfo = cache.githubInfo.get(service.repo);
       }
-    }
+    });
 
     // 保存到缓存
     cache.services[language] = services;

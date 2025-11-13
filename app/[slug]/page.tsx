@@ -75,14 +75,15 @@ function ServiceDetailSkeleton() {
   )
 }
 
-// 静态 GitHub 信息组件
-function StaticGithubInfo({ service }: { service: Service }) {
-  // 如果没有 GitHub 仓库或没有预获取的信息，不显示
-  if (!service.repo || !isGithubRepoUrl(service.repo) || !service.githubInfo) {
+// GitHub 信息组件 - 支持渐进式加载
+function DynamicGithubInfo({ service }: { service: Service }) {
+  // 如果没有 GitHub 仓库，不显示
+  if (!service.repo || !isGithubRepoUrl(service.repo)) {
     return null;
   }
 
-  return <GithubRepoInfoCard repoInfo={service.githubInfo} />;
+  // 传递缓存的信息(如果有)和仓库 URL,组件会先显示缓存数据,然后异步获取最新数据
+  return <GithubRepoInfoCard repoInfo={service.githubInfo} repoUrl={service.repo} />;
 }
 
 // 相似服务卡片
@@ -226,8 +227,8 @@ export default async function ServicePage({ params }: { params: { slug: string }
         {/* Google AdSense广告 */}
         <AdSenseAd className="w-full overflow-hidden mb-6" />
 
-        {/* GitHub仓库信息 - 使用静态预获取的信息 */}
-        <StaticGithubInfo service={service} />
+        {/* GitHub仓库信息 - 渐进式加载:先显示缓存,再异步更新 */}
+        <DynamicGithubInfo service={service} />
 
         <div className="prose dark:prose-invert max-w-none">
           <div dangerouslySetInnerHTML={{ __html: service.content || "" }} />
