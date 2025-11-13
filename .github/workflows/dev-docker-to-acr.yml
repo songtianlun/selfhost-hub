@@ -60,3 +60,4 @@ jobs:
           method: 'POST'
           contentType: 'application/json'
           data: '{"name": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}_dev", "tag": "devel"}' 
+
