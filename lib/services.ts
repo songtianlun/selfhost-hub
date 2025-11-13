@@ -8,6 +8,9 @@ import rehypeExternalLinks from "rehype-external-links"
 import matter from "gray-matter"
 import { getGithubRepoInfo, isGithubRepoUrl, type GithubRepoInfo } from "@/lib/github-api"
 
+// GitHub 信息持久化文件路径（存储在 .next/cache 目录）
+const GITHUB_INFO_CACHE_FILE = path.join(process.cwd(), '.next', 'cache', 'github-info.json');
+
 // 缓存机制
 const cache = {
   services: {
@@ -116,6 +119,57 @@ const tagToGroupMap: Record<string, string> = {
   "IoT": "technology"
 };
 
+// 保存 GitHub 信息到 JSON 文件
+async function saveGithubInfoToFile(): Promise<void> {
+  try {
+    // 将 Map 转换为对象数组以便 JSON 序列化
+    const githubInfoArray = Array.from(cache.githubInfo.entries()).map(([repo, info]) => ({
+      repo,
+      info
+    }));
+
+    const data = JSON.stringify(githubInfoArray, null, 2);
+
+    // 确保目录存在
+    const cacheDir = path.dirname(GITHUB_INFO_CACHE_FILE);
+    await fs.mkdir(cacheDir, { recursive: true });
+
+    // 写入文件
+    await fs.writeFile(GITHUB_INFO_CACHE_FILE, data, 'utf8');
+    console.log(`GitHub 信息已保存到: ${GITHUB_INFO_CACHE_FILE}`);
+  } catch (error) {
+    console.error('保存 GitHub 信息到文件失败:', error);
+  }
+}
+
+// 从 JSON 文件加载 GitHub 信息
+async function loadGithubInfoFromFile(): Promise<boolean> {
+  try {
+    // 检查文件是否存在
+    const fileExists = await fs.stat(GITHUB_INFO_CACHE_FILE).then(() => true).catch(() => false);
+
+    if (!fileExists) {
+      console.log('GitHub 信息缓存文件不存在，跳过加载');
+      return false;
+    }
+
+    // 读取文件
+    const data = await fs.readFile(GITHUB_INFO_CACHE_FILE, 'utf8');
+    const githubInfoArray = JSON.parse(data) as Array<{ repo: string; info: GithubRepoInfo }>;
+
+    // 恢复到 Map
+    githubInfoArray.forEach(({ repo, info }) => {
+      cache.githubInfo.set(repo, info);
+    });
+
+    console.log(`从文件加载了 ${githubInfoArray.length} 个 GitHub 信息`);
+    return true;
+  } catch (error) {
+    console.error('从文件加载 GitHub 信息失败:', error);
+    return false;
+  }
+}
+
 // 预获取 GitHub 信息
 async function preloadGithubInfo(services: Service[]): Promise<void> {
   if (process.env.SKIP_GITHUB_API === 'true') {
@@ -196,6 +250,9 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
   }
 
   console.log(`GitHub 信息预获取完成`);
+
+  // 保存 GitHub 信息到文件
+  await saveGithubInfoToFile();
 }
 
 // Load services from Markdown files
@@ -203,6 +260,11 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
   // 检查缓存
   if (cache.services[language]) {
     return cache.services[language]!;
+  }
+
+  // 如果 GitHub 信息缓存为空，尝试从文件加载
+  if (cache.githubInfo.size === 0) {
+    await loadGithubInfoFromFile();
   }
 
   try {
