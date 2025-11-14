@@ -15,9 +15,9 @@ RUN env && pnpm install --frozen-lockfile
 # Copy source code
 COPY . .
 
-# Set environment variables
+# Set environment variables for build time
 ARG GH_TOKEN
-RUN echo "GH_TOKEN=${GH_TOKEN}" >> .env
+ENV GH_TOKEN=${GH_TOKEN}
 
 # Build application with optional IndexNow push
 ARG PUSH_ALL=0
@@ -31,7 +31,7 @@ RUN if [ "$PUSH_ALL" = "1" ]; then \
     pnpm build; \
     fi
 
-# Production stage
+# Production stage - use Next.js server
 FROM node:20-alpine AS runner
 
 WORKDIR /app
@@ -39,21 +39,23 @@ WORKDIR /app
 # Install pnpm
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
-# Copy necessary files from builder
-COPY --from=builder /app/package.json /app/pnpm-lock.yaml ./
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/next.config.mjs ./
+# Copy package files
+COPY package.json pnpm-lock.yaml ./
 
 # Install production dependencies only
 RUN pnpm install --prod --frozen-lockfile
 
-# Set environment variables
+# Copy built application from builder
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.mjs ./
+COPY --from=builder /app/content ./content
+
+# Set environment to production
 ENV NODE_ENV=production
-ENV PORT=3000
 
 # Expose port
 EXPOSE 3000
 
-# Start the application
+# Start Next.js server
 CMD ["pnpm", "start"] 

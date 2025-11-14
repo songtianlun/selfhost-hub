@@ -17,11 +17,52 @@ import { Skeleton } from './ui/skeleton';
 // 添加GitHub风格Markdown的CSS
 import './github-markdown.css';
 
-// 组件直接接收服务端获取的数据
-export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
+// 组件支持渐进式加载: 先显示缓存数据,然后异步获取最新数据
+export function GithubRepoInfoCard({ repoInfo: initialRepoInfo, repoUrl }: { repoInfo?: GithubRepoInfo; repoUrl: string }) {
     const [isVisible, setIsVisible] = useState(false);
     const [isReadmeOpen, setIsReadmeOpen] = useState(false);
+    const [repoInfo, setRepoInfo] = useState<GithubRepoInfo>(initialRepoInfo || {
+        stars: 0,
+        lastUpdated: '',
+        isLoading: true
+    });
+    const [isRefreshing, setIsRefreshing] = useState(false);
     const mountedRef = useRef(false);
+
+    // 获取最新的 GitHub 信息
+    useEffect(() => {
+        const fetchLatestInfo = async () => {
+            try {
+                setIsRefreshing(true);
+                const response = await fetch(`/api/github-info?repo=${encodeURIComponent(repoUrl)}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const latestInfo: GithubRepoInfo = await response.json();
+
+                if (mountedRef.current) {
+                    setRepoInfo(latestInfo);
+                }
+            } catch (error) {
+                console.error('获取最新 GitHub 信息失败:', error);
+                // 如果获取失败且没有初始数据，设置错误状态
+                if (!initialRepoInfo && mountedRef.current) {
+                    setRepoInfo({
+                        stars: 0,
+                        lastUpdated: '',
+                        isLoading: false,
+                        error: `获取 GitHub 信息失败: ${error instanceof Error ? error.message : '未知错误'}`
+                    });
+                }
+            } finally {
+                if (mountedRef.current) {
+                    setIsRefreshing(false);
+                }
+            }
+        };
+
+        fetchLatestInfo();
+    }, [repoUrl, initialRepoInfo]);
 
     // 组件挂载后添加淡入效果
     useEffect(() => {
@@ -63,9 +104,17 @@ export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
     return (
         <Card className={`w-full transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
             <CardHeader className="pb-2">
-                <CardTitle className="flex items-center gap-2 text-xl text-primary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
-                    GitHub 仓库信息
+                <CardTitle className="flex items-center justify-between text-xl text-primary">
+                    <div className="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                        GitHub 仓库信息
+                    </div>
+                    {isRefreshing && (
+                        <div className="flex items-center gap-1 text-xs text-muted-foreground font-normal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-refresh-cw animate-spin"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M3 21v-5h5"></path></svg>
+                            正在更新...
+                        </div>
+                    )}
                 </CardTitle>
             </CardHeader>
             <CardContent>
@@ -75,8 +124,17 @@ export function GithubRepoInfoCard({ repoInfo }: { repoInfo: GithubRepoInfo }) {
                     <div className="space-y-6">
                         <div className="flex flex-wrap gap-4 items-center">
                             <Badge variant="secondary" className="flex items-center gap-1 text-base">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                {repoInfo.stars.toLocaleString()} 星标
+                                {repoInfo.isLoading && repoInfo.stars === 0 ? (
+                                    <>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-loader-2 animate-spin"><path d="M21 12a9 9 0 1 1-6.219-8.56"></path></svg>
+                                        加载中...
+                                    </>
+                                ) : (
+                                    <>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                        {(repoInfo.stars ?? 0).toLocaleString()} 星标
+                                    </>
+                                )}
                             </Badge>
 
                             <div className="text-sm text-muted-foreground">

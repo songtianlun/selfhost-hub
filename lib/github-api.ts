@@ -93,12 +93,23 @@ export function extractRepoInfoFromUrl(url: string): { owner: string; repo: stri
 function getAuthHeaders(): HeadersInit {
     const token = process.env.GH_TOKEN;
     if (token) {
-        // console.log(`request GitHub API with token: ${token}`);
+        // 只打印 token 的前缀和后缀，隐藏中间部分
+        const maskedToken = token.length > 8
+            ? `${token.substring(0, 8)}...${token.substring(token.length - 4)}`
+            : '***';
+        console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
+
+        // 根据 token 类型使用不同的认证格式
+        // fine-grained tokens (github_pat_) 使用 Bearer
+        // classic tokens (ghp_) 使用 token
+        const authPrefix = token.startsWith('github_pat_') ? 'Bearer' : 'token';
+
         return {
-            'Authorization': `token ${token}`
+            'Authorization': "`${authPrefix} ${token}`"
         };
     }
-    console.log(`request GitHub API without token`);
+    console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
+    console.warn(`   请设置环境变量: GH_TOKEN=your_github_token`);
     return {};
 }
 
@@ -199,35 +210,39 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
     readme?: string;
     error?: string;
 }> {
-    const headers = getAuthHeaders();
-
-    // 创建基本信息、最新版本和README的获取Promise
-    const repoPromise = fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-        headers,
-        next: { revalidate: CACHE_REVALIDATION_TIME }
-    });
-
-    const releasesPromise = fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
-        headers,
-        next: { revalidate: CACHE_REVALIDATION_TIME }
-    });
-
-    const readmePromise = fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
-        headers,
-        next: { revalidate: CACHE_REVALIDATION_TIME }
-    });
-
     return withRetry(async () => {
+        const headers = getAuthHeaders();
+
         // 并行执行所有请求
         const [repoResponse, releaseResponse, readmeResponse] = await Promise.all([
-            repoPromise,
-            releasesPromise,
-            readmePromise
+            fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+                headers,
+                next: { revalidate: CACHE_REVALIDATION_TIME }
+            }),
+            fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
+                headers,
+                next: { revalidate: CACHE_REVALIDATION_TIME }
+            }),
+            fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
+                headers,
+                next: { revalidate: CACHE_REVALIDATION_TIME }
+            })
         ]);
 
         // 处理基本信息响应
         if (!repoResponse.ok) {
-            // throw new Error(`获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`);
+            let errorDetail = '';
+            try {
+                const errorData = await repoResponse.json();
+                errorDetail = errorData.message || errorData.error || '';
+            } catch {
+                // 无法解析错误响应
+            }
+            const errorMsg = errorDetail
+                ? `获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText} (${errorDetail})`
+                : `获取仓库 [${owner}/${repo}] 的基本信息失败: HTTP ${repoResponse.status} - ${repoResponse.statusText}`;
+            console.error(`❌ ${errorMsg}`);
+            throw new Error(errorMsg);
         }
         const repoData = await repoResponse.json();
 

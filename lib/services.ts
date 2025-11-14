@@ -8,6 +8,9 @@ import rehypeExternalLinks from "rehype-external-links"
 import matter from "gray-matter"
 import { getGithubRepoInfo, isGithubRepoUrl, type GithubRepoInfo } from "@/lib/github-api"
 
+// GitHub 信息持久化文件路径（存储在 .next/cache 目录）
+const GITHUB_INFO_CACHE_FILE = path.join(process.cwd(), '.next', 'cache', 'github-info.json');
+
 // 缓存机制
 const cache = {
   services: {
@@ -116,12 +119,96 @@ const tagToGroupMap: Record<string, string> = {
   "IoT": "technology"
 };
 
+// 保存 GitHub 信息到 JSON 文件
+async function saveGithubInfoToFile(): Promise<void> {
+  try {
+    // 将 Map 转换为对象数组以便 JSON 序列化
+    const githubInfoArray = Array.from(cache.githubInfo.entries()).map(([repo, info]) => ({
+      repo,
+      info
+    }));
+
+    const data = JSON.stringify(githubInfoArray, null, 2);
+
+    // 确保目录存在
+    const cacheDir = path.dirname(GITHUB_INFO_CACHE_FILE);
+    await fs.mkdir(cacheDir, { recursive: true });
+
+    // 写入文件
+    await fs.writeFile(GITHUB_INFO_CACHE_FILE, data, 'utf8');
+    console.log(`GitHub 信息已保存到: ${GITHUB_INFO_CACHE_FILE}`);
+  } catch (error) {
+    console.error('保存 GitHub 信息到文件失败:', error);
+  }
+}
+
+// 从 JSON 文件加载 GitHub 信息
+async function loadGithubInfoFromFile(): Promise<boolean> {
+  try {
+    // 检查文件是否存在
+    const fileExists = await fs.stat(GITHUB_INFO_CACHE_FILE).then(() => true).catch(() => false);
+
+    if (!fileExists) {
+      console.log('💾 GitHub 信息缓存文件不存在，将重新获取');
+      return false;
+    }
+
+    // 读取文件
+    const data = await fs.readFile(GITHUB_INFO_CACHE_FILE, 'utf8');
+    const githubInfoArray = JSON.parse(data) as Array<{ repo: string; info: GithubRepoInfo }>;
+
+    // 统计信息
+    let successCount = 0;
+    let errorCount = 0;
+    let skippedCount = 0;
+
+    // 恢复到 Map，但如果运行时有 Token，跳过错误缓存项（让其重新获取）
+    githubInfoArray.forEach(({ repo, info }) => {
+      // 如果缓存项有错误，并且当前有 Token，则跳过该缓存（让运行时重新获取）
+      if (info.error && process.env.GH_TOKEN) {
+        skippedCount++;
+        return; // 不加载这个错误缓存
+      }
+
+      if (info.error) {
+        errorCount++;
+      } else {
+        successCount++;
+      }
+
+      cache.githubInfo.set(repo, info);
+    });
+
+    console.log(`📦 从文件加载了 ${githubInfoArray.length} 个 GitHub 信息 (成功: ${successCount}, 错误: ${errorCount}, 跳过: ${skippedCount})`);
+
+    if (skippedCount > 0) {
+      console.log(`✓ 跳过 ${skippedCount} 个错误缓存，将在运行时重新获取`);
+    }
+
+    if (errorCount > 0 && !process.env.GH_TOKEN) {
+      console.warn(`⚠️  发现 ${errorCount} 个错误缓存，但未配置 GH_TOKEN，无法重新获取`);
+    }
+
+    return true;
+  } catch (error) {
+    console.error('❌ 从文件加载 GitHub 信息失败:', error);
+    return false;
+  }
+}
+
 // 预获取 GitHub 信息
 async function preloadGithubInfo(services: Service[]): Promise<void> {
   if (process.env.SKIP_GITHUB_API === 'true') {
-    console.log('SKIP GitHub API, Because SKIP_GITHUB_API is true');
+    console.log('⏭️  跳过 GitHub API 调用 (SKIP_GITHUB_API=true)');
     return;
   }
+
+  // 显示环境信息
+  const hasToken = !!process.env.GH_TOKEN;
+  const tokenInfo = hasToken
+    ? `Token: ✓ (长度: ${process.env.GH_TOKEN!.length})`
+    : 'Token: ✗ (未配置)';
+  console.log(`🚀 开始预加载 GitHub 信息 - ${tokenInfo}`);
 
   // 检查是否已经有缓存的 GitHub 信息，避免重复获取
   const uncachedServices = services.filter(service =>
@@ -153,9 +240,10 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
     batches.push(githubServices.slice(i, i + batchSize));
   }
 
-  for (const [batchIndex, batch] of batches.entries()) {
-    // console.log(`处理第 ${batchIndex + 1}/${batches.length} 批 GitHub 信息...`);
+  let successCount = 0;
+  let errorCount = 0;
 
+  for (const [batchIndex, batch] of batches.entries()) {
     const promises = batch.map(async (service) => {
       try {
         // 检查缓存
@@ -164,16 +252,19 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
           return;
         }
 
-        console.log(`获取 ${service.name} 的 GitHub 信息: ${service.repo}`);
         const githubInfo = await getGithubRepoInfo(service.repo!);
 
         // 缓存结果
         cache.githubInfo.set(service.repo!, githubInfo);
         service.githubInfo = githubInfo;
 
-        // console.log(`✓ ${service.name}: ${githubInfo.stars} stars`);
+        if (githubInfo.error) {
+          errorCount++;
+        } else {
+          successCount++;
+        }
       } catch (error) {
-        // console.error(`获取 ${service.name} GitHub 信息失败:`, error);
+        errorCount++;
         // 设置默认的错误信息
         const errorInfo: GithubRepoInfo = {
           stars: 0,
@@ -195,7 +286,10 @@ async function preloadGithubInfo(services: Service[]): Promise<void> {
     }
   }
 
-  console.log(`GitHub 信息预获取完成`);
+  console.log(`✓ GitHub 信息预获取完成 (成功: ${successCount}, 失败: ${errorCount})`);
+
+  // 保存 GitHub 信息到文件
+  await saveGithubInfoToFile();
 }
 
 // Load services from Markdown files
@@ -203,6 +297,11 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
   // 检查缓存
   if (cache.services[language]) {
     return cache.services[language]!;
+  }
+
+  // 如果 GitHub 信息缓存为空，尝试从文件加载
+  if (cache.githubInfo.size === 0) {
+    await loadGithubInfoFromFile();
   }
 
   try {
@@ -281,10 +380,13 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
       }
     }
 
-    // 只对中文服务预获取 GitHub 信息
-    if (language === "zh") {
-      await preloadGithubInfo(services);
-    }
+    // 【改为运行时动态获取】不再在构建时预获取 GitHub 信息
+    // 只为已有缓存的服务注入 GitHub 信息
+    services.forEach(service => {
+      if (service.repo && cache.githubInfo.has(service.repo)) {
+        service.githubInfo = cache.githubInfo.get(service.repo);
+      }
+    });
 
     // 保存到缓存
     cache.services[language] = services;
