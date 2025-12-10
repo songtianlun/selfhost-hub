@@ -59,6 +59,14 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
+        {/* Plausible Analytics */}
+        <Script
+          defer
+          data-domain="selfhost-hub.com"
+          src="https://plausible.frytea.com/js/script.js"
+          strategy="afterInteractive"
+        />
+
         {/* Google Analytics */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-CBY95S9GJ1" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
