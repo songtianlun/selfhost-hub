@@ -7,10 +7,11 @@ tags:
   - 文件共享
   - Go
   - 云存储
+rating: 4
 category: 文件管理
 website: 'https://cloudreve.org'
 repo: 'https://github.com/cloudreve/Cloudreve'
-updatedAt: '2025-05-08T21:43:18.211Z'
+updatedAt: '2026-01-03T00:00:00.000Z'
 ---
 
 Cloudreve 是一个支持多种云存储的网盘系统，支持本地存储、对象存储和云存储。它提供了丰富的文件管理功能，支持多用户、多存储策略，是一个功能完整的自托管网盘解决方案。

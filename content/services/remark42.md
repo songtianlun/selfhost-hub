@@ -7,10 +7,11 @@ tags:
   - 博客
   - Go
   - Docker
+rating: 3.5
 category: 内容管理系统
 website: 'https://remark42.com/'
 repo: 'https://github.com/umputun/remark42'
-updatedAt: '2025-05-12T00:00:00.000Z'
+updatedAt: '2026-01-06T00:00:00.000Z'
 ---
 
 Remark42 是一个轻量级的自托管评论引擎，强调隐私与易部署，可嵌入博客、文档或产品页面。
