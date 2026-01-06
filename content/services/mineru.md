@@ -8,7 +8,7 @@ tags:
   - "PDF转换"
   - "Python"
 category: "实用工具"
-rating: 4
+rating: 3
 website: "https://mineru.net"
 repo: "https://github.com/opendatalab/MinerU"
 updatedAt: "2025-05-16T09:00:00Z"

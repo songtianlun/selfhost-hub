@@ -8,6 +8,7 @@ tags:
   - 分享
   - Next.js
   - 个人工具
+rating: 4
 category: 个人与生活
 website: 'https://github.com/OpenListTeam/OpenList'
 repo: 'https://github.com/OpenListTeam/OpenList'

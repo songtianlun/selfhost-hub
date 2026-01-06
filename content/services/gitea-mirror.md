@@ -7,6 +7,7 @@ tags:
   - 同步
   - 备份
   - 自动化
+  - Gitea
 rating: 3.5
 category: 代码托管
 website: 'https://github.com/RayLabsHQ/gitea-mirror'
@@ -22,6 +23,7 @@ Gitea Mirror 用于将外部 Git 仓库镜像到 Gitea，并保持持续同步�
 - **定时更新**：周期性拉取远端更新，保持镜像一致
 - **权限访问**：可通过访问令牌同步私有仓库
 - **结果日志**：输出同步结果，便于排查失败原因
+- **迁移辅助**：适合从 GitHub/GitLab 等平台迁移到 Gitea
 
 ## 部署要求
 
