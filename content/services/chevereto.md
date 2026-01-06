@@ -8,10 +8,11 @@ tags:
   - PHP
   - 媒体
   - 自托管
+rating: 4
 category: 图像托管
 website: 'https://chevereto.com'
 repo: 'https://github.com/chevereto/chevereto'
-updatedAt: '2025-05-10T14:00:00.000Z'
+updatedAt: '2026-01-03T00:00:00.000Z'
 ---
 
 Chevereto 是一个成熟稳定的自托管图片和视频分享平台，自 2007 年以来一直受到用户信赖。它允许您构建自己的 Flickr 或 Imgur 风格的媒体分享平台，完全控制您的内容、数据和平台规则。
