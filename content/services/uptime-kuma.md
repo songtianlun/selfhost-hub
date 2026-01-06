@@ -8,7 +8,7 @@ tags:
   - JavaScript
   - 告警
 category: 系统监控
-rating: 3.5
+rating: 4
 website: 'https://uptime.kuma.pet'
 repo: 'https://github.com/louislam/uptime-kuma'
 updatedAt: '2025-05-08T19:24:54.151Z'

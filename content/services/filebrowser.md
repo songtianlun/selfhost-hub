@@ -7,7 +7,7 @@ tags:
   - 文件共享
   - Go
 category: 文件管理
-rating: 4
+rating: 3.5
 website: 'https://filebrowser.org'
 repo: 'https://github.com/filebrowser/filebrowser'
 updatedAt: '2025-05-07T23:41:16.078Z'
