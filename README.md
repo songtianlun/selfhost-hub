@@ -50,9 +50,6 @@
 - 提供反馈和建议的用户
 - 参与文档编写的贡献者
 
-![EdgeOne](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)
-[Best Asian CDN, Edge, and Secure Solutions - Tencent EdgeOne](https://edgeone.ai/?from=github)
-
 ## License
 
 MIT License 
