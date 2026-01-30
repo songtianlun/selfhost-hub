@@ -1,6 +1,6 @@
 ---
 id: lasuite-docs
-name: La Suite Docs
+name: Docs
 description: 法国政府开源的实时协作文档与知识管理平台
 tags:
   - 文档协作

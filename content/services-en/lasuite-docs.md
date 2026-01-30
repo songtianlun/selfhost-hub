@@ -1,6 +1,6 @@
 ---
 id: "lasuite-docs"
-name: "La Suite Docs"
+name: "Docs"
 description: "Open-source collaborative document and wiki platform with real-time editing and AI capabilities."
 tags:
   - "MIT"
