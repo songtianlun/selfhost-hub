@@ -1,7 +1,7 @@
 ---
 id: "portabase"
 name: "Portabase"
-description: "A tool designed to simplify the backup and restoration of your database instances. Supports PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, Redis, and Valkey."
+description: "A tool designed to simplify the backup and restoration of your database instances. Supports PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, Redis, Valkey, and Firebird."
 tags:
   - "Apache-2.0"
   - "Docker"
@@ -11,7 +11,7 @@ repo: "https://github.com/Portabase/portabase"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
-Portabase is an open-source, self-hosted platform designed to simplify the backup and restoration of database instances. It integrates with lightweight [Portabase agents](https://github.com/Portabase/agent-rust) deployed alongside your databases to handle backup operations securely and efficiently, all managed through a clean web dashboard.
+Portabase is an open-source, self-hosted platform designed to simplify the backup and restoration of database instances. It integrates with lightweight [Portabase agents](https://github.com/Portabase/agent) deployed alongside your databases to handle backup operations securely and efficiently, all managed through a clean web dashboard.
 
 ## Supported Databases
 
@@ -24,6 +24,7 @@ Portabase is an open-source, self-hosted platform designed to simplify the backu
 | **SQLite** | ✅ Stable | 3.x | Yes |
 | **Redis** | ✅ Stable | 2.8+ | No |
 | **Valkey** | ✅ Stable | 7.2+ | No |
+| **Firebird** | ✅ Stable | - | No |
 
 ## Key Features
 
