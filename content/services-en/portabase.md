@@ -24,7 +24,7 @@ Portabase is an open-source, self-hosted platform designed to simplify the backu
 | **SQLite** | ✅ Stable | 3.x | Yes |
 | **Redis** | ✅ Stable | 2.8+ | No |
 | **Valkey** | ✅ Stable | 7.2+ | No |
-| **Firebird** | ✅ Stable | - | No |
+| **Firebird** | ✅ Stable | 3.0, 4.0, 5.0 | Yes |
 
 ## Key Features
 
