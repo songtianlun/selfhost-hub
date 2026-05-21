@@ -8,7 +8,7 @@ tags:
   - Go
   - Docker
   - K8S
-rating: 4.5
+rating: 4.0
 category: Status / Uptime pages
 website: 'https://gatus.io'
 repo: 'https://github.com/TwiN/gatus'
