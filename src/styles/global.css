@@ -129,11 +129,77 @@
     @apply inline-flex items-center rounded-full border border-border/70 bg-muted/70 px-3 py-1 text-xs font-medium text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground;
   }
 
+  .filter-option {
+    @apply inline-flex min-h-9 items-center rounded-full border border-border/70 bg-background/75 px-3 py-1.5 text-xs font-medium text-muted-foreground transition-all hover:border-primary/40 hover:bg-primary/5 hover:text-foreground;
+  }
+
+  .filter-option[data-active="true"] {
+    @apply border-primary bg-primary text-primary-foreground shadow-sm shadow-primary/20 hover:bg-primary hover:text-primary-foreground;
+  }
+
+  .active-filter-chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-primary/25 bg-primary/10 px-3 py-1.5 text-xs font-semibold text-primary transition hover:border-primary/50 hover:bg-primary/15;
+  }
+
+  .active-filter-label {
+    @apply text-[11px] font-medium text-muted-foreground;
+  }
+
   .btn-primary {
     @apply inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition hover:bg-primary/90;
   }
 
   .btn-secondary {
     @apply inline-flex items-center justify-center rounded-full border border-border bg-background/80 px-5 py-2.5 text-sm font-semibold shadow-sm transition hover:bg-muted;
+  }
+
+  .service-filter-trigger {
+    @apply relative h-9 w-9 items-center justify-center rounded-full border border-border bg-background/80 text-foreground shadow-sm transition hover:bg-muted;
+    display: none;
+  }
+
+  .service-filter-trigger[data-enabled="true"] {
+    display: inline-flex;
+  }
+
+  .filter-drawer {
+    @apply pointer-events-none fixed inset-0 z-[100] opacity-0 transition-opacity duration-200 lg:hidden;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  .filter-drawer[data-open="true"] {
+    @apply pointer-events-auto opacity-100;
+  }
+
+  .filter-drawer__backdrop {
+    @apply absolute inset-0 bg-background/60 backdrop-blur-sm;
+  }
+
+  .filter-drawer__panel {
+    @apply absolute inset-0 flex h-full w-full translate-x-full flex-col bg-background shadow-2xl shadow-primary/10 transition-transform duration-300;
+  }
+
+  .filter-drawer[data-open="true"] .filter-drawer__panel {
+    @apply translate-x-0;
+  }
+
+  .filter-drawer__header {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+
+  .filter-drawer__footer {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  .filter-drawer-open,
+  .filter-drawer-open body {
+    @apply overflow-hidden;
+  }
+}
+
+@media (min-width: 1024px) {
+  .service-filter-trigger[data-enabled="true"] {
+    display: none;
   }
 }

@@ -3,28 +3,34 @@ import ServiceCard from './ServiceCard.astro';
 import type { Service, TagGroup } from '../../lib/services';
 const { services, tagGroups, categories, language = 'zh' } = Astro.props as { services: Service[]; tagGroups: TagGroup[]; categories: string[]; language?: 'zh' | 'en' };
 const t = language === 'zh'
-  ? { search: '搜索服务、说明或标签…', sort: '排序', rating: '评分优先', name: '名称 A-Z', updatedAt: '最近更新', category: '分类', all: '全部分类', tags: '标签', clear: '清空筛选', results: '个服务', noResults: '没有找到匹配的服务。' }
-  : { search: 'Search services, descriptions, or tags…', sort: 'Sort', rating: 'Top rated', name: 'Name A-Z', updatedAt: 'Recently updated', category: 'Category', all: 'All categories', tags: 'Tags', clear: 'Clear filters', results: 'services', noResults: 'No matching services found.' };
+  ? { search: '搜索服务、说明或标签…', sort: '排序', rating: '评分优先', name: '名称 A-Z', updatedAt: '最近更新', category: '分类', all: '全部分类', tags: '标签', filters: '筛选', active: '当前筛选', selected: '已选', closeFilters: '关闭筛选', done: '完成', clear: '清空筛选', results: '个服务', noResults: '没有找到匹配的服务。' }
+  : { search: 'Search services, descriptions, or tags…', sort: 'Sort', rating: 'Top rated', name: 'Name A-Z', updatedAt: 'Recently updated', category: 'Category', all: 'All categories', tags: 'Tags', filters: 'Filters', active: 'Active filters', selected: 'Selected', closeFilters: 'Close filters', done: 'Done', clear: 'Clear filters', results: 'services', noResults: 'No matching services found.' };
 ---
 <section id="service-explorer" data-language={language} class="space-y-6">
   <div class="glass-card rounded-3xl p-4 md:p-5">
-    <div class="grid gap-4 lg:grid-cols-[1fr_auto_auto] lg:items-center">
-      <input id="service-search" type="search" placeholder={t.search} class="h-12 rounded-2xl border border-input bg-background/80 px-4 text-base outline-none ring-primary/20 transition focus:ring-4" />
-      <select id="service-sort" class="h-12 rounded-2xl border border-input bg-background/80 px-4 outline-none">
+    <div class="grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:items-center">
+      <input id="service-search" type="search" placeholder={t.search} class="min-w-0 h-12 rounded-2xl border border-input bg-background/80 px-4 text-base outline-none ring-primary/20 transition focus:ring-4" />
+      <select id="service-sort" aria-label={t.sort} class="h-12 min-w-0 rounded-2xl border border-input bg-background/80 px-4 outline-none">
         <option value="rating">{t.rating}</option>
         <option value="name">{t.name}</option>
         <option value="updatedAt">{t.updatedAt}</option>
       </select>
-      <button id="clear-filters" class="btn-secondary h-12">{t.clear}</button>
+      <button id="clear-filters" type="button" class="btn-secondary h-12 whitespace-nowrap px-4 md:px-5">{t.clear}</button>
+    </div>
+    <div id="active-filter-bar" class="mt-4 hidden rounded-2xl border border-primary/15 bg-primary/5 p-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="mr-1 text-xs font-semibold text-muted-foreground">{t.active}</span>
+        <div id="active-filters" class="flex flex-wrap gap-2"></div>
+      </div>
     </div>
   </div>
   <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
-    <aside class="space-y-6 lg:col-span-1">
+    <aside class="hidden space-y-6 lg:col-span-1 lg:block">
       <div class="glass-card rounded-2xl p-5">
         <h2 class="mb-4 font-bold">{t.category}</h2>
-        <div class="flex flex-wrap gap-2 lg:flex-col" id="category-filters">
-          <button class="filter-pill chip justify-center data-[active=true]:border-primary data-[active=true]:bg-primary data-[active=true]:text-primary-foreground" data-category="" data-active="true">{t.all}</button>
-          {categories.map((category) => <button class="filter-pill chip justify-center data-[active=true]:border-primary data-[active=true]:bg-primary data-[active=true]:text-primary-foreground" data-category={category}>{category}</button>)}
+        <div class="flex flex-col gap-2" id="category-filters">
+          <button class="filter-pill filter-option justify-center" data-category="" data-active="true">{t.all}</button>
+          {categories.map((category) => <button class="filter-pill filter-option justify-center" data-category={category}>{category}</button>)}
         </div>
       </div>
       <div class="glass-card rounded-2xl p-5">
@@ -34,7 +40,7 @@ const t = language === 'zh'
             <div>
               <h3 class="mb-2 text-sm font-semibold text-muted-foreground">{group.name}</h3>
               <div class="flex flex-wrap gap-2">
-                {group.tags.map((tag) => <button class="filter-pill chip data-[active=true]:border-primary data-[active=true]:bg-primary data-[active=true]:text-primary-foreground" data-tag={tag}>{tag}</button>)}
+                {group.tags.map((tag) => <button class="filter-pill filter-option" data-tag={tag}>{tag}</button>)}
               </div>
             </div>
           ))}
@@ -44,7 +50,6 @@ const t = language === 'zh'
     <div class="lg:col-span-3">
       <div class="mb-4 flex items-center justify-between gap-4">
         <p class="text-sm text-muted-foreground"><span id="result-count">{services.length}</span> {t.results}</p>
-        <div id="active-filters" class="flex flex-wrap justify-end gap-2"></div>
       </div>
       <div id="service-grid" class="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {services.map((service) => <ServiceCard service={service} language={language} />)}
@@ -52,27 +57,99 @@ const t = language === 'zh'
       <p id="no-results" class="glass-card mt-6 hidden rounded-2xl p-8 text-center text-muted-foreground">{t.noResults}</p>
     </div>
   </div>
+  <div id="filter-drawer" class="filter-drawer" data-open="false" aria-hidden="true">
+    <button id="filter-drawer-backdrop" type="button" class="filter-drawer__backdrop" aria-label={t.closeFilters}></button>
+    <aside class="filter-drawer__panel" role="dialog" aria-modal="true" aria-labelledby="filter-drawer-title">
+      <header class="filter-drawer__header flex items-center justify-between gap-4 border-b border-border/70 bg-background/95 px-5 py-4 backdrop-blur">
+        <div>
+          <p class="text-xs font-medium text-muted-foreground">{t.selected} <span id="drawer-selected-count">0</span></p>
+          <h2 id="filter-drawer-title" class="text-lg font-bold">{t.filters}</h2>
+        </div>
+        <button id="filter-drawer-close" type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-border bg-background/80 transition hover:bg-muted" aria-label={t.closeFilters}>
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </header>
+      <div class="min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 py-5">
+        <section class="mb-6">
+          <h3 class="mb-3 text-sm font-bold">{t.category}</h3>
+          <div class="grid grid-cols-2 gap-2">
+            <button class="filter-pill filter-option justify-center" data-category="" data-active="true">{t.all}</button>
+            {categories.map((category) => <button class="filter-pill filter-option justify-center" data-category={category}>{category}</button>)}
+          </div>
+        </section>
+        <section class="space-y-5">
+          <h3 class="text-sm font-bold">{t.tags}</h3>
+          {tagGroups.map((group) => group.tags.length > 0 && (
+            <div>
+              <h4 class="mb-2 text-xs font-semibold text-muted-foreground">{group.name}</h4>
+              <div class="flex flex-wrap gap-2">
+                {group.tags.map((tag) => <button class="filter-pill filter-option" data-tag={tag}>{tag}</button>)}
+              </div>
+            </div>
+          ))}
+        </section>
+      </div>
+      <footer class="filter-drawer__footer grid grid-cols-[1fr_auto] gap-3 border-t border-border/70 bg-background/95 p-4 backdrop-blur">
+        <button id="filter-drawer-clear" type="button" class="btn-secondary h-11">{t.clear}</button>
+        <button id="filter-drawer-done" type="button" class="btn-primary h-11">{t.done}</button>
+      </footer>
+    </aside>
+  </div>
 </section>
 <script is:inline>
 (() => {
   const root = document.getElementById('service-explorer');
   if (!root) return;
+  const labels = root.dataset.language === 'zh'
+    ? { category: '分类', tag: '标签', remove: '移除' }
+    : { category: 'Category', tag: 'Tag', remove: 'Remove' };
   const params = new URLSearchParams(window.location.search);
-  const search = document.getElementById('service-search');
-  const sort = document.getElementById('service-sort');
-  const cards = Array.from(document.querySelectorAll('.service-card'));
-  const count = document.getElementById('result-count');
-  const noResults = document.getElementById('no-results');
-  const grid = document.getElementById('service-grid');
-  const activeFilters = document.getElementById('active-filters');
+  const search = root.querySelector('#service-search');
+  const sort = root.querySelector('#service-sort');
+  const cards = Array.from(root.querySelectorAll('.service-card'));
+  const count = root.querySelector('#result-count');
+  const noResults = root.querySelector('#no-results');
+  const grid = root.querySelector('#service-grid');
+  const activeFilterBar = root.querySelector('#active-filter-bar');
+  const activeFilters = root.querySelector('#active-filters');
+  const filterDrawer = root.querySelector('#filter-drawer');
+  if (filterDrawer && filterDrawer.parentElement !== document.body) document.body.appendChild(filterDrawer);
+  const filterToggle = document.getElementById('global-filter-drawer-toggle');
+  const drawerSelectedCount = filterDrawer?.querySelector('#drawer-selected-count');
   const selectedTags = new Set(params.getAll('tags'));
   let selectedCategory = params.get('category') || '';
   search.value = params.get('q') || '';
   sort.value = params.get('sort') || 'rating';
 
+  if (filterToggle) filterToggle.dataset.enabled = 'true';
+
+  const categoryButtons = () => [
+    ...root.querySelectorAll('button[data-category]'),
+    ...(filterDrawer ? filterDrawer.querySelectorAll('button[data-category]') : []),
+  ];
+  const tagButtons = () => [
+    ...root.querySelectorAll('button[data-tag]'),
+    ...(filterDrawer ? filterDrawer.querySelectorAll('button[data-tag]') : []),
+  ];
+  const activeFilterCount = () => (selectedCategory ? 1 : 0) + selectedTags.size;
+
+  const setDrawerOpen = (open) => {
+    if (!filterDrawer || !filterToggle) return;
+    filterDrawer.dataset.open = open ? 'true' : 'false';
+    filterDrawer.setAttribute('aria-hidden', open ? 'false' : 'true');
+    filterToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.documentElement.classList.toggle('filter-drawer-open', open);
+    if (open) filterDrawer.querySelector('#filter-drawer-close')?.focus({ preventScroll: true });
+  };
+
   const syncButtonState = () => {
-    document.querySelectorAll('[data-category]').forEach((button) => button.dataset.active = button.dataset.category === selectedCategory ? 'true' : 'false');
-    document.querySelectorAll('[data-tag]').forEach((button) => button.dataset.active = selectedTags.has(button.dataset.tag) ? 'true' : 'false');
+    categoryButtons().forEach((button) => button.dataset.active = button.dataset.category === selectedCategory ? 'true' : 'false');
+    tagButtons().forEach((button) => button.dataset.active = selectedTags.has(button.dataset.tag) ? 'true' : 'false');
+    const total = activeFilterCount();
+    if (drawerSelectedCount) drawerSelectedCount.textContent = total;
   };
   const updateUrl = () => {
     const next = new URLSearchParams();
@@ -83,10 +160,29 @@ const t = language === 'zh'
     history.replaceState(null, '', `${location.pathname}${next.toString() ? `?${next}` : ''}`);
   };
   const renderActiveFilters = () => {
-    const items = [];
-    if (selectedCategory) items.push(selectedCategory);
-    selectedTags.forEach((tag) => items.push(tag));
-    activeFilters.innerHTML = items.map((item) => `<span class="chip">${item}</span>`).join('');
+    if (!activeFilters || !activeFilterBar) return;
+    activeFilters.replaceChildren();
+    const createChip = (type, label, value) => {
+      const button = document.createElement('button');
+      const labelText = document.createElement('span');
+      const valueText = document.createElement('span');
+      const closeText = document.createElement('span');
+      button.type = 'button';
+      button.className = 'active-filter-chip';
+      button.dataset.filterType = type;
+      button.dataset.filterValue = value;
+      button.setAttribute('aria-label', `${labels.remove} ${label} ${value}`);
+      labelText.className = 'active-filter-label';
+      labelText.textContent = label;
+      valueText.textContent = value;
+      closeText.setAttribute('aria-hidden', 'true');
+      closeText.textContent = '×';
+      button.append(labelText, valueText, closeText);
+      return button;
+    };
+    if (selectedCategory) activeFilters.append(createChip('category', labels.category, selectedCategory));
+    selectedTags.forEach((tag) => activeFilters.append(createChip('tag', labels.tag, tag)));
+    activeFilterBar.classList.toggle('hidden', activeFilterCount() === 0);
   };
   const apply = () => {
     const q = search.value.trim().toLowerCase();
@@ -112,9 +208,31 @@ const t = language === 'zh'
     renderActiveFilters();
     updateUrl();
   };
-  document.querySelectorAll('[data-category]').forEach((button) => button.addEventListener('click', () => { selectedCategory = button.dataset.category || ''; apply(); }));
-  document.querySelectorAll('[data-tag]').forEach((button) => button.addEventListener('click', () => { const tag = button.dataset.tag; selectedTags.has(tag) ? selectedTags.delete(tag) : selectedTags.add(tag); apply(); }));
-  document.getElementById('clear-filters')?.addEventListener('click', () => { selectedCategory = ''; selectedTags.clear(); search.value = ''; sort.value = 'rating'; apply(); });
+  const resetAll = () => {
+    selectedCategory = '';
+    selectedTags.clear();
+    search.value = '';
+    sort.value = 'rating';
+    apply();
+  };
+  categoryButtons().forEach((button) => button.addEventListener('click', () => { selectedCategory = button.dataset.category || ''; apply(); }));
+  tagButtons().forEach((button) => button.addEventListener('click', () => { const tag = button.dataset.tag; selectedTags.has(tag) ? selectedTags.delete(tag) : selectedTags.add(tag); apply(); }));
+  activeFilters?.addEventListener('click', (event) => {
+    const target = event.target instanceof Element ? event.target.closest('button[data-filter-type]') : null;
+    if (!target) return;
+    if (target.dataset.filterType === 'category') selectedCategory = '';
+    if (target.dataset.filterType === 'tag') selectedTags.delete(target.dataset.filterValue);
+    apply();
+  });
+  root.querySelector('#clear-filters')?.addEventListener('click', resetAll);
+  filterDrawer?.querySelector('#filter-drawer-clear')?.addEventListener('click', resetAll);
+  filterToggle?.addEventListener('click', () => setDrawerOpen(true));
+  filterDrawer?.querySelector('#filter-drawer-close')?.addEventListener('click', () => setDrawerOpen(false));
+  filterDrawer?.querySelector('#filter-drawer-backdrop')?.addEventListener('click', () => setDrawerOpen(false));
+  filterDrawer?.querySelector('#filter-drawer-done')?.addEventListener('click', () => setDrawerOpen(false));
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && filterDrawer?.dataset.open === 'true') setDrawerOpen(false);
+  });
   search.addEventListener('input', apply);
   sort.addEventListener('change', apply);
   apply();

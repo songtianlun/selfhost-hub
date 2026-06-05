@@ -19,6 +19,7 @@ const nav = isEn
   ? [{ href: '/en', label: 'Services' }, { href: '/en/tags', label: 'Tags' }, { href: '/en/about', label: 'About' }]
   : [{ href: '/', label: '服务' }, { href: '/tags', label: '标签' }, { href: '/changelog', label: '更新日志' }, { href: '/about', label: '关于' }];
 const altHref = isEn ? Astro.url.pathname.replace(/^\/en\/?/, '/') || '/' : `/en${Astro.url.pathname === '/' ? '' : Astro.url.pathname}`;
+const filterLabel = isEn ? 'Filters' : '筛选';
 ---
 <!doctype html>
 <html lang={isEn ? 'en' : 'zh-CN'}>
@@ -61,6 +62,13 @@ const altHref = isEn ? Astro.url.pathname.replace(/^\/en\/?/, '/') || '/' : `/en
           {nav.map((item) => <a href={item.href} class="rounded-full px-4 py-2 text-sm font-medium text-muted-foreground transition hover:bg-muted hover:text-foreground">{item.label}</a>)}
         </nav>
         <div class="flex items-center gap-2">
+          <button id="global-filter-drawer-toggle" type="button" class="service-filter-trigger" aria-label={filterLabel} aria-controls="filter-drawer" aria-expanded="false">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M4 6h16"></path>
+              <path d="M7 12h10"></path>
+              <path d="M10 18h4"></path>
+            </svg>
+          </button>
           <a href={altHref} class="rounded-full border border-border px-3 py-1.5 text-sm font-medium hover:bg-muted">{isEn ? '中文' : 'EN'}</a>
           <button id="theme-toggle" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border hover:bg-muted" aria-label="Toggle theme">
             <span class="dark:hidden">☀</span>

@@ -1,6 +1,7 @@
 ---
 import Rating from './Rating.astro';
 import ServiceCard from './ServiceCard.astro';
+import GoogleAd from './GoogleAd.astro';
 import { isGithubRepoUrl } from '../../lib/github-api';
 import type { Service } from '../../lib/services';
 const { service, similarServices = [], language = 'zh' } = Astro.props as { service: Service; similarServices?: Service[]; language?: 'zh' | 'en' };
@@ -64,6 +65,7 @@ const formatDate = (dateString?: string) => {
       )}
     </section>
   )}
+  <GoogleAd />
   <section class="prose dark:prose-invert mt-10 max-w-none rounded-3xl border border-border/60 bg-background/70 p-6 md:p-8" set:html={service.content || ''}></section>
   {similarServices.length > 0 && (
     <section class="mt-14">
