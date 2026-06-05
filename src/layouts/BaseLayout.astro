@@ -28,7 +28,11 @@ const altHref = isEn ? Astro.url.pathname.replace(/^\/en\/?/, '/') || '/' : `/en
     <meta name="description" content={description} />
     <meta name="generator" content="Astro" />
     <title>{fullTitle}</title>
-    <link rel="icon" type="image/svg+xml" href="/brand/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -50,7 +54,7 @@ const altHref = isEn ? Astro.url.pathname.replace(/^\/en\/?/, '/') || '/' : `/en
     <header class="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div class="container flex h-16 items-center justify-between gap-4">
         <a href={isEn ? '/en' : '/'} class="flex items-center gap-3 font-bold tracking-tight">
-          <img src="/brand/logo.svg" alt="SelfHost Hub" class="h-9 w-9" />
+          <img src="/logo.png" alt="SelfHost Hub" class="h-9 w-9 object-contain" />
           <span>SelfHost Hub</span>
         </a>
         <nav class="hidden items-center gap-1 md:flex">
