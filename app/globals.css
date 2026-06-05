@@ -63,6 +63,10 @@
   @apply text-xl text-muted-foreground;
 }
 
+.prose img[alt="微信二维码"] {
+  @apply w-56 max-w-full rounded-md border border-border;
+}
+
 /* nprogress 自定义样式 */
 #nprogress {
   pointer-events: none;

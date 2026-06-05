@@ -53,6 +53,9 @@
 - GitHub：[项目仓库](https://github.com/songtianlun/selfhost-hub)
 - 邮箱：tianlun.song@foxmail.com
 - 讨论区：[GitHub Discussions](https://github.com/songtianlun/selfhost-hub/discussions)
+- 微信：扫码或搜索微信号 `frytea26` 添加微信，备注 `selfhost-hub`，进入交流群一起交流自托管经验。
+
+![微信二维码](/wechat-tls2.jpg)
 
 ## 参考项目
 

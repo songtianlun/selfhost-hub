@@ -20,14 +20,6 @@
 - **持续更新**：定期更新服务信息和新增服务
 - **开源透明**：本站完全开源，欢迎社区贡献
 
-## 技术栈
-
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- MDX
-- Shadcn UI
-
 ## 如何贡献
 
 我们欢迎社区成员参与贡献，您可以通过以下方式：
@@ -41,6 +33,9 @@
 ## 联系方式
 
 - 邮箱：tianlun.song@foxmail.com
+- 微信：扫码或搜索微信号 `frytea26` 添加微信，备注 `selfhost-hub`，进入交流群一起交流自托管经验。
+
+<img src="public/wechat-tls2.jpg" alt="微信二维码" width="220" />
 
 ## 致谢
 
@@ -57,5 +52,3 @@ MIT License
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=songtianlun/selfhost-hub&type=Timeline)](https://www.star-history.com/#songtianlun/selfhost-hub&Timeline)
-
-
