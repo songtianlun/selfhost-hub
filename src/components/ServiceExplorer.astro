@@ -2,9 +2,13 @@
 import ServiceCard from './ServiceCard.astro';
 import type { Service, TagGroup } from '../../lib/services';
 const { services, tagGroups, categories, language = 'zh' } = Astro.props as { services: Service[]; tagGroups: TagGroup[]; categories: string[]; language?: 'zh' | 'en' };
-const t = language === 'zh'
-  ? { search: '搜索服务、说明或标签…', sort: '排序', rating: '评分优先', name: '名称 A-Z', updatedAt: '最近更新', category: '分类', all: '全部分类', tags: '标签', filters: '筛选', active: '当前筛选', selected: '已选', closeFilters: '关闭筛选', done: '完成', clear: '清空筛选', results: '个服务', noResults: '没有找到匹配的服务。' }
-  : { search: 'Search services, descriptions, or tags…', sort: 'Sort', rating: 'Top rated', name: 'Name A-Z', updatedAt: 'Recently updated', category: 'Category', all: 'All categories', tags: 'Tags', filters: 'Filters', active: 'Active filters', selected: 'Selected', closeFilters: 'Close filters', done: 'Done', clear: 'Clear filters', results: 'services', noResults: 'No matching services found.' };
+const isEn = language === 'en';
+const t = isEn
+  ? { search: 'Search services, descriptions, or tags…', sort: 'Sort', rating: 'Top rated', name: 'Name A-Z', updatedAt: 'Recently updated', category: 'Category', all: 'All categories', tags: 'Tags', filters: 'Filters', site: 'Site', active: 'Active filters', selected: 'Selected', closeFilters: 'Close filters', done: 'Done', clear: 'Clear filters', results: 'services', noResults: 'No matching services found.' }
+  : { search: '搜索服务、说明或标签…', sort: '排序', rating: '评分优先', name: '名称 A-Z', updatedAt: '最近更新', category: '分类', all: '全部分类', tags: '标签', filters: '筛选', site: '站点', active: '当前筛选', selected: '已选', closeFilters: '关闭筛选', done: '完成', clear: '清空筛选', results: '个服务', noResults: '没有找到匹配的服务。' };
+const drawerLinks = isEn
+  ? [{ href: '/en/about', label: 'About' }]
+  : [{ href: '/changelog', label: '更新日志' }, { href: '/about', label: '关于' }];
 ---
 <section id="service-explorer" data-language={language} class="space-y-6">
   <div class="glass-card rounded-3xl p-4 md:p-5">
@@ -73,6 +77,16 @@ const t = language === 'zh'
         </button>
       </header>
       <div class="min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 py-5">
+        <section class="mb-6">
+          <h3 class="mb-3 text-sm font-bold">{t.site}</h3>
+          <div class="grid grid-cols-2 gap-2">
+            {drawerLinks.map((item) => (
+              <a href={item.href} class="inline-flex min-h-11 items-center justify-center rounded-full border border-border/70 bg-background/75 px-3 py-2 text-sm font-semibold text-muted-foreground transition hover:border-primary/40 hover:bg-primary/5 hover:text-foreground">
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </section>
         <section class="mb-6">
           <h3 class="mb-3 text-sm font-bold">{t.category}</h3>
           <div class="grid grid-cols-2 gap-2">
