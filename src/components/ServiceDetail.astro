@@ -6,6 +6,16 @@ import type { Service } from '../../lib/services';
 const { service, similarServices = [], language = 'zh' } = Astro.props as { service: Service; similarServices?: Service[]; language?: 'zh' | 'en' };
 const isEn = language === 'en';
 const home = isEn ? '/en' : '/';
+const githubInfo = service.githubInfo;
+const repoInfo = githubInfo && !githubInfo.error ? githubInfo : undefined;
+const formatDate = (dateString?: string) => {
+  if (!dateString) return '';
+  return new Date(dateString).toLocaleDateString(isEn ? 'en-US' : 'zh-CN', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+};
 ---
 <div class="container py-10">
   <a href={home} class="mb-6 inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition hover:text-foreground">← {isEn ? 'Back to all services' : '返回到所有服务'}</a>
@@ -30,9 +40,28 @@ const home = isEn ? '/en' : '/';
     </div>
   </article>
   {service.repo && isGithubRepoUrl(service.repo) && (
-    <section class="github-info glass-card mt-8 rounded-2xl p-5" data-repo={service.repo}>
-      <h2 class="mb-3 text-lg font-bold">GitHub</h2>
-      <div class="github-content text-sm text-muted-foreground">{isEn ? 'Loading repository information…' : '正在加载仓库信息…'}</div>
+    <section class="glass-card mt-8 rounded-2xl p-5">
+      <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <h2 class="text-lg font-bold">{isEn ? 'GitHub repository information' : 'GitHub 仓库信息'}</h2>
+        {githubInfo?.fetchTime && <span class="text-xs text-muted-foreground">{isEn ? 'Fetched at build time' : '编译阶段获取'} · {formatDate(githubInfo.fetchTime)}</span>}
+      </div>
+      {repoInfo ? (
+        <div class="space-y-4">
+          <div class="flex flex-wrap gap-3">
+            <span class="chip">★ {repoInfo.stars.toLocaleString()}</span>
+            {repoInfo.latestVersion && <span class="chip">{isEn ? 'Latest' : '最新版本'}: {repoInfo.latestVersion}</span>}
+            {repoInfo.lastUpdated && <span class="chip">{isEn ? 'Updated' : '最后更新'}: {formatDate(repoInfo.lastUpdated)}</span>}
+          </div>
+          {repoInfo.readme && (
+            <details class="rounded-2xl border border-border/70 bg-background/70 p-4">
+              <summary class="cursor-pointer text-sm font-semibold text-primary">README</summary>
+              <pre class="mt-4 max-h-[32rem] overflow-auto whitespace-pre-wrap text-sm leading-6 text-muted-foreground">{repoInfo.readme}</pre>
+            </details>
+          )}
+        </div>
+      ) : (
+        <p class="rounded-2xl bg-destructive/10 p-4 text-sm text-destructive">{githubInfo?.error || (isEn ? 'GitHub information was not available at build time.' : '编译阶段未能获取 GitHub 信息。')}</p>
+      )}
     </section>
   )}
   <section class="prose dark:prose-invert mt-10 max-w-none rounded-3xl border border-border/60 bg-background/70 p-6 md:p-8" set:html={service.content || ''}></section>
@@ -45,20 +74,3 @@ const home = isEn ? '/en' : '/';
     </section>
   )}
 </div>
-<script is:inline>
-(() => {
-  document.querySelectorAll('.github-info[data-repo]').forEach(async (box) => {
-    const content = box.querySelector('.github-content');
-    try {
-      const repoUrl = new URL(box.dataset.repo);
-      const [owner, repo] = repoUrl.pathname.split('/').filter(Boolean);
-      const response = await fetch(`https://api.github.com/repos/${owner}/${repo.replace(/\.git$/, '')}`);
-      const data = await response.json();
-      if (!response.ok || data.message) throw new Error(data.message || 'Failed');
-      content.innerHTML = `<div class="flex flex-wrap gap-3"><span class="chip">★ ${Number(data.stargazers_count || 0).toLocaleString()}</span>${data.updated_at ? `<span class="chip">Updated ${new Date(data.updated_at).toLocaleDateString()}</span>` : ''}</div>`;
-    } catch (error) {
-      content.textContent = 'GitHub information is temporarily unavailable.';
-    }
-  });
-})();
-</script>

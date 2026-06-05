@@ -380,8 +380,10 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
       }
     }
 
-    // 【改为运行时动态获取】不再在构建时预获取 GitHub 信息
-    // 只为已有缓存的服务注入 GitHub 信息
+    // Astro 纯静态产物需要在编译阶段完成 GitHub 信息获取，并嵌入生成的 HTML。
+    await preloadGithubInfo(services);
+
+    // 为服务注入缓存中的 GitHub 信息。
     services.forEach(service => {
       if (service.repo && cache.githubInfo.has(service.repo)) {
         service.githubInfo = cache.githubInfo.get(service.repo);

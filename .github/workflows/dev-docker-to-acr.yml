@@ -1,4 +1,4 @@
-name: Build Dev Docker to Aliyun ACR
+name: Build Dev Astro Static Docker to Aliyun ACR
 
 on:
   push:
@@ -42,7 +42,7 @@ jobs:
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
       -
-        name: Build and push
+        name: Build static Astro image and push
         uses: docker/build-push-action@v6
         with:
           context: .
