@@ -3,6 +3,7 @@
 // 设置常量
 const MAX_RETRY_COUNT = 3; // 最大重试次数
 const RETRY_DELAY_MS = 1000; // 重试延迟，单位毫秒
+let authStateLogged = false;
 
 // 定义GitHub仓库信息的类型
 export interface GithubRepoInfo {
@@ -97,7 +98,10 @@ function getAuthHeaders(): HeadersInit {
         const maskedToken = token.length > 8
             ? `${token.substring(0, 8)}...${token.substring(token.length - 4)}`
             : '***';
-        console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
+        if (!authStateLogged) {
+            console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
+            authStateLogged = true;
+        }
 
         // 根据 token 类型使用不同的认证格式
         // fine-grained tokens (github_pat_) 使用 Bearer
@@ -108,8 +112,11 @@ function getAuthHeaders(): HeadersInit {
             'Authorization': `${authPrefix} ${token}`
         };
     }
-    console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
-    console.warn(`   请设置环境变量: GH_TOKEN=your_github_token`);
+    if (!authStateLogged) {
+        console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
+        console.warn(`   请设置环境变量: GH_TOKEN=your_github_token`);
+        authStateLogged = true;
+    }
     return {};
 }
 

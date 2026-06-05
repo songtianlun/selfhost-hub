@@ -43,7 +43,7 @@ const formatDate = (dateString?: string) => {
     <section class="glass-card mt-8 rounded-2xl p-5">
       <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
         <h2 class="text-lg font-bold">{isEn ? 'GitHub repository information' : 'GitHub 仓库信息'}</h2>
-        {githubInfo?.fetchTime && <span class="text-xs text-muted-foreground">{isEn ? 'Fetched at build time' : '编译阶段获取'} · {formatDate(githubInfo.fetchTime)}</span>}
+        {githubInfo?.fetchTime && <span class="text-xs text-muted-foreground">{isEn ? 'Fetched' : '获取时间'} · {formatDate(githubInfo.fetchTime)}</span>}
       </div>
       {repoInfo ? (
         <div class="space-y-4">
@@ -60,7 +60,7 @@ const formatDate = (dateString?: string) => {
           )}
         </div>
       ) : (
-        <p class="rounded-2xl bg-destructive/10 p-4 text-sm text-destructive">{githubInfo?.error || (isEn ? 'GitHub information was not available at build time.' : '编译阶段未能获取 GitHub 信息。')}</p>
+        <p class="rounded-2xl bg-destructive/10 p-4 text-sm text-destructive">{githubInfo?.error || (isEn ? 'GitHub information is not available.' : 'GitHub 信息暂不可用。')}</p>
       )}
     </section>
   )}
