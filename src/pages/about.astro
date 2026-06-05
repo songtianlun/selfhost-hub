@@ -1,0 +1,18 @@
+---
+import fs from 'fs/promises';
+import path from 'path';
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import remarkRehype from 'remark-rehype';
+import rehypeExternalLinks from 'rehype-external-links';
+import rehypeStringify from 'rehype-stringify';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const fileContents = await fs.readFile(path.join(process.cwd(), 'content', 'about.md'), 'utf8');
+const { content } = matter(fileContents);
+const html = String(await remark().use(remarkRehype).use(rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }).use(rehypeStringify).process(content));
+---
+<BaseLayout title="关于本站" description="了解自托管服务和工具目录的使命、特点以及如何参与贡献" language="zh">
+  <section class="container py-10">
+    <div class="prose dark:prose-invert max-w-none rounded-3xl border border-border/60 bg-background/70 p-6 md:p-8" set:html={html}></div>
+  </section>
+</BaseLayout>

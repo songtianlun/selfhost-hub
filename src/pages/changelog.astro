@@ -1,0 +1,51 @@
+---
+import { format } from 'date-fns';
+import { zhCN } from 'date-fns/locale';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllServices, type Service } from '../../lib/services';
+const services = await getAllServices('zh');
+const grouped = [...services]
+  .sort((a, b) => new Date(b.updatedAt || 0).getTime() - new Date(a.updatedAt || 0).getTime())
+  .reduce((groups, service) => {
+    if (!service.updatedAt) return groups;
+    const monthKey = format(new Date(service.updatedAt), 'yyyy-MM');
+    groups[monthKey] ||= [];
+    groups[monthKey].push(service);
+    return groups;
+  }, {} as Record<string, Service[]>);
+---
+<BaseLayout title="更新日志" description="SelfHost Hub 服务条目的更新时间线" language="zh">
+  <section class="container py-10">
+    <h1 class="gradient-title mb-8 text-4xl font-black">更新日志</h1>
+    <div class="relative pl-5">
+      <div class="absolute bottom-0 left-0 top-0 w-px bg-border"></div>
+      <div class="space-y-10">
+        {Object.entries(grouped).map(([monthKey, monthServices]) => {
+          const firstDate = new Date(monthServices[0].updatedAt || '');
+          const monthTitle = format(firstDate, 'yyyy年MM月', { locale: zhCN });
+          return (
+            <section class="relative">
+              <div class="absolute -left-[29px] top-1 h-5 w-5 rounded-full border-4 border-background bg-primary"></div>
+              <div class="mb-4 flex flex-wrap items-center gap-3">
+                <h2 class="text-2xl font-bold">{monthTitle}</h2>
+                <span class="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">{monthServices.length} 个服务更新</span>
+              </div>
+              <div class="space-y-4">
+                {monthServices.map((service) => (
+                  <article class="glass-card rounded-2xl p-5">
+                    <div class="mb-2 flex flex-wrap items-center gap-3">
+                      <a href={`/${service.slug}`} class="text-lg font-bold hover:text-primary">{service.name}</a>
+                      <span class="text-sm text-muted-foreground">{format(new Date(service.updatedAt || ''), 'MM-dd', { locale: zhCN })}</span>
+                    </div>
+                    <p class="mb-3 line-clamp-2 text-sm text-muted-foreground">{service.description}</p>
+                    <div class="flex flex-wrap gap-2">{service.tags.map((tag) => <span class="chip">{tag}</span>)}</div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

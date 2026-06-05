@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getTags } from '../../../lib/services';
+const tagGroups = await getTags('en');
+---
+<BaseLayout title="Tags" description="Browse all tags for self-hosted services and tools" language="en">
+  <section class="container py-12">
+    <h1 class="gradient-title mb-6 text-4xl font-black">Tags</h1>
+    <p class="mb-12 text-xl text-muted-foreground">Browse tag groups and find self-hosted services that match your interests.</p>
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {tagGroups.map((group) => (
+        <div class="glass-card rounded-2xl p-6">
+          <h2 class="mb-4 text-2xl font-bold">{group.name}</h2>
+          <div class="flex flex-wrap gap-2">{group.tags.map((tag) => <a href={`/en?tags=${encodeURIComponent(tag)}`} class="chip">{tag}</a>)}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

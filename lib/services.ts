@@ -6,10 +6,10 @@ import remarkRehype from "remark-rehype"
 import rehypeStringify from "rehype-stringify"
 import rehypeExternalLinks from "rehype-external-links"
 import matter from "gray-matter"
-import { getGithubRepoInfo, isGithubRepoUrl, type GithubRepoInfo } from "@/lib/github-api"
+import { getGithubRepoInfo, isGithubRepoUrl, type GithubRepoInfo } from "./github-api"
 
-// GitHub 信息持久化文件路径（存储在 .next/cache 目录）
-const GITHUB_INFO_CACHE_FILE = path.join(process.cwd(), '.next', 'cache', 'github-info.json');
+// GitHub 信息持久化文件路径（存储在 Astro cache 目录）
+const GITHUB_INFO_CACHE_FILE = path.join(process.cwd(), '.astro', 'cache', 'github-info.json');
 
 // 缓存机制
 const cache = {
@@ -27,6 +27,22 @@ const cache = {
   },
   githubInfo: new Map<string, GithubRepoInfo>(), // GitHub 信息缓存
 };
+
+function isProductionBuild(): boolean {
+  return process.env.NODE_ENV === "production";
+}
+
+function isDevelopmentServer(): boolean {
+  return process.env.NODE_ENV === "development";
+}
+
+function shouldPreloadGithubInfo(): boolean {
+  return isProductionBuild();
+}
+
+function shouldLazyLoadGithubInfo(): boolean {
+  return isDevelopmentServer();
+}
 
 export type Service = {
   id: string
@@ -162,10 +178,11 @@ async function loadGithubInfoFromFile(): Promise<boolean> {
     let errorCount = 0;
     let skippedCount = 0;
 
-    // 恢复到 Map，但如果运行时有 Token，跳过错误缓存项（让其重新获取）
+    const shouldRetryErrorCache = Boolean(process.env.GH_TOKEN) || shouldPreloadGithubInfo() || shouldLazyLoadGithubInfo();
+
+    // 恢复到 Map；需要重新拉取时，跳过错误缓存项。
     githubInfoArray.forEach(({ repo, info }) => {
-      // 如果缓存项有错误，并且当前有 Token，则跳过该缓存（让运行时重新获取）
-      if (info.error && process.env.GH_TOKEN) {
+      if (info.error && shouldRetryErrorCache) {
         skippedCount++;
         return; // 不加载这个错误缓存
       }
@@ -182,7 +199,7 @@ async function loadGithubInfoFromFile(): Promise<boolean> {
     console.log(`📦 从文件加载了 ${githubInfoArray.length} 个 GitHub 信息 (成功: ${successCount}, 错误: ${errorCount}, 跳过: ${skippedCount})`);
 
     if (skippedCount > 0) {
-      console.log(`✓ 跳过 ${skippedCount} 个错误缓存，将在运行时重新获取`);
+      console.log(`✓ 跳过 ${skippedCount} 个错误缓存，将按当前环境重新获取`);
     }
 
     if (errorCount > 0 && !process.env.GH_TOKEN) {
@@ -194,6 +211,34 @@ async function loadGithubInfoFromFile(): Promise<boolean> {
     console.error('❌ 从文件加载 GitHub 信息失败:', error);
     return false;
   }
+}
+
+function applyCachedGithubInfo(services: Service[]): void {
+  services.forEach(service => {
+    if (service.repo && cache.githubInfo.has(service.repo)) {
+      service.githubInfo = cache.githubInfo.get(service.repo);
+    }
+  });
+}
+
+async function loadGithubInfoForService(service: Service): Promise<void> {
+  if (
+    process.env.SKIP_GITHUB_API === 'true' ||
+    !service.repo ||
+    !isGithubRepoUrl(service.repo)
+  ) {
+    return;
+  }
+
+  if (cache.githubInfo.has(service.repo)) {
+    service.githubInfo = cache.githubInfo.get(service.repo);
+    return;
+  }
+
+  const githubInfo = await getGithubRepoInfo(service.repo);
+  cache.githubInfo.set(service.repo, githubInfo);
+  service.githubInfo = githubInfo;
+  await saveGithubInfoToFile();
 }
 
 // 预获取 GitHub 信息
@@ -380,13 +425,13 @@ async function loadServicesFromMarkdown(language: "zh" | "en"): Promise<Service[
       }
     }
 
-    // 【改为运行时动态获取】不再在构建时预获取 GitHub 信息
-    // 只为已有缓存的服务注入 GitHub 信息
-    services.forEach(service => {
-      if (service.repo && cache.githubInfo.has(service.repo)) {
-        service.githubInfo = cache.githubInfo.get(service.repo);
-      }
-    });
+    // Astro 纯静态产物需要在正式构建阶段完成 GitHub 信息获取，并嵌入生成的 HTML。
+    // 开发服务器只读取本地缓存，具体仓库信息在访问详情页时懒加载。
+    if (shouldPreloadGithubInfo()) {
+      await preloadGithubInfo(services);
+    }
+
+    applyCachedGithubInfo(services);
 
     // 保存到缓存
     cache.services[language] = services;
@@ -579,6 +624,10 @@ export async function getServiceBySlug(slug: string, language: "zh" | "en"): Pro
     return null;
   }
 
+  if (shouldLazyLoadGithubInfo()) {
+    await loadGithubInfoForService(service);
+  }
+
   return service;
 }
 
@@ -588,9 +637,10 @@ export async function getAllServiceSlugs(language: "zh" | "en"): Promise<string[
   return services.map((service) => service.slug);
 }
 
-// 预加载所有数据，可以在应用启动时调用
+// 预加载所有数据，可以在应用启动时调用。
+// 生产构建会包含 GitHub 信息；开发服务器只预载基础数据。
 export async function preloadAllData(): Promise<void> {
-  // 先预加载服务数据（包含 GitHub 信息）
+  // 先预加载服务数据
   await Promise.all([
     loadServicesFromMarkdown("zh"),
     loadServicesFromMarkdown("en")

@@ -3,6 +3,7 @@
 // 设置常量
 const MAX_RETRY_COUNT = 3; // 最大重试次数
 const RETRY_DELAY_MS = 1000; // 重试延迟，单位毫秒
+let authStateLogged = false;
 
 // 定义GitHub仓库信息的类型
 export interface GithubRepoInfo {
@@ -97,7 +98,10 @@ function getAuthHeaders(): HeadersInit {
         const maskedToken = token.length > 8
             ? `${token.substring(0, 8)}...${token.substring(token.length - 4)}`
             : '***';
-        console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
+        if (!authStateLogged) {
+            console.log(`🔑 使用 GitHub Token: ${maskedToken}`);
+            authStateLogged = true;
+        }
 
         // 根据 token 类型使用不同的认证格式
         // fine-grained tokens (github_pat_) 使用 Bearer
@@ -105,16 +109,18 @@ function getAuthHeaders(): HeadersInit {
         const authPrefix = token.startsWith('github_pat_') ? 'Bearer' : 'token';
 
         return {
-            'Authorization': "`${authPrefix} ${token}`"
+            'Authorization': `${authPrefix} ${token}`
         };
     }
-    console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
-    console.warn(`   请设置环境变量: GH_TOKEN=your_github_token`);
+    if (!authStateLogged) {
+        console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
+        console.warn(`   请设置环境变量: GH_TOKEN=your_github_token`);
+        authStateLogged = true;
+    }
     return {};
 }
 
 // 设置缓存时间常量 - 6小时
-const CACHE_REVALIDATION_TIME = 6 * 60 * 60; // 秒
 
 // 以下是保留的旧方法，可能在某些场景下单独使用
 
@@ -127,9 +133,7 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
 
     return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-            headers,
-            // 增加缓存时间到6小时
-            next: { revalidate: CACHE_REVALIDATION_TIME }
+            headers
         });
 
         if (!response.ok) {
@@ -157,8 +161,7 @@ export async function fetchLatestVersion(owner: string, repo: string): Promise<s
 
     return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
-            headers,
-            next: { revalidate: CACHE_REVALIDATION_TIME }
+            headers
         });
 
         if (!response.ok) {
@@ -184,8 +187,7 @@ export async function fetchReadme(owner: string, repo: string): Promise<string |
 
     return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
-            headers,
-            next: { revalidate: CACHE_REVALIDATION_TIME }
+            headers
         });
 
         if (!response.ok) {
@@ -216,16 +218,13 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
         // 并行执行所有请求
         const [repoResponse, releaseResponse, readmeResponse] = await Promise.all([
             fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-                headers,
-                next: { revalidate: CACHE_REVALIDATION_TIME }
+                headers
             }),
             fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
-                headers,
-                next: { revalidate: CACHE_REVALIDATION_TIME }
+                headers
             }),
             fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
-                headers,
-                next: { revalidate: CACHE_REVALIDATION_TIME }
+                headers
             })
         ]);
 

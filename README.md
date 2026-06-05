@@ -1,5 +1,9 @@
 # Selfhost Hub
 
+<p align="center">
+  <img src="public/logo.png" alt="SelfHost Hub Logo" width="96" height="96" />
+</p>
+
 自托管服务和工具目录是一个致力于收集和展示各种高质量自托管服务的项目。我们的目标是帮助用户发现、探索并部署适合自己需求的自托管解决方案。
 
 ## 为什么选择自托管？

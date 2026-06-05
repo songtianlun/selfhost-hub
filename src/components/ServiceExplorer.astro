@@ -1,0 +1,122 @@
+---
+import ServiceCard from './ServiceCard.astro';
+import type { Service, TagGroup } from '../../lib/services';
+const { services, tagGroups, categories, language = 'zh' } = Astro.props as { services: Service[]; tagGroups: TagGroup[]; categories: string[]; language?: 'zh' | 'en' };
+const t = language === 'zh'
+  ? { search: '搜索服务、说明或标签…', sort: '排序', rating: '评分优先', name: '名称 A-Z', updatedAt: '最近更新', category: '分类', all: '全部分类', tags: '标签', clear: '清空筛选', results: '个服务', noResults: '没有找到匹配的服务。' }
+  : { search: 'Search services, descriptions, or tags…', sort: 'Sort', rating: 'Top rated', name: 'Name A-Z', updatedAt: 'Recently updated', category: 'Category', all: 'All categories', tags: 'Tags', clear: 'Clear filters', results: 'services', noResults: 'No matching services found.' };
+---
+<section id="service-explorer" data-language={language} class="space-y-6">
+  <div class="glass-card rounded-3xl p-4 md:p-5">
+    <div class="grid gap-4 lg:grid-cols-[1fr_auto_auto] lg:items-center">
+      <input id="service-search" type="search" placeholder={t.search} class="h-12 rounded-2xl border border-input bg-background/80 px-4 text-base outline-none ring-primary/20 transition focus:ring-4" />
+      <select id="service-sort" class="h-12 rounded-2xl border border-input bg-background/80 px-4 outline-none">
+        <option value="rating">{t.rating}</option>
+        <option value="name">{t.name}</option>
+        <option value="updatedAt">{t.updatedAt}</option>
+      </select>
+      <button id="clear-filters" class="btn-secondary h-12">{t.clear}</button>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
+    <aside class="space-y-6 lg:col-span-1">
+      <div class="glass-card rounded-2xl p-5">
+        <h2 class="mb-4 font-bold">{t.category}</h2>
+        <div class="flex flex-wrap gap-2 lg:flex-col" id="category-filters">
+          <button class="filter-pill chip justify-center data-[active=true]:border-primary data-[active=true]:bg-primary data-[active=true]:text-primary-foreground" data-category="" data-active="true">{t.all}</button>
+          {categories.map((category) => <button class="filter-pill chip justify-center data-[active=true]:border-primary data-[active=true]:bg-primary data-[active=true]:text-primary-foreground" data-category={category}>{category}</button>)}
+        </div>
+      </div>
+      <div class="glass-card rounded-2xl p-5">
+        <h2 class="mb-4 font-bold">{t.tags}</h2>
+        <div class="space-y-5" id="tag-filters">
+          {tagGroups.map((group) => group.tags.length > 0 && (
+            <div>
+              <h3 class="mb-2 text-sm font-semibold text-muted-foreground">{group.name}</h3>
+              <div class="flex flex-wrap gap-2">
+                {group.tags.map((tag) => <button class="filter-pill chip data-[active=true]:border-primary data-[active=true]:bg-primary data-[active=true]:text-primary-foreground" data-tag={tag}>{tag}</button>)}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </aside>
+    <div class="lg:col-span-3">
+      <div class="mb-4 flex items-center justify-between gap-4">
+        <p class="text-sm text-muted-foreground"><span id="result-count">{services.length}</span> {t.results}</p>
+        <div id="active-filters" class="flex flex-wrap justify-end gap-2"></div>
+      </div>
+      <div id="service-grid" class="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        {services.map((service) => <ServiceCard service={service} language={language} />)}
+      </div>
+      <p id="no-results" class="glass-card mt-6 hidden rounded-2xl p-8 text-center text-muted-foreground">{t.noResults}</p>
+    </div>
+  </div>
+</section>
+<script is:inline>
+(() => {
+  const root = document.getElementById('service-explorer');
+  if (!root) return;
+  const params = new URLSearchParams(window.location.search);
+  const search = document.getElementById('service-search');
+  const sort = document.getElementById('service-sort');
+  const cards = Array.from(document.querySelectorAll('.service-card'));
+  const count = document.getElementById('result-count');
+  const noResults = document.getElementById('no-results');
+  const grid = document.getElementById('service-grid');
+  const activeFilters = document.getElementById('active-filters');
+  const selectedTags = new Set(params.getAll('tags'));
+  let selectedCategory = params.get('category') || '';
+  search.value = params.get('q') || '';
+  sort.value = params.get('sort') || 'rating';
+
+  const syncButtonState = () => {
+    document.querySelectorAll('[data-category]').forEach((button) => button.dataset.active = button.dataset.category === selectedCategory ? 'true' : 'false');
+    document.querySelectorAll('[data-tag]').forEach((button) => button.dataset.active = selectedTags.has(button.dataset.tag) ? 'true' : 'false');
+  };
+  const updateUrl = () => {
+    const next = new URLSearchParams();
+    if (search.value.trim()) next.set('q', search.value.trim());
+    if (selectedCategory) next.set('category', selectedCategory);
+    selectedTags.forEach((tag) => next.append('tags', tag));
+    if (sort.value !== 'rating') next.set('sort', sort.value);
+    history.replaceState(null, '', `${location.pathname}${next.toString() ? `?${next}` : ''}`);
+  };
+  const renderActiveFilters = () => {
+    const items = [];
+    if (selectedCategory) items.push(selectedCategory);
+    selectedTags.forEach((tag) => items.push(tag));
+    activeFilters.innerHTML = items.map((item) => `<span class="chip">${item}</span>`).join('');
+  };
+  const apply = () => {
+    const q = search.value.trim().toLowerCase();
+    const visible = [];
+    cards.forEach((card) => {
+      const tags = (card.dataset.tags || '').split('|').filter(Boolean);
+      const text = `${card.dataset.name} ${card.dataset.description} ${tags.join(' ')}`.toLowerCase();
+      const matchesQuery = !q || text.includes(q);
+      const matchesCategory = !selectedCategory || card.dataset.category === selectedCategory;
+      const matchesTags = [...selectedTags].every((tag) => tags.includes(tag));
+      if (matchesQuery && matchesCategory && matchesTags) visible.push(card);
+    });
+    visible.sort((a, b) => {
+      if (sort.value === 'name') return (a.dataset.name || '').localeCompare(b.dataset.name || '');
+      if (sort.value === 'updatedAt') return new Date(b.dataset.updated || 0) - new Date(a.dataset.updated || 0);
+      return Number(b.dataset.rating || 0) - Number(a.dataset.rating || 0) || (a.dataset.name || '').localeCompare(b.dataset.name || '');
+    });
+    cards.forEach((card) => card.classList.add('hidden'));
+    visible.forEach((card) => { card.classList.remove('hidden'); grid.appendChild(card); });
+    count.textContent = visible.length;
+    noResults.classList.toggle('hidden', visible.length > 0);
+    syncButtonState();
+    renderActiveFilters();
+    updateUrl();
+  };
+  document.querySelectorAll('[data-category]').forEach((button) => button.addEventListener('click', () => { selectedCategory = button.dataset.category || ''; apply(); }));
+  document.querySelectorAll('[data-tag]').forEach((button) => button.addEventListener('click', () => { const tag = button.dataset.tag; selectedTags.has(tag) ? selectedTags.delete(tag) : selectedTags.add(tag); apply(); }));
+  document.getElementById('clear-filters')?.addEventListener('click', () => { selectedCategory = ''; selectedTags.clear(); search.value = ''; sort.value = 'rating'; apply(); });
+  search.addEventListener('input', apply);
+  sort.addEventListener('change', apply);
+  apply();
+})();
+</script>

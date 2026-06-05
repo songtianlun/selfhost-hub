@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 
-# Build stage
+# Build stage: Astro renders the site to static files in /app/dist.
 FROM node:20-alpine AS builder
 
 WORKDIR /app
@@ -9,55 +9,54 @@ WORKDIR /app
 ARG PNPM_VERSION=10.28.1
 RUN corepack enable && corepack prepare pnpm@${PNPM_VERSION} --activate
 
-# Copy package files
-COPY package.json pnpm-lock.yaml ./
+# Copy package metadata first to improve Docker layer caching.
+COPY package.json ./
 
-# Install dependencies
-RUN pnpm install --frozen-lockfile
+# Install dependencies. This Astro rewrite intentionally has no committed lockfile yet, so do not require one.
+RUN pnpm install --no-frozen-lockfile
 
-# Copy source code
+# Copy source code.
 COPY . .
 
-# Build application with optional IndexNow push
+# Build the static site. GH_TOKEN is consumed during build so GitHub repository metadata is embedded in HTML.
 ARG PUSH_ALL=0
 ARG PUSH_RECENT=0
 
 RUN --mount=type=secret,id=gh_token \
     export GH_TOKEN="$(cat /run/secrets/gh_token 2>/dev/null || true)"; \
     if [ "$PUSH_ALL" = "1" ]; then \
-    pnpm build && pnpm push:all || true; \
+      pnpm build && pnpm push:all || true; \
     elif [ "$PUSH_RECENT" = "1" ]; then \
-    pnpm build && pnpm push:recent || true; \
+      pnpm build && pnpm push:recent || true; \
     else \
-    pnpm build; \
+      pnpm build; \
     fi
 
-# Production stage - use Next.js server
-FROM node:20-alpine AS runner
+# Runtime stage: serve the pure static Astro output with nginx.
+FROM nginx:1.27-alpine AS runner
 
-WORKDIR /app
+COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Install a Node 20 compatible pnpm version. Avoid pnpm@latest, which may require newer Node built-ins.
-ARG PNPM_VERSION=10.28.1
-RUN corepack enable && corepack prepare pnpm@${PNPM_VERSION} --activate
+RUN cat > /etc/nginx/conf.d/default.conf <<'EOF_NGINX'
+server {
+    listen 3000;
+    server_name _;
+    root /usr/share/nginx/html;
+    index index.html;
 
-# Copy package files
-COPY package.json pnpm-lock.yaml ./
+    location / {
+        try_files $uri $uri/ /404.html;
+    }
 
-# Install production dependencies only
-RUN pnpm install --prod --frozen-lockfile
+    location ~* \.(?:css|js|mjs|svg|png|jpg|jpeg|gif|webp|ico|txt|xml)$ {
+        try_files $uri =404;
+        access_log off;
+        expires 30d;
+        add_header Cache-Control "public, max-age=2592000, immutable";
+    }
+}
+EOF_NGINX
 
-# Copy built application from builder
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/next.config.mjs ./
-COPY --from=builder /app/content ./content
-
-# Set environment to production
-ENV NODE_ENV=production
-
-# Expose port
 EXPOSE 3000
 
-# Start Next.js server
-CMD ["pnpm", "start"] 
+CMD ["nginx", "-g", "daemon off;"]
