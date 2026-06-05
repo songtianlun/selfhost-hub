@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ServiceExplorer from '../../components/ServiceExplorer.astro';
+import { getAllServices, getTags, getAllCategories } from '../../../lib/services';
+const services = await getAllServices('en');
+const tagGroups = await getTags('en');
+const categories = await getAllCategories('en');
+---
+<BaseLayout title="Self-hosted Services and Tools Directory" description="Collection of various self-hosted services and tools, categorized by tags with filtering functionality" language="en">
+  <section class="container py-12 md:py-16">
+    <div class="mb-10 max-w-4xl">
+      <p class="mb-4 inline-flex rounded-full border border-primary/20 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">Self-hosted, curated, searchable</p>
+      <h1 class="gradient-title mb-6 text-4xl font-black tracking-tight md:text-6xl">Self-hosted Services and Tools Directory</h1>
+      <p class="text-xl leading-8 text-muted-foreground">Discover, explore, and deploy high-quality self-hosted services and tools to take control of your data and infrastructure.</p>
+    </div>
+    <ServiceExplorer services={services} tagGroups={tagGroups} categories={categories} language="en" />
+  </section>
+</BaseLayout>

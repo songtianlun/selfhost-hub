@@ -6,10 +6,10 @@ import remarkRehype from "remark-rehype"
 import rehypeStringify from "rehype-stringify"
 import rehypeExternalLinks from "rehype-external-links"
 import matter from "gray-matter"
-import { getGithubRepoInfo, isGithubRepoUrl, type GithubRepoInfo } from "@/lib/github-api"
+import { getGithubRepoInfo, isGithubRepoUrl, type GithubRepoInfo } from "./github-api"
 
-// GitHub 信息持久化文件路径（存储在 .next/cache 目录）
-const GITHUB_INFO_CACHE_FILE = path.join(process.cwd(), '.next', 'cache', 'github-info.json');
+// GitHub 信息持久化文件路径（存储在 Astro cache 目录）
+const GITHUB_INFO_CACHE_FILE = path.join(process.cwd(), '.astro', 'cache', 'github-info.json');
 
 // 缓存机制
 const cache = {

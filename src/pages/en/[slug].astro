@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ServiceDetail from '../../components/ServiceDetail.astro';
+import { getAllServiceSlugs, getAllServices, getServiceBySlug } from '../../../lib/services';
+export async function getStaticPaths() {
+  const slugs = await getAllServiceSlugs('en');
+  return slugs.map((slug) => ({ params: { slug } }));
+}
+const { slug } = Astro.params;
+const service = await getServiceBySlug(slug!, 'en');
+if (!service) return Astro.redirect('/en/404');
+const allServices = await getAllServices('en');
+const similarServices = allServices
+  .filter((s) => s.slug !== service.slug)
+  .map((s) => ({ ...s, similarityScore: (s.category === service.category ? 2 : 0) + s.tags.filter((tag) => service.tags.includes(tag)).length }))
+  .filter((s) => s.similarityScore > 0)
+  .sort((a, b) => b.similarityScore - a.similarityScore)
+  .slice(0, 6);
+---
+<BaseLayout title={service.name} description={service.description} language="en" image={service.image}>
+  <ServiceDetail service={service} similarServices={similarServices} language="en" />
+</BaseLayout>

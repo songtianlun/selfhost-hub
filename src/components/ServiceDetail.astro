@@ -1,0 +1,64 @@
+---
+import Rating from './Rating.astro';
+import ServiceCard from './ServiceCard.astro';
+import { isGithubRepoUrl } from '../../lib/github-api';
+import type { Service } from '../../lib/services';
+const { service, similarServices = [], language = 'zh' } = Astro.props as { service: Service; similarServices?: Service[]; language?: 'zh' | 'en' };
+const isEn = language === 'en';
+const home = isEn ? '/en' : '/';
+---
+<div class="container py-10">
+  <a href={home} class="mb-6 inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition hover:text-foreground">← {isEn ? 'Back to all services' : '返回到所有服务'}</a>
+  <article class="glass-card overflow-hidden rounded-3xl p-6 md:p-8">
+    <div class="grid gap-8 md:grid-cols-[1fr_360px] md:items-start">
+      <div>
+        <div class="mb-4 flex flex-wrap items-center gap-4">
+          <h1 class="gradient-title text-4xl font-black tracking-tight md:text-5xl">{service.name}</h1>
+          {service.rating && <Rating rating={service.rating} />}
+        </div>
+        <p class="mb-6 text-xl leading-8 text-muted-foreground">{service.description}</p>
+        <div class="mb-7 flex flex-wrap gap-2">
+          <a href={`${home}?category=${encodeURIComponent(service.category)}`} class="chip border-primary/30 text-primary">{service.category}</a>
+          {service.tags.map((tag) => <a href={`${home}?tags=${encodeURIComponent(tag)}`} class="chip">{tag}</a>)}
+        </div>
+        <div class="flex flex-wrap gap-3">
+          {service.website && <a class="btn-primary" href={service.website} target="_blank" rel="noopener noreferrer">{isEn ? 'Visit Website' : '访问网站'}</a>}
+          {service.repo && <a class="btn-secondary" href={service.repo} target="_blank" rel="noopener noreferrer">{isEn ? 'Source Code' : '源码仓库'}</a>}
+        </div>
+      </div>
+      {service.image && <div class="overflow-hidden rounded-2xl border border-border bg-muted"><img src={service.image} alt={service.name} class="h-full w-full object-cover transition duration-500 hover:scale-105" /></div>}
+    </div>
+  </article>
+  {service.repo && isGithubRepoUrl(service.repo) && (
+    <section class="github-info glass-card mt-8 rounded-2xl p-5" data-repo={service.repo}>
+      <h2 class="mb-3 text-lg font-bold">GitHub</h2>
+      <div class="github-content text-sm text-muted-foreground">{isEn ? 'Loading repository information…' : '正在加载仓库信息…'}</div>
+    </section>
+  )}
+  <section class="prose dark:prose-invert mt-10 max-w-none rounded-3xl border border-border/60 bg-background/70 p-6 md:p-8" set:html={service.content || ''}></section>
+  {similarServices.length > 0 && (
+    <section class="mt-14">
+      <h2 class="mb-6 text-2xl font-bold">{isEn ? 'Discover more' : '发现更多'}</h2>
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        {similarServices.map((item) => <ServiceCard service={item} language={language} />)}
+      </div>
+    </section>
+  )}
+</div>
+<script is:inline>
+(() => {
+  document.querySelectorAll('.github-info[data-repo]').forEach(async (box) => {
+    const content = box.querySelector('.github-content');
+    try {
+      const repoUrl = new URL(box.dataset.repo);
+      const [owner, repo] = repoUrl.pathname.split('/').filter(Boolean);
+      const response = await fetch(`https://api.github.com/repos/${owner}/${repo.replace(/\.git$/, '')}`);
+      const data = await response.json();
+      if (!response.ok || data.message) throw new Error(data.message || 'Failed');
+      content.innerHTML = `<div class="flex flex-wrap gap-3"><span class="chip">★ ${Number(data.stargazers_count || 0).toLocaleString()}</span>${data.updated_at ? `<span class="chip">Updated ${new Date(data.updated_at).toLocaleDateString()}</span>` : ''}</div>`;
+    } catch (error) {
+      content.textContent = 'GitHub information is temporarily unavailable.';
+    }
+  });
+})();
+</script>

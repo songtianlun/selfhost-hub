@@ -1,0 +1,34 @@
+---
+import Rating from './Rating.astro';
+import type { Service } from '../../lib/services';
+const { service, language = 'zh' } = Astro.props as { service: Service; language?: 'zh' | 'en' };
+const base = language === 'zh' ? '' : '/en';
+const serviceHref = `${base}/${service.slug}`;
+const homeHref = language === 'zh' ? '/' : '/en';
+---
+<article class="service-card glass-card group flex h-full flex-col overflow-hidden rounded-2xl" data-name={service.name.toLowerCase()} data-description={service.description.toLowerCase()} data-category={service.category} data-tags={service.tags.join('|')} data-rating={service.rating ?? 0} data-updated={service.updatedAt ?? ''}>
+  <a href={serviceHref} class="block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background">
+    {service.image && (
+      <div class="relative aspect-video overflow-hidden bg-muted">
+        <img src={service.image} alt={service.name} loading="lazy" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+        <div class="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent opacity-0 transition group-hover:opacity-100"></div>
+      </div>
+    )}
+  </a>
+  <div class="flex flex-1 flex-col p-5">
+    <div class="mb-3 flex items-start justify-between gap-3">
+      <a href={serviceHref} class="text-xl font-bold leading-tight tracking-tight hover:text-primary">{service.name}</a>
+      {service.rating && <Rating rating={service.rating} />}
+    </div>
+    <p class="mb-4 line-clamp-3 flex-1 text-sm leading-6 text-muted-foreground">{service.description}</p>
+    <div class="mb-4 flex flex-wrap gap-2">
+      <a class="chip border-primary/20 text-primary" href={`${homeHref}?category=${encodeURIComponent(service.category)}`}>{service.category}</a>
+      {service.tags.slice(0, 4).map((tag) => <a class="chip" href={`${homeHref}?tags=${encodeURIComponent(tag)}`}>{tag}</a>)}
+      {service.tags.length > 4 && <span class="chip">+{service.tags.length - 4}</span>}
+    </div>
+    <div class="flex items-center justify-between text-xs text-muted-foreground">
+      <span>{service.updatedAt ? new Date(service.updatedAt).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US') : ''}</span>
+      <a href={serviceHref} class="font-semibold text-primary hover:underline">{language === 'zh' ? '查看详情 →' : 'Details →'}</a>
+    </div>
+  </div>
+</article>

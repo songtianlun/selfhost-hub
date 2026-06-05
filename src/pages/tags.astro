@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getTags } from '../../lib/services';
+const tagGroups = await getTags('zh');
+---
+<BaseLayout title="标签索引" description="浏览自托管服务和工具的所有标签分类" language="zh">
+  <section class="container py-12">
+    <h1 class="gradient-title mb-6 text-4xl font-black">标签索引</h1>
+    <p class="mb-12 text-xl text-muted-foreground">浏览所有的标签分类，找到您感兴趣的自托管服务和工具。</p>
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {tagGroups.map((group) => (
+        <div class="glass-card rounded-2xl p-6">
+          <h2 class="mb-4 text-2xl font-bold">{group.name}</h2>
+          <div class="flex flex-wrap gap-2">{group.tags.map((tag) => <a href={`/?tags=${encodeURIComponent(tag)}`} class="chip">{tag}</a>)}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

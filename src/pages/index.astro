@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ServiceExplorer from '../components/ServiceExplorer.astro';
+import { getAllServices, getTags, getAllCategories } from '../../lib/services';
+const services = await getAllServices('zh');
+const tagGroups = await getTags('zh');
+const categories = await getAllCategories('zh');
+---
+<BaseLayout title="自托管服务和工具目录" description="收集各种可自托管的服务、工具等内容，按标签分类并提供筛选功能" language="zh">
+  <section class="container py-12 md:py-16">
+    <div class="mb-10 max-w-4xl">
+      <p class="mb-4 inline-flex rounded-full border border-primary/20 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">Self-hosted, curated, searchable</p>
+      <h1 class="gradient-title mb-6 text-4xl font-black tracking-tight md:text-6xl">自托管服务和工具目录</h1>
+      <p class="text-xl leading-8 text-muted-foreground">发掘、探索并部署各种高质量的自托管服务和工具，掌控您的数据和基础设施。</p>
+    </div>
+    <ServiceExplorer services={services} tagGroups={tagGroups} categories={categories} language="zh" />
+  </section>
+</BaseLayout>

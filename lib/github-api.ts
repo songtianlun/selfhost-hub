@@ -105,7 +105,7 @@ function getAuthHeaders(): HeadersInit {
         const authPrefix = token.startsWith('github_pat_') ? 'Bearer' : 'token';
 
         return {
-            'Authorization': "`${authPrefix} ${token}`"
+            'Authorization': `${authPrefix} ${token}`
         };
     }
     console.warn(`⚠️  GitHub API 未配置 Token！这将导致 API 限流和 401 错误`);
@@ -114,7 +114,6 @@ function getAuthHeaders(): HeadersInit {
 }
 
 // 设置缓存时间常量 - 6小时
-const CACHE_REVALIDATION_TIME = 6 * 60 * 60; // 秒
 
 // 以下是保留的旧方法，可能在某些场景下单独使用
 
@@ -127,9 +126,7 @@ export async function fetchRepoInfo(owner: string, repo: string): Promise<{
 
     return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-            headers,
-            // 增加缓存时间到6小时
-            next: { revalidate: CACHE_REVALIDATION_TIME }
+            headers
         });
 
         if (!response.ok) {
@@ -157,8 +154,7 @@ export async function fetchLatestVersion(owner: string, repo: string): Promise<s
 
     return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
-            headers,
-            next: { revalidate: CACHE_REVALIDATION_TIME }
+            headers
         });
 
         if (!response.ok) {
@@ -184,8 +180,7 @@ export async function fetchReadme(owner: string, repo: string): Promise<string |
 
     return withRetry(async () => {
         const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
-            headers,
-            next: { revalidate: CACHE_REVALIDATION_TIME }
+            headers
         });
 
         if (!response.ok) {
@@ -216,16 +211,13 @@ async function fetchAllRepoData(owner: string, repo: string): Promise<{
         // 并行执行所有请求
         const [repoResponse, releaseResponse, readmeResponse] = await Promise.all([
             fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-                headers,
-                next: { revalidate: CACHE_REVALIDATION_TIME }
+                headers
             }),
             fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`, {
-                headers,
-                next: { revalidate: CACHE_REVALIDATION_TIME }
+                headers
             }),
             fetch(`https://api.github.com/repos/${owner}/${repo}/readme`, {
-                headers,
-                next: { revalidate: CACHE_REVALIDATION_TIME }
+                headers
             })
         ]);
 
