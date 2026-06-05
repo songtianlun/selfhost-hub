@@ -1,29 +1,30 @@
+# syntax=docker/dockerfile:1.7
+
 # Build stage
 FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+# Install a Node 20 compatible pnpm version. Avoid pnpm@latest, which may require newer Node built-ins.
+ARG PNPM_VERSION=10.28.1
+RUN corepack enable && corepack prepare pnpm@${PNPM_VERSION} --activate
 
 # Copy package files
 COPY package.json pnpm-lock.yaml ./
 
 # Install dependencies
-RUN env && pnpm install --frozen-lockfile
+RUN pnpm install --frozen-lockfile
 
 # Copy source code
 COPY . .
-
-# Set environment variables for build time
-ARG GH_TOKEN
-ENV GH_TOKEN=${GH_TOKEN}
 
 # Build application with optional IndexNow push
 ARG PUSH_ALL=0
 ARG PUSH_RECENT=0
 
-RUN if [ "$PUSH_ALL" = "1" ]; then \
+RUN --mount=type=secret,id=gh_token \
+    export GH_TOKEN="$(cat /run/secrets/gh_token 2>/dev/null || true)"; \
+    if [ "$PUSH_ALL" = "1" ]; then \
     pnpm build && pnpm push:all || true; \
     elif [ "$PUSH_RECENT" = "1" ]; then \
     pnpm build && pnpm push:recent || true; \
@@ -36,8 +37,9 @@ FROM node:20-alpine AS runner
 
 WORKDIR /app
 
-# Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+# Install a Node 20 compatible pnpm version. Avoid pnpm@latest, which may require newer Node built-ins.
+ARG PNPM_VERSION=10.28.1
+RUN corepack enable && corepack prepare pnpm@${PNPM_VERSION} --activate
 
 # Copy package files
 COPY package.json pnpm-lock.yaml ./
