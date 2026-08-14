@@ -9,7 +9,7 @@ tags:
   - "Docker"
 category: "Analytics"
 website: "https://openpost.social"
-repo: "https://github.com/rodrgds/openpost"
+repo: "https://github.com/getopenpost/openpost"
 #image: "/placeholder.svg?height=300&width=400"
 ---
 
