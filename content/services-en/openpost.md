@@ -8,8 +8,7 @@ tags:
   - "Svelte"
   - "Docker"
 category: "Analytics"
-website: "https://openpost.social"
+website: "https://openpo.st"
 repo: "https://github.com/getopenpost/openpost"
 #image: "/placeholder.svg?height=300&width=400"
 ---
-
