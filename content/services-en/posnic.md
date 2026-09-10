@@ -6,7 +6,7 @@ tags:
   - "AGPL-3.0"
   - "Nodejs"
 category: "E-commerce"
-website: "https://posnic.io/"
+website: "https://www.posnic.com/"
 repo: "https://github.com/Posnic/POS"
 #image: "/placeholder.svg?height=300&width=400"
 ---
