@@ -3,6 +3,7 @@ id: codeotter
 name: CodeOtter
 description: Self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea, with local or bring-your-own-key models.
 tags:
+  - AGPL-3.0
   - AI
   - LLM
   - Code Review
@@ -15,7 +16,7 @@ repo: 'https://github.com/dharmeshgurnani/CodeOtter'
 updatedAt: '2026-10-08T08:00:00.000Z'
 ---
 
-CodeOtter is a self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea. It scores each pull request, enforces merge gates as status checks, and posts inline suggestion fixes. It can run fully offline on local GGUF models or use your own API key for a hosted provider. It is free to self-host under the Elastic License 2.0.
+CodeOtter is a self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea. It scores each pull request, enforces merge gates as status checks, and posts inline suggestion fixes. It can run fully offline on local GGUF models or use your own API key for a hosted provider. It is open source under the AGPL-3.0 and free to self-host.
 
 ## Key Features
 
