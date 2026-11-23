@@ -27,6 +27,7 @@ DiscoDrive 采用 PolyForm Noncommercial License 1.0.0 授权，源代码公开�
 - **照片**：时间线、地图、收藏、共享相册，支持 HEIC/HDR 和实况照片；可选人脸识别，按人物归类照片，完全在你自己的服务器上运行；重复照片查找
 - **收藏夹**：通过浏览器扩展同步书签和稍后阅读，支持服务器端离线下载
 - **账号**：多用户及存储配额，支持 TOTP、通行密钥（Passkey）和应用专用密码
+- **命令行与 AI 助手**：[`dd-cli`](https://github.com/discodrive-cloud/discodrive-cli) 可在终端中管理文件、日历、联系人、任务、书签、音乐和电子书；`dd-mcp` 是一个 MCP 服务器，可将 Claude 及其他兼容 MCP 的 AI 助手连接到你自己的服务器。上传文件和修改已有数据默认关闭，需手动开启
 - **客户端**：macOS、Windows、Linux 桌面应用，Android 应用，以及已上架 App Store 的 iOS 应用
 
 ## 部署要求

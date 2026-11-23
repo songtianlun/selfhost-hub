@@ -26,6 +26,7 @@ DiscoDrive is source-available under the PolyForm Noncommercial License 1.0.0: f
 - **Photos**: Timeline, map, favorites, shared albums, HEIC/HDR and Live Photos support. Optional face recognition groups photos by person and runs on your own server; a duplicate finder shows repeated photos.
 - **Saved**: Bookmarks and read-later through a browser extension, and server-side downloads.
 - **Accounts**: Multi-user with quotas, TOTP, passkeys and per-app passwords.
+- **CLI and AI assistants**: [`dd-cli`](https://github.com/discodrive-cloud/discodrive-cli) works with files, calendar, contacts, tasks, bookmarks, music and books from the terminal; `dd-mcp` is an MCP server that connects Claude and other MCP-compatible assistants to your own server. Uploads and changes to existing data stay off until you allow them.
 - **Clients**: Desktop apps for macOS, Windows and Linux, an Android app, and an iOS app on the App Store.
 
 ## Deployment Requirements
