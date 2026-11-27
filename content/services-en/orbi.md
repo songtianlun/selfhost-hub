@@ -31,3 +31,4 @@ Orbi is a self-hosted software delivery tool for GitHub. You describe the goal a
 - Runtime: Python 3.14+, GitHub CLI 2.94+
 - OS: Linux (systemd user timer) or macOS (launchd)
 - Documentation: https://docs.orbi.build/
+- Self-hosting guide: [An open source AI coding agent, from Issue to release](https://orbi.build/guides/self-hosted-coding-agent/?ref=dir-selfhost-hub)

@@ -30,3 +30,4 @@ Orbi 是一个可自托管的 GitHub 软件交付工具。在 Issue 中写清目
 - 运行环境：Python 3.14+、GitHub CLI 2.94+
 - 操作系统：Linux（systemd 用户定时器）或 macOS（launchd）
 - 文档：https://docs.orbi.build/
+- 自托管指南：[An open source AI coding agent, from Issue to release](https://orbi.build/guides/self-hosted-coding-agent/?ref=dir-selfhost-hub)
